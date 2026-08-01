@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { classifySiteType } from '../lib/site-type.mjs';
+import { classifySiteType, sourcePlatformKey } from '../lib/site-type.mjs';
 
 test('classifies browser portal games as online opportunities', () => {
   const result = classifySiteType({
@@ -12,6 +12,20 @@ test('classifies browser portal games as online opportunities', () => {
   assert.equal(result.type, 'online');
   assert.equal(result.browserPlayable, true);
   assert.equal(result.confidence, 'high');
+  assert.equal(result.onlinePlatformCount, 2);
+});
+
+test('counts multiple feeds from one portal as one platform', () => {
+  const result = classifySiteType({
+    sources: [
+      { sourceId: 'itch-newest-web', kind: 'itch-popular', url: 'https://example.itch.io/game' },
+      { sourceId: 'itch-new-popular-web', kind: 'itch-popular', url: 'https://example.itch.io/game' },
+    ],
+  });
+  assert.equal(result.type, 'online');
+  assert.equal(result.onlineSourceCount, 2);
+  assert.equal(result.onlinePlatformCount, 1);
+  assert.equal(sourcePlatformKey(result.sources?.[0] || { sourceId: 'itch-newest-web' }), 'itch.io');
 });
 
 test('classifies Steam-only rising games as wiki opportunities', () => {
