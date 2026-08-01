@@ -43,7 +43,7 @@ test('recognizes seeded Trends Rising source IDs',()=>{
   assert.match(fast.reasons.join(' '),/Google Trends/);
 });
 
-test('does not count multiple feeds from the same portal as multiple platforms',()=>{
+test('does not inflate fast signals with multiple feeds from the same portal',()=>{
   const candidate={
     firstSeen:'2026-07-28T01:00:00Z',
     seo:{score:36,classification:'page',nameRisk:6,suggestions:[],exactResultUrls:[]},
@@ -54,6 +54,8 @@ test('does not count multiple feeds from the same portal as multiple platforms',
   };
   const fast=calculateFastSignals(candidate,{},now);
   assert.equal(fast.onlinePlatformCount,1);
+  assert.equal(fast.sourceAdded24h,1);
+  assert.notEqual(fast.classification,'pass');
 });
 
 test('detects new autocomplete and SERP pages between scans',()=>{
