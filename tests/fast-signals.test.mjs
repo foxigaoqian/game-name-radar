@@ -29,6 +29,33 @@ test('keeps a single ordinary source out of Trends',()=>{
   assert.notEqual(fast.classification,'pass');
 });
 
+test('recognizes seeded Trends Rising source IDs',()=>{
+  const candidate={
+    firstSeen:'2026-07-28T01:00:00Z',
+    seo:{score:46,classification:'page',nameRisk:6,suggestions:[],exactResultUrls:[]},
+    sources:[
+      {sourceId:'y8-new',kind:'y8-new',url:'https://www.y8.com/games/rising-game',firstSeen:'2026-07-28T01:00:00Z'},
+      {sourceId:'trends-rising-7d-horror-game',kind:'trends-rising-7d-horror-game',firstSeen:'2026-07-28T02:00:00Z'},
+    ],
+  };
+  const fast=calculateFastSignals(candidate,{},now);
+  assert.equal(fast.classification,'pass');
+  assert.match(fast.reasons.join(' '),/Google Trends/);
+});
+
+test('does not count multiple feeds from the same portal as multiple platforms',()=>{
+  const candidate={
+    firstSeen:'2026-07-28T01:00:00Z',
+    seo:{score:36,classification:'page',nameRisk:6,suggestions:[],exactResultUrls:[]},
+    sources:[
+      {sourceId:'itch-newest-web',kind:'itch-popular',url:'https://example.itch.io/game',firstSeen:'2026-07-28T01:00:00Z'},
+      {sourceId:'itch-new-popular-web',kind:'itch-popular',url:'https://example.itch.io/game',firstSeen:'2026-07-28T01:30:00Z'},
+    ],
+  };
+  const fast=calculateFastSignals(candidate,{},now);
+  assert.equal(fast.onlinePlatformCount,1);
+});
+
 test('detects new autocomplete and SERP pages between scans',()=>{
   const previous={suggestionSnapshot:['quiet halls game'],serpSnapshot:['https://a.test/quiet']};
   const candidate={
