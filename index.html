@@ -3,26 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="自动发现美国近7天或30天明显上涨的在线游戏与Wiki攻略机会，并使用不同模型分别评估。" />
+  <meta name="description" content="严格筛选美国市场新出现、正在上涨且尚未被专门站点占位的在线游戏与Wiki攻略关键词机会。" />
   <meta name="theme-color" content="#080b12" />
-  <title>Game Name Radar · 在线游戏与Wiki机会</title>
+  <title>Game Name Radar · 严格新词建站机会</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <main class="page">
     <header class="hero">
       <div>
-        <p class="eyebrow"><span class="live-dot"></span> US-PRIMARY · ONLINE + WIKI</p>
-        <h1>上涨游戏词：在线游戏／Wiki攻略</h1>
-        <p class="subtitle">在线游戏使用Play Online、多平台扩散模型；Steam下载型游戏使用Wiki、Guide和YouTube内容生态模型。</p>
+        <p class="eyebrow"><span class="live-dot"></span> US-PRIMARY · STRICT NEW KEYWORDS</p>
+        <h1>游戏新词建站雷达</h1>
+        <p class="subtitle">“趋势上涨”不等于“新词”。独立站推荐必须同时满足：近期上涨、90天历史确认是新词，并且SERP未发现同名专站或成熟Wiki占位。</p>
       </div>
       <div class="update-box"><span>最近自动扫描</span><strong id="lastUpdated">正在读取…</strong><small id="verifyStatus">等待验证报告</small></div>
     </header>
     <section class="stats" aria-label="筛选统计">
       <article><span>监控入口</span><strong id="sourceCount">0</strong><small>榜单、RSS、Steam、趋势等</small></article>
-      <article><span>本轮新发现</span><strong id="newCount">0</strong><small>尚未代表有流量</small></article>
-      <article class="accent"><span>在线上涨机会</span><strong id="onlineCount">0</strong><small>Play Online／HTML5趋势上涨</small></article>
-      <article><span>Wiki上涨机会</span><strong id="wikiCount">0</strong><small>Wiki／Guide内容需求上涨</small></article>
+      <article><span>本轮新发现</span><strong id="newCount">0</strong><small>仅代表首次抓到，不代表新词</small></article>
+      <article class="accent"><span>在线上涨观察</span><strong id="onlineCount">0</strong><small>上涨词中仍需排除老词与占位站</small></article>
+      <article><span>Wiki上涨观察</span><strong id="wikiCount">0</strong><small>已有专站时不再算新词机会</small></article>
     </section>
     <section class="source-health">
       <div class="section-title compact"><div><p class="eyebrow">AUTOMATION STATUS</p><h2>自动任务状态</h2></div><button id="refreshBtn" class="button">刷新结果</button></div>
@@ -30,18 +30,18 @@
     </section>
     <section class="results">
       <div class="section-title">
-        <div><p class="eyebrow">TYPED OPPORTUNITY RESULTS</p><h2>游戏关键词结果</h2><p>默认显示所有已确认上涨的词；在线游戏和Wiki攻略分别使用独立的SEO、快速热度与Trends模型。</p></div>
+        <div><p class="eyebrow">STRICT GREENFIELD RESULTS</p><h2>严格新词建站机会</h2><p>默认只显示最终独立站推荐。Mistfall Hunter 这类已有同名Wiki占位的词，以及 Palworld 这类成熟词回涨，只会进入观察池，不再算新词。</p></div>
         <div class="filters">
           <input id="searchInput" type="search" placeholder="搜索游戏名或来源" />
           <select id="siteTypeFilter"><option value="all">全部建站类型</option><option value="online">在线游戏型</option><option value="wiki">Wiki攻略型</option><option value="pending">类型待确认</option></select>
-          <select id="recommendationFilter"><option value="trend-rising">全部上涨词</option><option value="recommended">最终建站推荐</option><option value="fast-pass">快速层通过</option><option value="trend-pending">等待Trends验证</option><option value="independent">美国上涨·适合独立站</option><option value="page">稳定需求·仅适合站内页</option><option value="watch">继续观察</option><option value="reject">不建议做</option><option value="pending">全部等待验证</option><option value="all">全部状态</option></select>
+          <select id="recommendationFilter"><option value="recommended" selected>严格新词·最终建站推荐</option><option value="trend-rising">全部上涨观察词（含老词）</option><option value="fast-pass">快速层通过</option><option value="trend-pending">等待Trends验证</option><option value="independent">严格新词·适合独立站</option><option value="page">稳定需求·仅适合站内页</option><option value="watch">继续观察／已有竞争</option><option value="reject">不建议做</option><option value="pending">全部等待验证</option><option value="all">全部状态</option></select>
           <select id="timeFilter"><option value="all">全部时间</option><option value="1">最近24小时</option><option value="7">最近7天</option><option value="30">最近30天</option></select>
           <button id="exportBtn" class="button">导出 CSV</button>
         </div>
       </div>
-      <div class="table-card"><div class="table-scroll"><table><thead><tr><th>综合分</th><th>游戏名</th><th>建站类型／建议</th><th>美国搜索意图</th><th>分类快速热度</th><th>分类Trends</th><th>发现来源</th><th>操作</th></tr></thead><tbody id="resultBody"></tbody></table></div><div id="emptyState" class="empty" hidden><strong>当前没有符合筛选条件的结果</strong><span id="emptyDetail">后台会分别完成在线游戏和Wiki攻略趋势验证。</span></div></div>
+      <div class="table-card"><div class="table-scroll"><table><thead><tr><th>综合分</th><th>游戏名</th><th>建站类型／建议</th><th>美国搜索意图</th><th>分类快速热度</th><th>分类Trends</th><th>发现来源</th><th>操作</th></tr></thead><tbody id="resultBody"></tbody></table></div><div id="emptyState" class="empty" hidden><strong>当前没有符合严格新词标准的结果</strong><span id="emptyDetail">没有推荐比把成熟老词误判成新词更可靠。</span></div></div>
     </section>
-    <footer>Game Name Radar · 在线游戏仍需人工确认iframe权限；Wiki攻略需检查域名和现有攻略竞争。</footer>
+    <footer>Game Name Radar · 独立站推荐需同时通过新词历史、现有竞争站占位、搜索意图、快速热度与Trends验证。</footer>
   </main>
   <div id="toast" class="toast" role="status"></div>
   <script type="module" src="/app.js?v=11"></script>
