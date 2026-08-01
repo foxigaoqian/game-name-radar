@@ -51,8 +51,14 @@ jobs:
       # recommendation until a real SERP provider confirms search intent.
       SEO_EVIDENCE_FALLBACK_LIMIT: 300
 
-      # Primary third-party Google Trends provider: SerpApi.
+      # Google Trends provider pool: each key is a separate SerpApi account.
+      # Keep every configured key in the job environment so both quota checks
+      # and the pooled verifier see the same accounts.
       SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+      SERPAPI_API_KEY_2: ${{ secrets.SERPAPI_API_KEY_2 }}
+      SERPAPI_API_KEY_3: ${{ secrets.SERPAPI_API_KEY_3 }}
+      SERPAPI_API_KEY_4: ${{ secrets.SERPAPI_API_KEY_4 }}
+      SERPAPI_API_KEY_5: ${{ secrets.SERPAPI_API_KEY_5 }}
       SERPAPI_MONTHLY_LIMIT: 245
       SERPAPI_DAILY_LIMIT: 245
       SERPAPI_FILL_ENABLED: true
@@ -113,15 +119,9 @@ jobs:
         run: npm run classify
 
       - name: Inspect all SerpApi account quotas without spending searches
-        env:
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-          SERPAPI_API_KEY_2: ${{ secrets.SERPAPI_API_KEY_2 }}
-          SERPAPI_API_KEY_3: ${{ secrets.SERPAPI_API_KEY_3 }}
-          SERPAPI_API_KEY_4: ${{ secrets.SERPAPI_API_KEY_4 }}
-          SERPAPI_API_KEY_5: ${{ secrets.SERPAPI_API_KEY_5 }}
         run: node scripts/check-serpapi-accounts.mjs
 
-      - name: Verify eligible Trends candidates with primary SerpApi account
+      - name: Verify eligible Trends candidates with SerpApi account pool
         run: node scripts/fill-serpapi-pool.mjs
 
       - name: Restore SerpApi usage report
