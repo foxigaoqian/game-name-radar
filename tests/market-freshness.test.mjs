@@ -4,6 +4,7 @@ import { analyzeMarketFreshness } from '../lib/market-freshness.mjs';
 import { applyFinalRecommendation } from '../lib/opportunity-finalizer.mjs';
 
 const NOW = Date.parse('2026-08-01T08:00:00Z');
+const SOCIAL_CHECKED_AT = '2026-08-01T07:30:00Z';
 
 function baseCandidate(overrides = {}) {
   return {
@@ -28,6 +29,15 @@ function baseCandidate(overrides = {}) {
       classification: 'breakout',
       score: 88,
       keywordFreshness: 'new',
+    },
+    social: {
+      checkedAt: SOCIAL_CHECKED_AT,
+      providers: {
+        youtube: { configured: true, checkedAt: SOCIAL_CHECKED_AT, videoCount: 8, channelCount: 5, totalViews: 50000, totalLikes: 3000, totalComments: 500, recent24h: 3 },
+        reddit: { configured: true, checkedAt: SOCIAL_CHECKED_AT, postCount: 5, subredditCount: 3, totalScore: 200, totalComments: 100, recent24h: 1 },
+        x: { configured: false },
+        tiktok: { configured: false },
+      },
     },
     siteType: {
       modelVersion: 2,
@@ -102,7 +112,7 @@ test('treats a historically established term as mature even when it rises again'
   assert.match(candidate.siteType.reasons[0], /老词|成熟词/);
 });
 
-test('allows a genuinely new rising term when only platform results exist', () => {
+test('allows a genuinely new online term when market and social evidence both pass', () => {
   const candidate = baseCandidate();
   const market = analyzeMarketFreshness(candidate, NOW);
   assert.equal(market.status, 'greenfield');
@@ -111,6 +121,7 @@ test('allows a genuinely new rising term when only platform results exist', () =
 
   applyFinalRecommendation(candidate);
   assert.equal(candidate.recommendation, 'independent');
+  assert.equal(candidate.social.allowsIndependent, true);
 });
 
 test('keeps an unknown-history rising term out of strict independent recommendations', () => {
@@ -120,6 +131,15 @@ test('keeps an unknown-history rising term out of strict independent recommendat
       classification: 'breakout',
       score: 90,
       keywordFreshness: 'unknown',
+    },
+    social: {
+      checkedAt: SOCIAL_CHECKED_AT,
+      providers: {
+        youtube: { configured: true, checkedAt: SOCIAL_CHECKED_AT, videoCount: 2, channelCount: 2, totalViews: 3000 },
+        reddit: { configured: true, checkedAt: SOCIAL_CHECKED_AT, postCount: 1, subredditCount: 1, totalScore: 8, totalComments: 2 },
+        x: { configured: false },
+        tiktok: { configured: false },
+      },
     },
   });
 
