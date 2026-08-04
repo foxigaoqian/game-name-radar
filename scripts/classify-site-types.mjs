@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { classifySiteType, SITE_TYPE_MODEL_VERSION } from '../lib/site-type.mjs';
+import { applyFinalRecommendation } from '../lib/opportunity-finalizer.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const candidatesPath = path.join(root, 'data', 'candidates.json');
@@ -20,12 +21,21 @@ async function readJson(file, fallback) {
 const payload = await readJson(candidatesPath, { candidates: [] });
 const candidates = Array.isArray(payload) ? payload : payload.candidates || [];
 const counts = { online: 0, wiki: 0, pending: 0 };
+const wikiPrelaunchCounts = { priority: 0, prepare: 0, watch: 0, weak: 0 };
 const trendProviderCounts = {};
 const seoProviderCounts = {};
 
 for (const candidate of candidates) {
   candidate.siteType = classifySiteType(candidate);
+  applyFinalRecommendation(candidate);
   counts[candidate.siteType.type] = (counts[candidate.siteType.type] || 0) + 1;
+  if (candidate.siteType.type === 'wiki' && candidate.wikiPrelaunch) {
+    const classification = candidate.wikiPrelaunch.classification || 'weak';
+    wikiPrelaunchCounts[classification] = (wikiPrelaunchCounts[classification] || 0) + 1;
+    // Steam愿望单榜用于给SEO验证队列排序，但不直接替代真实SERP验证。
+    const routingBoost = Math.min(20, Math.max(0, Math.round(Number(candidate.wikiPrelaunch.score || 0) / 5)));
+    candidate.discoveryScore = Math.max(Number(candidate.discoveryScore || 0), routingBoost);
+  }
   const trendProvider = candidate.trend?.provider;
   if (trendProvider) trendProviderCounts[trendProvider] = (trendProviderCounts[trendProvider] || 0) + 1;
   const seoProvider = candidate.seo?.provider;
@@ -101,6 +111,8 @@ await fs.writeFile(reportPath, JSON.stringify({
   braveSearchUsage: { enabled: false },
   siteTypeModelVersion: SITE_TYPE_MODEL_VERSION,
   siteTypeCounts: counts,
+  wikiPrelaunchModelVersion: 1,
+  wikiPrelaunchCounts,
 }, null, 2) + '\n');
 
-console.log(`Site type classification complete: ${counts.online} online, ${counts.wiki} wiki, ${counts.pending} pending; trend providers: ${activeTrendProvider || 'none'}.`);
+console.log(`Site type classification complete: ${counts.online} online, ${counts.wiki} wiki, ${counts.pending} pending; Steam prelaunch priority ${wikiPrelaunchCounts.priority}, prepare ${wikiPrelaunchCounts.prepare}; trend providers: ${activeTrendProvider || 'none'}.`);
