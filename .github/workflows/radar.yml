@@ -101,6 +101,11 @@ jobs:
         run: npm test
 
       - name: Discover games and build source evidence
+        env:
+          # Optional: when configured, trailer/gameplay velocity becomes a Wiki
+          # prelaunch signal. The scanner safely skips this check when absent.
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_VERIFY_LIMIT: 20
         run: npm run scan
 
       - name: Classify online and wiki channels before verification
