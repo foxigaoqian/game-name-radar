@@ -56,6 +56,15 @@
     "baselineOnly": false
   },
   {
+    "id": "steam-top-wishlist",
+    "name": "Steam Top Wishlists",
+    "url": "https://store.steampowered.com/search/?filter=popularwishlist&ignore_preferences=1&l=english&ndl=1",
+    "kind": "steam-top-wishlist",
+    "fetchKind": "steam-listing",
+    "enabled": true,
+    "baselineOnly": false
+  },
+  {
     "id": "steam-popular-new",
     "name": "Steam 热门新发行",
     "url": "https://store.steampowered.com/search/?filter=popularnew&sort_by=Released_DESC&ndl=1",
