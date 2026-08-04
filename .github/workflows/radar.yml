@@ -51,6 +51,17 @@ jobs:
       # recommendation until a real SERP provider confirms search intent.
       SEO_EVIDENCE_FALLBACK_LIMIT: 300
 
+      # Official social APIs for online-game promotion velocity. Every provider
+      # is optional; unavailable providers are skipped without failing the scan.
+      SOCIAL_VERIFY_LIMIT: 35
+      SOCIAL_MAX_AGE_MS: 21600000
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+      REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      TIKTOK_RESEARCH_TOKEN: ${{ secrets.TIKTOK_RESEARCH_TOKEN }}
+
       # Google Trends provider pool: each key is a separate SerpApi account.
       # Keep every configured key in the job environment so both quota checks
       # and the pooled verifier see the same accounts.
@@ -122,6 +133,9 @@ jobs:
 
       - name: Recalculate typed site classification
         run: npm run classify
+
+      - name: Verify social promotion heat for online games
+        run: node scripts/verify-social-buzz.mjs
 
       - name: Inspect all SerpApi account quotas without spending searches
         run: node scripts/check-serpapi-accounts.mjs
