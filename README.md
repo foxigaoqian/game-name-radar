@@ -2,6 +2,26 @@
 
 面向游戏 SEO 趋势站的自动化游戏关键词发现工具。它从游戏平台、Steam、RSS、榜单、Google Trends Rising 和竞争站 Sitemap 中发现候选，再通过三层漏斗筛选真正值得检查的游戏词。
 
+## 配套开源 Skill：Game Trend Site Builder
+
+仓库现在同时提供 [`skills/game-trend-site-builder`](./skills/game-trend-site-builder/)：把已经选中的游戏词进一步变成一个**符合游戏自身视觉风格、可验证真实 iframe、Play-first、可部署的游戏网站**。
+
+它不是固定换皮模板。执行顺序是：
+
+```text
+游戏词
+  → 找到官方游戏
+  → 确认 HTML5 / Browser Build
+  → 找到真实运行 iframe
+  → 第三方页面实测
+  → 研究玩法与官方视觉
+  → 针对该游戏重新设计 UI
+  → Play + How to Play + Tips + FAQ + SEO
+  → 响应式与最终 QA
+```
+
+完整说明见 [`SKILL.md`](./skills/game-trend-site-builder/SKILL.md)。
+
 ## 核心流程
 
 ```text
