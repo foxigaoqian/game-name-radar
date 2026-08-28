@@ -99,15 +99,16 @@ test('allows a verified open-market Steam opportunity after growth, search and s
   });
 });
 
-test('keeps a high-wishlist game in observation when independent social spillover is missing', () => {
+test('routes a high-wishlist game to a low-cost test when independent social spillover is missing', () => {
   const candidate = prelaunchCandidate({ social: {} });
   const result = analyzeWikiPrelaunch(candidate, NOW);
   assert.equal(result.classification, 'prepare');
   assert.equal(result.hasExternalSpillover, false);
 
   applyFinalRecommendation(candidate);
-  assert.equal(candidate.recommendation, 'watch');
+  assert.equal(candidate.recommendation, 'test-now');
   assert.equal(candidate.opportunity.hardGates.externalSpillover, false);
+  assert.equal(candidate.opportunity.allowsTest, true);
 });
 
 test('blocks a wishlist-hot game when a dedicated wiki already occupies the query', () => {
