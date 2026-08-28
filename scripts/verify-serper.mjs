@@ -20,8 +20,10 @@ const DAILY_LIMIT = Math.max(1, Number(process.env.SERPER_DAILY_LIMIT || TOTAL_L
 const COUNTRY = String(process.env.SEO_REGION || 'US').toLowerCase();
 const LANGUAGE = String(process.env.SEO_LANGUAGE || 'en-US').split('-')[0].toLowerCase();
 const DAY = 86400000;
+const MIN_PRIORITY = Math.max(0, Number(process.env.SERPER_MIN_PRIORITY || 80));
 
-const ONLINE_STRATEGIC = new Set(['crazygames-new', 'poki-new', 'y8-new', 'gamepix-new', 'lagged-new', 'newgrounds-top', 'newgrounds-new', 'itch-popular']);
+const ONLINE_STRATEGIC = new Set(['crazygames-new', 'poki-new', 'newgrounds-top', 'newgrounds-new', 'itch-popular']);
+const ONLINE_SECONDARY = new Set(['y8-new', 'gamepix-new', 'lagged-new']);
 const WIKI_STRATEGIC = new Set(['steam-popular-new', 'steam-new', 'itch-featured', 'itch-popular', 'newgrounds-top', 'competitor-sitemap']);
 
 async function readJson(file, fallback) { try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch { return fallback; } }
@@ -101,7 +103,10 @@ function isUseful(candidate) {
   const count = sourceCount(candidate);
   const age = Date.now() - Date.parse(candidate.firstSeen || 0);
   const recent = Number.isFinite(age) && age <= 7 * DAY;
-  return strategic || count >= 2 || (recent && Number(candidate.discoveryScore || 0) >= 4 && risk <= 18);
+  const bestRank = Math.min(...(candidate.sources || []).map((source) => Number(source.currentRank || source.bestRank || 9999)));
+  const secondaryPortal = channel === 'online' && [...kinds].some((kind) => ONLINE_SECONDARY.has(kind));
+  const secondaryWorthPaying = secondaryPortal && recent && bestRank <= 20 && risk <= 16;
+  return strategic || count >= 2 || secondaryWorthPaying || (recent && Number(candidate.discoveryScore || 0) >= 7 && risk <= 16);
 }
 
 function priority(candidate) {
@@ -112,9 +117,9 @@ function priority(candidate) {
   if (channel === 'online') {
     if (kinds.has('crazygames-new')) score += 40;
     if (kinds.has('poki-new')) score += 40;
-    if (kinds.has('y8-new')) score += 30;
-    if (kinds.has('gamepix-new')) score += 30;
-    if (kinds.has('lagged-new')) score += 30;
+    if (kinds.has('y8-new')) score += 8;
+    if (kinds.has('gamepix-new')) score += 8;
+    if (kinds.has('lagged-new')) score += 8;
     if (Number(candidate.siteType?.onlinePlatformCount || 0) >= 2) score += 45;
   } else {
     if (kinds.has('itch-featured')) score += 40;
@@ -127,13 +132,50 @@ function priority(candidate) {
   return score;
 }
 
+function candidateKey(candidate) { return candidate.id || candidate.normalizedName || candidate.gameName; }
+function queueLane(candidate) {
+  const age = Date.now() - Date.parse(candidate.firstSeen || 0);
+  const recent = Number.isFinite(age) && age <= 2 * DAY;
+  const kinds = sourceKinds(candidate);
+  const hotSource = kinds.has('trends-rising-7d') || kinds.has('trends-rising-30d')
+    || [...kinds].some((kind) => ONLINE_STRATEGIC.has(kind) || WIKI_STRATEGIC.has(kind));
+  if (recent && (hotSource || sourceCount(candidate) >= 2 || Number(candidate.discoveryScore || 0) >= 7)) return 'hot';
+  if (['test-now', 'independent', 'watch'].includes(candidate.recommendation)) return 'recheck';
+  return 'explore';
+}
+
 function balancedQueue(candidates) {
-  const eligible = candidates.filter((candidate) => needsSeo(candidate) && isUseful(candidate)).sort((a, b) => priority(b) - priority(a) || Date.parse(b.firstSeen || 0) - Date.parse(a.firstSeen || 0));
-  const online = eligible.filter((candidate) => typeOf(candidate) === 'online').slice(0, ONLINE_LIMIT);
-  const wiki = eligible.filter((candidate) => typeOf(candidate) === 'wiki').slice(0, WIKI_LIMIT);
-  const selected = [...online, ...wiki];
-  const ids = new Set(selected.map((candidate) => candidate.id || candidate.normalizedName));
-  selected.push(...eligible.filter((candidate) => !ids.has(candidate.id || candidate.normalizedName)).slice(0, Math.max(0, VERIFY_LIMIT - selected.length)));
+  const eligible = candidates
+    .filter((candidate) => needsSeo(candidate) && isUseful(candidate))
+    .filter((candidate) => priority(candidate) >= MIN_PRIORITY)
+    .sort((a, b) => priority(b) - priority(a) || Date.parse(b.firstSeen || 0) - Date.parse(a.firstSeen || 0));
+  const laneCaps = {
+    hot: Math.ceil(VERIFY_LIMIT * 0.60),
+    recheck: Math.ceil(VERIFY_LIMIT * 0.20),
+    explore: Math.max(0, VERIFY_LIMIT - Math.ceil(VERIFY_LIMIT * 0.60) - Math.ceil(VERIFY_LIMIT * 0.20)),
+  };
+  const channelCaps = { online: ONLINE_LIMIT, wiki: WIKI_LIMIT };
+  const channelUsed = { online: 0, wiki: 0 };
+  const selected = [];
+  const ids = new Set();
+  const add = (candidate) => {
+    const key = candidateKey(candidate), channel = typeOf(candidate);
+    if (ids.has(key) || !['online', 'wiki'].includes(channel)) return false;
+    if (channelUsed[channel] >= channelCaps[channel]) return false;
+    ids.add(key); selected.push(candidate); channelUsed[channel] += 1; return true;
+  };
+  for (const lane of ['hot', 'recheck', 'explore']) {
+    let used = 0;
+    for (const candidate of eligible) {
+      if (used >= laneCaps[lane]) break;
+      if (queueLane(candidate) !== lane) continue;
+      if (add(candidate)) used += 1;
+    }
+  }
+  for (const candidate of eligible) {
+    if (selected.length >= VERIFY_LIMIT) break;
+    add(candidate);
+  }
   return selected.slice(0, VERIFY_LIMIT);
 }
 
@@ -193,5 +235,5 @@ const fastPassedCount = candidates.filter((candidate) => candidate.fast?.classif
 const fastWatchCount = candidates.filter((candidate) => candidate.fast?.classification === 'watch').length;
 const fastRejectedCount = candidates.filter((candidate) => ['weak', 'reject'].includes(candidate.fast?.classification)).length;
 await fs.writeFile(candidatesPath, JSON.stringify({ ...payload, candidates }, null, 2) + '\n');
-await fs.writeFile(reportPath, JSON.stringify({ ...report, seoProvider: API_KEY ? 'serper-google-search' : report.seoProvider, serperConfigured: Boolean(API_KEY), serperUsage: await usageSummary(), serperVerification: { rushMode: true, limit: VERIFY_LIMIT, onlineLimit: ONLINE_LIMIT, wikiLimit: WIKI_LIMIT, queueSize: queue.length, verified, verifiedByChannel, errors, quotaStopped, verifiedNames, ranAt: new Date().toISOString() }, seoVerified: Number(report.seoVerified || 0) + verified, seoErrors, seoPassedCount, fastPassedCount, fastWatchCount, fastRejectedCount }, null, 2) + '\n');
+await fs.writeFile(reportPath, JSON.stringify({ ...report, seoProvider: API_KEY ? 'serper-google-search' : report.seoProvider, serperConfigured: Boolean(API_KEY), serperUsage: await usageSummary(), serperVerification: { rushMode: true, minPriority: MIN_PRIORITY, budgetLanes: { hot: '60%', recheck: '20%', explore: '20%' }, limit: VERIFY_LIMIT, onlineLimit: ONLINE_LIMIT, wikiLimit: WIKI_LIMIT, queueSize: queue.length, verified, verifiedByChannel, errors, quotaStopped, verifiedNames, ranAt: new Date().toISOString() }, seoVerified: Number(report.seoVerified || 0) + verified, seoErrors, seoPassedCount, fastPassedCount, fastWatchCount, fastRejectedCount }, null, 2) + '\n');
 console.log(`Serper rush SEO complete: ${verified} verified (${verifiedByChannel.online} online, ${verifiedByChannel.wiki} wiki), ${errors} errors, quota stopped ${quotaStopped}.`);
