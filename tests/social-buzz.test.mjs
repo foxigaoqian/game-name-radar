@@ -22,6 +22,7 @@ test('keeps platform-only candidates pending without social checks', () => {
   const result = analyzeOnlineSocialBuzz({});
   assert.equal(result.classification, 'pending');
   assert.equal(result.allowsIndependent, false);
+  assert.equal(result.allowsTest, true);
 });
 
 test('does not pass one weak social provider', () => {
@@ -44,5 +45,7 @@ test('does not treat one very strong provider as independent spillover', () => {
   } } });
   assert.equal(result.classification, 'watch');
   assert.equal(result.hasExternalSpillover, false);
+  assert.equal(result.hasSinglePlatformMomentum, true);
+  assert.equal(result.allowsTest, true);
   assert.equal(result.allowsIndependent, false);
 });
