@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="严格筛选美国市场新出现、正在上涨且尚未被专门站点占位的在线游戏与Wiki攻略关键词机会。" />
+  <meta name="description" content="发现正在形成的游戏搜索机会，并区分“30%测试局”和“证据完整的正式独立站”。" />
   <meta name="theme-color" content="#080b12" />
-  <title>Game Name Radar · 严格新词建站机会</title>
+  <title>Game Name Radar · 游戏SEO测试局雷达</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <main class="page">
     <header class="hero">
       <div>
-        <p class="eyebrow"><span class="live-dot"></span> US-PRIMARY · STRICT NEW KEYWORDS</p>
+        <p class="eyebrow"><span class="live-dot"></span> US-PRIMARY · TEST FAST, SCALE WITH EVIDENCE</p>
         <h1>游戏新词建站雷达</h1>
-        <p class="subtitle">“趋势上涨”不等于“新词”。独立站推荐必须同时满足：近期上涨、90天历史确认是新词，并且SERP未发现同名专站或成熟Wiki占位。</p>
+        <p class="subtitle">先用便宜信号找到值得下注的词，再用30%成本快速测试；只有新词历史、SERP空缺和跨平台传播都确认后，才升级为正式独立站。</p>
       </div>
       <div class="update-box"><span>最近自动扫描</span><strong id="lastUpdated">正在读取…</strong><small id="verifyStatus">等待验证报告</small></div>
     </header>
@@ -30,20 +30,20 @@
     </section>
     <section class="results">
       <div class="section-title">
-        <div><p class="eyebrow">STRICT GREENFIELD RESULTS</p><h2>严格新词建站机会</h2><p>默认只显示最终独立站推荐。Mistfall Hunter 这类已有同名Wiki占位的词，以及 Palworld 这类成熟词回涨，只会进入观察池，不再算新词。</p></div>
+        <div><p class="eyebrow">ACTIONABLE OPPORTUNITIES</p><h2>现在值得测试的游戏词</h2><p>默认展示两类可行动结果：<strong>test-now</strong> 用30%成本先测真实水花；<strong>independent</strong> 代表证据已经完整，可以正式加码。</p></div>
         <div class="filters">
           <input id="searchInput" type="search" placeholder="搜索游戏名或来源" />
           <select id="siteTypeFilter"><option value="all">全部建站类型</option><option value="online">在线游戏型</option><option value="wiki">Wiki攻略型</option><option value="pending">类型待确认</option></select>
-          <select id="recommendationFilter"><option value="recommended" selected>严格新词·最终建站推荐</option><option value="trend-rising">全部上涨观察词（含老词）</option><option value="fast-pass">快速层通过</option><option value="trend-pending">等待Trends验证</option><option value="independent">严格新词·适合独立站</option><option value="page">稳定需求·仅适合站内页</option><option value="watch">继续观察／已有竞争</option><option value="reject">不建议做</option><option value="pending">全部等待验证</option><option value="all">全部状态</option></select>
+          <select id="recommendationFilter"><option value="recommended" selected>可立即行动（测试局+正式站）</option><option value="trend-rising">全部上涨观察词（含老词）</option><option value="fast-pass">快速层通过</option><option value="trend-pending">等待Trends验证</option><option value="test-now">30%测试局·现在就测</option><option value="independent">证据完整·正式独立站</option><option value="page">稳定需求·仅适合站内页</option><option value="watch">继续观察／已有竞争</option><option value="reject">不建议做</option><option value="pending">全部等待验证</option><option value="all">全部状态</option></select>
           <select id="timeFilter"><option value="all">全部时间</option><option value="1">最近24小时</option><option value="7">最近7天</option><option value="30">最近30天</option></select>
           <button id="exportBtn" class="button">导出 CSV</button>
         </div>
       </div>
-      <div class="table-card"><div class="table-scroll"><table><thead><tr><th>综合分</th><th>游戏名</th><th>建站类型／建议</th><th>美国搜索意图</th><th>分类快速热度</th><th>分类Trends</th><th>发现来源</th><th>操作</th></tr></thead><tbody id="resultBody"></tbody></table></div><div id="emptyState" class="empty" hidden><strong>当前没有符合严格新词标准的结果</strong><span id="emptyDetail">没有推荐比把成熟老词误判成新词更可靠。</span></div></div>
+      <div class="table-card"><div class="table-scroll"><table><thead><tr><th>综合分</th><th>游戏名</th><th>建站类型／建议</th><th>美国搜索意图</th><th>分类快速热度</th><th>分类Trends</th><th>发现来源</th><th>操作</th></tr></thead><tbody id="resultBody"></tbody></table></div><div id="emptyState" class="empty" hidden><strong>当前没有值得立即下注的候选</strong><span id="emptyDetail">宁可少测，也不把成熟老词或同名冲突词当成新机会。</span></div></div>
     </section>
-    <footer>Game Name Radar · 独立站推荐需同时通过新词历史、现有竞争站占位、搜索意图、快速热度与Trends验证。</footer>
+    <footer>Game Name Radar · 测试局负责抢速度，正式独立站负责确认确定性；真实流量结果决定下一步是否加码。</footer>
   </main>
   <div id="toast" class="toast" role="status"></div>
-  <script type="module" src="/app.js?v=11"></script>
+  <script type="module" src="/app.js?v=12"></script>
 </body>
 </html>
