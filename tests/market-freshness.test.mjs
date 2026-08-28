@@ -124,8 +124,9 @@ test('allows a genuinely new online term when market and social evidence both pa
   assert.equal(candidate.social.allowsIndependent, true);
 });
 
-test('keeps an unknown-history rising term out of strict independent recommendations', () => {
+test('routes an unknown-history rising term to test-now instead of strict independent', () => {
   const candidate = baseCandidate({
+    firstSeen: '2026-08-27T08:00:00Z',
     trend: {
       modelVersion: 4,
       classification: 'breakout',
@@ -148,5 +149,7 @@ test('keeps an unknown-history rising term out of strict independent recommendat
   assert.equal(market.allowsIndependent, false);
 
   applyFinalRecommendation(candidate);
-  assert.equal(candidate.recommendation, 'watch');
+  assert.equal(candidate.recommendation, 'test-now');
+  assert.equal(candidate.opportunity.allowsIndependent, false);
+  assert.equal(candidate.opportunity.allowsTest, true);
 });
