@@ -14,8 +14,8 @@ const sourcesPath=path.join(root,'config','sources.json');
 const statePath=path.join(root,'data','state.json');
 const candidatesPath=path.join(root,'data','candidates.json');
 const reportPath=path.join(root,'data','latest-report.json');
-const VERIFY_LIMIT=Math.max(1,Math.min(50,Number(process.env.SEO_VERIFY_LIMIT||30)));
-const TREND_LIMIT=Math.max(1,Math.min(10,Number(process.env.TRENDS_VERIFY_LIMIT||3)));
+const VERIFY_LIMIT=Math.max(0,Math.min(50,Number(process.env.SEO_VERIFY_LIMIT ?? 30)));
+const TREND_LIMIT=Math.max(0,Math.min(10,Number(process.env.TRENDS_VERIFY_LIMIT ?? 3)));
 const YOUTUBE_LIMIT=Math.max(0,Math.min(10,Number(process.env.YOUTUBE_VERIFY_LIMIT||3)));
 const YOUTUBE_API_KEY=process.env.YOUTUBE_API_KEY||'';
 const TARGET_MARKET=process.env.TARGET_MARKET||'US_GLOBAL';
@@ -203,7 +203,7 @@ function youtubeNeedsCheck(candidate){
   return !Number.isFinite(checked)||Date.now()-checked>YOUTUBE_MAX_AGE;
 }
 
-function recommendationRank(candidate){return {independent:6,page:5,watch:4,pending:3,reject:2,error:1}[candidate.recommendation||'pending']||0}
+function recommendationRank(candidate){return {independent:7,'test-now':6,page:5,watch:4,pending:3,reject:2,error:1}[candidate.recommendation||'pending']||0}
 
 async function processSourceResult({source,result,candidates,radarState,logs,now}){
   const previous=radarState.snapshots[source.id];
@@ -318,7 +318,7 @@ for(const candidate of candidates){
 candidates.sort((a,b)=>recommendationRank(b)-recommendationRank(a)||(b.finalScore||0)-(a.finalScore||0)||(b.fast?.score||0)-(a.fast?.score||0)||(b.trend?.score||0)-(a.trend?.score||0)||(b.seo?.score||0)-(a.seo?.score||0)||(b.discoveryScore||0)-(a.discoveryScore||0)||Date.parse(b.firstSeen)-Date.parse(a.firstSeen));
 if(candidates.length>3000)candidates.length=3000;
 
-const recommendationCounts={independent:0,page:0,watch:0,reject:0,pending:0,error:0};
+const recommendationCounts={independent:0,'test-now':0,page:0,watch:0,reject:0,pending:0,error:0};
 for(const candidate of candidates)recommendationCounts[candidate.recommendation||'pending']=(recommendationCounts[candidate.recommendation||'pending']||0)+1;
 const seoPassedCount=candidates.filter(candidate=>hasCurrentSeo(candidate)&&['independent','page'].includes(candidate.seo?.classification)).length;
 const fastPassedCount=candidates.filter(candidate=>candidate.fast?.classification==='pass').length;
