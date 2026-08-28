@@ -25,6 +25,7 @@ const counts = { online: 0, wiki: 0, pending: 0 };
 const wikiPrelaunchCounts = { priority: 0, prepare: 0, watch: 0, weak: 0 };
 const trendProviderCounts = {};
 const seoProviderCounts = {};
+const recommendationCounts = { independent: 0, 'test-now': 0, page: 0, watch: 0, reject: 0, pending: 0, error: 0 };
 
 for (const candidate of candidates) {
   candidate.siteType = classifySiteType(candidate);
@@ -39,6 +40,7 @@ for (const candidate of candidates) {
   }
   const trendProvider = candidate.trend?.provider;
   if (trendProvider) trendProviderCounts[trendProvider] = (trendProviderCounts[trendProvider] || 0) + 1;
+  recommendationCounts[candidate.recommendation || 'pending'] = (recommendationCounts[candidate.recommendation || 'pending'] || 0) + 1;
   const seoProvider = candidate.seo?.provider;
   if (seoProvider) seoProviderCounts[seoProvider] = (seoProviderCounts[seoProvider] || 0) + 1;
 }
@@ -114,6 +116,7 @@ await fs.writeFile(reportPath, JSON.stringify({
   siteTypeCounts: counts,
   wikiPrelaunchModelVersion: WIKI_PRELAUNCH_MODEL_VERSION,
   wikiPrelaunchCounts,
+  recommendationCounts,
 }, null, 2) + '\n');
 
 console.log(`Site type classification complete: ${counts.online} online, ${counts.wiki} wiki, ${counts.pending} pending; Steam prelaunch priority ${wikiPrelaunchCounts.priority}, prepare ${wikiPrelaunchCounts.prepare}; trend providers: ${activeTrendProvider || 'none'}.`);
