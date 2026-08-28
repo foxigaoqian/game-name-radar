@@ -40,16 +40,17 @@ jobs:
 
       # Third-party Google Search provider: Serper.dev.
       SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-      SERPER_VERIFY_LIMIT: 800
-      SERPER_ONLINE_LIMIT: 560
-      SERPER_WIKI_LIMIT: 240
+      SERPER_VERIFY_LIMIT: 90
+      SERPER_ONLINE_LIMIT: 63
+      SERPER_WIKI_LIMIT: 27
+      SERPER_MIN_PRIORITY: 80
       SERPER_TOTAL_LIMIT: 2450
       SERPER_DAILY_LIMIT: 2450
 
       # When Serper is unavailable, strong multi-platform evidence can route a
       # candidate to Trends provisionally. It can never create an independent
       # recommendation until a real SERP provider confirms search intent.
-      SEO_EVIDENCE_FALLBACK_LIMIT: 300
+      SEO_EVIDENCE_FALLBACK_LIMIT: 180
 
       # Official social APIs for online and Steam-game promotion velocity. Every provider
       # is optional; unavailable providers are skipped without failing the scan.
