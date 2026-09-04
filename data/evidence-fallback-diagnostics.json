@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-04T13:47:32.925Z",
+  "generatedAt": "2026-09-04T17:08:56.272Z",
   "totalCandidates": 3000,
   "pendingSeo": 2548,
   "channelCounts": {
     "pending": 297,
-    "online": 2237,
-    "wiki": 14
+    "online": 2236,
+    "wiki": 15
   },
   "fastClassCounts": {
     "pending:pending": 297,
-    "online:pending": 2237,
-    "wiki:pending": 14
+    "online:pending": 2236,
+    "wiki:pending": 15
   },
   "strategicCounts": {
     "pending:0": 293,
     "online:3": 2,
     "wiki:0": 1,
     "online:2": 422,
-    "online:1": 1813,
+    "online:1": 1812,
+    "wiki:2": 1,
     "pending:1": 4,
     "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2207
+      "count": 2206
     },
     {
       "id": "itch-newest-web",
-      "count": 2198
+      "count": 2197
     },
     {
       "id": "itch-new-feed",
-      "count": 2162
+      "count": 2161
     },
     {
       "id": "itch-new-popular-web",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 14
+      "count": 15
     },
     {
       "id": "steam-latest-indie",
-      "count": 7
+      "count": 8
     },
     {
       "id": "steam-new",
-      "count": 7
+      "count": 8
     },
     {
       "id": "itch-featured-feed",
@@ -236,25 +237,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Pongcremental",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -485,6 +467,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Pongcremental",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
