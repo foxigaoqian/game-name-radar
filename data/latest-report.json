@@ -1,23 +1,23 @@
 {
-  "scannedAt": "2026-09-04T19:34:13.958Z",
+  "scannedAt": "2026-09-04T21:49:55.748Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 126,
+  "totalAdded": 135,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 35
+      "added": 36
     },
     {
       "ok": true,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 5
+      "added": 1
     },
     {
       "ok": true,
@@ -45,14 +45,14 @@
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 4
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 6
+      "added": 7
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 7
+      "added": 4
     },
     {
       "ok": true,
@@ -87,14 +87,14 @@
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 33
+      "added": 23
     },
     {
       "ok": true,
       "sourceId": "gamepix-new",
       "sourceName": "GamePix 新游戏",
       "total": 60,
-      "added": 0
+      "added": 8
     },
     {
       "ok": true,
@@ -102,13 +102,55 @@
       "sourceName": "Lagged 新游戏",
       "total": 82,
       "added": 0
+    },
+    {
+      "ok": true,
+      "sourceId": "trends-rising-7d-itch-io",
+      "sourceName": "Trends上涨 7天 · itch io",
+      "total": 13,
+      "added": 4
+    },
+    {
+      "ok": true,
+      "sourceId": "trends-rising-30d-itch-io",
+      "sourceName": "Trends上涨 30天 · itch io",
+      "total": 18,
+      "added": 3
+    },
+    {
+      "ok": true,
+      "sourceId": "trends-rising-7d-indie-game",
+      "sourceName": "Trends上涨 7天 · indie game",
+      "total": 7,
+      "added": 3
+    },
+    {
+      "ok": true,
+      "sourceId": "trends-rising-30d-indie-game",
+      "sourceName": "Trends上涨 30天 · indie game",
+      "total": 14,
+      "added": 2
+    },
+    {
+      "ok": true,
+      "sourceId": "trends-rising-7d-horror-game",
+      "sourceName": "Trends上涨 7天 · horror game",
+      "total": 18,
+      "added": 4
+    },
+    {
+      "ok": true,
+      "sourceId": "trends-rising-30d-horror-game",
+      "sourceName": "Trends上涨 30天 · horror game",
+      "total": 21,
+      "added": 2
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
-  "fastPassedCount": 222,
-  "fastWatchCount": 225,
+  "fastPassedCount": 223,
+  "fastWatchCount": 226,
   "fastRejectedCount": 4,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
@@ -118,27 +160,27 @@
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
-  "risingDiscoveryRan": false,
+  "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 327,
-  "trendEligibleCount": 156,
+  "seoPassedCount": 329,
+  "trendEligibleCount": 157,
   "trendPendingCount": 149,
-  "trendValidatedCount": 260,
+  "trendValidatedCount": 262,
   "risingCount": 1,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 0,
-    "watch": 352,
+    "watch": 354,
     "reject": 0,
-    "pending": 2648,
+    "pending": 2646,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 260
+    "serpapi": 262
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -153,7 +195,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-04T19:34:12.564Z",
+    "checkedAt": "2026-09-04T21:49:54.588Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -178,7 +220,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 103,
+    "evidence-fallback": 105,
     "serper+autocomplete": 248,
     "duckduckgo+autocomplete": 103
   },
@@ -209,16 +251,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2552,
-    "wiki": 50,
-    "pending": 398
+    "online": 2549,
+    "wiki": 51,
+    "pending": 400
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 1,
-    "weak": 48
+    "weak": 49
   },
   "serperVerification": {
     "rushMode": true,
@@ -241,32 +283,32 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-04T19:34:26.148Z"
+    "ranAt": "2026-09-04T21:50:28.255Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2549,
+    "pendingCount": 2547,
     "eligibleCount": 2,
     "queueSize": 2,
     "verified": 2,
     "channelVerified": {
-      "online": 1,
-      "wiki": 1,
+      "online": 2,
+      "wiki": 0,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 1,
-      "watch": 1,
+      "pass": 2,
+      "watch": 0,
       "weak": 0,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "Salvage & Sons",
-      "Withering Realms"
+      "2048 Decks",
+      "Arrows Out"
     ],
-    "ranAt": "2026-09-04T19:34:26.891Z"
+    "ranAt": "2026-09-04T21:50:28.984Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -290,16 +332,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-04T19:34:29.803Z"
+    "ranAt": "2026-09-04T21:50:31.946Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-04T19:34:30.224Z",
+    "checkedAt": "2026-09-04T21:50:32.517Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 660,
+    "totalIndependentSearchesLeft": 658,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -319,8 +361,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 95,
-        "totalSearchesLeft": 155,
+        "thisMonthUsage": 97,
+        "totalSearchesLeft": 153,
         "renewalDate": "2026-09-29"
       },
       {
@@ -363,7 +405,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-04T19:34:30.034Z",
+        "checkedAt": "2026-09-04T21:50:32.224Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -379,11 +421,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-09-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 95,
-        "planSearchesLeft": 155,
-        "totalSearchesLeft": 155,
+        "thisMonthUsage": 97,
+        "planSearchesLeft": 153,
+        "totalSearchesLeft": 153,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-04T19:34:30.103Z",
+        "checkedAt": "2026-09-04T21:50:32.322Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -403,7 +445,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-04T19:34:30.164Z",
+        "checkedAt": "2026-09-04T21:50:32.421Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -423,7 +465,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-04T19:34:30.224Z",
+        "checkedAt": "2026-09-04T21:50:32.516Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -438,7 +480,7 @@
   },
   "channelOpportunityCounts": {
     "online": {
-      "validated": 227,
+      "validated": 229,
       "rising": 0,
       "recommended": 0
     },
@@ -456,19 +498,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 640,
+    "remainingAtStart": 638,
     "queueSize": 2,
     "verified": 2,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 1,
-      "secondary": 1,
+      "strong": 2,
+      "secondary": 0,
       "strategic": 0
     },
     "channelVerified": {
-      "online": 1,
-      "wiki": 1,
+      "online": 2,
+      "wiki": 0,
       "pending": 0
     },
     "pendingByTier": {
@@ -481,8 +523,8 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Salvage & Sons",
-      "Withering Realms"
+      "2048 Decks",
+      "Arrows Out"
     ],
     "caps": {
       "online": 999,
@@ -510,8 +552,8 @@
         "error": null,
         "verified": 2,
         "channelVerified": {
-          "online": 1,
-          "wiki": 1,
+          "online": 2,
+          "wiki": 0,
           "pending": 0
         },
         "errors": 0,
@@ -544,16 +586,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-04T19:34:39.361Z"
+    "ranAt": "2026-09-04T21:50:40.423Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-09",
-    "monthUsed": 342,
+    "monthUsed": 344,
     "day": "2026-09-04",
-    "dayUsed": 13,
+    "dayUsed": 15,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -567,11 +609,11 @@
       },
       "2": {
         "envName": "SERPAPI_API_KEY_2",
-        "monthUsed": 97,
-        "dayUsed": 13,
+        "monthUsed": 99,
+        "dayUsed": 15,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-09-04T19:34:35.842Z"
+        "updatedAt": "2026-09-04T21:50:35.916Z"
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
@@ -590,7 +632,7 @@
         "updatedAt": "2026-08-12T10:47:31.352Z"
       }
     },
-    "updatedAt": "2026-09-04T19:34:39.413Z"
+    "updatedAt": "2026-09-04T21:50:40.465Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -633,6 +675,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-09-04T19:34:39.902Z"
+    "ranAt": "2026-09-04T21:50:40.857Z"
   }
 }
