@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-09-04T05:07:11.233Z",
+  "generatedAt": "2026-09-04T09:38:31.917Z",
   "totalCandidates": 3000,
   "pendingSeo": 2548,
   "channelCounts": {
-    "pending": 289,
-    "online": 2247,
-    "wiki": 12
+    "pending": 291,
+    "online": 2244,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "pending:pending": 289,
-    "online:pending": 2247,
-    "wiki:pending": 12
+    "pending:pending": 291,
+    "online:pending": 2244,
+    "wiki:pending": 13
   },
   "strategicCounts": {
-    "pending:0": 286,
+    "pending:0": 288,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 420,
-    "online:1": 1825,
+    "online:2": 422,
+    "online:1": 1820,
     "pending:1": 3,
-    "wiki:1": 11
+    "wiki:1": 12
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2217
+      "count": 2214
     },
     {
       "id": "itch-newest-web",
-      "count": 2208
+      "count": 2205
     },
     {
       "id": "itch-new-feed",
-      "count": 2172
+      "count": 2169
     },
     {
       "id": "itch-new-popular-web",
-      "count": 398
+      "count": 400
     },
     {
       "id": "itch-popular",
-      "count": 398
+      "count": 400
     },
     {
       "id": "trends-rising-7d",
-      "count": 220
+      "count": 223
     },
     {
       "id": "trends-rising-30d",
-      "count": 136
+      "count": 137
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 100
+      "count": 103
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 33
+      "count": 34
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 12
+      "count": 13
     },
     {
       "id": "steam-latest-indie",
@@ -228,25 +228,6 @@
       ]
     },
     {
-      "name": "Scratch It! Lucky Cards",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "THE WARM ROOM",
       "channel": "online",
       "fastClass": "pending",
@@ -322,6 +303,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Green Friends",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "BREAKAWAY - Incremental Cycling",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -402,6 +421,25 @@
     },
     {
       "name": "Industrial Knowledge",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Scratch It! Lucky Cards",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1036,44 +1074,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Frozen Ground",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "BELTRUNNER (Web, Mac, Linux, Wii, DC)",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
