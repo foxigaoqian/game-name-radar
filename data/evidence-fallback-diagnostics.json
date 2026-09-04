@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-04T09:38:31.917Z",
+  "generatedAt": "2026-09-04T13:47:32.925Z",
   "totalCandidates": 3000,
   "pendingSeo": 2548,
   "channelCounts": {
-    "pending": 291,
-    "online": 2244,
-    "wiki": 13
+    "pending": 297,
+    "online": 2237,
+    "wiki": 14
   },
   "fastClassCounts": {
-    "pending:pending": 291,
-    "online:pending": 2244,
-    "wiki:pending": 13
+    "pending:pending": 297,
+    "online:pending": 2237,
+    "wiki:pending": 14
   },
   "strategicCounts": {
-    "pending:0": 288,
+    "pending:0": 293,
     "online:3": 2,
     "wiki:0": 1,
     "online:2": 422,
-    "online:1": 1820,
-    "pending:1": 3,
-    "wiki:1": 12
+    "online:1": 1813,
+    "pending:1": 4,
+    "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2214
+      "count": 2207
     },
     {
       "id": "itch-newest-web",
-      "count": 2205
+      "count": 2198
     },
     {
       "id": "itch-new-feed",
-      "count": 2169
+      "count": 2162
     },
     {
       "id": "itch-new-popular-web",
@@ -44,31 +44,31 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 223
+      "count": 227
     },
     {
       "id": "trends-rising-30d",
-      "count": 137
+      "count": 140
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 103
+      "count": 105
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 75
+      "count": 77
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 71
+      "count": 72
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 55
+      "count": 56
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 34
+      "count": 35
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 14
     },
     {
       "id": "steam-latest-indie",
@@ -104,11 +104,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 5
+      "count": 6
     },
     {
       "id": "itch-featured",
-      "count": 5
+      "count": 6
     },
     {
       "id": "y8-new",
@@ -255,25 +255,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Thock Factory",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -504,6 +485,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Thock Factory",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
