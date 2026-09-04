@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-04T17:08:56.272Z",
+  "generatedAt": "2026-09-04T19:34:26.495Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2548,
+  "pendingSeo": 2549,
   "channelCounts": {
     "pending": 297,
-    "online": 2236,
-    "wiki": 15
+    "online": 2235,
+    "wiki": 17
   },
   "fastClassCounts": {
     "pending:pending": 297,
-    "online:pending": 2236,
-    "wiki:pending": 15
+    "online:pending": 2235,
+    "wiki:pending": 17
   },
   "strategicCounts": {
     "pending:0": 293,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 422,
-    "online:1": 1812,
+    "online:2": 424,
+    "online:1": 1809,
     "wiki:2": 1,
     "pending:1": 4,
-    "wiki:1": 13
+    "wiki:1": 15
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2206
+      "count": 2204
     },
     {
       "id": "itch-newest-web",
-      "count": 2197
+      "count": 2195
     },
     {
       "id": "itch-new-feed",
-      "count": 2161
+      "count": 2158
     },
     {
       "id": "itch-new-popular-web",
-      "count": 400
+      "count": 401
     },
     {
       "id": "itch-popular",
-      "count": 400
+      "count": 401
     },
     {
       "id": "trends-rising-7d",
@@ -93,7 +93,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 15
+      "count": 17
     },
     {
       "id": "steam-latest-indie",
@@ -113,7 +113,7 @@
     },
     {
       "id": "y8-new",
-      "count": 4
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -121,6 +121,10 @@
     },
     {
       "id": "steam-top-wishlist",
+      "count": 1
+    },
+    {
+      "id": "gamepix-new",
       "count": 1
     },
     {
@@ -218,25 +222,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "THE WARM ROOM",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -441,6 +426,25 @@
     },
     {
       "name": "Heart of Stars",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "THE WARM ROOM",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
