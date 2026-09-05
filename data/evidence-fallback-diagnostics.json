@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-05T19:30:42.527Z",
+  "generatedAt": "2026-09-05T21:42:37.422Z",
   "totalCandidates": 3000,
   "pendingSeo": 2545,
   "channelCounts": {
-    "pending": 300,
-    "online": 2231,
-    "wiki": 14
+    "pending": 299,
+    "online": 2230,
+    "wiki": 16
   },
   "fastClassCounts": {
-    "pending:pending": 300,
-    "online:pending": 2231,
-    "wiki:pending": 14
+    "pending:pending": 299,
+    "online:pending": 2230,
+    "wiki:pending": 16
   },
   "strategicCounts": {
     "pending:0": 296,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 428,
+    "online:2": 427,
     "online:1": 1801,
-    "pending:1": 4,
-    "wiki:1": 13
+    "pending:1": 3,
+    "wiki:1": 15
   },
   "topSources": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 14
+      "count": 16
     },
     {
       "id": "steam-latest-indie",
@@ -104,15 +104,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 6
+      "count": 5
     },
     {
       "id": "itch-featured",
-      "count": 6
+      "count": 5
     },
     {
       "id": "y8-new",
-      "count": 5
+      "count": 4
     },
     {
       "id": "lagged-new",
@@ -120,10 +120,6 @@
     },
     {
       "id": "steam-top-wishlist",
-      "count": 1
-    },
-    {
-      "id": "gamepix-new",
       "count": 1
     },
     {
@@ -216,25 +212,6 @@
     },
     {
       "name": "dead_center",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Eleven Thousand: Deep",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -396,6 +373,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Eleven Thousand: Deep",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
