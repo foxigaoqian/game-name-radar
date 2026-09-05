@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-05T17:20:38.201Z",
+  "generatedAt": "2026-09-05T19:30:42.527Z",
   "totalCandidates": 3000,
   "pendingSeo": 2545,
   "channelCounts": {
-    "pending": 301,
+    "pending": 300,
     "online": 2231,
-    "wiki": 13
+    "wiki": 14
   },
   "fastClassCounts": {
-    "pending:pending": 301,
+    "pending:pending": 300,
     "online:pending": 2231,
-    "wiki:pending": 13
+    "wiki:pending": 14
   },
   "strategicCounts": {
-    "pending:0": 297,
+    "pending:0": 296,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 425,
-    "online:1": 1804,
+    "online:2": 428,
+    "online:1": 1801,
     "pending:1": 4,
-    "wiki:1": 12
+    "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2201
+      "count": 2200
     },
     {
       "id": "itch-newest-web",
-      "count": 2192
+      "count": 2191
     },
     {
       "id": "itch-new-feed",
-      "count": 2154
+      "count": 2152
     },
     {
       "id": "itch-new-popular-web",
-      "count": 403
+      "count": 405
     },
     {
       "id": "itch-popular",
-      "count": 403
+      "count": 405
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 142
+      "count": 141
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 35
+      "count": 34
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -92,15 +92,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 14
     },
     {
       "id": "steam-latest-indie",
-      "count": 7
+      "count": 8
     },
     {
       "id": "steam-new",
-      "count": 7
+      "count": 8
     },
     {
       "id": "itch-featured-feed",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 4
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -120,6 +120,10 @@
     },
     {
       "id": "steam-top-wishlist",
+      "count": 1
+    },
+    {
+      "id": "gamepix-new",
       "count": 1
     },
     {
@@ -171,7 +175,28 @@
       ]
     },
     {
-      "name": "dead_center",
+      "name": "Path of the idle cultivator",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 11,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "Chaotic Pets",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -190,7 +215,7 @@
       ]
     },
     {
-      "name": "Backstage — Nightclub Tycoon",
+      "name": "dead_center",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -269,6 +294,25 @@
     },
     {
       "name": "BREAKAWAY - Incremental Cycling",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Backstage — Nightclub Tycoon",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1036,44 +1080,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Jump Army",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Sprunki: REVAMPED",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
