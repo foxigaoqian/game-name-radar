@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-04T21:50:28.573Z",
+  "generatedAt": "2026-09-05T00:04:50.555Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2547,
+  "pendingSeo": 2545,
   "channelCounts": {
     "pending": 299,
-    "online": 2231,
-    "wiki": 17
+    "online": 2234,
+    "wiki": 12
   },
   "fastClassCounts": {
     "pending:pending": 299,
-    "online:pending": 2231,
-    "wiki:pending": 17
+    "online:pending": 2234,
+    "wiki:pending": 12
   },
   "strategicCounts": {
     "pending:0": 295,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 425,
-    "online:1": 1804,
+    "online:2": 424,
+    "online:1": 1808,
     "pending:1": 4,
-    "wiki:1": 16
+    "wiki:1": 11
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2199
+      "count": 2204
     },
     {
       "id": "itch-newest-web",
-      "count": 2190
+      "count": 2195
     },
     {
       "id": "itch-new-feed",
-      "count": 2153
+      "count": 2158
     },
     {
       "id": "itch-new-popular-web",
-      "count": 401
+      "count": 402
     },
     {
       "id": "itch-popular",
-      "count": 401
+      "count": 402
     },
     {
       "id": "trends-rising-7d",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 17
+      "count": 12
     },
     {
       "id": "steam-latest-indie",
@@ -112,11 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
-    },
-    {
-      "id": "gamepix-new",
-      "count": 2
+      "count": 4
     },
     {
       "id": "lagged-new",
@@ -170,6 +166,25 @@
         "itch-new-feed",
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "dead_center",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1059,25 +1074,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "The Liar's Door",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
