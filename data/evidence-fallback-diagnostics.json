@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-09-05T04:26:47.425Z",
+  "generatedAt": "2026-09-05T08:36:23.923Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2546,
+  "pendingSeo": 2544,
   "channelCounts": {
-    "pending": 299,
-    "online": 2234,
+    "pending": 300,
+    "online": 2231,
     "wiki": 13
   },
   "fastClassCounts": {
-    "pending:pending": 299,
-    "online:pending": 2234,
+    "pending:pending": 300,
+    "online:pending": 2231,
     "wiki:pending": 13
   },
   "strategicCounts": {
-    "pending:0": 295,
+    "pending:0": 296,
     "online:3": 2,
-    "online:1": 1808,
     "wiki:0": 1,
     "online:2": 424,
-    "wiki:2": 1,
+    "online:1": 1805,
     "pending:1": 4,
-    "wiki:1": 11
+    "wiki:1": 12
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2203
+      "count": 2201
     },
     {
       "id": "itch-newest-web",
-      "count": 2194
+      "count": 2192
     },
     {
       "id": "itch-new-feed",
-      "count": 2157
+      "count": 2155
     },
     {
       "id": "itch-new-popular-web",
@@ -49,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 141
+      "count": 142
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 78
+      "count": 79
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -69,11 +68,11 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 36
+      "count": 35
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 29
+      "count": 30
     },
     {
       "id": "newgrounds-latest",
@@ -97,11 +96,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 8
+      "count": 7
     },
     {
       "id": "steam-new",
-      "count": 8
+      "count": 7
     },
     {
       "id": "itch-featured-feed",
@@ -113,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 5
+      "count": 4
     },
     {
       "id": "lagged-new",
@@ -180,25 +179,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "The Hollowing DEMO",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -296,6 +276,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "The Hollowing DEMO",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
