@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-06T17:21:01.389Z",
+  "generatedAt": "2026-09-06T19:31:15.062Z",
   "totalCandidates": 3000,
   "pendingSeo": 2545,
   "channelCounts": {
-    "pending": 301,
-    "online": 2237,
+    "pending": 300,
+    "online": 2238,
     "wiki": 7
   },
   "fastClassCounts": {
-    "pending:pending": 301,
-    "online:pending": 2237,
+    "pending:pending": 300,
+    "online:pending": 2238,
     "wiki:pending": 7
   },
   "strategicCounts": {
-    "pending:0": 298,
+    "pending:0": 297,
     "online:3": 2,
-    "wiki:0": 1,
-    "online:2": 434,
     "online:1": 1801,
+    "wiki:0": 1,
+    "online:2": 435,
     "pending:1": 3,
     "wiki:1": 6
   },
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 412
+      "count": 414
     },
     {
       "id": "itch-popular",
-      "count": 412
+      "count": 414
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 149
+      "count": 150
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 36
+      "count": 37
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -193,6 +193,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Cogwork Carnival",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1061,25 +1080,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "PJSK: Surprises Abound's wish adventure",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
