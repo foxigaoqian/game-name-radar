@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T14:24:38.105Z",
+  "generatedAt": "2026-09-06T17:21:01.389Z",
   "totalCandidates": 3000,
   "pendingSeo": 2545,
   "channelCounts": {
@@ -28,7 +28,7 @@
     },
     {
       "id": "itch-newest-web",
-      "count": 2198
+      "count": 2197
     },
     {
       "id": "itch-new-feed",
@@ -120,6 +120,10 @@
     },
     {
       "id": "steam-top-wishlist",
+      "count": 1
+    },
+    {
+      "id": "poki-new",
       "count": 1
     },
     {
