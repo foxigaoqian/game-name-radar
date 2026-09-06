@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-09-06T21:43:34.380Z",
+  "generatedAt": "2026-09-06T23:11:02.696Z",
   "totalCandidates": 3000,
   "pendingSeo": 2545,
   "channelCounts": {
-    "pending": 300,
-    "online": 2238,
+    "pending": 302,
+    "online": 2236,
     "wiki": 7
   },
   "fastClassCounts": {
-    "pending:pending": 300,
-    "online:pending": 2238,
+    "pending:pending": 302,
+    "online:pending": 2236,
     "wiki:pending": 7
   },
   "strategicCounts": {
-    "pending:0": 297,
+    "pending:0": 299,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 435,
-    "online:1": 1801,
+    "online:2": 437,
+    "online:1": 1797,
     "pending:1": 3,
     "wiki:1": 6
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2208
+      "count": 2206
     },
     {
       "id": "itch-newest-web",
-      "count": 2198
+      "count": 2196
     },
     {
       "id": "itch-new-feed",
-      "count": 2158
+      "count": 2156
     },
     {
       "id": "itch-new-popular-web",
-      "count": 413
+      "count": 415
     },
     {
       "id": "itch-popular",
-      "count": 413
+      "count": 415
     },
     {
       "id": "trends-rising-7d",
-      "count": 235
+      "count": 237
     },
     {
       "id": "trends-rising-30d",
-      "count": 150
+      "count": 151
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 112
+      "count": 113
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 81
+      "count": 83
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 72
+      "count": 73
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -197,6 +197,44 @@
     },
     {
       "name": "Cogwork Carnival",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "HorsePower Plant",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "First Laser Light",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1035,44 +1073,6 @@
     },
     {
       "name": "Trillion Dollar Cart",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "TrustMe Social™",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Cherry Picking Bot Demo",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
