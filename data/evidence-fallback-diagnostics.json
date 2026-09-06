@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-06T01:20:17.566Z",
+  "generatedAt": "2026-09-06T06:30:40.163Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2544,
+  "pendingSeo": 2545,
   "channelCounts": {
-    "pending": 301,
+    "pending": 302,
     "online": 2236,
     "wiki": 7
   },
   "fastClassCounts": {
-    "pending:pending": 301,
+    "pending:pending": 302,
     "online:pending": 2236,
     "wiki:pending": 7
   },
   "strategicCounts": {
-    "pending:0": 297,
+    "pending:0": 298,
     "online:3": 2,
     "wiki:0": 1,
-    "online:2": 428,
-    "online:1": 1806,
+    "online:2": 433,
+    "online:1": 1801,
     "pending:1": 4,
     "wiki:1": 6
   },
@@ -32,27 +32,27 @@
     },
     {
       "id": "itch-new-feed",
-      "count": 2158
+      "count": 2156
     },
     {
       "id": "itch-new-popular-web",
-      "count": 406
+      "count": 411
     },
     {
       "id": "itch-popular",
-      "count": 406
+      "count": 411
     },
     {
       "id": "trends-rising-7d",
-      "count": 234
+      "count": 236
     },
     {
       "id": "trends-rising-30d",
-      "count": 141
+      "count": 146
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 110
+      "count": 112
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -68,11 +68,11 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 34
+      "count": 35
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 30
+      "count": 34
     },
     {
       "id": "newgrounds-latest",
@@ -192,6 +192,25 @@
       ]
     },
     {
+      "name": "Graveyard Orbit",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "dead_center",
       "channel": "online",
       "fastClass": "pending",
@@ -232,6 +251,25 @@
       ]
     },
     {
+      "name": "Something Strange",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Legs",
       "channel": "online",
       "fastClass": "pending",
@@ -240,6 +278,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Revive My Wounds",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1019,63 +1076,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Kingdomsweeper",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Ashmarch",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Still Dreaming",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
