@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-09-08T15:20:58.568Z",
+  "generatedAt": "2026-09-08T18:58:45.582Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2540,
+  "pendingSeo": 2542,
   "channelCounts": {
     "pending": 317,
-    "online": 2220,
-    "wiki": 3
+    "online": 2219,
+    "wiki": 6
   },
   "fastClassCounts": {
     "pending:pending": 317,
-    "online:pending": 2220,
-    "wiki:pending": 3
+    "online:pending": 2219,
+    "wiki:pending": 6
   },
   "strategicCounts": {
     "pending:0": 313,
     "online:3": 3,
+    "wiki:1": 4,
     "wiki:0": 1,
-    "online:2": 448,
-    "online:1": 1769,
-    "pending:1": 4,
-    "wiki:1": 2
+    "online:2": 452,
+    "online:1": 1764,
+    "wiki:2": 1,
+    "pending:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2190
+      "count": 2187
     },
     {
       "id": "itch-newest-web",
-      "count": 2179
+      "count": 2176
     },
     {
       "id": "itch-new-feed",
-      "count": 2137
+      "count": 2133
     },
     {
       "id": "itch-new-popular-web",
-      "count": 426
+      "count": 429
     },
     {
       "id": "itch-popular",
-      "count": 426
+      "count": 429
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +49,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 159
+      "count": 160
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 83
+      "count": 84
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,11 +93,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 8
+      "count": 9
     },
     {
       "id": "steam-new",
-      "count": 8
+      "count": 9
     },
     {
       "id": "itch-featured-feed",
@@ -107,12 +108,20 @@
       "count": 7
     },
     {
-      "id": "y8-new",
-      "count": 5
+      "id": "steam-popular-new",
+      "count": 6
     },
     {
-      "id": "steam-popular-new",
-      "count": 3
+      "id": "y8-new",
+      "count": 6
+    },
+    {
+      "id": "poki-new",
+      "count": 2
+    },
+    {
+      "id": "crazygames-new",
+      "count": 2
     },
     {
       "id": "lagged-new",
@@ -124,14 +133,6 @@
     },
     {
       "id": "gamepix-new",
-      "count": 1
-    },
-    {
-      "id": "poki-new",
-      "count": 1
-    },
-    {
-      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -194,6 +195,25 @@
         "itch-new-feed",
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "OutRun · Arcade 3D",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -333,6 +353,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Quizino",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -496,25 +535,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Legs",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1066,25 +1086,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Au lait or Not",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
