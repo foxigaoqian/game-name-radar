@@ -1,63 +1,62 @@
 {
-  "generatedAt": "2026-09-08T18:58:45.582Z",
+  "generatedAt": "2026-09-08T21:51:09.132Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2542,
+  "pendingSeo": 2539,
   "channelCounts": {
     "pending": 317,
-    "online": 2219,
+    "online": 2216,
     "wiki": 6
   },
   "fastClassCounts": {
     "pending:pending": 317,
-    "online:pending": 2219,
+    "online:pending": 2216,
     "wiki:pending": 6
   },
   "strategicCounts": {
     "pending:0": 313,
     "online:3": 3,
-    "wiki:1": 4,
     "wiki:0": 1,
-    "online:2": 452,
-    "online:1": 1764,
-    "wiki:2": 1,
-    "pending:1": 4
+    "online:2": 451,
+    "online:1": 1762,
+    "pending:1": 4,
+    "wiki:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2187
+      "count": 2186
     },
     {
       "id": "itch-newest-web",
-      "count": 2176
+      "count": 2175
     },
     {
       "id": "itch-new-feed",
-      "count": 2133
+      "count": 2132
     },
     {
       "id": "itch-new-popular-web",
-      "count": 429
+      "count": 430
     },
     {
       "id": "itch-popular",
-      "count": 429
+      "count": 430
     },
     {
       "id": "trends-rising-7d",
-      "count": 250
+      "count": 249
     },
     {
       "id": "trends-rising-30d",
-      "count": 160
+      "count": 159
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 114
+      "count": 113
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 84
+      "count": 83
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -93,11 +92,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 9
+      "count": 8
     },
     {
       "id": "steam-new",
-      "count": 9
+      "count": 8
     },
     {
       "id": "itch-featured-feed",
@@ -113,15 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
-    },
-    {
-      "id": "poki-new",
-      "count": 2
-    },
-    {
-      "id": "crazygames-new",
-      "count": 2
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -132,7 +123,11 @@
       "count": 1
     },
     {
-      "id": "gamepix-new",
+      "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -353,6 +348,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Nuclear-Stic Mines Retrash'd",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1067,25 +1081,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "vengeance of the vegetables",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 9,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
