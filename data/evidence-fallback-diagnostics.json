@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-09T20:01:09.383Z",
+  "generatedAt": "2026-09-09T22:33:13.239Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2537,
+  "pendingSeo": 2536,
   "channelCounts": {
-    "online": 2196,
+    "online": 2191,
     "pending": 328,
-    "wiki": 13
+    "wiki": 17
   },
   "fastClassCounts": {
-    "online:pending": 2196,
+    "online:pending": 2191,
     "pending:pending": 328,
-    "wiki:pending": 13
+    "wiki:pending": 17
   },
   "strategicCounts": {
     "online:3": 4,
     "pending:0": 322,
     "wiki:0": 1,
-    "online:2": 455,
-    "online:1": 1737,
-    "wiki:2": 2,
+    "online:2": 456,
+    "online:1": 1731,
+    "wiki:2": 3,
     "pending:1": 6,
-    "wiki:1": 10
+    "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2166
+      "count": 2161
     },
     {
       "id": "itch-newest-web",
-      "count": 2155
+      "count": 2150
     },
     {
       "id": "itch-new-feed",
-      "count": 2110
+      "count": 2105
     },
     {
       "id": "itch-new-popular-web",
-      "count": 435
+      "count": 436
     },
     {
       "id": "itch-popular",
-      "count": 435
+      "count": 436
     },
     {
       "id": "trends-rising-7d",
@@ -93,7 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 17
+    },
+    {
+      "id": "steam-latest-indie",
+      "count": 11
+    },
+    {
+      "id": "steam-new",
+      "count": 11
     },
     {
       "id": "itch-featured-feed",
@@ -101,14 +109,6 @@
     },
     {
       "id": "itch-featured",
-      "count": 10
-    },
-    {
-      "id": "steam-latest-indie",
-      "count": 10
-    },
-    {
-      "id": "steam-new",
       "count": 10
     },
     {
@@ -331,6 +331,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Kick The Piñata!",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1064,25 +1083,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Love Rush",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 9,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
