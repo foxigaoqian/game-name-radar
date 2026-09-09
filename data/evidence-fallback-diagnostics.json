@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-09T13:42:56.620Z",
+  "generatedAt": "2026-09-09T17:18:07.240Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2538,
+  "pendingSeo": 2535,
   "channelCounts": {
-    "pending": 325,
-    "online": 2200,
-    "wiki": 13
+    "online": 2196,
+    "pending": 327,
+    "wiki": 12
   },
   "fastClassCounts": {
-    "pending:pending": 325,
-    "online:pending": 2200,
-    "wiki:pending": 13
+    "online:pending": 2196,
+    "pending:pending": 327,
+    "wiki:pending": 12
   },
   "strategicCounts": {
-    "pending:0": 320,
-    "online:3": 3,
-    "wiki:1": 9,
+    "online:3": 4,
+    "pending:0": 322,
     "wiki:0": 1,
-    "online:2": 455,
-    "online:1": 1742,
-    "wiki:2": 3,
-    "pending:1": 5
+    "online:2": 456,
+    "online:1": 1736,
+    "pending:1": 5,
+    "wiki:2": 1,
+    "wiki:1": 10
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2170
+      "count": 2165
     },
     {
       "id": "itch-newest-web",
-      "count": 2159
+      "count": 2154
     },
     {
       "id": "itch-new-feed",
-      "count": 2114
+      "count": 2109
     },
     {
       "id": "itch-new-popular-web",
-      "count": 433
+      "count": 435
     },
     {
       "id": "itch-popular",
-      "count": 433
+      "count": 435
     },
     {
       "id": "trends-rising-7d",
@@ -61,11 +61,11 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 84
+      "count": 85
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 63
+      "count": 62
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -92,14 +92,6 @@
       "count": 27
     },
     {
-      "id": "steam-latest-indie",
-      "count": 12
-    },
-    {
-      "id": "steam-new",
-      "count": 12
-    },
-    {
       "id": "steam-popular-new",
       "count": 12
     },
@@ -112,12 +104,20 @@
       "count": 9
     },
     {
+      "id": "steam-latest-indie",
+      "count": 9
+    },
+    {
+      "id": "steam-new",
+      "count": 9
+    },
+    {
       "id": "y8-new",
-      "count": 5
+      "count": 6
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "steam-top-wishlist",
@@ -133,6 +133,26 @@
     }
   ],
   "samples": [
+    {
+      "name": "Inkarn8: First Pages",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 3,
+      "sourceCount": 6,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-featured-feed",
+        "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
     {
       "name": "About Time!",
       "channel": "online",
@@ -196,6 +216,25 @@
       ]
     },
     {
+      "name": "Running God",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Treeternal Demo",
       "channel": "online",
       "fastClass": "pending",
@@ -253,63 +292,6 @@
       ]
     },
     {
-      "name": "Compromised Anatomy",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "HorsePower Plant",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "First Laser Light",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -349,24 +331,6 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
-      ]
-    },
-    {
-      "name": "Inkarn8: First Pages",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     },
     {
@@ -522,6 +486,25 @@
       ]
     },
     {
+      "name": "Compromised Anatomy",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Basic Incremental Miner",
       "channel": "online",
       "fastClass": "pending",
@@ -541,7 +524,45 @@
       ]
     },
     {
+      "name": "HorsePower Plant",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Cogwork Carnival",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "First Laser Light",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1062,25 +1083,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "IDOLIFE",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [

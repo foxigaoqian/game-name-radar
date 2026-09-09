@@ -1,16 +1,16 @@
 {
-  "scannedAt": "2026-09-09T13:42:24.245Z",
+  "scannedAt": "2026-09-09T17:17:35.637Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 159,
+  "totalAdded": 161,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 35
+      "added": 34
     },
     {
       "ok": true,
@@ -24,14 +24,14 @@
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 36
+      "added": 35
     },
     {
       "ok": true,
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 3
+      "added": 0
     },
     {
       "ok": true,
@@ -45,14 +45,14 @@
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 6
+      "added": 3
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 15
+      "added": 21
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 5
+      "added": 1
     },
     {
       "ok": true,
@@ -79,54 +79,57 @@
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 150,
-      "added": 0
+      "total": 142,
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 40
+      "added": 30
     },
     {
       "ok": true,
       "sourceId": "gamepix-new",
       "sourceName": "GamePix 新游戏",
       "total": 60,
-      "added": 0
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 82,
-      "added": 3
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 17,
-      "added": 10
+      "total": 13,
+      "added": 6
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 15,
+      "added": 5
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 8,
+      "added": 4
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 9,
+      "added": 2
     },
     {
       "ok": true,
@@ -136,47 +139,48 @@
       "added": 3
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 19,
+      "added": 8
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
-  "fastPassedCount": 233,
-  "fastWatchCount": 225,
+  "fastPassedCount": 234,
+  "fastWatchCount": 227,
   "fastRejectedCount": 4,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 7,
+  "trendsVerified": 2,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 338,
-  "trendEligibleCount": 165,
-  "trendPendingCount": 154,
-  "trendValidatedCount": 274,
+  "seoPassedCount": 341,
+  "trendEligibleCount": 166,
+  "trendPendingCount": 156,
+  "trendValidatedCount": 275,
   "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 0,
-    "watch": 364,
+    "watch": 365,
     "reject": 1,
-    "pending": 2635,
+    "pending": 2634,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 274
+    "serpapi": 275
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -191,7 +195,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-09T13:42:22.599Z",
+    "checkedAt": "2026-09-09T17:17:34.293Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -216,7 +220,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 117,
+    "evidence-fallback": 118,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 103
   },
@@ -247,16 +251,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2525,
-    "wiki": 50,
-    "pending": 425
+    "online": 2521,
+    "wiki": 52,
+    "pending": 427
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 1,
-    "weak": 48
+    "weak": 50
   },
   "serperVerification": {
     "rushMode": true,
@@ -269,7 +273,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 88,
+    "queueSize": 87,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -279,34 +283,32 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-09T13:42:56.278Z"
+    "ranAt": "2026-09-09T17:18:06.926Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2538,
-    "eligibleCount": 4,
-    "queueSize": 4,
-    "verified": 4,
+    "pendingCount": 2535,
+    "eligibleCount": 2,
+    "queueSize": 2,
+    "verified": 2,
     "channelVerified": {
-      "online": 0,
-      "wiki": 4,
+      "online": 1,
+      "wiki": 1,
       "pending": 0
     },
     "fastRecalculated": {
       "pass": 1,
-      "watch": 2,
+      "watch": 0,
       "weak": 1,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "game banana",
-      "Valheim",
-      "BeaterCore",
-      "In Falsus"
+      "Commando Force",
+      "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil"
     ],
-    "ranAt": "2026-09-09T13:42:57.017Z"
+    "ranAt": "2026-09-09T17:18:07.629Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -330,16 +332,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-09T13:43:00.099Z"
+    "ranAt": "2026-09-09T17:18:10.091Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-09T13:43:00.624Z",
+    "checkedAt": "2026-09-09T17:18:10.313Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 386,
+    "totalIndependentSearchesLeft": 379,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -370,8 +372,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 124,
-        "totalSearchesLeft": 126,
+        "thisMonthUsage": 131,
+        "totalSearchesLeft": 119,
         "renewalDate": "2026-09-29"
       },
       {
@@ -403,7 +405,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T13:43:00.334Z",
+        "checkedAt": "2026-09-09T17:18:10.243Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -423,7 +425,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T13:43:00.433Z",
+        "checkedAt": "2026-09-09T17:18:10.267Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -439,11 +441,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-09-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 124,
-        "planSearchesLeft": 126,
-        "totalSearchesLeft": 126,
+        "thisMonthUsage": 131,
+        "planSearchesLeft": 119,
+        "totalSearchesLeft": 119,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T13:43:00.529Z",
+        "checkedAt": "2026-09-09T17:18:10.290Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -463,7 +465,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T13:43:00.623Z",
+        "checkedAt": "2026-09-09T17:18:10.313Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -478,7 +480,7 @@
   },
   "channelOpportunityCounts": {
     "online": {
-      "validated": 234,
+      "validated": 235,
       "rising": 1,
       "recommended": 0
     },
@@ -496,19 +498,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 366,
-    "queueSize": 7,
-    "verified": 7,
+    "remainingAtStart": 359,
+    "queueSize": 2,
+    "verified": 2,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 3,
-      "secondary": 3,
+      "strong": 1,
+      "secondary": 0,
       "strategic": 1
     },
     "channelVerified": {
-      "online": 2,
-      "wiki": 5,
+      "online": 1,
+      "wiki": 1,
       "pending": 0
     },
     "pendingByTier": {
@@ -521,13 +523,8 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "wardogs",
-      "game banana",
-      "Dress Up 3D",
-      "Valheim",
-      "BeaterCore",
-      "Overtime : Patrol",
-      "In Falsus"
+      "Commando Force",
+      "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil"
     ],
     "caps": {
       "online": 999,
@@ -566,10 +563,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 7,
+        "verified": 2,
         "channelVerified": {
-          "online": 2,
-          "wiki": 5,
+          "online": 1,
+          "wiki": 1,
           "pending": 0
         },
         "errors": 0,
@@ -589,16 +586,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-09T13:43:25.346Z"
+    "ranAt": "2026-09-09T17:18:18.921Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-09",
-    "monthUsed": 621,
+    "monthUsed": 623,
     "day": "2026-09-09",
-    "dayUsed": 16,
+    "dayUsed": 18,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -620,11 +617,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 131,
-        "dayUsed": 16,
+        "monthUsed": 133,
+        "dayUsed": 18,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-09-09T13:43:22.120Z"
+        "updatedAt": "2026-09-09T17:18:13.566Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -635,7 +632,7 @@
         "updatedAt": "2026-08-12T10:47:31.352Z"
       }
     },
-    "updatedAt": "2026-09-09T13:43:25.394Z"
+    "updatedAt": "2026-09-09T17:18:18.973Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -678,6 +675,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-09-09T13:43:25.895Z"
+    "ranAt": "2026-09-09T17:18:19.462Z"
   }
 }
