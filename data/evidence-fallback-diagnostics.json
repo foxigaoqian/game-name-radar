@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-09T09:12:35.938Z",
+  "generatedAt": "2026-09-09T13:42:56.620Z",
   "totalCandidates": 3000,
   "pendingSeo": 2538,
   "channelCounts": {
-    "pending": 324,
-    "online": 2204,
-    "wiki": 10
+    "pending": 325,
+    "online": 2200,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "pending:pending": 324,
-    "online:pending": 2204,
-    "wiki:pending": 10
+    "pending:pending": 325,
+    "online:pending": 2200,
+    "wiki:pending": 13
   },
   "strategicCounts": {
-    "pending:0": 321,
+    "pending:0": 320,
     "online:3": 3,
+    "wiki:1": 9,
     "wiki:0": 1,
-    "online:2": 453,
-    "online:1": 1748,
-    "wiki:2": 1,
-    "pending:1": 3,
-    "wiki:1": 8
+    "online:2": 455,
+    "online:1": 1742,
+    "wiki:2": 3,
+    "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2174
+      "count": 2170
     },
     {
       "id": "itch-newest-web",
-      "count": 2163
+      "count": 2159
     },
     {
       "id": "itch-new-feed",
-      "count": 2120
+      "count": 2114
     },
     {
       "id": "itch-new-popular-web",
-      "count": 432
+      "count": 433
     },
     {
       "id": "itch-popular",
-      "count": 432
+      "count": 433
     },
     {
       "id": "trends-rising-7d",
@@ -92,24 +92,24 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 10
-    },
-    {
       "id": "steam-latest-indie",
-      "count": 9
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 9
+      "count": 12
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 12
     },
     {
       "id": "itch-featured-feed",
-      "count": 6
+      "count": 9
     },
     {
       "id": "itch-featured",
-      "count": 6
+      "count": 9
     },
     {
       "id": "y8-new",
@@ -349,6 +349,24 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Inkarn8: First Pages",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1063,25 +1081,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Thought Rot",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
