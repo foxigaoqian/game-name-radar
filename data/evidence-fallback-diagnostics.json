@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-08T21:51:09.132Z",
+  "generatedAt": "2026-09-09T00:14:20.986Z",
   "totalCandidates": 3000,
   "pendingSeo": 2539,
   "channelCounts": {
-    "pending": 317,
-    "online": 2216,
-    "wiki": 6
+    "pending": 318,
+    "online": 2212,
+    "wiki": 9
   },
   "fastClassCounts": {
-    "pending:pending": 317,
-    "online:pending": 2216,
-    "wiki:pending": 6
+    "pending:pending": 318,
+    "online:pending": 2212,
+    "wiki:pending": 9
   },
   "strategicCounts": {
-    "pending:0": 313,
+    "pending:0": 314,
     "online:3": 3,
     "wiki:0": 1,
     "online:2": 451,
-    "online:1": 1762,
+    "online:1": 1758,
+    "wiki:2": 1,
     "pending:1": 4,
-    "wiki:1": 5
+    "wiki:1": 7
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2186
+      "count": 2182
     },
     {
       "id": "itch-newest-web",
-      "count": 2175
+      "count": 2171
     },
     {
       "id": "itch-new-feed",
-      "count": 2132
+      "count": 2128
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +45,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 249
+      "count": 250
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +53,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 113
+      "count": 114
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -92,11 +93,15 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 8
+      "count": 9
     },
     {
       "id": "steam-new",
-      "count": 8
+      "count": 9
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 9
     },
     {
       "id": "itch-featured-feed",
@@ -105,10 +110,6 @@
     {
       "id": "itch-featured",
       "count": 7
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 6
     },
     {
       "id": "y8-new",
@@ -272,25 +273,6 @@
     },
     {
       "name": "First Laser Light",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Graveyard Orbit",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -530,6 +512,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Graveyard Orbit",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
