@@ -1,23 +1,23 @@
 {
-  "scannedAt": "2026-09-09T17:17:35.637Z",
+  "scannedAt": "2026-09-09T20:00:56.744Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 161,
+  "totalAdded": 116,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 34
+      "added": 35
     },
     {
       "ok": true,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 3
+      "added": 2
     },
     {
       "ok": true,
@@ -31,7 +31,7 @@
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
@@ -45,14 +45,14 @@
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 3
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 21
+      "added": 3
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 1
+      "added": 5
     },
     {
       "ok": true,
@@ -80,21 +80,21 @@
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
       "total": 142,
-      "added": 2
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 30
+      "added": 25
     },
     {
       "ok": true,
       "sourceId": "gamepix-new",
       "sourceName": "GamePix 新游戏",
       "total": 60,
-      "added": 4
+      "added": 8
     },
     {
       "ok": true,
@@ -102,55 +102,13 @@
       "sourceName": "Lagged 新游戏",
       "total": 82,
       "added": 0
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-7d-itch-io",
-      "sourceName": "Trends上涨 7天 · itch io",
-      "total": 13,
-      "added": 6
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-30d-itch-io",
-      "sourceName": "Trends上涨 30天 · itch io",
-      "total": 15,
-      "added": 5
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-7d-indie-game",
-      "sourceName": "Trends上涨 7天 · indie game",
-      "total": 8,
-      "added": 4
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-30d-indie-game",
-      "sourceName": "Trends上涨 30天 · indie game",
-      "total": 9,
-      "added": 2
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-7d-horror-game",
-      "sourceName": "Trends上涨 7天 · horror game",
-      "total": 11,
-      "added": 3
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-30d-horror-game",
-      "sourceName": "Trends上涨 30天 · horror game",
-      "total": 19,
-      "added": 8
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
-  "fastPassedCount": 234,
-  "fastWatchCount": 227,
+  "fastPassedCount": 235,
+  "fastWatchCount": 224,
   "fastRejectedCount": 4,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
@@ -160,27 +118,27 @@
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
-  "risingDiscoveryRan": true,
+  "risingDiscoveryRan": false,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 341,
-  "trendEligibleCount": 166,
-  "trendPendingCount": 156,
-  "trendValidatedCount": 275,
+  "seoPassedCount": 339,
+  "trendEligibleCount": 167,
+  "trendPendingCount": 158,
+  "trendValidatedCount": 273,
   "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 0,
-    "watch": 365,
+    "watch": 363,
     "reject": 1,
-    "pending": 2634,
+    "pending": 2636,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 275
+    "serpapi": 273
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -195,7 +153,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-09T17:17:34.293Z",
+    "checkedAt": "2026-09-09T20:00:55.519Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -220,7 +178,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 118,
+    "evidence-fallback": 116,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 103
   },
@@ -251,16 +209,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2521,
-    "wiki": 52,
-    "pending": 427
+    "online": 2522,
+    "wiki": 50,
+    "pending": 428
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 1,
-    "weak": 50
+    "weak": 48
   },
   "serperVerification": {
     "rushMode": true,
@@ -273,7 +231,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 87,
+    "queueSize": 88,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -283,32 +241,32 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-09T17:18:06.926Z"
+    "ranAt": "2026-09-09T20:01:09.013Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2535,
+    "pendingCount": 2537,
     "eligibleCount": 2,
     "queueSize": 2,
     "verified": 2,
     "channelVerified": {
-      "online": 1,
-      "wiki": 1,
+      "online": 0,
+      "wiki": 2,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 1,
-      "watch": 0,
+      "pass": 0,
+      "watch": 1,
       "weak": 1,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "Commando Force",
-      "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil"
+      "Asgard's Fall — Viking Survivors",
+      "In Falsus"
     ],
-    "ranAt": "2026-09-09T17:18:07.629Z"
+    "ranAt": "2026-09-09T20:01:09.725Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -332,16 +290,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-09T17:18:10.091Z"
+    "ranAt": "2026-09-09T20:01:12.530Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-09T17:18:10.313Z",
+    "checkedAt": "2026-09-09T20:01:12.914Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 379,
+    "totalIndependentSearchesLeft": 377,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -372,8 +330,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 131,
-        "totalSearchesLeft": 119,
+        "thisMonthUsage": 133,
+        "totalSearchesLeft": 117,
         "renewalDate": "2026-09-29"
       },
       {
@@ -405,7 +363,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T17:18:10.243Z",
+        "checkedAt": "2026-09-09T20:01:12.720Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -425,7 +383,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T17:18:10.267Z",
+        "checkedAt": "2026-09-09T20:01:12.786Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -441,11 +399,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-09-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 131,
-        "planSearchesLeft": 119,
-        "totalSearchesLeft": 119,
+        "thisMonthUsage": 133,
+        "planSearchesLeft": 117,
+        "totalSearchesLeft": 117,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T17:18:10.290Z",
+        "checkedAt": "2026-09-09T20:01:12.852Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -465,7 +423,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-09T17:18:10.313Z",
+        "checkedAt": "2026-09-09T20:01:12.914Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -485,7 +443,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 39,
+      "validated": 37,
       "rising": 2,
       "recommended": 0
     },
@@ -498,19 +456,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 359,
+    "remainingAtStart": 357,
     "queueSize": 2,
     "verified": 2,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 1,
-      "secondary": 0,
+      "strong": 0,
+      "secondary": 1,
       "strategic": 1
     },
     "channelVerified": {
-      "online": 1,
-      "wiki": 1,
+      "online": 0,
+      "wiki": 2,
       "pending": 0
     },
     "pendingByTier": {
@@ -523,8 +481,8 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Commando Force",
-      "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil"
+      "Asgard's Fall — Viking Survivors",
+      "In Falsus"
     ],
     "caps": {
       "online": 999,
@@ -565,8 +523,8 @@
         "error": null,
         "verified": 2,
         "channelVerified": {
-          "online": 1,
-          "wiki": 1,
+          "online": 0,
+          "wiki": 2,
           "pending": 0
         },
         "errors": 0,
@@ -586,16 +544,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-09T17:18:18.921Z"
+    "ranAt": "2026-09-09T20:01:19.157Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-09",
-    "monthUsed": 623,
+    "monthUsed": 625,
     "day": "2026-09-09",
-    "dayUsed": 18,
+    "dayUsed": 20,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -617,11 +575,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 133,
-        "dayUsed": 18,
+        "monthUsed": 135,
+        "dayUsed": 20,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-09-09T17:18:13.566Z"
+        "updatedAt": "2026-09-09T20:01:16.038Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -632,7 +590,7 @@
         "updatedAt": "2026-08-12T10:47:31.352Z"
       }
     },
-    "updatedAt": "2026-09-09T17:18:18.973Z"
+    "updatedAt": "2026-09-09T20:01:19.282Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -675,6 +633,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-09-09T17:18:19.462Z"
+    "ranAt": "2026-09-09T20:01:19.691Z"
   }
 }
