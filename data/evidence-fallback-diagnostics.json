@@ -1,62 +1,63 @@
 {
-  "generatedAt": "2026-09-10T00:36:04.245Z",
+  "generatedAt": "2026-09-10T05:18:41.363Z",
   "totalCandidates": 3000,
   "pendingSeo": 2535,
   "channelCounts": {
-    "online": 2196,
-    "pending": 327,
-    "wiki": 12
+    "online": 2189,
+    "pending": 333,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "online:pending": 2196,
-    "pending:pending": 327,
-    "wiki:pending": 12
+    "online:pending": 2189,
+    "pending:pending": 333,
+    "wiki:pending": 13
   },
   "strategicCounts": {
     "online:3": 4,
-    "pending:0": 321,
-    "online:1": 1736,
+    "pending:0": 327,
     "wiki:0": 1,
-    "online:2": 456,
+    "online:2": 458,
+    "online:1": 1727,
     "pending:1": 6,
+    "wiki:2": 1,
     "wiki:1": 11
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2165
+      "count": 2160
     },
     {
       "id": "itch-newest-web",
-      "count": 2154
+      "count": 2148
     },
     {
       "id": "itch-new-feed",
-      "count": 2109
+      "count": 2104
     },
     {
       "id": "itch-new-popular-web",
-      "count": 436
+      "count": 438
     },
     {
       "id": "itch-popular",
-      "count": 436
+      "count": 438
     },
     {
       "id": "trends-rising-7d",
-      "count": 255
+      "count": 261
     },
     {
       "id": "trends-rising-30d",
-      "count": 165
+      "count": 166
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 115
+      "count": 120
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 86
+      "count": 88
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,14 +65,14 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 62
-    },
-    {
-      "id": "trends-rising-30d-itch-io",
-      "count": 42
+      "count": 63
     },
     {
       "id": "trends-rising-30d-indie-game",
+      "count": 41
+    },
+    {
+      "id": "trends-rising-30d-itch-io",
       "count": 41
     },
     {
@@ -92,7 +93,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 12
+      "count": 13
     },
     {
       "id": "itch-featured-feed",
@@ -104,15 +105,15 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 8
+      "count": 10
     },
     {
       "id": "steam-new",
-      "count": 8
+      "count": 10
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -330,6 +331,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "DreamCore House",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "MYTHOS LAST SUMMER",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1044,44 +1083,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Dystopia: The Jester's Obsession",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 4,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "SWALLET",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
