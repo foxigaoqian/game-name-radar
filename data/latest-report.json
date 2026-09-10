@@ -1,23 +1,23 @@
 {
-  "scannedAt": "2026-09-10T14:25:31.892Z",
+  "scannedAt": "2026-09-10T17:52:32.736Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 161,
+  "totalAdded": 187,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 36
+      "added": 35
     },
     {
       "ok": true,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 2
+      "added": 1
     },
     {
       "ok": true,
@@ -38,21 +38,21 @@
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 49,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 6
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 19
+      "added": 33
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 4
+      "added": 1
     },
     {
       "ok": true,
@@ -79,29 +79,29 @@
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 150,
-      "added": 5
+      "total": 151,
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 38
+      "added": 41
     },
     {
       "ok": true,
       "sourceId": "gamepix-new",
       "sourceName": "GamePix 新游戏",
       "total": 60,
-      "added": 8
+      "added": 11
     },
     {
       "ok": true,
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 82,
-      "added": 3
+      "added": 0
     },
     {
       "ok": false,
@@ -110,35 +110,39 @@
       "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 17,
+      "added": 5
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 5,
+      "added": 5
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 5,
+      "added": 4
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 8,
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 16,
-      "added": 4
+      "total": 17,
+      "added": 3
     }
   ],
   "seoVerified": 0,
@@ -151,7 +155,7 @@
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 1,
+  "trendsVerified": 7,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
@@ -160,22 +164,22 @@
   "trendModelVersion": 4,
   "seoPassedCount": 340,
   "trendEligibleCount": 167,
-  "trendPendingCount": 161,
-  "trendValidatedCount": 272,
+  "trendPendingCount": 162,
+  "trendValidatedCount": 277,
   "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 0,
-    "watch": 363,
+    "watch": 368,
     "reject": 0,
-    "pending": 2637,
+    "pending": 2632,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 272
+    "serpapi": 277
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -190,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-10T14:25:30.646Z",
+    "checkedAt": "2026-09-10T17:52:31.545Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -215,7 +219,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 115,
+    "evidence-fallback": 120,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 103
   },
@@ -246,8 +250,8 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2515,
-    "wiki": 53,
+    "online": 2507,
+    "wiki": 61,
     "pending": 432
   },
   "wikiPrelaunchModelVersion": 2,
@@ -255,7 +259,7 @@
     "priority": 0,
     "prepare": 1,
     "watch": 1,
-    "weak": 51
+    "weak": 59
   },
   "serperVerification": {
     "rushMode": true,
@@ -278,29 +282,35 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-10T14:26:06.355Z"
+    "ranAt": "2026-09-10T17:53:06.440Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
     "pendingCount": 2536,
-    "eligibleCount": 0,
-    "queueSize": 0,
-    "verified": 0,
+    "eligibleCount": 5,
+    "queueSize": 5,
+    "verified": 5,
     "channelVerified": {
-      "online": 0,
-      "wiki": 0,
+      "online": 2,
+      "wiki": 3,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 0,
-      "watch": 0,
-      "weak": 0,
+      "pass": 2,
+      "watch": 2,
+      "weak": 1,
       "reject": 0,
       "pending": 0
     },
-    "verifiedNames": [],
-    "ranAt": "2026-09-10T14:26:07.090Z"
+    "verifiedNames": [
+      "Cricket Smash 3D",
+      "Merge Champions",
+      "The Crust",
+      "Gunman Contracts - Stand Alone",
+      "Shroom and Gloom"
+    ],
+    "ranAt": "2026-09-10T17:53:07.213Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -324,16 +334,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-10T14:26:09.985Z"
+    "ranAt": "2026-09-10T17:53:09.851Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-10T14:26:10.655Z",
+    "checkedAt": "2026-09-10T17:53:10.103Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 361,
+    "totalIndependentSearchesLeft": 360,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -364,8 +374,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 149,
-        "totalSearchesLeft": 101,
+        "thisMonthUsage": 150,
+        "totalSearchesLeft": 100,
         "renewalDate": "2026-09-29"
       },
       {
@@ -397,7 +407,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-10T14:26:10.309Z",
+        "checkedAt": "2026-09-10T17:53:10.000Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -417,7 +427,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-10T14:26:10.440Z",
+        "checkedAt": "2026-09-10T17:53:10.022Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -433,11 +443,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-09-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 149,
-        "planSearchesLeft": 101,
-        "totalSearchesLeft": 101,
+        "thisMonthUsage": 150,
+        "planSearchesLeft": 100,
+        "totalSearchesLeft": 100,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-10T14:26:10.550Z",
+        "checkedAt": "2026-09-10T17:53:10.083Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -457,7 +467,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-10T14:26:10.655Z",
+        "checkedAt": "2026-09-10T17:53:10.103Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -472,12 +482,12 @@
   },
   "channelOpportunityCounts": {
     "online": {
-      "validated": 235,
+      "validated": 237,
       "rising": 1,
       "recommended": 0
     },
     "wiki": {
-      "validated": 36,
+      "validated": 39,
       "rising": 2,
       "recommended": 0
     },
@@ -490,19 +500,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 341,
-    "queueSize": 1,
-    "verified": 1,
+    "remainingAtStart": 340,
+    "queueSize": 7,
+    "verified": 7,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 1,
-      "secondary": 0,
-      "strategic": 0
+      "strong": 3,
+      "secondary": 2,
+      "strategic": 2
     },
     "channelVerified": {
-      "online": 0,
-      "wiki": 1,
+      "online": 3,
+      "wiki": 4,
       "pending": 0
     },
     "pendingByTier": {
@@ -515,7 +525,13 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "halloween the"
+      "Merge Champions",
+      "Cricket Smash 3D",
+      "wardogs",
+      "Gunman Contracts - Stand Alone",
+      "Shroom and Gloom",
+      "Valheim",
+      "The Crust"
     ],
     "caps": {
       "online": 999,
@@ -554,10 +570,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 1,
+        "verified": 7,
         "channelVerified": {
-          "online": 0,
-          "wiki": 1,
+          "online": 3,
+          "wiki": 4,
           "pending": 0
         },
         "errors": 0,
@@ -577,16 +593,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-10T14:26:15.716Z"
+    "ranAt": "2026-09-10T17:53:37.271Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-09",
-    "monthUsed": 640,
+    "monthUsed": 647,
     "day": "2026-09-10",
-    "dayUsed": 9,
+    "dayUsed": 16,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -608,11 +624,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 150,
-        "dayUsed": 9,
+        "monthUsed": 157,
+        "dayUsed": 16,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-09-10T14:26:11.905Z"
+        "updatedAt": "2026-09-10T17:53:33.645Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -623,7 +639,7 @@
         "updatedAt": "2026-08-12T10:47:31.352Z"
       }
     },
-    "updatedAt": "2026-09-10T14:26:15.767Z"
+    "updatedAt": "2026-09-10T17:53:37.318Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -666,6 +682,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-09-10T14:26:16.225Z"
+    "ranAt": "2026-09-10T17:53:37.818Z"
   }
 }
