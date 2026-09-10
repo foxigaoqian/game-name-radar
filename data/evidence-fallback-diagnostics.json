@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-09-10T20:51:36.673Z",
+  "generatedAt": "2026-09-10T23:10:21.142Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2532,
+  "pendingSeo": 2534,
   "channelCounts": {
-    "online": 2180,
-    "pending": 332,
-    "wiki": 20
+    "wiki": 23,
+    "online": 2165,
+    "pending": 346
   },
   "fastClassCounts": {
-    "online:pending": 2180,
-    "pending:pending": 332,
-    "wiki:pending": 20
+    "wiki:pending": 23,
+    "online:pending": 2165,
+    "pending:pending": 346
   },
   "strategicCounts": {
+    "wiki:1": 22,
     "online:3": 4,
-    "pending:0": 327,
+    "pending:0": 341,
     "wiki:0": 1,
-    "online:2": 460,
-    "online:1": 1716,
-    "pending:1": 5,
-    "wiki:1": 19
+    "online:2": 461,
+    "online:1": 1700,
+    "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2151
+      "count": 2136
     },
     {
       "id": "itch-newest-web",
-      "count": 2139
+      "count": 2124
     },
     {
       "id": "itch-new-feed",
-      "count": 2095
+      "count": 2080
     },
     {
       "id": "itch-new-popular-web",
-      "count": 440
+      "count": 441
     },
     {
       "id": "itch-popular",
-      "count": 440
+      "count": 441
     },
     {
       "id": "trends-rising-7d",
-      "count": 261
+      "count": 276
     },
     {
       "id": "trends-rising-30d",
-      "count": 167
+      "count": 169
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 120
+      "count": 133
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 85
+      "count": 87
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 41
+      "count": 43
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 20
+      "count": 23
     },
     {
       "id": "itch-featured-feed",
@@ -349,6 +349,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Urbanitas",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1063,25 +1082,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Pongcremental",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
