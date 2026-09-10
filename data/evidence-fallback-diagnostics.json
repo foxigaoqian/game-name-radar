@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-09-10T17:53:06.818Z",
+  "generatedAt": "2026-09-10T20:51:36.673Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2536,
+  "pendingSeo": 2532,
   "channelCounts": {
-    "online": 2181,
+    "online": 2180,
     "pending": 332,
-    "wiki": 23
+    "wiki": 20
   },
   "fastClassCounts": {
-    "online:pending": 2181,
+    "online:pending": 2180,
     "pending:pending": 332,
-    "wiki:pending": 23
+    "wiki:pending": 20
   },
   "strategicCounts": {
     "online:3": 4,
     "pending:0": 327,
     "wiki:0": 1,
-    "online:2": 461,
+    "online:2": 460,
     "online:1": 1716,
-    "wiki:2": 3,
     "pending:1": 5,
     "wiki:1": 19
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2150
+      "count": 2151
     },
     {
       "id": "itch-newest-web",
-      "count": 2138
+      "count": 2139
     },
     {
       "id": "itch-new-feed",
-      "count": 2094
+      "count": 2095
     },
     {
       "id": "itch-new-popular-web",
-      "count": 439
+      "count": 440
     },
     {
       "id": "itch-popular",
-      "count": 439
+      "count": 440
     },
     {
       "id": "trends-rising-7d",
@@ -93,15 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 23
-    },
-    {
-      "id": "steam-latest-indie",
-      "count": 12
-    },
-    {
-      "id": "steam-new",
-      "count": 12
+      "count": 20
     },
     {
       "id": "itch-featured-feed",
@@ -112,15 +103,19 @@
       "count": 9
     },
     {
+      "id": "steam-latest-indie",
+      "count": 9
+    },
+    {
+      "id": "steam-new",
+      "count": 9
+    },
+    {
       "id": "y8-new",
-      "count": 7
+      "count": 5
     },
     {
       "id": "lagged-new",
-      "count": 3
-    },
-    {
-      "id": "crazygames-new",
       "count": 2
     },
     {
@@ -129,6 +124,10 @@
     },
     {
       "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -350,6 +349,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Pokremental",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1064,25 +1082,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Thock Factory",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
