@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-09-10T10:02:57.907Z",
+  "generatedAt": "2026-09-10T14:26:06.702Z",
   "totalCandidates": 3000,
   "pendingSeo": 2536,
   "channelCounts": {
-    "online": 2190,
-    "pending": 333,
-    "wiki": 13
+    "online": 2189,
+    "pending": 332,
+    "wiki": 15
   },
   "fastClassCounts": {
-    "online:pending": 2190,
-    "pending:pending": 333,
-    "wiki:pending": 13
+    "online:pending": 2189,
+    "pending:pending": 332,
+    "wiki:pending": 15
   },
   "strategicCounts": {
     "online:3": 4,
     "pending:0": 327,
     "wiki:0": 1,
-    "online:2": 458,
-    "online:1": 1728,
-    "wiki:2": 1,
-    "pending:1": 6,
-    "wiki:1": 11
+    "online:2": 459,
+    "online:1": 1726,
+    "pending:1": 5,
+    "wiki:1": 14
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2161
+      "count": 2160
     },
     {
       "id": "itch-newest-web",
-      "count": 2149
+      "count": 2148
     },
     {
       "id": "itch-new-feed",
-      "count": 2105
+      "count": 2104
     },
     {
       "id": "itch-new-popular-web",
-      "count": 438
+      "count": 439
     },
     {
       "id": "itch-popular",
-      "count": 438
+      "count": 439
     },
     {
       "id": "trends-rising-7d",
@@ -93,23 +92,23 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 15
     },
     {
       "id": "itch-featured-feed",
-      "count": 10
+      "count": 9
     },
     {
       "id": "itch-featured",
-      "count": 10
+      "count": 9
     },
     {
       "id": "steam-latest-indie",
-      "count": 10
+      "count": 9
     },
     {
       "id": "steam-new",
-      "count": 10
+      "count": 9
     },
     {
       "id": "y8-new",
@@ -211,6 +210,25 @@
         "itch-new-feed",
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Nine Heavens Ascent",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1064,25 +1082,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "The Grand Book Archive: Tidy Up",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
