@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-09-11T18:32:14.566Z",
+  "generatedAt": "2026-09-11T21:18:34.009Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2535,
+  "pendingSeo": 2534,
   "channelCounts": {
     "pending": 350,
-    "online": 2165,
-    "wiki": 20
+    "online": 2162,
+    "wiki": 22
   },
   "fastClassCounts": {
     "pending:pending": 350,
-    "online:pending": 2165,
-    "wiki:pending": 20
+    "online:pending": 2162,
+    "wiki:pending": 22
   },
   "strategicCounts": {
     "pending:0": 346,
     "online:3": 4,
     "wiki:0": 1,
     "online:2": 463,
-    "online:1": 1698,
-    "wiki:2": 1,
+    "online:1": 1695,
     "pending:1": 4,
-    "wiki:1": 18
+    "wiki:1": 21
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2135
+      "count": 2133
     },
     {
       "id": "itch-newest-web",
-      "count": 2122
+      "count": 2120
     },
     {
       "id": "itch-new-feed",
-      "count": 2078
+      "count": 2076
     },
     {
       "id": "itch-new-popular-web",
@@ -93,15 +92,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 20
+      "count": 22
     },
     {
       "id": "steam-latest-indie",
-      "count": 10
+      "count": 9
     },
     {
       "id": "steam-new",
-      "count": 10
+      "count": 9
     },
     {
       "id": "itch-featured-feed",
@@ -121,10 +120,6 @@
     },
     {
       "id": "steam-top-wishlist",
-      "count": 1
-    },
-    {
-      "id": "gamepix-new",
       "count": 1
     },
     {
@@ -277,25 +272,6 @@
       ]
     },
     {
-      "name": "DownShaft",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -434,6 +410,25 @@
     },
     {
       "name": "Kick The Piñata!",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "DownShaft",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
