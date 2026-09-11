@@ -1,50 +1,51 @@
 {
-  "generatedAt": "2026-09-11T21:18:34.009Z",
+  "generatedAt": "2026-09-11T23:32:14.334Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2534,
+  "pendingSeo": 2533,
   "channelCounts": {
-    "pending": 350,
-    "online": 2162,
-    "wiki": 22
+    "pending": 351,
+    "online": 2159,
+    "wiki": 23
   },
   "fastClassCounts": {
-    "pending:pending": 350,
-    "online:pending": 2162,
-    "wiki:pending": 22
+    "pending:pending": 351,
+    "online:pending": 2159,
+    "wiki:pending": 23
   },
   "strategicCounts": {
-    "pending:0": 346,
+    "pending:0": 347,
     "online:3": 4,
     "wiki:0": 1,
-    "online:2": 463,
-    "online:1": 1695,
+    "online:2": 464,
+    "online:1": 1691,
+    "wiki:2": 1,
     "pending:1": 4,
     "wiki:1": 21
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2133
+      "count": 2130
     },
     {
       "id": "itch-newest-web",
-      "count": 2120
+      "count": 2117
     },
     {
       "id": "itch-new-feed",
-      "count": 2076
+      "count": 2073
     },
     {
       "id": "itch-new-popular-web",
-      "count": 443
+      "count": 445
     },
     {
       "id": "itch-popular",
-      "count": 443
+      "count": 445
     },
     {
       "id": "trends-rising-7d",
-      "count": 279
+      "count": 280
     },
     {
       "id": "trends-rising-30d",
@@ -60,7 +61,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 87
+      "count": 88
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 22
+      "count": 23
     },
     {
       "id": "steam-latest-indie",
-      "count": 9
+      "count": 10
     },
     {
       "id": "steam-new",
-      "count": 9
+      "count": 10
     },
     {
       "id": "itch-featured-feed",
@@ -112,7 +113,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -322,6 +323,44 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Necromancer Incremental Graveyard",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Knucklehead",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1044,44 +1083,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Heart of Stars",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "THE WARM ROOM",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
