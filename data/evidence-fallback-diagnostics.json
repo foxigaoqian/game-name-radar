@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-11T01:04:05.148Z",
+  "generatedAt": "2026-09-11T05:58:01.257Z",
   "totalCandidates": 3000,
   "pendingSeo": 2533,
   "channelCounts": {
-    "online": 2170,
-    "pending": 346,
-    "wiki": 17
+    "online": 2168,
+    "pending": 347,
+    "wiki": 18
   },
   "fastClassCounts": {
-    "online:pending": 2170,
-    "pending:pending": 346,
-    "wiki:pending": 17
+    "online:pending": 2168,
+    "pending:pending": 347,
+    "wiki:pending": 18
   },
   "strategicCounts": {
     "online:3": 4,
-    "pending:0": 341,
+    "pending:0": 342,
     "wiki:0": 1,
     "online:2": 461,
-    "online:1": 1705,
+    "online:1": 1703,
+    "wiki:2": 1,
     "pending:1": 5,
     "wiki:1": 16
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2141
+      "count": 2139
     },
     {
       "id": "itch-newest-web",
-      "count": 2129
+      "count": 2127
     },
     {
       "id": "itch-new-feed",
-      "count": 2084
+      "count": 2082
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +45,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 275
+      "count": 276
     },
     {
       "id": "trends-rising-30d",
@@ -64,7 +65,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 63
+      "count": 64
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -92,7 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 17
+      "count": 18
+    },
+    {
+      "id": "steam-latest-indie",
+      "count": 10
+    },
+    {
+      "id": "steam-new",
+      "count": 10
     },
     {
       "id": "itch-featured-feed",
@@ -100,14 +109,6 @@
     },
     {
       "id": "itch-featured",
-      "count": 9
-    },
-    {
-      "id": "steam-latest-indie",
-      "count": 9
-    },
-    {
-      "id": "steam-new",
       "count": 9
     },
     {
@@ -291,25 +292,6 @@
       ]
     },
     {
-      "name": "OutRun · Arcade 3D",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -474,6 +456,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "OutRun · Arcade 3D",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
