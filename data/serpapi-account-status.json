@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-11T23:32:17.449Z",
+  "checkedAt": "2026-09-12T01:33:40.671Z",
   "accountApiConsumesSearchCredits": false,
   "configuredKeys": 4,
   "workingKeys": 4,
   "uniqueAccountCount": 4,
   "duplicateKeyGroups": [],
-  "totalIndependentSearchesLeft": 334,
+  "totalIndependentSearchesLeft": 331,
   "accounts": [
     {
       "accountFingerprint": "5dfaa092f348",
@@ -36,8 +36,8 @@
       ],
       "planName": "Free Plan",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 176,
-      "totalSearchesLeft": 74,
+      "thisMonthUsage": 179,
+      "totalSearchesLeft": 71,
       "renewalDate": "2026-09-29"
     },
     {
@@ -69,7 +69,7 @@
       "planSearchesLeft": 5,
       "totalSearchesLeft": 5,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-11T23:32:17.364Z",
+      "checkedAt": "2026-09-12T01:33:40.607Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -89,7 +89,7 @@
       "planSearchesLeft": 5,
       "totalSearchesLeft": 5,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-11T23:32:17.393Z",
+      "checkedAt": "2026-09-12T01:33:40.627Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -105,11 +105,11 @@
       "planMonthlyPrice": 0,
       "renewalDate": "2026-09-29",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 176,
-      "planSearchesLeft": 74,
-      "totalSearchesLeft": 74,
+      "thisMonthUsage": 179,
+      "planSearchesLeft": 71,
+      "totalSearchesLeft": 71,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-11T23:32:17.421Z",
+      "checkedAt": "2026-09-12T01:33:40.649Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -129,7 +129,7 @@
       "planSearchesLeft": 250,
       "totalSearchesLeft": 250,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-11T23:32:17.449Z",
+      "checkedAt": "2026-09-12T01:33:40.670Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },

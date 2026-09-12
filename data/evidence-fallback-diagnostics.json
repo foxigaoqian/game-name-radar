@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-09-11T23:32:14.334Z",
+  "generatedAt": "2026-09-12T01:33:37.283Z",
   "totalCandidates": 3000,
   "pendingSeo": 2533,
   "channelCounts": {
     "pending": 351,
-    "online": 2159,
-    "wiki": 23
+    "online": 2169,
+    "wiki": 13
   },
   "fastClassCounts": {
     "pending:pending": 351,
-    "online:pending": 2159,
-    "wiki:pending": 23
+    "online:pending": 2169,
+    "wiki:pending": 13
   },
   "strategicCounts": {
     "pending:0": 347,
     "online:3": 4,
     "wiki:0": 1,
     "online:2": 464,
-    "online:1": 1691,
-    "wiki:2": 1,
+    "online:1": 1701,
     "pending:1": 4,
-    "wiki:1": 21
+    "wiki:1": 12
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2130
+      "count": 2140
     },
     {
       "id": "itch-newest-web",
-      "count": 2117
+      "count": 2127
     },
     {
       "id": "itch-new-feed",
-      "count": 2073
+      "count": 2083
     },
     {
       "id": "itch-new-popular-web",
@@ -93,15 +92,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 23
+      "count": 13
     },
     {
       "id": "steam-latest-indie",
-      "count": 10
+      "count": 9
     },
     {
       "id": "steam-new",
-      "count": 10
+      "count": 9
     },
     {
       "id": "itch-featured-feed",
@@ -236,25 +235,6 @@
     },
     {
       "name": "Running God",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Treeternal Demo",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -456,6 +436,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Treeternal Demo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
