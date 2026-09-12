@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-12T01:33:37.283Z",
+  "generatedAt": "2026-09-12T06:31:29.978Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2533,
+  "pendingSeo": 2534,
   "channelCounts": {
-    "pending": 351,
-    "online": 2169,
-    "wiki": 13
+    "pending": 358,
+    "online": 2161,
+    "wiki": 15
   },
   "fastClassCounts": {
-    "pending:pending": 351,
-    "online:pending": 2169,
-    "wiki:pending": 13
+    "pending:pending": 358,
+    "online:pending": 2161,
+    "wiki:pending": 15
   },
   "strategicCounts": {
-    "pending:0": 347,
+    "pending:0": 354,
     "online:3": 4,
     "wiki:0": 1,
     "online:2": 464,
-    "online:1": 1701,
+    "online:1": 1693,
+    "wiki:2": 1,
     "pending:1": 4,
-    "wiki:1": 12
+    "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2140
+      "count": 2132
     },
     {
       "id": "itch-newest-web",
-      "count": 2127
+      "count": 2119
     },
     {
       "id": "itch-new-feed",
-      "count": 2083
+      "count": 2075
     },
     {
       "id": "itch-new-popular-web",
@@ -44,15 +45,15 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 280
+      "count": 288
     },
     {
       "id": "trends-rising-30d",
-      "count": 173
+      "count": 175
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 135
+      "count": 140
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -60,19 +61,19 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 88
+      "count": 90
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 64
+      "count": 65
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 45
+      "count": 46
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 42
+      "count": 43
     },
     {
       "id": "newgrounds-latest",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 15
     },
     {
       "id": "steam-latest-indie",
-      "count": 9
+      "count": 10
     },
     {
       "id": "steam-new",
-      "count": 9
+      "count": 10
     },
     {
       "id": "itch-featured-feed",
@@ -216,25 +217,6 @@
     },
     {
       "name": "Nine Heavens Ascent",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Running God",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -436,6 +418,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Running God",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
