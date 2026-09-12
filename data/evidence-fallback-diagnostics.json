@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-12T17:09:04.230Z",
+  "generatedAt": "2026-09-12T19:19:37.962Z",
   "totalCandidates": 3000,
   "pendingSeo": 2534,
   "channelCounts": {
-    "pending": 357,
-    "online": 2161,
+    "pending": 356,
+    "online": 2162,
     "wiki": 16
   },
   "fastClassCounts": {
-    "pending:pending": 357,
-    "online:pending": 2161,
+    "pending:pending": 356,
+    "online:pending": 2162,
     "wiki:pending": 16
   },
   "strategicCounts": {
     "pending:0": 355,
-    "online:3": 4,
+    "online:3": 5,
     "wiki:0": 1,
-    "online:2": 467,
-    "online:1": 1690,
-    "pending:1": 2,
+    "online:2": 466,
+    "online:1": 1691,
+    "pending:1": 1,
     "wiki:1": 15
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2132
+      "count": 2133
     },
     {
       "id": "itch-newest-web",
-      "count": 2119
+      "count": 2120
     },
     {
       "id": "itch-new-feed",
-      "count": 2074
+      "count": 2075
     },
     {
       "id": "itch-new-popular-web",
@@ -170,6 +170,27 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Sharpest Spear",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 3,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1056,25 +1077,6 @@
     },
     {
       "name": "Eternal Fortress",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Industrial Knowledge",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
