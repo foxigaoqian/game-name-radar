@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-09-12T14:10:31.727Z",
+  "generatedAt": "2026-09-12T17:09:04.230Z",
   "totalCandidates": 3000,
   "pendingSeo": 2534,
   "channelCounts": {
-    "pending": 356,
-    "online": 2162,
+    "pending": 357,
+    "online": 2161,
     "wiki": 16
   },
   "fastClassCounts": {
-    "pending:pending": 356,
-    "online:pending": 2162,
+    "pending:pending": 357,
+    "online:pending": 2161,
     "wiki:pending": 16
   },
   "strategicCounts": {
-    "pending:0": 354,
+    "pending:0": 355,
     "online:3": 4,
     "wiki:0": 1,
-    "online:2": 466,
-    "online:1": 1692,
+    "online:2": 467,
+    "online:1": 1690,
     "pending:1": 2,
     "wiki:1": 15
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2133
+      "count": 2132
     },
     {
       "id": "itch-newest-web",
-      "count": 2120
+      "count": 2119
     },
     {
       "id": "itch-new-feed",
-      "count": 2075
+      "count": 2074
     },
     {
       "id": "itch-new-popular-web",
-      "count": 447
+      "count": 448
     },
     {
       "id": "itch-popular",
-      "count": 447
+      "count": 448
     },
     {
       "id": "trends-rising-7d",
-      "count": 288
+      "count": 289
     },
     {
       "id": "trends-rising-30d",
-      "count": 176
+      "count": 177
     },
     {
       "id": "trends-rising-7d-horror-game",
       "count": 140
     },
     {
-      "id": "trends-rising-30d-horror-game",
+      "id": "trends-rising-7d-indie-game",
       "count": 91
     },
     {
-      "id": "trends-rising-7d-indie-game",
-      "count": 90
+      "id": "trends-rising-30d-horror-game",
+      "count": 91
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 44
+      "count": 45
     },
     {
       "id": "newgrounds-latest",
@@ -292,6 +292,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "SplitTrain",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
       ]
     },
     {
@@ -1056,25 +1075,6 @@
     },
     {
       "name": "Industrial Knowledge",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Scratch It! Lucky Cards",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
