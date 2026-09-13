@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-13T06:46:44.262Z",
+  "generatedAt": "2026-09-13T12:19:59.910Z",
   "totalCandidates": 3000,
   "pendingSeo": 2534,
   "channelCounts": {
-    "pending": 359,
-    "online": 2170,
+    "pending": 361,
+    "online": 2168,
     "wiki": 5
   },
   "fastClassCounts": {
-    "pending:pending": 359,
-    "online:pending": 2170,
+    "pending:pending": 361,
+    "online:pending": 2168,
     "wiki:pending": 5
   },
   "strategicCounts": {
-    "pending:0": 358,
-    "online:3": 6,
+    "pending:0": 360,
+    "online:3": 5,
     "wiki:0": 1,
-    "online:2": 467,
-    "online:1": 1697,
+    "online:2": 469,
+    "online:1": 1694,
     "pending:1": 1,
     "wiki:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2141
+      "count": 2138
     },
     {
       "id": "itch-newest-web",
-      "count": 2128
+      "count": 2125
     },
     {
       "id": "itch-new-feed",
-      "count": 2083
+      "count": 2080
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +44,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 292
+      "count": 293
     },
     {
       "id": "trends-rising-30d",
-      "count": 181
+      "count": 182
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,11 +56,11 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 93
+      "count": 94
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 92
+      "count": 93
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -76,11 +76,11 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-new",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-daily-top",
@@ -107,11 +107,11 @@
       "count": 6
     },
     {
-      "id": "steam-popular-new",
-      "count": 5
+      "id": "y8-new",
+      "count": 6
     },
     {
-      "id": "y8-new",
+      "id": "steam-popular-new",
       "count": 5
     },
     {
@@ -120,6 +120,10 @@
     },
     {
       "id": "steam-top-wishlist",
+      "count": 1
+    },
+    {
+      "id": "gamepix-new",
       "count": 1
     },
     {
@@ -132,27 +136,6 @@
     }
   ],
   "samples": [
-    {
-      "name": "Picture Day",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 3,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "newgrounds-latest",
-        "newgrounds-new"
-      ]
-    },
     {
       "name": "Inkarn8: First Pages",
       "channel": "online",
@@ -372,6 +355,25 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
+      ]
+    },
+    {
+      "name": "Densen Suzume (Power Lines & Sparrows)",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
