@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-12T23:22:58.452Z",
+  "generatedAt": "2026-09-13T01:25:32.823Z",
   "totalCandidates": 3000,
   "pendingSeo": 2534,
   "channelCounts": {
-    "pending": 356,
+    "pending": 366,
     "online": 2161,
-    "wiki": 17
+    "wiki": 7
   },
   "fastClassCounts": {
-    "pending:pending": 356,
+    "pending:pending": 366,
     "online:pending": 2161,
-    "wiki:pending": 17
+    "wiki:pending": 7
   },
   "strategicCounts": {
-    "pending:0": 355,
+    "pending:0": 357,
     "online:3": 5,
     "wiki:0": 1,
-    "online:2": 466,
-    "online:1": 1690,
-    "pending:1": 1,
-    "wiki:1": 16
+    "online:2": 467,
+    "online:1": 1689,
+    "pending:1": 9,
+    "wiki:1": 6
   },
   "topSources": [
     {
@@ -36,27 +36,27 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 448
+      "count": 449
     },
     {
       "id": "itch-popular",
-      "count": 448
+      "count": 449
     },
     {
       "id": "trends-rising-7d",
-      "count": 289
+      "count": 292
     },
     {
       "id": "trends-rising-30d",
-      "count": 178
+      "count": 179
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 140
+      "count": 142
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 91
+      "count": 92
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 45
+      "count": 46
     },
     {
       "id": "newgrounds-latest",
@@ -91,8 +91,12 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 17
+      "id": "itch-featured-feed",
+      "count": 14
+    },
+    {
+      "id": "itch-featured",
+      "count": 14
     },
     {
       "id": "steam-latest-indie",
@@ -103,12 +107,8 @@
       "count": 10
     },
     {
-      "id": "itch-featured-feed",
-      "count": 6
-    },
-    {
-      "id": "itch-featured",
-      "count": 6
+      "id": "steam-popular-new",
+      "count": 7
     },
     {
       "id": "y8-new",
@@ -294,6 +294,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "ReplicART",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1058,25 +1077,6 @@
     },
     {
       "name": "Eleven Thousand: Deep",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Eternal Fortress",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
