@@ -1,16 +1,16 @@
 {
-  "scannedAt": "2026-09-14T19:20:53.440Z",
+  "scannedAt": "2026-09-14T22:44:54.154Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 200,
+  "totalAdded": 151,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 36
+      "added": 34
     },
     {
       "ok": true,
@@ -24,35 +24,35 @@
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 36
+      "added": 34
     },
     {
       "ok": true,
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 1
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 49,
-      "added": 1
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 5
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 46
+      "added": 4
     },
     {
       "ok": true,
@@ -66,28 +66,28 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 5
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 2
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
       "total": 156,
-      "added": 5
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 40
+      "added": 29
     },
     {
       "ok": true,
@@ -104,47 +104,53 @@
       "added": 0
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 8,
+      "added": 3
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 14,
+      "added": 7
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 6,
+      "added": 2
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 8,
+      "added": 3
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 4,
+      "added": 0
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "error": "Unexpected token '<', \"<html lang\"... is not valid JSON"
+      "total": 14,
+      "added": 4
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
   "fastPassedCount": 244,
-  "fastWatchCount": 221,
+  "fastWatchCount": 223,
   "fastRejectedCount": 5,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
@@ -157,24 +163,24 @@
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 346,
+  "seoPassedCount": 348,
   "trendEligibleCount": 176,
-  "trendPendingCount": 169,
-  "trendValidatedCount": 280,
+  "trendPendingCount": 168,
+  "trendValidatedCount": 283,
   "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 3,
-    "watch": 368,
-    "reject": 0,
-    "pending": 2629,
+    "watch": 370,
+    "reject": 1,
+    "pending": 2626,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 280
+    "serpapi": 283
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -189,7 +195,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-14T19:20:52.222Z",
+    "checkedAt": "2026-09-14T22:44:52.879Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -215,7 +221,7 @@
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
     "duckduckgo+autocomplete": 103,
-    "evidence-fallback": 123,
+    "evidence-fallback": 126,
     "serper+autocomplete": 247
   },
   "serperConfigured": true,
@@ -245,16 +251,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2488,
-    "wiki": 43,
-    "pending": 469
+    "online": 2486,
+    "wiki": 46,
+    "pending": 468
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 1,
-    "weak": 41
+    "weak": 44
   },
   "serperVerification": {
     "rushMode": true,
@@ -267,7 +273,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 81,
+    "queueSize": 82,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -277,32 +283,33 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-14T19:21:23.878Z"
+    "ranAt": "2026-09-14T22:45:25.356Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2530,
-    "eligibleCount": 2,
-    "queueSize": 2,
-    "verified": 2,
+    "pendingCount": 2528,
+    "eligibleCount": 3,
+    "queueSize": 3,
+    "verified": 3,
     "channelVerified": {
-      "online": 0,
-      "wiki": 2,
+      "online": 2,
+      "wiki": 1,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 0,
-      "watch": 2,
+      "pass": 2,
+      "watch": 1,
       "weak": 0,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "TCG Card Shop Simulator",
-      "Fish Lab"
+      "geometry dash",
+      "Dicebound Survivors",
+      "Tenebris: Terra Incognita"
     ],
-    "ranAt": "2026-09-14T19:21:24.688Z"
+    "ranAt": "2026-09-14T22:45:26.133Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -326,16 +333,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-14T19:21:27.663Z"
+    "ranAt": "2026-09-14T22:45:29.230Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-14T19:21:28.061Z",
+    "checkedAt": "2026-09-14T22:45:29.649Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 295,
+    "totalIndependentSearchesLeft": 292,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -366,8 +373,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 215,
-        "totalSearchesLeft": 35,
+        "thisMonthUsage": 218,
+        "totalSearchesLeft": 32,
         "renewalDate": "2026-09-29"
       },
       {
@@ -399,7 +406,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T19:21:27.867Z",
+        "checkedAt": "2026-09-14T22:45:29.412Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -419,7 +426,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T19:21:27.928Z",
+        "checkedAt": "2026-09-14T22:45:29.551Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -435,11 +442,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-09-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 215,
-        "planSearchesLeft": 35,
-        "totalSearchesLeft": 35,
+        "thisMonthUsage": 218,
+        "planSearchesLeft": 32,
+        "totalSearchesLeft": 32,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T19:21:27.998Z",
+        "checkedAt": "2026-09-14T22:45:29.600Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -459,7 +466,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T19:21:28.060Z",
+        "checkedAt": "2026-09-14T22:45:29.648Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -474,12 +481,12 @@
   },
   "channelOpportunityCounts": {
     "online": {
-      "validated": 242,
+      "validated": 244,
       "rising": 1,
       "recommended": 0
     },
     "wiki": {
-      "validated": 37,
+      "validated": 38,
       "rising": 2,
       "recommended": 0
     },
@@ -492,19 +499,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 275,
+    "remainingAtStart": 272,
     "queueSize": 3,
     "verified": 3,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 1,
-      "secondary": 2,
+      "strong": 2,
+      "secondary": 1,
       "strategic": 0
     },
     "channelVerified": {
-      "online": 1,
-      "wiki": 2,
+      "online": 2,
+      "wiki": 1,
       "pending": 0
     },
     "pendingByTier": {
@@ -517,9 +524,9 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Noob vs Pro : Drift Tag",
-      "Fish Lab",
-      "TCG Card Shop Simulator"
+      "geometry dash",
+      "Dicebound Survivors",
+      "Tenebris: Terra Incognita"
     ],
     "caps": {
       "online": 999,
@@ -560,8 +567,8 @@
         "error": null,
         "verified": 3,
         "channelVerified": {
-          "online": 1,
-          "wiki": 2,
+          "online": 2,
+          "wiki": 1,
           "pending": 0
         },
         "errors": 0,
@@ -581,16 +588,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-14T19:21:37.339Z"
+    "ranAt": "2026-09-14T22:45:39.781Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-09",
-    "monthUsed": 708,
+    "monthUsed": 711,
     "day": "2026-09-14",
-    "dayUsed": 16,
+    "dayUsed": 19,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -612,11 +619,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 218,
-        "dayUsed": 16,
+        "monthUsed": 221,
+        "dayUsed": 19,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-09-14T19:21:34.348Z"
+        "updatedAt": "2026-09-14T22:45:35.650Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -627,7 +634,7 @@
         "updatedAt": "2026-08-12T10:47:31.352Z"
       }
     },
-    "updatedAt": "2026-09-14T19:21:37.388Z"
+    "updatedAt": "2026-09-14T22:45:39.833Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -670,6 +677,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-09-14T19:21:37.879Z"
+    "ranAt": "2026-09-14T22:45:40.324Z"
   }
 }
