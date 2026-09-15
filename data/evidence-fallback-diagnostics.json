@@ -1,54 +1,55 @@
 {
-  "generatedAt": "2026-09-15T11:43:05.343Z",
+  "generatedAt": "2026-09-15T15:42:22.133Z",
   "totalCandidates": 3000,
   "pendingSeo": 2526,
   "channelCounts": {
-    "pending": 370,
-    "online": 2148,
-    "wiki": 8
+    "online": 2142,
+    "pending": 371,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "pending:pending": 370,
-    "online:pending": 2148,
-    "wiki:pending": 8
+    "online:pending": 2142,
+    "pending:pending": 371,
+    "wiki:pending": 13
   },
   "strategicCounts": {
-    "pending:0": 367,
+    "online:1": 1656,
+    "pending:0": 368,
     "online:3": 5,
     "wiki:0": 1,
-    "online:2": 478,
-    "online:1": 1665,
+    "online:2": 481,
+    "wiki:2": 1,
     "pending:1": 3,
-    "wiki:1": 7
+    "wiki:1": 11
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2120
+      "count": 2113
     },
     {
       "id": "itch-newest-web",
-      "count": 2106
+      "count": 2098
     },
     {
       "id": "itch-new-feed",
-      "count": 2059
+      "count": 2052
     },
     {
       "id": "itch-new-popular-web",
-      "count": 460
+      "count": 462
     },
     {
       "id": "itch-popular",
-      "count": 460
+      "count": 462
     },
     {
       "id": "trends-rising-7d",
-      "count": 299
+      "count": 300
     },
     {
       "id": "trends-rising-30d",
-      "count": 190
+      "count": 194
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 97
+      "count": 100
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,7 +65,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 66
+      "count": 67
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +73,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 46
+      "count": 47
     },
     {
       "id": "newgrounds-latest",
@@ -92,11 +93,15 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 10
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 10
+      "count": 12
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 12
     },
     {
       "id": "itch-featured-feed",
@@ -107,16 +112,12 @@
       "count": 8
     },
     {
-      "id": "steam-popular-new",
-      "count": 8
-    },
-    {
       "id": "y8-new",
-      "count": 5
+      "count": 7
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "steam-top-wishlist",
@@ -236,6 +237,25 @@
       ]
     },
     {
+      "name": "Coin fall",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
+      ]
+    },
+    {
       "name": "Average and generic SPRUNKI SHIFTED mod",
       "channel": "online",
       "fastClass": "pending",
@@ -332,6 +352,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Trust the System",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1046,44 +1085,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Chaotic Pets",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "dead_center",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
