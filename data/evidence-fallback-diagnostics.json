@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-15T15:42:22.133Z",
+  "generatedAt": "2026-09-15T19:12:46.041Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2526,
+  "pendingSeo": 2523,
   "channelCounts": {
-    "online": 2142,
-    "pending": 371,
-    "wiki": 13
+    "pending": 370,
+    "wiki": 15,
+    "online": 2138
   },
   "fastClassCounts": {
-    "online:pending": 2142,
-    "pending:pending": 371,
-    "wiki:pending": 13
+    "pending:pending": 370,
+    "wiki:pending": 15,
+    "online:pending": 2138
   },
   "strategicCounts": {
-    "online:1": 1656,
-    "pending:0": 368,
+    "pending:0": 367,
+    "wiki:1": 13,
     "online:3": 5,
     "wiki:0": 1,
-    "online:2": 481,
+    "online:2": 482,
+    "online:1": 1651,
     "wiki:2": 1,
-    "pending:1": 3,
-    "wiki:1": 11
+    "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2113
+      "count": 2110
     },
     {
       "id": "itch-newest-web",
-      "count": 2098
+      "count": 2096
     },
     {
       "id": "itch-new-feed",
-      "count": 2052
+      "count": 2048
     },
     {
       "id": "itch-new-popular-web",
-      "count": 462
+      "count": 464
     },
     {
       "id": "itch-popular",
-      "count": 462
+      "count": 464
     },
     {
       "id": "trends-rising-7d",
@@ -49,7 +49,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 194
+      "count": 195
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -73,7 +73,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 47
+      "count": 48
     },
     {
       "id": "newgrounds-latest",
@@ -92,16 +92,16 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 15
+    },
+    {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 11
     },
     {
       "id": "steam-new",
-      "count": 12
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 12
+      "count": 11
     },
     {
       "id": "itch-featured-feed",
@@ -113,11 +113,11 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 5
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "steam-top-wishlist",
@@ -256,14 +256,14 @@
       ]
     },
     {
-      "name": "Average and generic SPRUNKI SHIFTED mod",
+      "name": "Snake Digits 🐍🖐",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
       "discoveryScore": 17,
       "platforms": 1,
       "browserPlayable": true,
-      "nameRisk": 3,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "name": "Crimson Nova: The Star Gear Jobs",
+      "name": "Average and generic SPRUNKI SHIFTED mod",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -420,6 +420,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Crimson Nova: The Star Gear Jobs",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1066,25 +1085,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Revive My Wounds",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
