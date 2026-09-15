@@ -1,59 +1,58 @@
 {
-  "generatedAt": "2026-09-15T19:12:46.041Z",
+  "generatedAt": "2026-09-15T22:13:31.335Z",
   "totalCandidates": 3000,
   "pendingSeo": 2523,
   "channelCounts": {
-    "pending": 370,
-    "wiki": 15,
-    "online": 2138
+    "pending": 373,
+    "online": 2137,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "pending:pending": 370,
-    "wiki:pending": 15,
-    "online:pending": 2138
+    "pending:pending": 373,
+    "online:pending": 2137,
+    "wiki:pending": 13
   },
   "strategicCounts": {
-    "pending:0": 367,
-    "wiki:1": 13,
+    "pending:0": 370,
     "online:3": 5,
     "wiki:0": 1,
-    "online:2": 482,
-    "online:1": 1651,
-    "wiki:2": 1,
-    "pending:1": 3
+    "online:2": 484,
+    "online:1": 1648,
+    "pending:1": 3,
+    "wiki:1": 12
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2110
+      "count": 2109
     },
     {
       "id": "itch-newest-web",
-      "count": 2096
+      "count": 2095
     },
     {
       "id": "itch-new-feed",
-      "count": 2048
+      "count": 2047
     },
     {
       "id": "itch-new-popular-web",
-      "count": 464
+      "count": 466
     },
     {
       "id": "itch-popular",
-      "count": 464
+      "count": 466
     },
     {
       "id": "trends-rising-7d",
-      "count": 300
+      "count": 302
     },
     {
       "id": "trends-rising-30d",
-      "count": 195
+      "count": 197
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 145
+      "count": 146
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -65,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 67
+      "count": 68
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -73,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 48
+      "count": 50
     },
     {
       "id": "newgrounds-latest",
@@ -93,15 +92,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 15
+      "count": 13
     },
     {
       "id": "steam-latest-indie",
-      "count": 11
+      "count": 10
     },
     {
       "id": "steam-new",
-      "count": 11
+      "count": 10
     },
     {
       "id": "itch-featured-feed",
@@ -237,6 +236,25 @@
       ]
     },
     {
+      "name": "Nomnado",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Coin fall",
       "channel": "online",
       "fastClass": "pending",
@@ -275,14 +293,14 @@
       ]
     },
     {
-      "name": "Average and generic SPRUNKI SHIFTED mod",
+      "name": "GRAVITY: One Button Space Run",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
       "discoveryScore": 17,
       "platforms": 1,
       "browserPlayable": true,
-      "nameRisk": 3,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -294,14 +312,14 @@
       ]
     },
     {
-      "name": "Chthonic Plant​",
+      "name": "Average and generic SPRUNKI SHIFTED mod",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
       "discoveryScore": 17,
       "platforms": 1,
       "browserPlayable": true,
-      "nameRisk": 0,
+      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -458,6 +476,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Chthonic Plant​",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1047,44 +1084,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Graveyard Orbit",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Something Strange",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
