@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-09-15T06:10:08.643Z",
+  "generatedAt": "2026-09-15T11:43:05.343Z",
   "totalCandidates": 3000,
   "pendingSeo": 2526,
   "channelCounts": {
-    "online": 2152,
-    "pending": 368,
-    "wiki": 6
+    "pending": 370,
+    "online": 2148,
+    "wiki": 8
   },
   "fastClassCounts": {
-    "online:pending": 2152,
-    "pending:pending": 368,
-    "wiki:pending": 6
+    "pending:pending": 370,
+    "online:pending": 2148,
+    "wiki:pending": 8
   },
   "strategicCounts": {
-    "online:1": 1671,
-    "pending:0": 365,
+    "pending:0": 367,
     "online:3": 5,
     "wiki:0": 1,
-    "online:2": 476,
+    "online:2": 478,
+    "online:1": 1665,
     "pending:1": 3,
-    "wiki:1": 5
+    "wiki:1": 7
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2123
+      "count": 2120
     },
     {
       "id": "itch-newest-web",
-      "count": 2109
+      "count": 2106
     },
     {
       "id": "itch-new-feed",
-      "count": 2062
+      "count": 2059
     },
     {
       "id": "itch-new-popular-web",
-      "count": 458
+      "count": 460
     },
     {
       "id": "itch-popular",
-      "count": 458
+      "count": 460
     },
     {
       "id": "trends-rising-7d",
-      "count": 298
+      "count": 299
     },
     {
       "id": "trends-rising-30d",
-      "count": 191
+      "count": 190
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 143
+      "count": 145
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 67
+      "count": 66
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 47
+      "count": 46
     },
     {
       "id": "newgrounds-latest",
@@ -107,12 +107,12 @@
       "count": 8
     },
     {
-      "id": "y8-new",
-      "count": 6
+      "id": "steam-popular-new",
+      "count": 8
     },
     {
-      "id": "steam-popular-new",
-      "count": 6
+      "id": "y8-new",
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -236,6 +236,25 @@
       ]
     },
     {
+      "name": "Average and generic SPRUNKI SHIFTED mod",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 3,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Crimson Nova: The Star Gear Jobs",
       "channel": "online",
       "fastClass": "pending",
@@ -263,25 +282,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Endless Void: Idle Tower Defence Demo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -332,6 +332,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Dungeon Juice",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -427,6 +446,25 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
+      ]
+    },
+    {
+      "name": "Endless Void: Idle Tower Defence Demo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 3,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1039,44 +1077,6 @@
     },
     {
       "name": "dead_center",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Green Friends",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "BREAKAWAY - Incremental Cycling",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
