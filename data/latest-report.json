@@ -1,30 +1,30 @@
 {
-  "scannedAt": "2026-09-14T22:44:54.154Z",
+  "scannedAt": "2026-09-15T00:55:48.609Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 151,
+  "totalAdded": 86,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 34
+      "added": 33
     },
     {
       "ok": true,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 4
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 34
+      "added": 36
     },
     {
       "ok": true,
@@ -52,7 +52,7 @@
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 4
+      "added": 1
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 4
+      "added": 3
     },
     {
       "ok": true,
@@ -79,22 +79,22 @@
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 156,
-      "added": 0
+      "total": 157,
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 29
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "gamepix-new",
       "sourceName": "GamePix 新游戏",
       "total": 60,
-      "added": 19
+      "added": 0
     },
     {
       "ok": true,
@@ -102,71 +102,29 @@
       "sourceName": "Lagged 新游戏",
       "total": 82,
       "added": 0
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-7d-itch-io",
-      "sourceName": "Trends上涨 7天 · itch io",
-      "total": 8,
-      "added": 3
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-30d-itch-io",
-      "sourceName": "Trends上涨 30天 · itch io",
-      "total": 14,
-      "added": 7
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-7d-indie-game",
-      "sourceName": "Trends上涨 7天 · indie game",
-      "total": 6,
-      "added": 2
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-30d-indie-game",
-      "sourceName": "Trends上涨 30天 · indie game",
-      "total": 8,
-      "added": 3
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-7d-horror-game",
-      "sourceName": "Trends上涨 7天 · horror game",
-      "total": 4,
-      "added": 0
-    },
-    {
-      "ok": true,
-      "sourceId": "trends-rising-30d-horror-game",
-      "sourceName": "Trends上涨 30天 · horror game",
-      "total": 14,
-      "added": 4
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
-  "fastPassedCount": 244,
-  "fastWatchCount": 223,
+  "fastPassedCount": 245,
+  "fastWatchCount": 224,
   "fastRejectedCount": 5,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 3,
+  "trendsVerified": 0,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
-  "risingDiscoveryRan": true,
+  "risingDiscoveryRan": false,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 348,
-  "trendEligibleCount": 176,
+  "seoPassedCount": 350,
+  "trendEligibleCount": 177,
   "trendPendingCount": 168,
-  "trendValidatedCount": 283,
+  "trendValidatedCount": 282,
   "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
@@ -174,20 +132,20 @@
     "test-now": 0,
     "page": 3,
     "watch": 370,
-    "reject": 1,
-    "pending": 2626,
+    "reject": 0,
+    "pending": 2627,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 283
+    "serpapi": 282
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
     "enabled": true,
     "month": "2026-09",
     "monthUsed": 245,
-    "day": "2026-09-14",
+    "day": "2026-09-15",
     "dayUsed": 0,
     "monthlyLimit": 245,
     "dailyLimit": 245,
@@ -195,7 +153,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-14T22:44:52.879Z",
+    "checkedAt": "2026-09-15T00:55:47.515Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -221,7 +179,7 @@
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
     "duckduckgo+autocomplete": 103,
-    "evidence-fallback": 126,
+    "evidence-fallback": 125,
     "serper+autocomplete": 247
   },
   "serperConfigured": true,
@@ -239,7 +197,7 @@
   "googleCseUsage": {
     "enabled": false,
     "configuredSlots": 0,
-    "day": "2026-09-14",
+    "day": "2026-09-15",
     "totalDayUsed": 0,
     "totalDailyLimit": 0,
     "slots": {},
@@ -273,7 +231,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 82,
+    "queueSize": 81,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -283,33 +241,29 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-14T22:45:25.356Z"
+    "ranAt": "2026-09-15T00:56:00.103Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2528,
-    "eligibleCount": 3,
-    "queueSize": 3,
-    "verified": 3,
+    "pendingCount": 2526,
+    "eligibleCount": 0,
+    "queueSize": 0,
+    "verified": 0,
     "channelVerified": {
-      "online": 2,
-      "wiki": 1,
+      "online": 0,
+      "wiki": 0,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 2,
-      "watch": 1,
+      "pass": 0,
+      "watch": 0,
       "weak": 0,
       "reject": 0,
       "pending": 0
     },
-    "verifiedNames": [
-      "geometry dash",
-      "Dicebound Survivors",
-      "Tenebris: Terra Incognita"
-    ],
-    "ranAt": "2026-09-14T22:45:26.133Z"
+    "verifiedNames": [],
+    "ranAt": "2026-09-15T00:56:00.733Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -333,16 +287,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-14T22:45:29.230Z"
+    "ranAt": "2026-09-15T00:56:03.435Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-14T22:45:29.649Z",
+    "checkedAt": "2026-09-15T00:56:04.038Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 292,
+    "totalIndependentSearchesLeft": 289,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -373,8 +327,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 218,
-        "totalSearchesLeft": 32,
+        "thisMonthUsage": 221,
+        "totalSearchesLeft": 29,
         "renewalDate": "2026-09-29"
       },
       {
@@ -406,7 +360,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T22:45:29.412Z",
+        "checkedAt": "2026-09-15T00:56:03.690Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -426,7 +380,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T22:45:29.551Z",
+        "checkedAt": "2026-09-15T00:56:03.783Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -442,11 +396,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-09-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 218,
-        "planSearchesLeft": 32,
-        "totalSearchesLeft": 32,
+        "thisMonthUsage": 221,
+        "planSearchesLeft": 29,
+        "totalSearchesLeft": 29,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T22:45:29.600Z",
+        "checkedAt": "2026-09-15T00:56:03.911Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -466,7 +420,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-14T22:45:29.648Z",
+        "checkedAt": "2026-09-15T00:56:04.038Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -481,7 +435,7 @@
   },
   "channelOpportunityCounts": {
     "online": {
-      "validated": 244,
+      "validated": 243,
       "rising": 1,
       "recommended": 0
     },
@@ -499,19 +453,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 272,
-    "queueSize": 3,
-    "verified": 3,
+    "remainingAtStart": 269,
+    "queueSize": 0,
+    "verified": 0,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 2,
-      "secondary": 1,
+      "strong": 0,
+      "secondary": 0,
       "strategic": 0
     },
     "channelVerified": {
-      "online": 2,
-      "wiki": 1,
+      "online": 0,
+      "wiki": 0,
       "pending": 0
     },
     "pendingByTier": {
@@ -523,11 +477,7 @@
       "online": 0,
       "wiki": 0
     },
-    "verifiedNames": [
-      "geometry dash",
-      "Dicebound Survivors",
-      "Tenebris: Terra Incognita"
-    ],
+    "verifiedNames": [],
     "caps": {
       "online": 999,
       "wiki": 999,
@@ -565,10 +515,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 3,
+        "verified": 0,
         "channelVerified": {
-          "online": 2,
-          "wiki": 1,
+          "online": 0,
+          "wiki": 0,
           "pending": 0
         },
         "errors": 0,
@@ -588,7 +538,7 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-14T22:45:39.781Z"
+    "ranAt": "2026-09-15T00:56:05.588Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
@@ -596,8 +546,8 @@
     "configuredSlots": 4,
     "month": "2026-09",
     "monthUsed": 711,
-    "day": "2026-09-14",
-    "dayUsed": 19,
+    "day": "2026-09-15",
+    "dayUsed": 0,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -620,7 +570,7 @@
       "3": {
         "envName": "SERPAPI_API_KEY_3",
         "monthUsed": 221,
-        "dayUsed": 19,
+        "dayUsed": 0,
         "monthlyLimit": 245,
         "dailyLimit": 245,
         "updatedAt": "2026-09-14T22:45:35.650Z"
@@ -634,7 +584,7 @@
         "updatedAt": "2026-08-12T10:47:31.352Z"
       }
     },
-    "updatedAt": "2026-09-14T22:45:39.833Z"
+    "updatedAt": "2026-09-15T00:56:05.694Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -677,6 +627,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-09-14T22:45:40.324Z"
+    "ranAt": "2026-09-15T00:56:06.114Z"
   }
 }
