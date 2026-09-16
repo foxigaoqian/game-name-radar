@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-16T18:54:22.557Z",
+  "generatedAt": "2026-09-16T22:09:53.336Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2520,
+  "pendingSeo": 2519,
   "channelCounts": {
-    "pending": 378,
-    "online": 2121,
-    "wiki": 21
+    "pending": 379,
+    "online": 2117,
+    "wiki": 23
   },
   "fastClassCounts": {
-    "pending:pending": 378,
-    "online:pending": 2121,
-    "wiki:pending": 21
+    "pending:pending": 379,
+    "online:pending": 2117,
+    "wiki:pending": 23
   },
   "strategicCounts": {
-    "pending:0": 375,
+    "pending:0": 376,
     "online:3": 5,
     "wiki:0": 1,
     "online:2": 492,
-    "online:1": 1624,
+    "online:1": 1620,
     "pending:1": 3,
-    "wiki:1": 20
+    "wiki:1": 22
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2091
+      "count": 2089
     },
     {
       "id": "itch-newest-web",
-      "count": 2077
+      "count": 2075
     },
     {
       "id": "itch-new-feed",
-      "count": 2029
+      "count": 2027
     },
     {
       "id": "itch-new-popular-web",
-      "count": 472
+      "count": 474
     },
     {
       "id": "itch-popular",
-      "count": 472
+      "count": 474
     },
     {
       "id": "trends-rising-7d",
-      "count": 306
+      "count": 307
     },
     {
       "id": "trends-rising-30d",
-      "count": 197
+      "count": 199
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 99
+      "count": 101
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 67
+      "count": 68
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 22
+      "count": 24
     },
     {
       "id": "steam-latest-indie",
@@ -112,11 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 7
-    },
-    {
-      "id": "gamepix-new",
-      "count": 2
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -393,6 +389,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Bloodrush",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "A Thousand Cloys",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1058,44 +1092,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Think Up House",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Minimis",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
       ]
     }
   ]
