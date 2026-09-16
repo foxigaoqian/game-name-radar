@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-16T00:20:03.726Z",
+  "generatedAt": "2026-09-16T05:16:55.937Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2524,
+  "pendingSeo": 2522,
   "channelCounts": {
     "pending": 373,
-    "online": 2134,
-    "wiki": 17
+    "online": 2131,
+    "wiki": 18
   },
   "fastClassCounts": {
     "pending:pending": 373,
-    "online:pending": 2134,
-    "wiki:pending": 17
+    "online:pending": 2131,
+    "wiki:pending": 18
   },
   "strategicCounts": {
     "pending:0": 370,
     "online:3": 5,
     "wiki:0": 1,
     "online:2": 485,
-    "online:1": 1644,
+    "online:1": 1641,
     "wiki:2": 1,
     "pending:1": 3,
-    "wiki:1": 15
+    "wiki:1": 16
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2105
+      "count": 2103
     },
     {
       "id": "itch-newest-web",
-      "count": 2091
+      "count": 2089
     },
     {
       "id": "itch-new-feed",
-      "count": 2043
+      "count": 2041
     },
     {
       "id": "itch-new-popular-web",
-      "count": 466
+      "count": 467
     },
     {
       "id": "itch-popular",
-      "count": 466
+      "count": 467
     },
     {
       "id": "trends-rising-7d",
@@ -93,7 +93,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 17
+      "count": 18
     },
     {
       "id": "steam-latest-indie",
@@ -113,11 +113,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
-    },
-    {
-      "id": "crazygames-new",
-      "count": 2
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -129,6 +125,10 @@
     },
     {
       "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -371,6 +371,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Gelateria Clickeria",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1066,25 +1085,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Dungeonbound",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
