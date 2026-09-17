@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-17T15:19:08.303Z",
+  "generatedAt": "2026-09-17T19:16:48.125Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2515,
+  "pendingSeo": 2514,
   "channelCounts": {
     "pending": 384,
-    "online": 2111,
-    "wiki": 20
+    "online": 2102,
+    "wiki": 28
   },
   "fastClassCounts": {
     "pending:pending": 384,
-    "online:pending": 2111,
-    "wiki:pending": 20
+    "online:pending": 2102,
+    "wiki:pending": 28
   },
   "strategicCounts": {
-    "pending:0": 380,
+    "pending:0": 381,
     "online:3": 5,
+    "online:1": 1601,
     "wiki:0": 1,
-    "online:2": 497,
-    "online:1": 1609,
-    "wiki:2": 1,
-    "pending:1": 4,
-    "wiki:1": 18
+    "online:2": 496,
+    "wiki:2": 2,
+    "pending:1": 3,
+    "wiki:1": 25
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2081
+      "count": 2073
     },
     {
       "id": "itch-newest-web",
-      "count": 2067
+      "count": 2059
     },
     {
       "id": "itch-new-feed",
-      "count": 2019
+      "count": 2010
     },
     {
       "id": "itch-new-popular-web",
@@ -45,7 +45,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 311
+      "count": 313
     },
     {
       "id": "trends-rising-30d",
@@ -53,7 +53,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 152
+      "count": 154
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -61,7 +61,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 97
+      "count": 98
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -74,6 +74,10 @@
     {
       "id": "trends-rising-30d-itch-io",
       "count": 50
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 29
     },
     {
       "id": "newgrounds-latest",
@@ -92,32 +96,28 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 21
-    },
-    {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 13
     },
     {
       "id": "steam-new",
-      "count": 12
+      "count": 13
     },
     {
       "id": "itch-featured-feed",
-      "count": 9
+      "count": 8
     },
     {
       "id": "itch-featured",
-      "count": 9
+      "count": 8
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "steam-top-wishlist",
@@ -515,25 +515,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "The Oasis Water Shop's Curious Customers (ワケあり客とオアシスの水屋)",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1093,6 +1074,25 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Intergalactic Comet Rail Project",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
       ]
     }
   ]
