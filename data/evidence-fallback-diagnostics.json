@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:46:13.802Z",
+  "generatedAt": "2026-09-18T13:53:30.079Z",
   "totalCandidates": 3000,
   "pendingSeo": 2510,
   "channelCounts": {
@@ -15,24 +15,24 @@
   "strategicCounts": {
     "pending:0": 383,
     "online:3": 5,
+    "online:2": 500,
     "wiki:0": 1,
-    "online:2": 499,
-    "online:1": 1600,
+    "online:1": 1599,
     "pending:1": 3,
     "wiki:1": 19
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2075
+      "count": 2074
     },
     {
       "id": "itch-newest-web",
-      "count": 2061
+      "count": 2060
     },
     {
       "id": "itch-new-feed",
-      "count": 2014
+      "count": 2013
     },
     {
       "id": "itch-new-popular-web",
@@ -96,11 +96,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 11
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 11
+      "count": 12
     },
     {
       "id": "itch-featured-feed",
@@ -115,19 +115,19 @@
       "count": 5
     },
     {
+      "id": "crazygames-new",
+      "count": 2
+    },
+    {
+      "id": "poki-new",
+      "count": 2
+    },
+    {
       "id": "lagged-new",
       "count": 2
     },
     {
       "id": "steam-top-wishlist",
-      "count": 1
-    },
-    {
-      "id": "poki-new",
-      "count": 1
-    },
-    {
-      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -236,6 +236,27 @@
       ]
     },
     {
+      "name": "WomboCombo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
       "name": "Ant Colony",
       "channel": "online",
       "fastClass": "pending",
@@ -244,25 +265,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Nomnado",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -309,44 +311,6 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
-      ]
-    },
-    {
-      "name": "Snake Digits 🐍🖐",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "GRAVITY: One Button Space Run",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -621,6 +585,63 @@
     },
     {
       "name": "Old Digger",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Nomnado",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Snake Digits 🐍🖐",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "GRAVITY: One Button Space Run",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1065,25 +1086,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "DownShaft",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
