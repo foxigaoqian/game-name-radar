@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-18T05:13:18.623Z",
+  "generatedAt": "2026-09-18T09:46:13.802Z",
   "totalCandidates": 3000,
   "pendingSeo": 2510,
   "channelCounts": {
-    "pending": 385,
-    "online": 2105,
+    "pending": 386,
+    "online": 2104,
     "wiki": 20
   },
   "fastClassCounts": {
-    "pending:pending": 385,
-    "online:pending": 2105,
+    "pending:pending": 386,
+    "online:pending": 2104,
     "wiki:pending": 20
   },
   "strategicCounts": {
-    "pending:0": 382,
+    "pending:0": 383,
     "online:3": 5,
     "wiki:0": 1,
-    "online:2": 498,
-    "online:1": 1602,
+    "online:2": 499,
+    "online:1": 1600,
     "pending:1": 3,
     "wiki:1": 19
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2076
+      "count": 2075
     },
     {
       "id": "itch-newest-web",
-      "count": 2062
+      "count": 2061
     },
     {
       "id": "itch-new-feed",
-      "count": 2015
+      "count": 2014
     },
     {
       "id": "itch-new-popular-web",
-      "count": 481
+      "count": 482
     },
     {
       "id": "itch-popular",
-      "count": 481
+      "count": 482
     },
     {
       "id": "trends-rising-7d",
-      "count": 313
+      "count": 314
     },
     {
       "id": "trends-rising-30d",
-      "count": 204
+      "count": 205
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 155
+      "count": 156
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 106
+      "count": 107
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -231,6 +231,25 @@
         "itch-new-feed",
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Ant Colony",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1065,25 +1084,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Nuclear-Stic Mines Retrash'd",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
