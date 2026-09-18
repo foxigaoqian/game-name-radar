@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-09-17T22:13:27.167Z",
+  "generatedAt": "2026-09-18T00:19:50.999Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2511,
+  "pendingSeo": 2510,
   "channelCounts": {
-    "pending": 384,
-    "online": 2098,
-    "wiki": 29
+    "pending": 385,
+    "online": 2106,
+    "wiki": 19
   },
   "fastClassCounts": {
-    "pending:pending": 384,
-    "online:pending": 2098,
-    "wiki:pending": 29
+    "pending:pending": 385,
+    "online:pending": 2106,
+    "wiki:pending": 19
   },
   "strategicCounts": {
-    "pending:0": 381,
+    "pending:0": 382,
     "online:3": 5,
     "wiki:0": 1,
     "online:2": 496,
-    "online:1": 1597,
-    "wiki:2": 1,
+    "online:1": 1605,
     "pending:1": 3,
-    "wiki:1": 27
+    "wiki:1": 18
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2069
+      "count": 2077
     },
     {
       "id": "itch-newest-web",
-      "count": 2055
+      "count": 2063
     },
     {
       "id": "itch-new-feed",
-      "count": 2007
+      "count": 2015
     },
     {
       "id": "itch-new-popular-web",
@@ -45,19 +44,19 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 312
+      "count": 313
     },
     {
       "id": "trends-rising-30d",
-      "count": 199
+      "count": 204
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 154
+      "count": 155
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 102
+      "count": 106
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -73,11 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 50
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 30
+      "count": 51
     },
     {
       "id": "newgrounds-latest",
@@ -96,12 +91,16 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 20
+    },
+    {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 11
     },
     {
       "id": "steam-new",
-      "count": 12
+      "count": 11
     },
     {
       "id": "itch-featured-feed",
@@ -321,25 +320,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Average and generic SPRUNKI SHIFTED mod",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -610,6 +590,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Average and generic SPRUNKI SHIFTED mod",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 3,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
