@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-18T17:40:58.452Z",
+  "generatedAt": "2026-09-18T19:57:53.926Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2509,
+  "pendingSeo": 2508,
   "channelCounts": {
     "pending": 387,
-    "online": 2100,
-    "wiki": 22
+    "online": 2097,
+    "wiki": 24
   },
   "fastClassCounts": {
     "pending:pending": 387,
-    "online:pending": 2100,
-    "wiki:pending": 22
+    "online:pending": 2097,
+    "wiki:pending": 24
   },
   "strategicCounts": {
     "pending:0": 384,
     "online:3": 5,
-    "online:2": 499,
+    "online:2": 501,
     "wiki:0": 1,
-    "online:1": 1596,
-    "wiki:2": 1,
+    "online:1": 1591,
+    "wiki:2": 2,
     "pending:1": 3,
-    "wiki:1": 20
+    "wiki:1": 21
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2071
+      "count": 2067
     },
     {
       "id": "itch-newest-web",
-      "count": 2057
+      "count": 2053
     },
     {
       "id": "itch-new-feed",
-      "count": 2010
+      "count": 2006
     },
     {
       "id": "itch-new-popular-web",
-      "count": 482
+      "count": 485
     },
     {
       "id": "itch-popular",
-      "count": 482
+      "count": 485
     },
     {
       "id": "trends-rising-7d",
@@ -93,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 23
+      "count": 25
     },
     {
       "id": "steam-latest-indie",
-      "count": 13
+      "count": 14
     },
     {
       "id": "steam-new",
-      "count": 13
+      "count": 14
     },
     {
       "id": "itch-featured-feed",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "name": "Ant Colony",
+      "name": "Let Me Die",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "name": "Deep Miner",
+      "name": "Ant Colony",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -354,6 +354,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "HealTD incremental",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -567,6 +586,25 @@
     },
     {
       "name": "Old Digger",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Deep Miner",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1049,44 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Running God",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Treeternal Demo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
