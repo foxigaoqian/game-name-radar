@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-19T09:29:55.035Z",
+  "generatedAt": "2026-09-19T13:25:06.309Z",
   "totalCandidates": 3000,
   "pendingSeo": 2506,
   "channelCounts": {
-    "pending": 389,
-    "online": 2103,
+    "online": 2102,
+    "pending": 390,
     "wiki": 14
   },
   "fastClassCounts": {
-    "pending:pending": 389,
-    "online:pending": 2103,
+    "online:pending": 2102,
+    "pending:pending": 390,
     "wiki:pending": 14
   },
   "strategicCounts": {
-    "pending:0": 386,
-    "online:3": 5,
-    "online:2": 505,
-    "online:1": 1593,
+    "online:3": 6,
+    "pending:0": 387,
+    "online:1": 1592,
+    "online:2": 504,
     "wiki:0": 1,
     "pending:1": 3,
     "wiki:1": 13
@@ -24,27 +24,27 @@
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2073
+      "count": 2072
     },
     {
       "id": "itch-newest-web",
-      "count": 2059
+      "count": 2058
     },
     {
       "id": "itch-new-feed",
-      "count": 2011
+      "count": 2010
     },
     {
       "id": "itch-new-popular-web",
-      "count": 488
+      "count": 489
     },
     {
       "id": "itch-popular",
-      "count": 488
+      "count": 489
     },
     {
       "id": "trends-rising-7d",
-      "count": 319
+      "count": 320
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 160
+      "count": 161
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -132,6 +132,27 @@
     }
   ],
   "samples": [
+    {
+      "name": "Rock Declutterer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 3,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-featured-feed",
+        "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
     {
       "name": "Inkarn8: First Pages",
       "channel": "online",
@@ -233,25 +254,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Rock Declutterer",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     },
     {
