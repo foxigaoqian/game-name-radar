@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T05:05:10.697Z",
+  "generatedAt": "2026-09-19T09:29:55.035Z",
   "totalCandidates": 3000,
   "pendingSeo": 2506,
   "channelCounts": {
@@ -15,8 +15,8 @@
   "strategicCounts": {
     "pending:0": 386,
     "online:3": 5,
-    "online:1": 1595,
-    "online:2": 503,
+    "online:2": 505,
+    "online:1": 1593,
     "wiki:0": 1,
     "pending:1": 3,
     "wiki:1": 13
@@ -36,15 +36,15 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 487
+      "count": 488
     },
     {
       "id": "itch-popular",
-      "count": 487
+      "count": 488
     },
     {
       "id": "trends-rising-7d",
-      "count": 318
+      "count": 319
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 159
+      "count": 160
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -104,11 +104,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 8
+      "count": 9
     },
     {
       "id": "itch-featured",
-      "count": 8
+      "count": 9
     },
     {
       "id": "y8-new",
@@ -236,6 +236,25 @@
       ]
     },
     {
+      "name": "Rock Declutterer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-featured-feed",
+        "itch-featured"
+      ]
+    },
+    {
       "name": "WomboCombo",
       "channel": "online",
       "fastClass": "pending",
@@ -254,6 +273,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Aftermount",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1048,44 +1086,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Nine Heavens Ascent",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "DreamCore House",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
