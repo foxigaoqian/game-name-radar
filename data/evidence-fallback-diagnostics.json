@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:32:47.059Z",
+  "generatedAt": "2026-09-20T23:32:03.201Z",
   "totalCandidates": 3000,
   "pendingSeo": 2505,
   "channelCounts": {
@@ -15,8 +15,8 @@
   "strategicCounts": {
     "online:3": 6,
     "pending:0": 392,
-    "online:1": 1595,
-    "online:2": 507,
+    "online:1": 1594,
+    "online:2": 508,
     "wiki:0": 1,
     "pending:1": 1,
     "wiki:1": 3
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 492
+      "count": 493
     },
     {
       "id": "itch-popular",
-      "count": 492
+      "count": 493
     },
     {
       "id": "trends-rising-7d",
@@ -431,6 +431,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Incremental Dwarf",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1069,25 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Necromancer Incremental Graveyard",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
