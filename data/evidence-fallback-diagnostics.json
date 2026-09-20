@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-20T01:40:12.890Z",
+  "generatedAt": "2026-09-20T07:02:23.166Z",
   "totalCandidates": 3000,
   "pendingSeo": 2506,
   "channelCounts": {
-    "online": 2111,
-    "pending": 391,
+    "online": 2112,
+    "pending": 390,
     "wiki": 4
   },
   "fastClassCounts": {
-    "online:pending": 2111,
-    "pending:pending": 391,
+    "online:pending": 2112,
+    "pending:pending": 390,
     "wiki:pending": 4
   },
   "strategicCounts": {
     "online:3": 6,
     "pending:0": 388,
     "online:1": 1600,
-    "online:2": 505,
+    "online:2": 506,
     "wiki:0": 1,
-    "pending:1": 3,
+    "pending:1": 2,
     "wiki:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2081
+      "count": 2082
     },
     {
       "id": "itch-newest-web",
-      "count": 2067
+      "count": 2068
     },
     {
       "id": "itch-new-feed",
-      "count": 2019
+      "count": 2020
     },
     {
       "id": "itch-new-popular-web",
-      "count": 490
+      "count": 491
     },
     {
       "id": "itch-popular",
-      "count": 490
+      "count": 491
     },
     {
       "id": "trends-rising-7d",
@@ -100,11 +100,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 9
+      "count": 8
     },
     {
       "id": "itch-featured",
-      "count": 9
+      "count": 8
     },
     {
       "id": "steam-popular-new",
@@ -275,6 +275,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Sprunki Hypershifted Pepper's Take",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1062,25 +1081,6 @@
     },
     {
       "name": "Knucklehead",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Urbanitas",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
