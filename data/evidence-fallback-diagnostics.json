@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-20T12:21:14.828Z",
+  "generatedAt": "2026-09-20T16:29:43.757Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2506,
+  "pendingSeo": 2505,
   "channelCounts": {
-    "online": 2110,
-    "pending": 392,
+    "online": 2108,
+    "pending": 393,
     "wiki": 4
   },
   "fastClassCounts": {
-    "online:pending": 2110,
-    "pending:pending": 392,
+    "online:pending": 2108,
+    "pending:pending": 393,
     "wiki:pending": 4
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 391,
-    "online:1": 1597,
+    "pending:0": 392,
+    "online:1": 1595,
     "online:2": 507,
     "wiki:0": 1,
     "pending:1": 1,
@@ -24,31 +24,31 @@
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2079
+      "count": 2078
     },
     {
       "id": "itch-newest-web",
-      "count": 2065
+      "count": 2064
     },
     {
       "id": "itch-new-feed",
-      "count": 2017
+      "count": 2016
     },
     {
       "id": "itch-new-popular-web",
-      "count": 491
+      "count": 492
     },
     {
       "id": "itch-popular",
-      "count": 491
+      "count": 492
     },
     {
       "id": "trends-rising-7d",
-      "count": 323
+      "count": 324
     },
     {
       "id": "trends-rising-30d",
-      "count": 213
+      "count": 214
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 99
+      "count": 100
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 51
+      "count": 52
     },
     {
       "id": "newgrounds-latest",
@@ -112,11 +112,11 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "steam-top-wishlist",
@@ -275,6 +275,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Seed the Planet - DEMO",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1069,25 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Knucklehead",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
