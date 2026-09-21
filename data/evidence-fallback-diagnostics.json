@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-20T23:32:03.201Z",
+  "generatedAt": "2026-09-21T01:41:40.178Z",
   "totalCandidates": 3000,
   "pendingSeo": 2505,
   "channelCounts": {
-    "online": 2108,
+    "online": 2110,
     "pending": 393,
-    "wiki": 4
+    "wiki": 2
   },
   "fastClassCounts": {
-    "online:pending": 2108,
+    "online:pending": 2110,
     "pending:pending": 393,
-    "wiki:pending": 4
+    "wiki:pending": 2
   },
   "strategicCounts": {
     "online:3": 6,
     "pending:0": 392,
-    "online:1": 1594,
-    "online:2": 508,
+    "online:1": 1596,
     "wiki:0": 1,
+    "online:2": 508,
     "pending:1": 1,
-    "wiki:1": 3
+    "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2078
+      "count": 2080
     },
     {
       "id": "itch-newest-web",
-      "count": 2064
+      "count": 2066
     },
     {
       "id": "itch-new-feed",
-      "count": 2016
+      "count": 2018
     },
     {
       "id": "itch-new-popular-web",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 214
+      "count": 215
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 54
+      "count": 55
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 7
+      "count": 5
     },
     {
       "id": "y8-new",
@@ -257,27 +257,6 @@
       ]
     },
     {
-      "name": "WomboCombo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
       "name": "Seed the Planet - DEMO",
       "channel": "online",
       "fastClass": "pending",
@@ -400,6 +379,27 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "WomboCombo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 7,
       "sourceIds": [
