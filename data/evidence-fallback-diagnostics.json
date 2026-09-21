@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-09-21T14:07:27.626Z",
+  "generatedAt": "2026-09-21T19:27:14.730Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2505,
+  "pendingSeo": 2503,
   "channelCounts": {
-    "online": 2108,
-    "pending": 394,
-    "wiki": 3
+    "online": 2104,
+    "pending": 395,
+    "wiki": 4
   },
   "fastClassCounts": {
-    "online:pending": 2108,
-    "pending:pending": 394,
-    "wiki:pending": 3
+    "online:pending": 2104,
+    "pending:pending": 395,
+    "wiki:pending": 4
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 393,
-    "online:1": 1592,
+    "pending:0": 394,
+    "online:1": 1588,
     "wiki:0": 1,
     "online:2": 510,
-    "wiki:2": 1,
+    "wiki:2": 2,
     "pending:1": 1,
     "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2076
+      "count": 2073
     },
     {
       "id": "itch-newest-web",
-      "count": 2062
+      "count": 2059
     },
     {
       "id": "itch-new-feed",
-      "count": 2014
+      "count": 2010
     },
     {
       "id": "itch-new-popular-web",
-      "count": 494
+      "count": 495
     },
     {
       "id": "itch-popular",
-      "count": 494
+      "count": 495
     },
     {
       "id": "trends-rising-7d",
-      "count": 325
+      "count": 326
     },
     {
       "id": "trends-rising-30d",
-      "count": 215
+      "count": 216
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 165
+      "count": 166
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -69,7 +69,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 55
+      "count": 56
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -93,11 +93,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 13
+      "count": 14
     },
     {
       "id": "steam-new",
-      "count": 13
+      "count": 14
     },
     {
       "id": "itch-featured-feed",
@@ -109,15 +109,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "steam-top-wishlist",
@@ -315,25 +315,6 @@
       ]
     },
     {
-      "name": "Favored",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -442,6 +423,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Favored",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
