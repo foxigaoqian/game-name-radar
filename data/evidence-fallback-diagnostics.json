@@ -1,50 +1,51 @@
 {
-  "generatedAt": "2026-09-21T07:11:40.072Z",
+  "generatedAt": "2026-09-21T14:07:27.626Z",
   "totalCandidates": 3000,
   "pendingSeo": 2505,
   "channelCounts": {
-    "online": 2110,
-    "pending": 393,
-    "wiki": 2
+    "online": 2108,
+    "pending": 394,
+    "wiki": 3
   },
   "fastClassCounts": {
-    "online:pending": 2110,
-    "pending:pending": 393,
-    "wiki:pending": 2
+    "online:pending": 2108,
+    "pending:pending": 394,
+    "wiki:pending": 3
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 392,
-    "online:1": 1596,
+    "pending:0": 393,
+    "online:1": 1592,
     "wiki:0": 1,
-    "online:2": 508,
+    "online:2": 510,
+    "wiki:2": 1,
     "pending:1": 1,
     "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2080
+      "count": 2076
     },
     {
       "id": "itch-newest-web",
-      "count": 2066
+      "count": 2062
     },
     {
       "id": "itch-new-feed",
-      "count": 2018
+      "count": 2014
     },
     {
       "id": "itch-new-popular-web",
-      "count": 493
+      "count": 494
     },
     {
       "id": "itch-popular",
-      "count": 493
+      "count": 494
     },
     {
       "id": "trends-rising-7d",
-      "count": 324
+      "count": 325
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +53,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 164
+      "count": 165
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -92,31 +93,31 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 13
     },
     {
       "id": "steam-new",
-      "count": 12
+      "count": 13
     },
     {
       "id": "itch-featured-feed",
-      "count": 7
+      "count": 8
     },
     {
       "id": "itch-featured",
-      "count": 7
+      "count": 8
     },
     {
       "id": "steam-popular-new",
-      "count": 5
+      "count": 6
     },
     {
       "id": "y8-new",
-      "count": 5
+      "count": 6
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "steam-top-wishlist",
@@ -333,25 +334,6 @@
       ]
     },
     {
-      "name": "Let Me Die",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -415,6 +397,24 @@
       ]
     },
     {
+      "name": "Eat not, Want not",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
+      ]
+    },
+    {
       "name": "Incremental Dwarf",
       "channel": "online",
       "fastClass": "pending",
@@ -473,6 +473,25 @@
     },
     {
       "name": "HealTD incremental",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Let Me Die",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1069,25 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Necromancer Incremental Graveyard",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [

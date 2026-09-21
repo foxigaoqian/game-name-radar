@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-21T07:11:11.927Z",
+  "scannedAt": "2026-09-21T14:06:59.731Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
@@ -10,14 +10,14 @@
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 36
+      "added": 35
     },
     {
       "ok": true,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 2
+      "added": 12
     },
     {
       "ok": true,
@@ -31,7 +31,7 @@
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
@@ -45,49 +45,49 @@
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 5
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 6
+      "added": 15
     },
     {
       "ok": true,
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 5
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 9
+      "added": 6
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 6
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 140,
-      "added": 0
+      "total": 151,
+      "added": 11
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 36
+      "added": 33
     },
     {
       "ok": false,
@@ -100,49 +100,49 @@
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 82,
-      "added": 0
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 10,
-      "added": 6
+      "total": 9,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 17,
-      "added": 9
+      "total": 16,
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 8,
-      "added": 4
+      "total": 4,
+      "added": 3
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 14,
-      "added": 8
+      "total": 5,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 18,
-      "added": 10
+      "total": 13,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 21,
-      "added": 10
+      "total": 17,
+      "added": 8
     }
   ],
   "seoVerified": 0,
@@ -172,15 +172,15 @@
     "independent": 0,
     "test-now": 0,
     "page": 4,
-    "watch": 382,
+    "watch": 384,
     "reject": 0,
-    "pending": 2614,
+    "pending": 2612,
     "error": 0
   },
   "trendProvider": "serpapi+searchapi",
   "trendProviderCounts": {
     "serpapi": 284,
-    "searchapi": 7
+    "searchapi": 8
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -195,7 +195,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-09-21T07:11:10.631Z",
+    "checkedAt": "2026-09-21T14:06:58.336Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -221,7 +221,7 @@
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
     "duckduckgo+autocomplete": 103,
-    "evidence-fallback": 146,
+    "evidence-fallback": 148,
     "serper+autocomplete": 247
   },
   "serperConfigured": true,
@@ -251,16 +251,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2459,
-    "wiki": 48,
-    "pending": 493
+    "online": 2457,
+    "wiki": 49,
+    "pending": 494
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 1,
-    "weak": 46
+    "weak": 47
   },
   "serperVerification": {
     "rushMode": true,
@@ -273,7 +273,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 77,
+    "queueSize": 78,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -283,29 +283,32 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-09-21T07:11:39.704Z"
+    "ranAt": "2026-09-21T14:07:27.264Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
     "pendingCount": 2505,
-    "eligibleCount": 0,
-    "queueSize": 0,
-    "verified": 0,
+    "eligibleCount": 2,
+    "queueSize": 2,
+    "verified": 2,
     "channelVerified": {
-      "online": 0,
-      "wiki": 0,
+      "online": 1,
+      "wiki": 1,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 0,
-      "watch": 0,
+      "pass": 1,
+      "watch": 1,
       "weak": 0,
       "reject": 0,
       "pending": 0
     },
-    "verifiedNames": [],
-    "ranAt": "2026-09-21T07:11:40.465Z"
+    "verifiedNames": [
+      "Pinpoint Globe",
+      "Dressmaker"
+    ],
+    "ranAt": "2026-09-21T14:07:28.033Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -329,10 +332,10 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-09-21T07:11:43.623Z"
+    "ranAt": "2026-09-21T14:07:30.947Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-09-21T07:11:44.070Z",
+    "checkedAt": "2026-09-21T14:07:31.184Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
@@ -402,7 +405,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-21T07:11:43.865Z",
+        "checkedAt": "2026-09-21T14:07:31.113Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -422,7 +425,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-21T07:11:43.930Z",
+        "checkedAt": "2026-09-21T14:07:31.138Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -442,7 +445,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-21T07:11:44.002Z",
+        "checkedAt": "2026-09-21T14:07:31.162Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -462,7 +465,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-09-21T07:11:44.069Z",
+        "checkedAt": "2026-09-21T14:07:31.184Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -511,13 +514,13 @@
       "pending": 0
     },
     "pendingByTier": {
-      "strong": 35,
-      "secondary": 2,
+      "strong": 36,
+      "secondary": 3,
       "strategic": 12
     },
     "pendingByChannel": {
       "online": 33,
-      "wiki": 16
+      "wiki": 18
     },
     "verifiedNames": [],
     "caps": {
@@ -580,7 +583,7 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-09-21T07:11:45.937Z"
+    "ranAt": "2026-09-21T14:07:33.220Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
@@ -626,14 +629,14 @@
         "updatedAt": "2026-09-16T14:58:53.924Z"
       }
     },
-    "updatedAt": "2026-09-21T07:11:46.006Z"
+    "updatedAt": "2026-09-21T14:07:33.268Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
     "enabled": true,
     "totalUsed": 89,
     "totalLimit": 95,
-    "updatedAt": "2026-09-21T07:11:46.479Z",
+    "updatedAt": "2026-09-21T14:07:33.649Z",
     "lastError": "You have used all of the searches for the month. Please upgrade your plan on SearchApi.io."
   },
   "searchApiTrendsVerification": {
@@ -660,20 +663,20 @@
     },
     "pendingByChannel": {
       "online": 32,
-      "wiki": 16
+      "wiki": 18
     },
     "pendingByTier": {
-      "strong": 34,
-      "secondary": 2,
+      "strong": 35,
+      "secondary": 3,
       "strategic": 12
     },
     "verifiedNames": [],
     "errorNames": [
       {
-        "name": "Real Car Bmw M4 Drift",
+        "name": "Pinpoint Globe",
         "error": "You have used all of the searches for the month. Please upgrade your plan on SearchApi.io."
       }
     ],
-    "ranAt": "2026-09-21T07:11:46.748Z"
+    "ranAt": "2026-09-21T14:07:33.922Z"
   }
 }
