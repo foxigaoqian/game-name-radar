@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-09-22T17:18:41.709Z",
+  "generatedAt": "2026-09-22T20:29:05.733Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2500,
+  "pendingSeo": 2498,
   "channelCounts": {
-    "online": 2092,
+    "online": 2089,
     "pending": 399,
-    "wiki": 9
+    "wiki": 10
   },
   "fastClassCounts": {
-    "online:pending": 2092,
+    "online:pending": 2089,
     "pending:pending": 399,
-    "wiki:pending": 9
+    "wiki:pending": 10
   },
   "strategicCounts": {
     "online:3": 6,
     "pending:0": 398,
     "wiki:0": 1,
-    "online:2": 513,
-    "online:1": 1573,
-    "wiki:2": 2,
+    "online:2": 514,
+    "online:1": 1569,
     "pending:1": 1,
-    "wiki:1": 6
+    "wiki:1": 9
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2060
+      "count": 2057
     },
     {
       "id": "itch-newest-web",
-      "count": 2047
+      "count": 2044
     },
     {
       "id": "itch-new-feed",
-      "count": 1996
+      "count": 1993
     },
     {
       "id": "itch-new-popular-web",
-      "count": 498
+      "count": 499
     },
     {
       "id": "itch-popular",
-      "count": 498
+      "count": 499
     },
     {
       "id": "trends-rising-7d",
@@ -92,15 +91,15 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 13
+    },
+    {
       "id": "steam-latest-indie",
-      "count": 14
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 14
-    },
-    {
-      "id": "steam-popular-new",
       "count": 12
     },
     {
@@ -285,6 +284,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 7,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "IDLE HQ",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 9,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1077,25 +1095,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "SplitTrain",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
       ]
     }
   ]
