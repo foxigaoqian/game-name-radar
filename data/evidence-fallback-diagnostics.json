@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-09-22T20:29:05.733Z",
+  "generatedAt": "2026-09-22T23:16:16.739Z",
   "totalCandidates": 3000,
   "pendingSeo": 2498,
   "channelCounts": {
-    "online": 2089,
+    "online": 2087,
     "pending": 399,
-    "wiki": 10
+    "wiki": 12
   },
   "fastClassCounts": {
-    "online:pending": 2089,
+    "online:pending": 2087,
     "pending:pending": 399,
-    "wiki:pending": 10
+    "wiki:pending": 12
   },
   "strategicCounts": {
     "online:3": 6,
     "pending:0": 398,
     "wiki:0": 1,
-    "online:2": 514,
-    "online:1": 1569,
+    "online:2": 515,
+    "online:1": 1566,
+    "wiki:2": 1,
     "pending:1": 1,
-    "wiki:1": 9
+    "wiki:1": 10
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2057
+      "count": 2054
     },
     {
       "id": "itch-newest-web",
-      "count": 2044
+      "count": 2041
     },
     {
       "id": "itch-new-feed",
-      "count": 1993
+      "count": 1990
     },
     {
       "id": "itch-new-popular-web",
-      "count": 499
+      "count": 500
     },
     {
       "id": "itch-popular",
-      "count": 499
+      "count": 500
     },
     {
       "id": "trends-rising-7d",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 15
     },
     {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 13
     },
     {
       "id": "steam-new",
-      "count": 12
+      "count": 13
     },
     {
       "id": "itch-featured-feed",
@@ -115,6 +116,10 @@
       "count": 5
     },
     {
+      "id": "crazygames-new",
+      "count": 2
+    },
+    {
       "id": "lagged-new",
       "count": 2
     },
@@ -124,10 +129,6 @@
     },
     {
       "id": "poki-new",
-      "count": 1
-    },
-    {
-      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -333,25 +334,6 @@
       ]
     },
     {
-      "name": "Seed the Planet - DEMO",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Sprunki Hypershifted Pepper's Take",
       "channel": "online",
       "fastClass": "pending",
@@ -460,6 +442,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Seed the Planet - DEMO",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
