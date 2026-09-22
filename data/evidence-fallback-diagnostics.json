@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-09-22T01:35:58.700Z",
+  "generatedAt": "2026-09-22T06:47:54.780Z",
   "totalCandidates": 3000,
   "pendingSeo": 2500,
   "channelCounts": {
-    "online": 2101,
-    "pending": 396,
-    "wiki": 3
+    "online": 2099,
+    "pending": 397,
+    "wiki": 4
   },
   "fastClassCounts": {
-    "online:pending": 2101,
-    "pending:pending": 396,
-    "wiki:pending": 3
+    "online:pending": 2099,
+    "pending:pending": 397,
+    "wiki:pending": 4
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 395,
+    "pending:0": 396,
     "wiki:0": 1,
-    "online:2": 510,
-    "online:1": 1585,
+    "online:2": 511,
+    "online:1": 1582,
     "pending:1": 1,
-    "wiki:1": 2
+    "wiki:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2069
+      "count": 2067
     },
     {
       "id": "itch-newest-web",
-      "count": 2056
+      "count": 2054
     },
     {
       "id": "itch-new-feed",
-      "count": 2006
+      "count": 2004
     },
     {
       "id": "itch-new-popular-web",
-      "count": 495
+      "count": 496
     },
     {
       "id": "itch-popular",
-      "count": 495
+      "count": 496
     },
     {
       "id": "trends-rising-7d",
-      "count": 328
+      "count": 329
     },
     {
       "id": "trends-rising-30d",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 70
+      "count": 71
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "y8-new",
@@ -252,6 +252,25 @@
         "itch-new-feed",
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Skribline",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1068,25 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Carnival of Shadows",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
