@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-09-21T22:50:09.140Z",
+  "generatedAt": "2026-09-22T01:35:58.700Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2501,
+  "pendingSeo": 2500,
   "channelCounts": {
-    "online": 2102,
+    "online": 2101,
     "pending": 396,
     "wiki": 3
   },
   "fastClassCounts": {
-    "online:pending": 2102,
+    "online:pending": 2101,
     "pending:pending": 396,
     "wiki:pending": 3
   },
   "strategicCounts": {
     "online:3": 6,
     "pending:0": 395,
-    "online:1": 1586,
     "wiki:0": 1,
     "online:2": 510,
-    "wiki:2": 1,
+    "online:1": 1585,
     "pending:1": 1,
-    "wiki:1": 1
+    "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2070
+      "count": 2069
     },
     {
       "id": "itch-newest-web",
-      "count": 2057
+      "count": 2056
     },
     {
       "id": "itch-new-feed",
-      "count": 2007
+      "count": 2006
     },
     {
       "id": "itch-new-popular-web",
@@ -93,11 +92,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 13
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 13
+      "count": 12
     },
     {
       "id": "itch-featured-feed",
@@ -296,25 +295,6 @@
       ]
     },
     {
-      "name": "Aftermount",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -423,6 +403,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Aftermount",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
