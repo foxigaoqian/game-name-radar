@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-22T06:47:54.780Z",
+  "generatedAt": "2026-09-22T12:36:32.755Z",
   "totalCandidates": 3000,
   "pendingSeo": 2500,
   "channelCounts": {
-    "online": 2099,
-    "pending": 397,
+    "online": 2098,
+    "pending": 398,
     "wiki": 4
   },
   "fastClassCounts": {
-    "online:pending": 2099,
-    "pending:pending": 397,
+    "online:pending": 2098,
+    "pending:pending": 398,
     "wiki:pending": 4
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 396,
+    "pending:0": 397,
     "wiki:0": 1,
-    "online:2": 511,
-    "online:1": 1582,
+    "online:2": 513,
+    "online:1": 1579,
     "pending:1": 1,
     "wiki:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2067
+      "count": 2066
     },
     {
       "id": "itch-newest-web",
-      "count": 2054
+      "count": 2053
     },
     {
       "id": "itch-new-feed",
-      "count": 2004
+      "count": 2003
     },
     {
       "id": "itch-new-popular-web",
-      "count": 496
+      "count": 498
     },
     {
       "id": "itch-popular",
-      "count": 496
+      "count": 498
     },
     {
       "id": "trends-rising-7d",
-      "count": 329
+      "count": 330
     },
     {
       "id": "trends-rising-30d",
-      "count": 216
+      "count": 217
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 114
+      "count": 115
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 71
+      "count": 72
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -252,6 +252,44 @@
         "itch-new-feed",
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Necropolis: Rise of the Undying",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 7,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Return of The Twin Peaks",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 7,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1057,44 +1095,6 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
-      ]
-    },
-    {
-      "name": "Endless Void: Idle Tower Defence Demo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 3,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Densen Suzume (Power Lines & Sparrows)",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
