@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-22T23:16:16.739Z",
+  "generatedAt": "2026-09-23T01:32:05.775Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2498,
+  "pendingSeo": 2496,
   "channelCounts": {
-    "online": 2087,
-    "pending": 399,
+    "online": 2083,
+    "pending": 401,
     "wiki": 12
   },
   "fastClassCounts": {
-    "online:pending": 2087,
-    "pending:pending": 399,
+    "online:pending": 2083,
+    "pending:pending": 401,
     "wiki:pending": 12
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 398,
+    "pending:0": 400,
     "wiki:0": 1,
-    "online:2": 515,
-    "online:1": 1566,
+    "online:2": 514,
+    "online:1": 1563,
     "wiki:2": 1,
     "pending:1": 1,
     "wiki:1": 10
@@ -25,35 +25,35 @@
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2054
+      "count": 2051
     },
     {
       "id": "itch-newest-web",
-      "count": 2041
+      "count": 2038
     },
     {
       "id": "itch-new-feed",
-      "count": 1990
+      "count": 1987
     },
     {
       "id": "itch-new-popular-web",
-      "count": 500
+      "count": 499
     },
     {
       "id": "itch-popular",
-      "count": 500
+      "count": 499
     },
     {
       "id": "trends-rising-7d",
-      "count": 330
+      "count": 331
     },
     {
       "id": "trends-rising-30d",
-      "count": 218
+      "count": 219
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 167
+      "count": 168
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -69,7 +69,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 57
+      "count": 58
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -116,10 +116,6 @@
       "count": 5
     },
     {
-      "id": "crazygames-new",
-      "count": 2
-    },
-    {
       "id": "lagged-new",
       "count": 2
     },
@@ -129,6 +125,10 @@
     },
     {
       "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -334,25 +334,6 @@
       ]
     },
     {
-      "name": "Sprunki Hypershifted Pepper's Take",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -461,6 +442,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Sprunki Hypershifted Pepper's Take",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
