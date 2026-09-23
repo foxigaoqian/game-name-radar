@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-23T06:40:11.968Z",
+  "generatedAt": "2026-09-23T12:12:45.690Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2495,
+  "pendingSeo": 2494,
   "channelCounts": {
-    "online": 2083,
-    "pending": 401,
+    "online": 2081,
+    "pending": 402,
     "wiki": 11
   },
   "fastClassCounts": {
-    "online:pending": 2083,
-    "pending:pending": 401,
+    "online:pending": 2081,
+    "pending:pending": 402,
     "wiki:pending": 11
   },
   "strategicCounts": {
     "online:3": 6,
-    "pending:0": 400,
+    "pending:0": 401,
     "wiki:0": 1,
-    "online:2": 518,
-    "online:1": 1559,
+    "online:2": 519,
+    "online:1": 1556,
     "pending:1": 1,
     "wiki:1": 10
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2051
+      "count": 2048
     },
     {
       "id": "itch-newest-web",
-      "count": 2038
+      "count": 2035
     },
     {
       "id": "itch-new-feed",
-      "count": 1987
+      "count": 1984
     },
     {
       "id": "itch-new-popular-web",
-      "count": 502
+      "count": 503
     },
     {
       "id": "itch-popular",
-      "count": 502
+      "count": 503
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 220
+      "count": 221
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 115
+      "count": 116
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -112,10 +112,14 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "lagged-new",
+      "count": 3
+    },
+    {
+      "id": "crazygames-new",
       "count": 2
     },
     {
@@ -124,10 +128,6 @@
     },
     {
       "id": "poki-new",
-      "count": 1
-    },
-    {
-      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -257,24 +257,6 @@
       ]
     },
     {
-      "name": "High Noon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 16,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "y8-new"
-      ]
-    },
-    {
       "name": "Squeeze Maker",
       "channel": "online",
       "fastClass": "pending",
@@ -283,6 +265,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "CLERESTORY",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
