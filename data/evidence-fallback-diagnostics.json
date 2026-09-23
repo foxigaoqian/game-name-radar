@@ -1,58 +1,59 @@
 {
-  "generatedAt": "2026-09-23T12:12:45.690Z",
+  "generatedAt": "2026-09-23T16:57:01.701Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2494,
+  "pendingSeo": 2493,
   "channelCounts": {
-    "online": 2081,
-    "pending": 402,
-    "wiki": 11
+    "pending": 405,
+    "online": 2075,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "online:pending": 2081,
-    "pending:pending": 402,
-    "wiki:pending": 11
+    "pending:pending": 405,
+    "online:pending": 2075,
+    "wiki:pending": 13
   },
   "strategicCounts": {
+    "pending:0": 404,
     "online:3": 6,
-    "pending:0": 401,
     "wiki:0": 1,
-    "online:2": 519,
-    "online:1": 1556,
+    "online:2": 520,
+    "online:1": 1549,
+    "wiki:2": 1,
     "pending:1": 1,
-    "wiki:1": 10
+    "wiki:1": 11
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2048
+      "count": 2044
     },
     {
       "id": "itch-newest-web",
-      "count": 2035
+      "count": 2030
     },
     {
       "id": "itch-new-feed",
-      "count": 1984
+      "count": 1979
     },
     {
       "id": "itch-new-popular-web",
-      "count": 503
+      "count": 505
     },
     {
       "id": "itch-popular",
-      "count": 503
+      "count": 505
     },
     {
       "id": "trends-rising-7d",
-      "count": 331
+      "count": 334
     },
     {
       "id": "trends-rising-30d",
-      "count": 221
+      "count": 222
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 168
+      "count": 169
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -60,7 +61,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 100
+      "count": 102
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -72,7 +73,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 52
+      "count": 53
     },
     {
       "id": "newgrounds-latest",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 14
+      "count": 16
     },
     {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 13
     },
     {
       "id": "steam-new",
-      "count": 12
+      "count": 13
     },
     {
       "id": "itch-featured-feed",
@@ -116,10 +117,6 @@
     },
     {
       "id": "lagged-new",
-      "count": 3
-    },
-    {
-      "id": "crazygames-new",
       "count": 2
     },
     {
@@ -128,6 +125,10 @@
     },
     {
       "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -257,6 +258,25 @@
       ]
     },
     {
+      "name": "TrickcalTycoon",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Squeeze Maker",
       "channel": "online",
       "fastClass": "pending",
@@ -284,6 +304,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Rune Tale Demo - Extended Edition",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -341,25 +380,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Skribline",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -487,6 +507,25 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Skribline",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1049,44 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 3,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Super Plants",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "my dear Linda",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
