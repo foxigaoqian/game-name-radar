@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-09-23T20:21:08.661Z",
+  "generatedAt": "2026-09-23T23:09:38.017Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2492,
+  "pendingSeo": 2491,
   "channelCounts": {
     "pending": 408,
-    "online": 2068,
-    "wiki": 16
+    "online": 2066,
+    "wiki": 17
   },
   "fastClassCounts": {
     "pending:pending": 408,
-    "online:pending": 2068,
-    "wiki:pending": 16
+    "online:pending": 2066,
+    "wiki:pending": 17
   },
   "strategicCounts": {
     "pending:0": 407,
     "online:3": 6,
+    "online:2": 523,
     "wiki:0": 1,
-    "online:2": 522,
-    "online:1": 1540,
-    "wiki:2": 1,
+    "online:1": 1537,
     "pending:1": 1,
-    "wiki:1": 14
+    "wiki:1": 16
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2037
+      "count": 2035
     },
     {
       "id": "itch-newest-web",
-      "count": 2023
+      "count": 2021
     },
     {
       "id": "itch-new-feed",
-      "count": 1972
+      "count": 1970
     },
     {
       "id": "itch-new-popular-web",
@@ -93,23 +92,23 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 19
+      "count": 20
     },
     {
       "id": "steam-latest-indie",
-      "count": 13
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 13
+      "count": 12
     },
     {
       "id": "itch-featured-feed",
-      "count": 8
+      "count": 9
     },
     {
       "id": "itch-featured",
-      "count": 8
+      "count": 9
     },
     {
       "id": "y8-new",
@@ -255,6 +254,26 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Swamp and Luig",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 6,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed",
+        "itch-new",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1069,25 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Trust the System",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
