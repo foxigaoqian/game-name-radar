@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-24T12:16:58.000Z",
+  "generatedAt": "2026-09-24T17:16:08.156Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2487,
+  "pendingSeo": 2484,
   "channelCounts": {
-    "pending": 412,
-    "online": 2058,
-    "wiki": 17
+    "pending": 413,
+    "online": 2049,
+    "wiki": 22
   },
   "fastClassCounts": {
-    "pending:pending": 412,
-    "online:pending": 2058,
-    "wiki:pending": 17
+    "pending:pending": 413,
+    "online:pending": 2049,
+    "wiki:pending": 22
   },
   "strategicCounts": {
-    "pending:0": 411,
+    "pending:0": 412,
     "online:3": 6,
-    "online:2": 527,
+    "online:2": 525,
     "wiki:0": 1,
-    "online:1": 1525,
-    "wiki:1": 16,
-    "pending:1": 1
+    "online:1": 1518,
+    "wiki:2": 3,
+    "pending:1": 1,
+    "wiki:1": 18
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2025
+      "count": 2017
     },
     {
       "id": "itch-newest-web",
-      "count": 2010
+      "count": 2003
     },
     {
       "id": "itch-new-feed",
-      "count": 1961
+      "count": 1953
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +45,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 342
+      "count": 343
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +53,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 174
+      "count": 175
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 20
+      "count": 25
     },
     {
       "id": "steam-latest-indie",
-      "count": 12
+      "count": 16
     },
     {
       "id": "steam-new",
-      "count": 12
+      "count": 16
     },
     {
       "id": "itch-featured-feed",
@@ -112,14 +113,10 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 5
     },
     {
       "id": "lagged-new",
-      "count": 3
-    },
-    {
-      "id": "crazygames-new",
       "count": 2
     },
     {
@@ -128,6 +125,10 @@
     },
     {
       "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
