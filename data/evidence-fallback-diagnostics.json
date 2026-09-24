@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-09-24T06:46:11.575Z",
+  "generatedAt": "2026-09-24T12:16:58.000Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2489,
+  "pendingSeo": 2487,
   "channelCounts": {
-    "wiki": 19,
-    "pending": 411,
-    "online": 2059
+    "pending": 412,
+    "online": 2058,
+    "wiki": 17
   },
   "fastClassCounts": {
-    "wiki:pending": 19,
-    "pending:pending": 411,
-    "online:pending": 2059
+    "pending:pending": 412,
+    "online:pending": 2058,
+    "wiki:pending": 17
   },
   "strategicCounts": {
-    "wiki:1": 17,
-    "pending:0": 410,
+    "pending:0": 411,
     "online:3": 6,
-    "online:2": 524,
+    "online:2": 527,
     "wiki:0": 1,
-    "online:1": 1529,
-    "pending:1": 1,
-    "wiki:2": 1
+    "online:1": 1525,
+    "wiki:1": 16,
+    "pending:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2027
+      "count": 2025
     },
     {
       "id": "itch-newest-web",
-      "count": 2013
+      "count": 2010
     },
     {
       "id": "itch-new-feed",
-      "count": 1962
+      "count": 1961
     },
     {
       "id": "itch-new-popular-web",
-      "count": 508
+      "count": 509
     },
     {
       "id": "itch-popular",
-      "count": 508
+      "count": 509
     },
     {
       "id": "trends-rising-7d",
@@ -93,15 +92,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 22
+      "count": 20
     },
     {
       "id": "steam-latest-indie",
-      "count": 13
+      "count": 12
     },
     {
       "id": "steam-new",
-      "count": 13
+      "count": 12
     },
     {
       "id": "itch-featured-feed",
@@ -113,10 +112,14 @@
     },
     {
       "id": "y8-new",
-      "count": 5
+      "count": 7
     },
     {
       "id": "lagged-new",
+      "count": 3
+    },
+    {
+      "id": "crazygames-new",
       "count": 2
     },
     {
@@ -125,10 +128,6 @@
     },
     {
       "id": "poki-new",
-      "count": 1
-    },
-    {
-      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -293,6 +292,25 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Forgever",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1077,25 +1095,6 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
-      ]
-    },
-    {
-      "name": "Snake Digits 🐍🖐",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
