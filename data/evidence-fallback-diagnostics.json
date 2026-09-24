@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-09-24T01:23:47.853Z",
+  "generatedAt": "2026-09-24T06:46:11.575Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2491,
+  "pendingSeo": 2489,
   "channelCounts": {
-    "pending": 412,
-    "online": 2063,
-    "wiki": 16
+    "wiki": 19,
+    "pending": 411,
+    "online": 2059
   },
   "fastClassCounts": {
-    "pending:pending": 412,
-    "online:pending": 2063,
-    "wiki:pending": 16
+    "wiki:pending": 19,
+    "pending:pending": 411,
+    "online:pending": 2059
   },
   "strategicCounts": {
-    "pending:0": 411,
+    "wiki:1": 17,
+    "pending:0": 410,
     "online:3": 6,
-    "online:2": 523,
+    "online:2": 524,
     "wiki:0": 1,
-    "online:1": 1534,
-    "wiki:2": 2,
+    "online:1": 1529,
     "pending:1": 1,
-    "wiki:1": 13
+    "wiki:2": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2032
+      "count": 2027
     },
     {
       "id": "itch-newest-web",
-      "count": 2018
+      "count": 2013
     },
     {
       "id": "itch-new-feed",
-      "count": 1967
+      "count": 1962
     },
     {
       "id": "itch-new-popular-web",
-      "count": 507
+      "count": 508
     },
     {
       "id": "itch-popular",
-      "count": 507
+      "count": 508
     },
     {
       "id": "trends-rising-7d",
-      "count": 341
+      "count": 342
     },
     {
       "id": "trends-rising-30d",
-      "count": 224
+      "count": 225
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 117
+      "count": 118
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -65,7 +65,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 73
+      "count": 74
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -93,23 +93,23 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 19
+      "count": 22
     },
     {
       "id": "steam-latest-indie",
-      "count": 14
+      "count": 13
     },
     {
       "id": "steam-new",
-      "count": 14
+      "count": 13
     },
     {
       "id": "itch-featured-feed",
-      "count": 9
+      "count": 10
     },
     {
       "id": "itch-featured",
-      "count": 9
+      "count": 10
     },
     {
       "id": "y8-new",
@@ -273,6 +273,24 @@
         "itch-popular",
         "itch-new-feed",
         "itch-new",
+        "itch-featured-feed",
+        "itch-featured"
+      ]
+    },
+    {
+      "name": "THRORBS",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
         "itch-featured-feed",
         "itch-featured"
       ]
@@ -1063,25 +1081,6 @@
     },
     {
       "name": "Snake Digits 🐍🖐",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "GRAVITY: One Button Space Run",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
