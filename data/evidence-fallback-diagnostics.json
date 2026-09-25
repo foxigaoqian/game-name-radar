@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:47:16.666Z",
+  "generatedAt": "2026-09-25T13:01:32.776Z",
   "totalCandidates": 3000,
   "pendingSeo": 2480,
   "channelCounts": {
@@ -15,32 +15,32 @@
   "strategicCounts": {
     "pending:0": 417,
     "online:3": 6,
-    "online:2": 527,
+    "online:2": 529,
     "wiki:0": 1,
-    "online:1": 1511,
+    "online:1": 1509,
     "pending:1": 1,
     "wiki:1": 17
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2012
+      "count": 2011
     },
     {
       "id": "itch-newest-web",
-      "count": 1998
+      "count": 1997
     },
     {
       "id": "itch-new-feed",
-      "count": 1947
+      "count": 1946
     },
     {
       "id": "itch-new-popular-web",
-      "count": 511
+      "count": 512
     },
     {
       "id": "itch-popular",
-      "count": 511
+      "count": 512
     },
     {
       "id": "trends-rising-7d",
@@ -115,19 +115,19 @@
       "count": 5
     },
     {
+      "id": "crazygames-new",
+      "count": 2
+    },
+    {
+      "id": "poki-new",
+      "count": 2
+    },
+    {
       "id": "lagged-new",
       "count": 2
     },
     {
       "id": "steam-top-wishlist",
-      "count": 1
-    },
-    {
-      "id": "poki-new",
-      "count": 1
-    },
-    {
-      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -274,6 +274,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Shakedown Troll",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1068,25 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Nomnado",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
