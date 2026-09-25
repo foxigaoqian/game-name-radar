@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-09-25T13:01:32.776Z",
+  "generatedAt": "2026-09-25T17:57:15.406Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2480,
+  "pendingSeo": 2479,
   "channelCounts": {
-    "pending": 418,
-    "online": 2044,
-    "wiki": 18
+    "pending": 420,
+    "online": 2039,
+    "wiki": 20
   },
   "fastClassCounts": {
-    "pending:pending": 418,
-    "online:pending": 2044,
-    "wiki:pending": 18
+    "pending:pending": 420,
+    "online:pending": 2039,
+    "wiki:pending": 20
   },
   "strategicCounts": {
-    "pending:0": 417,
+    "pending:0": 419,
     "online:3": 6,
-    "online:2": 529,
+    "online:2": 528,
     "wiki:0": 1,
-    "online:1": 1509,
+    "online:1": 1505,
+    "wiki:2": 1,
     "pending:1": 1,
-    "wiki:1": 17
+    "wiki:1": 18
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2011
+      "count": 2007
     },
     {
       "id": "itch-newest-web",
-      "count": 1997
+      "count": 1993
     },
     {
       "id": "itch-new-feed",
-      "count": 1946
+      "count": 1941
     },
     {
       "id": "itch-new-popular-web",
@@ -44,15 +45,15 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 347
+      "count": 349
     },
     {
       "id": "trends-rising-30d",
-      "count": 230
+      "count": 231
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 178
+      "count": 179
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -60,7 +61,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 104
+      "count": 105
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -68,7 +69,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 62
+      "count": 63
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 21
+      "count": 23
     },
     {
       "id": "steam-latest-indie",
-      "count": 13
+      "count": 15
     },
     {
       "id": "steam-new",
-      "count": 13
+      "count": 15
     },
     {
       "id": "itch-featured-feed",
@@ -115,19 +116,19 @@
       "count": 5
     },
     {
-      "id": "crazygames-new",
-      "count": 2
-    },
-    {
-      "id": "poki-new",
-      "count": 2
-    },
-    {
       "id": "lagged-new",
       "count": 2
     },
     {
       "id": "steam-top-wishlist",
+      "count": 1
+    },
+    {
+      "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -371,44 +372,6 @@
       ]
     },
     {
-      "name": "TrickcalTycoon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Squeeze Maker",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "CLERESTORY",
       "channel": "online",
       "fastClass": "pending",
@@ -511,6 +474,44 @@
     },
     {
       "name": "Vending Inc.",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "TrickcalTycoon",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Squeeze Maker",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
