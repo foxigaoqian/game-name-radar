@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-26T09:51:56.925Z",
+  "generatedAt": "2026-09-26T14:29:19.931Z",
   "totalCandidates": 3000,
   "pendingSeo": 2475,
   "channelCounts": {
     "pending": 424,
-    "online": 2035,
-    "wiki": 16
+    "online": 2034,
+    "wiki": 17
   },
   "fastClassCounts": {
     "pending:pending": 424,
-    "online:pending": 2035,
-    "wiki:pending": 16
+    "online:pending": 2034,
+    "wiki:pending": 17
   },
   "strategicCounts": {
     "pending:0": 423,
     "online:3": 6,
-    "online:2": 532,
+    "online:2": 535,
     "wiki:0": 1,
-    "online:1": 1497,
+    "online:1": 1493,
     "pending:1": 1,
-    "wiki:1": 15
+    "wiki:1": 16
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2003
+      "count": 2002
     },
     {
       "id": "itch-newest-web",
-      "count": 1989
+      "count": 1988
     },
     {
       "id": "itch-new-feed",
-      "count": 1936
+      "count": 1935
     },
     {
       "id": "itch-new-popular-web",
-      "count": 516
+      "count": 519
     },
     {
       "id": "itch-popular",
-      "count": 516
+      "count": 519
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 234
+      "count": 237
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 123
+      "count": 126
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 19
+      "count": 20
     },
     {
       "id": "steam-latest-indie",
@@ -469,6 +469,63 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
+      ]
+    },
+    {
+      "name": "Robot Wants Kitty — HTML5 Remaster",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Skate and Die",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "doodle towers",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1030,63 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "A Thousand Cloys",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "The Cauldron Eats First",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "long-duck",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
