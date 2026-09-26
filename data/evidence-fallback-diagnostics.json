@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-25T21:34:11.312Z",
+  "generatedAt": "2026-09-26T00:10:02.972Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2478,
+  "pendingSeo": 2476,
   "channelCounts": {
     "pending": 420,
-    "online": 2037,
-    "wiki": 21
+    "online": 2041,
+    "wiki": 15
   },
   "fastClassCounts": {
     "pending:pending": 420,
-    "online:pending": 2037,
-    "wiki:pending": 21
+    "online:pending": 2041,
+    "wiki:pending": 15
   },
   "strategicCounts": {
     "pending:0": 419,
     "online:3": 6,
     "online:2": 530,
     "wiki:0": 1,
-    "online:1": 1501,
+    "online:1": 1505,
     "wiki:2": 1,
     "pending:1": 1,
-    "wiki:1": 19
+    "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2004
+      "count": 2009
     },
     {
       "id": "itch-newest-web",
-      "count": 1990
+      "count": 1995
     },
     {
       "id": "itch-new-feed",
-      "count": 1937
+      "count": 1942
     },
     {
       "id": "itch-new-popular-web",
-      "count": 513
+      "count": 514
     },
     {
       "id": "itch-popular",
-      "count": 513
+      "count": 514
     },
     {
       "id": "trends-rising-7d",
@@ -93,7 +93,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 24
+      "count": 18
     },
     {
       "id": "steam-latest-indie",
@@ -113,11 +113,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
-    },
-    {
-      "id": "crazygames-new",
-      "count": 2
+      "count": 5
     },
     {
       "id": "lagged-new",
@@ -129,6 +125,10 @@
     },
     {
       "id": "poki-new",
+      "count": 1
+    },
+    {
+      "id": "crazygames-new",
       "count": 1
     }
   ],
@@ -278,6 +278,25 @@
       ]
     },
     {
+      "name": "Shutter Chance, Push Battle",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Shakedown Troll",
       "channel": "online",
       "fastClass": "pending",
@@ -354,44 +373,6 @@
     },
     {
       "name": "Trolley Problem Is Not Problem",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "CLERESTORY",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Rune Tale Demo - Extended Edition",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -511,6 +492,25 @@
       ]
     },
     {
+      "name": "CLERESTORY",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Squeeze Maker",
       "channel": "online",
       "fastClass": "pending",
@@ -550,6 +550,25 @@
     },
     {
       "name": "One More Pack",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Rune Tale Demo - Extended Edition",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1062,25 +1081,6 @@
     },
     {
       "name": "Old Digger",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Deep Miner",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
