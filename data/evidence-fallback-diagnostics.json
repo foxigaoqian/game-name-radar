@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-26T14:29:19.931Z",
+  "generatedAt": "2026-09-26T18:02:25.478Z",
   "totalCandidates": 3000,
   "pendingSeo": 2475,
   "channelCounts": {
-    "pending": 424,
-    "online": 2034,
+    "pending": 425,
+    "online": 2033,
     "wiki": 17
   },
   "fastClassCounts": {
-    "pending:pending": 424,
-    "online:pending": 2034,
+    "pending:pending": 425,
+    "online:pending": 2033,
     "wiki:pending": 17
   },
   "strategicCounts": {
-    "pending:0": 423,
+    "pending:0": 424,
     "online:3": 6,
     "online:2": 535,
     "wiki:0": 1,
-    "online:1": 1493,
+    "online:1": 1492,
     "pending:1": 1,
     "wiki:1": 16
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2002
+      "count": 2001
     },
     {
       "id": "itch-newest-web",
-      "count": 1988
+      "count": 1987
     },
     {
       "id": "itch-new-feed",
-      "count": 1935
+      "count": 1933
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 352
+      "count": 353
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 181
+      "count": 182
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -371,25 +371,6 @@
       ]
     },
     {
-      "name": "Trolley Problem Is Not Problem",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -537,6 +518,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Trolley Problem Is Not Problem",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
