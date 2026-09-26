@@ -1,63 +1,62 @@
 {
-  "generatedAt": "2026-09-26T00:10:02.972Z",
+  "generatedAt": "2026-09-26T04:56:51.806Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2476,
+  "pendingSeo": 2475,
   "channelCounts": {
-    "pending": 420,
-    "online": 2041,
+    "pending": 424,
+    "online": 2036,
     "wiki": 15
   },
   "fastClassCounts": {
-    "pending:pending": 420,
-    "online:pending": 2041,
+    "pending:pending": 424,
+    "online:pending": 2036,
     "wiki:pending": 15
   },
   "strategicCounts": {
-    "pending:0": 419,
+    "pending:0": 423,
     "online:3": 6,
-    "online:2": 530,
+    "online:2": 531,
     "wiki:0": 1,
-    "online:1": 1505,
-    "wiki:2": 1,
+    "online:1": 1499,
     "pending:1": 1,
-    "wiki:1": 13
+    "wiki:1": 14
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2009
+      "count": 2004
     },
     {
       "id": "itch-newest-web",
-      "count": 1995
+      "count": 1990
     },
     {
       "id": "itch-new-feed",
-      "count": 1942
+      "count": 1937
     },
     {
       "id": "itch-new-popular-web",
-      "count": 514
+      "count": 515
     },
     {
       "id": "itch-popular",
-      "count": 514
+      "count": 515
     },
     {
       "id": "trends-rising-7d",
-      "count": 349
+      "count": 352
     },
     {
       "id": "trends-rising-30d",
-      "count": 231
+      "count": 234
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 179
+      "count": 181
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 120
+      "count": 123
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -65,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 74
+      "count": 75
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -97,11 +96,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 15
+      "count": 14
     },
     {
       "id": "steam-new",
-      "count": 15
+      "count": 14
     },
     {
       "id": "itch-featured-feed",
@@ -275,6 +274,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Save Me a Slice!",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1062,25 +1080,6 @@
     },
     {
       "name": "Gelateria Clickeria",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Old Digger",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
