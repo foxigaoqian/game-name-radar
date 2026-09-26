@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-26T04:56:51.806Z",
+  "generatedAt": "2026-09-26T09:51:56.925Z",
   "totalCandidates": 3000,
   "pendingSeo": 2475,
   "channelCounts": {
     "pending": 424,
-    "online": 2036,
-    "wiki": 15
+    "online": 2035,
+    "wiki": 16
   },
   "fastClassCounts": {
     "pending:pending": 424,
-    "online:pending": 2036,
-    "wiki:pending": 15
+    "online:pending": 2035,
+    "wiki:pending": 16
   },
   "strategicCounts": {
     "pending:0": 423,
     "online:3": 6,
-    "online:2": 531,
+    "online:2": 532,
     "wiki:0": 1,
-    "online:1": 1499,
+    "online:1": 1497,
     "pending:1": 1,
-    "wiki:1": 14
+    "wiki:1": 15
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2004
+      "count": 2003
     },
     {
       "id": "itch-newest-web",
-      "count": 1990
+      "count": 1989
     },
     {
       "id": "itch-new-feed",
-      "count": 1937
+      "count": 1936
     },
     {
       "id": "itch-new-popular-web",
-      "count": 515
+      "count": 516
     },
     {
       "id": "itch-popular",
-      "count": 515
+      "count": 516
     },
     {
       "id": "trends-rising-7d",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 18
+      "count": 19
     },
     {
       "id": "steam-latest-indie",
@@ -352,25 +352,6 @@
       ]
     },
     {
-      "name": "The Big Moo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Forgever",
       "channel": "online",
       "fastClass": "pending",
@@ -469,6 +450,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Warehouseman Walter",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
+      ]
+    },
+    {
+      "name": "The Big Moo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1061,25 +1080,6 @@
     },
     {
       "name": "long-duck",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Gelateria Clickeria",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
