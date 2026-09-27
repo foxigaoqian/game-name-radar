@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T21:38:00.475Z",
+  "generatedAt": "2026-09-27T23:58:47.606Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
@@ -15,9 +15,9 @@
   "strategicCounts": {
     "pending:0": 428,
     "online:3": 6,
-    "online:2": 538,
+    "online:2": 539,
     "wiki:0": 1,
-    "online:1": 1492,
+    "online:1": 1491,
     "pending:1": 1,
     "wiki:1": 8
   },
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 522
+      "count": 523
     },
     {
       "id": "itch-popular",
-      "count": 522
+      "count": 523
     },
     {
       "id": "trends-rising-7d",
@@ -274,6 +274,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "The Root Cause",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1068,25 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Amber Eyes",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
