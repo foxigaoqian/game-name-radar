@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:49:21.441Z",
+  "generatedAt": "2026-09-27T08:08:53.592Z",
   "totalCandidates": 3000,
   "pendingSeo": 2475,
   "channelCounts": {
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 237
+      "count": 240
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 126
+      "count": 128
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 54
+      "count": 55
     },
     {
       "id": "newgrounds-latest",
@@ -334,24 +334,6 @@
       ]
     },
     {
-      "name": "THRORBS",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -507,6 +489,24 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "THRORBS",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
