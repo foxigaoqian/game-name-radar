@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-09-28T05:22:28.593Z",
+  "generatedAt": "2026-09-28T11:59:59.181Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
-    "pending": 432,
-    "online": 2039,
+    "pending": 433,
+    "online": 2038,
     "wiki": 3
   },
   "fastClassCounts": {
-    "pending:pending": 432,
-    "online:pending": 2039,
+    "pending:pending": 433,
+    "online:pending": 2038,
     "wiki:pending": 3
   },
   "strategicCounts": {
-    "pending:0": 431,
+    "pending:0": 432,
     "online:3": 6,
-    "online:2": 539,
+    "online:2": 540,
     "wiki:0": 1,
-    "online:1": 1494,
+    "online:1": 1492,
     "pending:1": 1,
     "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2006
+      "count": 2005
     },
     {
       "id": "itch-newest-web",
-      "count": 1992
+      "count": 1991
     },
     {
       "id": "itch-new-feed",
-      "count": 1938
+      "count": 1937
     },
     {
       "id": "itch-new-popular-web",
-      "count": 524
+      "count": 525
     },
     {
       "id": "itch-popular",
-      "count": 524
+      "count": 525
     },
     {
       "id": "trends-rising-7d",
-      "count": 362
+      "count": 364
     },
     {
       "id": "trends-rising-30d",
-      "count": 240
+      "count": 241
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 188
+      "count": 190
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 128
+      "count": 129
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -394,6 +394,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "priiism",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1068,25 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Gridbound",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
