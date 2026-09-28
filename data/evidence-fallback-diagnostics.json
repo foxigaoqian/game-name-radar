@@ -1,62 +1,63 @@
 {
-  "generatedAt": "2026-09-28T11:59:59.181Z",
+  "generatedAt": "2026-09-28T19:40:38.701Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
-    "pending": 433,
-    "online": 2038,
-    "wiki": 3
+    "pending": 435,
+    "online": 2034,
+    "wiki": 5
   },
   "fastClassCounts": {
-    "pending:pending": 433,
-    "online:pending": 2038,
-    "wiki:pending": 3
+    "pending:pending": 435,
+    "online:pending": 2034,
+    "wiki:pending": 5
   },
   "strategicCounts": {
-    "pending:0": 432,
+    "pending:0": 433,
     "online:3": 6,
-    "online:2": 540,
+    "online:2": 542,
     "wiki:0": 1,
-    "online:1": 1492,
-    "pending:1": 1,
-    "wiki:1": 2
+    "online:1": 1486,
+    "wiki:2": 1,
+    "pending:1": 2,
+    "wiki:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2005
+      "count": 2001
     },
     {
       "id": "itch-newest-web",
-      "count": 1991
+      "count": 1987
     },
     {
       "id": "itch-new-feed",
-      "count": 1937
+      "count": 1933
     },
     {
       "id": "itch-new-popular-web",
-      "count": 525
+      "count": 527
     },
     {
       "id": "itch-popular",
-      "count": 525
+      "count": 527
     },
     {
       "id": "trends-rising-7d",
-      "count": 364
+      "count": 366
     },
     {
       "id": "trends-rising-30d",
-      "count": 241
+      "count": 242
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 190
+      "count": 192
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 129
+      "count": 130
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,23 +93,23 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 14
+      "count": 15
     },
     {
       "id": "steam-new",
-      "count": 14
+      "count": 15
     },
     {
       "id": "itch-featured-feed",
-      "count": 10
+      "count": 11
     },
     {
       "id": "itch-featured",
-      "count": 10
+      "count": 11
     },
     {
       "id": "steam-popular-new",
-      "count": 6
+      "count": 8
     },
     {
       "id": "y8-new",
@@ -277,6 +278,44 @@
       ]
     },
     {
+      "name": "Sploob",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "THEODOLITE",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "The Root Cause",
       "channel": "online",
       "fastClass": "pending",
@@ -297,25 +336,6 @@
     },
     {
       "name": "Save Me a Slice!",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Shutter Chance, Push Battle",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -538,6 +558,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Shutter Chance, Push Battle",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1042,44 +1081,6 @@
     },
     {
       "name": "Purple Box Escapes Robots",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Athero",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Ant Colony",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
