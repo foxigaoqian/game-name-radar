@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-09-27T23:58:47.606Z",
+  "generatedAt": "2026-09-28T05:22:28.593Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
-    "pending": 429,
-    "online": 2036,
-    "wiki": 9
+    "pending": 432,
+    "online": 2039,
+    "wiki": 3
   },
   "fastClassCounts": {
-    "pending:pending": 429,
-    "online:pending": 2036,
-    "wiki:pending": 9
+    "pending:pending": 432,
+    "online:pending": 2039,
+    "wiki:pending": 3
   },
   "strategicCounts": {
-    "pending:0": 428,
+    "pending:0": 431,
     "online:3": 6,
     "online:2": 539,
     "wiki:0": 1,
-    "online:1": 1491,
+    "online:1": 1494,
     "pending:1": 1,
-    "wiki:1": 8
+    "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2004
+      "count": 2006
     },
     {
       "id": "itch-newest-web",
-      "count": 1990
+      "count": 1992
     },
     {
       "id": "itch-new-feed",
-      "count": 1936
+      "count": 1938
     },
     {
       "id": "itch-new-popular-web",
-      "count": 523
+      "count": 524
     },
     {
       "id": "itch-popular",
-      "count": 523
+      "count": 524
     },
     {
       "id": "trends-rising-7d",
-      "count": 358
+      "count": 362
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 187
+      "count": 188
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 76
+      "count": 79
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -99,10 +99,6 @@
       "count": 14
     },
     {
-      "id": "steam-popular-new",
-      "count": 12
-    },
-    {
       "id": "itch-featured-feed",
       "count": 10
     },
@@ -111,16 +107,20 @@
       "count": 10
     },
     {
+      "id": "steam-popular-new",
+      "count": 6
+    },
+    {
       "id": "y8-new",
       "count": 5
     },
     {
-      "id": "lagged-new",
+      "id": "steam-top-wishlist",
       "count": 2
     },
     {
-      "id": "steam-top-wishlist",
-      "count": 1
+      "id": "lagged-new",
+      "count": 2
     },
     {
       "id": "poki-new",
@@ -334,25 +334,6 @@
       ]
     },
     {
-      "name": "Shakedown Troll",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -531,6 +512,25 @@
     },
     {
       "name": "doodle towers",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Shakedown Troll",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
