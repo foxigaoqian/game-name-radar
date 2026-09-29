@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-28T23:57:19.487Z",
+  "checkedAt": "2026-09-29T05:42:47.685Z",
   "accountApiConsumesSearchCredits": false,
   "configuredKeys": 4,
   "workingKeys": 4,
   "uniqueAccountCount": 4,
   "duplicateKeyGroups": [],
-  "totalIndependentSearchesLeft": 20,
+  "totalIndependentSearchesLeft": 1000,
   "accounts": [
     {
       "accountFingerprint": "5dfaa092f348",
@@ -14,9 +14,9 @@
       ],
       "planName": "Free Plan",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "totalSearchesLeft": 5,
-      "renewalDate": "2026-09-29"
+      "thisMonthUsage": 0,
+      "totalSearchesLeft": 250,
+      "renewalDate": "2026-10-29"
     },
     {
       "accountFingerprint": "5124b31098ad",
@@ -25,9 +25,9 @@
       ],
       "planName": "Free Plan",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "totalSearchesLeft": 5,
-      "renewalDate": "2026-09-29"
+      "thisMonthUsage": 0,
+      "totalSearchesLeft": 250,
+      "renewalDate": "2026-10-29"
     },
     {
       "accountFingerprint": "fa061d828750",
@@ -36,9 +36,9 @@
       ],
       "planName": "Free Plan",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "totalSearchesLeft": 5,
-      "renewalDate": "2026-09-29"
+      "thisMonthUsage": 0,
+      "totalSearchesLeft": 250,
+      "renewalDate": "2026-10-29"
     },
     {
       "accountFingerprint": "c56df0ffdca3",
@@ -47,9 +47,9 @@
       ],
       "planName": "Free Plan",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "totalSearchesLeft": 5,
-      "renewalDate": "2026-09-29"
+      "thisMonthUsage": 0,
+      "totalSearchesLeft": 250,
+      "renewalDate": "2026-10-29"
     }
   ],
   "slots": [
@@ -63,13 +63,13 @@
       "planId": "free",
       "planName": "Free Plan",
       "planMonthlyPrice": 0,
-      "renewalDate": "2026-09-29",
+      "renewalDate": "2026-10-29",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "planSearchesLeft": 5,
-      "totalSearchesLeft": 5,
+      "thisMonthUsage": 0,
+      "planSearchesLeft": 250,
+      "totalSearchesLeft": 250,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-28T23:57:19.209Z",
+      "checkedAt": "2026-09-29T05:42:47.420Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -83,13 +83,13 @@
       "planId": "free",
       "planName": "Free Plan",
       "planMonthlyPrice": 0,
-      "renewalDate": "2026-09-29",
+      "renewalDate": "2026-10-29",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "planSearchesLeft": 5,
-      "totalSearchesLeft": 5,
+      "thisMonthUsage": 0,
+      "planSearchesLeft": 250,
+      "totalSearchesLeft": 250,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-28T23:57:19.302Z",
+      "checkedAt": "2026-09-29T05:42:47.505Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -103,13 +103,13 @@
       "planId": "free",
       "planName": "Free Plan",
       "planMonthlyPrice": 0,
-      "renewalDate": "2026-09-29",
+      "renewalDate": "2026-10-29",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "planSearchesLeft": 5,
-      "totalSearchesLeft": 5,
+      "thisMonthUsage": 0,
+      "planSearchesLeft": 250,
+      "totalSearchesLeft": 250,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-28T23:57:19.395Z",
+      "checkedAt": "2026-09-29T05:42:47.594Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -123,13 +123,13 @@
       "planId": "free",
       "planName": "Free Plan",
       "planMonthlyPrice": 0,
-      "renewalDate": "2026-09-29",
+      "renewalDate": "2026-10-29",
       "searchesPerMonth": 250,
-      "thisMonthUsage": 245,
-      "planSearchesLeft": 5,
-      "totalSearchesLeft": 5,
+      "thisMonthUsage": 0,
+      "planSearchesLeft": 250,
+      "totalSearchesLeft": 250,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-09-28T23:57:19.487Z",
+      "checkedAt": "2026-09-29T05:42:47.685Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
