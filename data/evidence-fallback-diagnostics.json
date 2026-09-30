@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-09-30T06:01:08.397Z",
+  "generatedAt": "2026-09-30T12:33:10.465Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2466,
+  "pendingSeo": 2464,
   "channelCounts": {
-    "online": 2016,
     "pending": 437,
-    "wiki": 13
+    "online": 2013,
+    "wiki": 14
   },
   "fastClassCounts": {
-    "online:pending": 2016,
     "pending:pending": 437,
-    "wiki:pending": 13
+    "online:pending": 2013,
+    "wiki:pending": 14
   },
   "strategicCounts": {
-    "online:1": 1466,
     "pending:0": 435,
     "online:3": 6,
     "online:2": 544,
     "wiki:0": 3,
+    "online:1": 1463,
     "pending:1": 2,
-    "wiki:1": 10
+    "wiki:1": 11
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1983
+      "count": 1982
     },
     {
       "id": "itch-newest-web",
-      "count": 1967
+      "count": 1966
     },
     {
       "id": "itch-new-feed",
-      "count": 1915
+      "count": 1913
     },
     {
       "id": "itch-new-popular-web",
-      "count": 530
+      "count": 529
     },
     {
       "id": "itch-popular",
-      "count": 530
+      "count": 529
     },
     {
       "id": "trends-rising-7d",
-      "count": 369
+      "count": 368
     },
     {
       "id": "trends-rising-30d",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 80
+      "count": 79
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -84,11 +84,15 @@
     },
     {
       "id": "newgrounds-daily-top",
-      "count": 28
+      "count": 27
     },
     {
       "id": "newgrounds-top",
-      "count": 28
+      "count": 27
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 15
     },
     {
       "id": "steam-latest-indie",
@@ -97,10 +101,6 @@
     {
       "id": "steam-new",
       "count": 15
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 14
     },
     {
       "id": "itch-featured-feed",
@@ -254,24 +254,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "JOJORUNE: VS Dio",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "newgrounds-daily-top",
-        "newgrounds-top"
       ]
     },
     {
@@ -1079,6 +1061,25 @@
     },
     {
       "name": "HealTD incremental",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Let Me Die",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
