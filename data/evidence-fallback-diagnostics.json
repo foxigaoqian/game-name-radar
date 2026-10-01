@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-30T22:14:43.905Z",
+  "generatedAt": "2026-10-01T01:18:25.627Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2464,
+  "pendingSeo": 2463,
   "channelCounts": {
-    "pending": 437,
-    "online": 2011,
-    "wiki": 16
+    "wiki": 13,
+    "pending": 439,
+    "online": 2011
   },
   "fastClassCounts": {
-    "pending:pending": 437,
-    "online:pending": 2011,
-    "wiki:pending": 16
+    "wiki:pending": 13,
+    "pending:pending": 439,
+    "online:pending": 2011
   },
   "strategicCounts": {
-    "pending:0": 435,
+    "wiki:1": 9,
+    "pending:0": 437,
     "online:3": 6,
     "online:2": 547,
     "wiki:0": 3,
     "online:1": 1458,
     "wiki:2": 1,
-    "pending:1": 2,
-    "wiki:1": 12
+    "pending:1": 2
   },
   "topSources": [
     {
@@ -45,19 +45,19 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 368
+      "count": 371
     },
     {
       "id": "trends-rising-30d",
-      "count": 248
+      "count": 252
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 194
+      "count": 197
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 135
+      "count": 139
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,16 +92,16 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 17
-    },
-    {
       "id": "steam-latest-indie",
       "count": 16
     },
     {
       "id": "steam-new",
       "count": 16
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 14
     },
     {
       "id": "itch-featured-feed",
@@ -278,25 +278,6 @@
       ]
     },
     {
-      "name": "Longestini",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "FISH EATS EARTH",
       "channel": "online",
       "fastClass": "pending",
@@ -433,6 +414,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Longestini",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {

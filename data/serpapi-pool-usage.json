@@ -1,32 +1,32 @@
 {
   "enabled": true,
   "configuredSlots": 4,
-  "month": "2026-09",
-  "monthUsed": 980,
-  "day": "2026-09-30",
-  "dayUsed": 0,
+  "month": "2026-10",
+  "monthUsed": 344,
+  "day": "2026-10-01",
+  "dayUsed": 344,
   "monthlyLimit": 980,
   "dailyLimit": 980,
   "accounts": {
     "1": {
       "envName": "SERPAPI_API_KEY",
       "monthUsed": 245,
-      "dayUsed": 0,
+      "dayUsed": 245,
       "monthlyLimit": 245,
       "dailyLimit": 245,
-      "updatedAt": "2026-09-01T00:53:23.800Z"
+      "updatedAt": "2026-10-01T01:32:25.344Z"
     },
     "2": {
       "envName": "SERPAPI_API_KEY_2",
-      "monthUsed": 245,
-      "dayUsed": 0,
+      "monthUsed": 99,
+      "dayUsed": 99,
       "monthlyLimit": 245,
       "dailyLimit": 245,
-      "updatedAt": "2026-09-08T01:34:08.474Z"
+      "updatedAt": "2026-10-01T01:38:01.996Z"
     },
     "3": {
       "envName": "SERPAPI_API_KEY_3",
-      "monthUsed": 245,
+      "monthUsed": 0,
       "dayUsed": 0,
       "monthlyLimit": 245,
       "dailyLimit": 245,
@@ -34,12 +34,12 @@
     },
     "4": {
       "envName": "SERPAPI_API_KEY_4",
-      "monthUsed": 245,
+      "monthUsed": 0,
       "dayUsed": 0,
       "monthlyLimit": 245,
       "dailyLimit": 245,
       "updatedAt": "2026-09-16T14:58:53.924Z"
     }
   },
-  "updatedAt": "2026-09-30T22:14:49.108Z"
+  "updatedAt": "2026-10-01T01:38:05.133Z"
 }
