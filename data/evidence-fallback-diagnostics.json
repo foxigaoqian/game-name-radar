@@ -1,54 +1,55 @@
 {
-  "generatedAt": "2026-10-01T07:48:55.798Z",
+  "generatedAt": "2026-10-01T15:26:49.933Z",
   "totalCandidates": 3000,
   "pendingSeo": 2496,
   "channelCounts": {
+    "online": 2037,
     "pending": 442,
-    "online": 2022,
-    "wiki": 32
+    "wiki": 17
   },
   "fastClassCounts": {
+    "online:pending": 2037,
     "pending:pending": 442,
-    "online:pending": 2022,
-    "wiki:pending": 32
+    "wiki:pending": 17
   },
   "strategicCounts": {
-    "pending:0": 437,
+    "online:1": 1482,
+    "pending:0": 439,
     "online:3": 6,
-    "online:2": 547,
+    "online:2": 549,
+    "wiki:2": 1,
     "wiki:0": 3,
-    "online:1": 1469,
-    "pending:1": 5,
-    "wiki:1": 29
+    "pending:1": 3,
+    "wiki:1": 13
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1991
+      "count": 2005
     },
     {
       "id": "itch-newest-web",
-      "count": 1975
+      "count": 1989
     },
     {
       "id": "itch-new-feed",
-      "count": 1922
+      "count": 1936
     },
     {
       "id": "itch-new-popular-web",
-      "count": 532
+      "count": 534
     },
     {
       "id": "itch-popular",
-      "count": 532
+      "count": 534
     },
     {
       "id": "trends-rising-7d",
-      "count": 370
+      "count": 372
     },
     {
       "id": "trends-rising-30d",
-      "count": 252
+      "count": 253
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 139
+      "count": 140
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,7 +65,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 79
+      "count": 81
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -73,10 +74,6 @@
     {
       "id": "trends-rising-30d-itch-io",
       "count": 56
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 33
     },
     {
       "id": "newgrounds-latest",
@@ -95,6 +92,10 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 18
+    },
+    {
       "id": "steam-latest-indie",
       "count": 15
     },
@@ -104,15 +105,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 14
+      "count": 13
     },
     {
       "id": "itch-featured",
-      "count": 14
+      "count": 13
     },
     {
       "id": "y8-new",
-      "count": 5
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -296,44 +297,6 @@
       ]
     },
     {
-      "name": "Sploob",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "THEODOLITE",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -397,7 +360,64 @@
       ]
     },
     {
+      "name": "1 Million Books",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Longestini",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Sploob",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "THEODOLITE",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1061,25 +1081,6 @@
     },
     {
       "name": "Aftermount",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Favored",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
