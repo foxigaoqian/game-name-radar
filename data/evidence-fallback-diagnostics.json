@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-10-01T01:18:25.627Z",
+  "generatedAt": "2026-10-01T07:48:55.798Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2463,
+  "pendingSeo": 2496,
   "channelCounts": {
-    "wiki": 13,
-    "pending": 439,
-    "online": 2011
+    "pending": 442,
+    "online": 2022,
+    "wiki": 32
   },
   "fastClassCounts": {
-    "wiki:pending": 13,
-    "pending:pending": 439,
-    "online:pending": 2011
+    "pending:pending": 442,
+    "online:pending": 2022,
+    "wiki:pending": 32
   },
   "strategicCounts": {
-    "wiki:1": 9,
     "pending:0": 437,
     "online:3": 6,
     "online:2": 547,
     "wiki:0": 3,
-    "online:1": 1458,
-    "wiki:2": 1,
-    "pending:1": 2
+    "online:1": 1469,
+    "pending:1": 5,
+    "wiki:1": 29
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1980
+      "count": 1991
     },
     {
       "id": "itch-newest-web",
-      "count": 1964
+      "count": 1975
     },
     {
       "id": "itch-new-feed",
-      "count": 1911
+      "count": 1922
     },
     {
       "id": "itch-new-popular-web",
@@ -45,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 371
+      "count": 370
     },
     {
       "id": "trends-rising-30d",
@@ -53,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 197
+      "count": 196
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -76,6 +75,10 @@
       "count": 56
     },
     {
+      "id": "steam-popular-new",
+      "count": 33
+    },
+    {
       "id": "newgrounds-latest",
       "count": 29
     },
@@ -93,23 +96,19 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 16
+      "count": 15
     },
     {
       "id": "steam-new",
-      "count": 16
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 14
+      "count": 15
     },
     {
       "id": "itch-featured-feed",
-      "count": 11
+      "count": 14
     },
     {
       "id": "itch-featured",
-      "count": 11
+      "count": 14
     },
     {
       "id": "y8-new",
@@ -335,25 +334,6 @@
       ]
     },
     {
-      "name": "Defenders of Cinderkeep Demo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -418,6 +398,25 @@
     },
     {
       "name": "Longestini",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Defenders of Cinderkeep Demo",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
