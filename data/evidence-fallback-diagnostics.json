@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-10-02T05:38:41.459Z",
+  "generatedAt": "2026-10-02T11:22:17.148Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2496,
+  "pendingSeo": 2495,
   "channelCounts": {
+    "online": 2043,
     "pending": 442,
-    "online": 2044,
     "wiki": 10
   },
   "fastClassCounts": {
+    "online:pending": 2043,
     "pending:pending": 442,
-    "online:pending": 2044,
     "wiki:pending": 10
   },
   "strategicCounts": {
+    "online:1": 1488,
     "pending:0": 440,
     "online:3": 6,
     "online:2": 549,
     "wiki:0": 3,
-    "online:1": 1489,
     "pending:1": 2,
     "wiki:1": 7
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2014
+      "count": 2012
     },
     {
       "id": "itch-newest-web",
-      "count": 1997
+      "count": 1995
     },
     {
       "id": "itch-new-feed",
-      "count": 1945
+      "count": 1943
     },
     {
       "id": "itch-new-popular-web",
-      "count": 533
+      "count": 535
     },
     {
       "id": "itch-popular",
-      "count": 533
+      "count": 535
     },
     {
       "id": "trends-rising-7d",
-      "count": 371
+      "count": 372
     },
     {
       "id": "trends-rising-30d",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 80
+      "count": 81
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -76,11 +76,11 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-new",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-daily-top",
@@ -356,6 +356,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Bopp Clicker Web",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 12,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1068,25 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Aftermount",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
