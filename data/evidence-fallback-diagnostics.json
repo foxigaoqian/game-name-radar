@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-02T16:50:07.688Z",
+  "generatedAt": "2026-10-02T21:19:28.211Z",
   "totalCandidates": 3000,
   "pendingSeo": 2495,
   "channelCounts": {
-    "pending": 442,
-    "online": 2043,
+    "pending": 446,
+    "online": 2039,
     "wiki": 10
   },
   "fastClassCounts": {
-    "pending:pending": 442,
-    "online:pending": 2043,
+    "pending:pending": 446,
+    "online:pending": 2039,
     "wiki:pending": 10
   },
   "strategicCounts": {
-    "pending:0": 440,
+    "pending:0": 441,
     "online:3": 6,
-    "online:2": 549,
+    "online:2": 550,
     "wiki:0": 3,
-    "online:1": 1488,
-    "pending:1": 2,
+    "online:1": 1483,
+    "pending:1": 5,
     "wiki:1": 7
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2013
+      "count": 2009
     },
     {
       "id": "itch-newest-web",
-      "count": 1996
+      "count": 1992
     },
     {
       "id": "itch-new-feed",
-      "count": 1944
+      "count": 1940
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 371
+      "count": 372
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 196
+      "count": 197
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -100,11 +100,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 11
+      "count": 14
     },
     {
       "id": "itch-featured",
-      "count": 11
+      "count": 14
     },
     {
       "id": "steam-popular-new",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 5
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -254,6 +254,24 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Scoundrel's Descent",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "y8-new"
       ]
     },
     {
@@ -1061,25 +1079,6 @@
     },
     {
       "name": "Sprunki Hypershifted Pepper's Take",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Log Drop",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
