@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-10-02T21:19:28.211Z",
+  "generatedAt": "2026-10-03T00:44:45.896Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2495,
+  "pendingSeo": 2494,
   "channelCounts": {
-    "pending": 446,
+    "pending": 447,
     "online": 2039,
-    "wiki": 10
+    "wiki": 8
   },
   "fastClassCounts": {
-    "pending:pending": 446,
+    "pending:pending": 447,
     "online:pending": 2039,
-    "wiki:pending": 10
+    "wiki:pending": 8
   },
   "strategicCounts": {
-    "pending:0": 441,
+    "pending:0": 442,
     "online:3": 6,
-    "online:2": 550,
+    "online:2": 549,
+    "online:1": 1484,
     "wiki:0": 3,
-    "online:1": 1483,
     "pending:1": 5,
-    "wiki:1": 7
+    "wiki:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2009
+      "count": 2008
     },
     {
       "id": "itch-newest-web",
-      "count": 1992
+      "count": 1991
     },
     {
       "id": "itch-new-feed",
-      "count": 1940
+      "count": 1939
     },
     {
       "id": "itch-new-popular-web",
-      "count": 534
+      "count": 535
     },
     {
       "id": "itch-popular",
-      "count": 534
+      "count": 535
     },
     {
       "id": "trends-rising-7d",
-      "count": 372
+      "count": 373
     },
     {
       "id": "trends-rising-30d",
-      "count": 254
+      "count": 255
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 197
+      "count": 198
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 57
+      "count": 58
     },
     {
       "id": "newgrounds-latest",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 9
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "steam-top-wishlist",
@@ -257,24 +257,6 @@
       ]
     },
     {
-      "name": "Scoundrel's Descent",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 16,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "y8-new"
-      ]
-    },
-    {
       "name": "Swamp and Luig",
       "channel": "online",
       "fastClass": "pending",
@@ -292,25 +274,6 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "FISH EATS EARTH",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -423,6 +386,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "FISH EATS EARTH",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1079,6 +1061,25 @@
     },
     {
       "name": "Sprunki Hypershifted Pepper's Take",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Log Drop",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
