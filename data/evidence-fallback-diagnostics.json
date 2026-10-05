@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-10-05T09:02:18.334Z",
+  "generatedAt": "2026-10-05T18:26:32.075Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
-    "pending": 453,
-    "online": 2035,
-    "wiki": 4
+    "online": 2033,
+    "pending": 454,
+    "wiki": 5
   },
   "fastClassCounts": {
-    "pending:pending": 453,
-    "online:pending": 2035,
-    "wiki:pending": 4
+    "online:pending": 2033,
+    "pending:pending": 454,
+    "wiki:pending": 5
   },
   "strategicCounts": {
-    "pending:0": 447,
+    "online:1": 1474,
+    "pending:0": 448,
     "online:3": 6,
-    "online:2": 552,
+    "online:2": 553,
     "wiki:0": 3,
-    "online:1": 1477,
     "pending:1": 6,
-    "wiki:1": 1
+    "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2004
+      "count": 2001
     },
     {
       "id": "itch-newest-web",
-      "count": 1987
+      "count": 1984
     },
     {
       "id": "itch-new-feed",
-      "count": 1935
+      "count": 1932
     },
     {
       "id": "itch-new-popular-web",
-      "count": 537
+      "count": 539
     },
     {
       "id": "itch-popular",
-      "count": 537
+      "count": 539
     },
     {
       "id": "trends-rising-7d",
-      "count": 378
+      "count": 380
     },
     {
       "id": "trends-rising-30d",
-      "count": 259
+      "count": 260
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 203
+      "count": 204
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 80
+      "count": 81
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 58
+      "count": 59
     },
     {
       "id": "newgrounds-latest",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 5
+      "count": 6
     },
     {
       "id": "y8-new",
@@ -290,6 +290,25 @@
       "sourceIds": [
         "itch-featured-feed",
         "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Idle Factory: Conveyor Tycoon",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1067,25 +1086,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Incremental Dwarf",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
