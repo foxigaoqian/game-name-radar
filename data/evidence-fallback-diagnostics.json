@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-05T02:00:07.414Z",
+  "generatedAt": "2026-10-05T09:02:18.334Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
-    "online": 2034,
-    "pending": 454,
+    "pending": 453,
+    "online": 2035,
     "wiki": 4
   },
   "fastClassCounts": {
-    "online:pending": 2034,
-    "pending:pending": 454,
+    "pending:pending": 453,
+    "online:pending": 2035,
     "wiki:pending": 4
   },
   "strategicCounts": {
-    "online:1": 1479,
     "pending:0": 447,
     "online:3": 6,
-    "online:2": 549,
+    "online:2": 552,
     "wiki:0": 3,
-    "pending:1": 7,
+    "online:1": 1477,
+    "pending:1": 6,
     "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2003
+      "count": 2004
     },
     {
       "id": "itch-newest-web",
-      "count": 1986
+      "count": 1987
     },
     {
       "id": "itch-new-feed",
-      "count": 1934
+      "count": 1935
     },
     {
       "id": "itch-new-popular-web",
-      "count": 535
+      "count": 537
     },
     {
       "id": "itch-popular",
-      "count": 535
+      "count": 537
     },
     {
       "id": "trends-rising-7d",
-      "count": 379
+      "count": 378
     },
     {
       "id": "trends-rising-30d",
-      "count": 260
+      "count": 259
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 81
+      "count": 80
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 59
+      "count": 58
     },
     {
       "id": "newgrounds-latest",
@@ -277,6 +277,43 @@
       ]
     },
     {
+      "name": "Rulehouse",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-featured-feed",
+        "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Very hard meeting",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -337,6 +374,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Secret of Sizon",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1023,63 +1079,6 @@
     },
     {
       "name": "Incremental Dwarf",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Seed the Planet - DEMO",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Sprunki Hypershifted Pepper's Take",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Log Drop",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
