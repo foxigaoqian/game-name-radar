@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-06T14:11:24.859Z",
+  "generatedAt": "2026-10-06T19:32:00.022Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2492,
+  "pendingSeo": 2491,
   "channelCounts": {
     "pending": 451,
-    "online": 2035,
-    "wiki": 6
+    "online": 2033,
+    "wiki": 7
   },
   "fastClassCounts": {
     "pending:pending": 451,
-    "online:pending": 2035,
-    "wiki:pending": 6
+    "online:pending": 2033,
+    "wiki:pending": 7
   },
   "strategicCounts": {
-    "pending:0": 449,
+    "pending:0": 450,
     "online:3": 6,
-    "online:2": 557,
+    "online:2": 556,
     "wiki:0": 3,
-    "online:1": 1472,
-    "pending:1": 2,
-    "wiki:1": 3
+    "online:1": 1471,
+    "pending:1": 1,
+    "wiki:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2003
+      "count": 2001
     },
     {
       "id": "itch-newest-web",
-      "count": 1986
+      "count": 1984
     },
     {
       "id": "itch-new-feed",
-      "count": 1934
+      "count": 1932
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +44,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 380
+      "count": 381
     },
     {
       "id": "trends-rising-30d",
-      "count": 259
+      "count": 261
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 144
+      "count": 145
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 81
+      "count": 82
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 58
+      "count": 59
     },
     {
       "id": "newgrounds-latest",
@@ -100,19 +100,19 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 13
+      "count": 12
     },
     {
       "id": "itch-featured",
-      "count": 13
+      "count": 12
     },
     {
       "id": "steam-popular-new",
-      "count": 7
+      "count": 8
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 5
     },
     {
       "id": "steam-top-wishlist",
