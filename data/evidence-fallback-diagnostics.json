@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-05T18:26:32.075Z",
+  "generatedAt": "2026-10-06T00:20:47.222Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
-    "online": 2033,
-    "pending": 454,
+    "pending": 452,
+    "online": 2035,
     "wiki": 5
   },
   "fastClassCounts": {
-    "online:pending": 2033,
-    "pending:pending": 454,
+    "pending:pending": 452,
+    "online:pending": 2035,
     "wiki:pending": 5
   },
   "strategicCounts": {
-    "online:1": 1474,
-    "pending:0": 448,
+    "pending:0": 449,
     "online:3": 6,
-    "online:2": 553,
+    "online:2": 554,
     "wiki:0": 3,
-    "pending:1": 6,
+    "online:1": 1475,
+    "pending:1": 3,
     "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2001
+      "count": 2004
     },
     {
       "id": "itch-newest-web",
-      "count": 1984
+      "count": 1987
     },
     {
       "id": "itch-new-feed",
-      "count": 1932
+      "count": 1935
     },
     {
       "id": "itch-new-popular-web",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 260
+      "count": 259
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 59
+      "count": 58
     },
     {
       "id": "newgrounds-latest",
@@ -91,20 +91,20 @@
       "count": 27
     },
     {
-      "id": "itch-featured-feed",
-      "count": 16
-    },
-    {
-      "id": "itch-featured",
-      "count": 16
-    },
-    {
       "id": "steam-latest-indie",
       "count": 15
     },
     {
       "id": "steam-new",
       "count": 15
+    },
+    {
+      "id": "itch-featured-feed",
+      "count": 13
+    },
+    {
+      "id": "itch-featured",
+      "count": 13
     },
     {
       "id": "steam-popular-new",
@@ -393,6 +393,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Heart Shooter",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 9,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1075,25 +1094,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Skribline",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
