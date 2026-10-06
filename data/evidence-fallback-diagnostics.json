@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-06T00:20:47.222Z",
+  "generatedAt": "2026-10-06T06:52:11.668Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
-    "pending": 452,
     "online": 2035,
+    "pending": 452,
     "wiki": 5
   },
   "fastClassCounts": {
-    "pending:pending": 452,
     "online:pending": 2035,
+    "pending:pending": 452,
     "wiki:pending": 5
   },
   "strategicCounts": {
+    "online:1": 1473,
     "pending:0": 449,
     "online:3": 6,
-    "online:2": 554,
+    "online:2": 556,
     "wiki:0": 3,
-    "online:1": 1475,
     "pending:1": 3,
     "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 2004
+      "count": 2002
     },
     {
       "id": "itch-newest-web",
-      "count": 1987
+      "count": 1985
     },
     {
       "id": "itch-new-feed",
-      "count": 1935
+      "count": 1933
     },
     {
       "id": "itch-new-popular-web",
-      "count": 539
+      "count": 542
     },
     {
       "id": "itch-popular",
-      "count": 539
+      "count": 542
     },
     {
       "id": "trends-rising-7d",
-      "count": 380
+      "count": 381
     },
     {
       "id": "trends-rising-30d",
-      "count": 259
+      "count": 260
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 81
+      "count": 82
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 58
+      "count": 59
     },
     {
       "id": "newgrounds-latest",
@@ -100,11 +100,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 13
+      "count": 14
     },
     {
       "id": "itch-featured",
-      "count": 13
+      "count": 14
     },
     {
       "id": "steam-popular-new",
@@ -272,6 +272,24 @@
         "itch-popular",
         "itch-new-feed",
         "itch-new",
+        "itch-featured-feed",
+        "itch-featured"
+      ]
+    },
+    {
+      "name": "Alpine",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
         "itch-featured-feed",
         "itch-featured"
       ]
@@ -795,6 +813,25 @@
       ]
     },
     {
+      "name": "orbital",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Shakedown Troll",
       "channel": "online",
       "fastClass": "pending",
@@ -1057,43 +1094,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "IDLE HQ",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Eat not, Want not",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     }
   ]
