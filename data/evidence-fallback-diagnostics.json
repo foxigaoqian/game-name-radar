@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-07T09:16:45.148Z",
+  "generatedAt": "2026-10-07T16:34:37.049Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2491,
+  "pendingSeo": 2492,
   "channelCounts": {
     "pending": 453,
     "online": 2030,
-    "wiki": 8
+    "wiki": 9
   },
   "fastClassCounts": {
     "pending:pending": 453,
     "online:pending": 2030,
-    "wiki:pending": 8
+    "wiki:pending": 9
   },
   "strategicCounts": {
-    "pending:0": 452,
+    "pending:0": 451,
     "online:3": 6,
-    "online:2": 556,
+    "online:2": 558,
+    "wiki:1": 6,
     "wiki:0": 3,
-    "online:1": 1468,
-    "pending:1": 1,
-    "wiki:1": 5
+    "online:1": 1466,
+    "pending:1": 2
   },
   "topSources": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 541
+      "count": 543
     },
     {
       "id": "itch-popular",
-      "count": 541
+      "count": 543
     },
     {
       "id": "trends-rising-7d",
@@ -92,19 +92,19 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 15
+      "count": 17
     },
     {
       "id": "steam-new",
-      "count": 15
+      "count": 17
     },
     {
       "id": "itch-featured-feed",
-      "count": 12
+      "count": 13
     },
     {
       "id": "itch-featured",
-      "count": 12
+      "count": 13
     },
     {
       "id": "steam-popular-new",
@@ -274,6 +274,65 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "One More Floor",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "Milchwerk – Dairy Factory Idle",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Incremental Table",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1029,63 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Rune Tale Demo - Extended Edition",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Necropolis: Rise of the Undying",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 7,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Return of The Twin Peaks",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 7,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
