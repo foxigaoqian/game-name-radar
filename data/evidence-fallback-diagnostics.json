@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-07T16:34:37.049Z",
+  "generatedAt": "2026-10-07T21:36:01.846Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
-    "pending": 453,
+    "pending": 454,
     "online": 2030,
-    "wiki": 9
+    "wiki": 8
   },
   "fastClassCounts": {
-    "pending:pending": 453,
+    "pending:pending": 454,
     "online:pending": 2030,
-    "wiki:pending": 9
+    "wiki:pending": 8
   },
   "strategicCounts": {
-    "pending:0": 451,
+    "pending:0": 452,
     "online:3": 6,
-    "online:2": 558,
-    "wiki:1": 6,
+    "online:2": 559,
     "wiki:0": 3,
-    "online:1": 1466,
-    "pending:1": 2
+    "online:1": 1465,
+    "pending:1": 2,
+    "wiki:1": 5
   },
   "topSources": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 543
+      "count": 544
     },
     {
       "id": "itch-popular",
-      "count": 543
+      "count": 544
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 264
+      "count": 263
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 59
+      "count": 58
     },
     {
       "id": "newgrounds-latest",
@@ -92,11 +92,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 17
+      "count": 16
     },
     {
       "id": "steam-new",
-      "count": 17
+      "count": 16
     },
     {
       "id": "itch-featured-feed",
@@ -298,6 +298,25 @@
       ]
     },
     {
+      "name": "Stargate Legacy",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Milchwerk – Dairy Factory Idle",
       "channel": "online",
       "fastClass": "pending",
@@ -351,43 +370,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Rulehouse",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-featured-feed",
-        "itch-featured",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Idle Factory: Conveyor Tycoon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -473,6 +455,24 @@
       ]
     },
     {
+      "name": "Rulehouse",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-featured-feed",
+        "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Secret of Sizon",
       "channel": "online",
       "fastClass": "pending",
@@ -481,6 +481,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Idle Factory: Conveyor Tycoon",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1069,25 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "One More Pack",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
