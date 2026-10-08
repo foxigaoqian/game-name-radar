@@ -1,9 +1,9 @@
 {
   "month": "2026-10",
-  "monthUsed": 0,
-  "day": "2026-10-07",
-  "dayUsed": 0,
+  "monthUsed": 31,
+  "day": "2026-10-08",
+  "dayUsed": 31,
   "monthlyLimit": 245,
   "dailyLimit": 245,
-  "updatedAt": "2026-09-15T06:11:27.737Z"
+  "updatedAt": "2026-10-08T01:23:41.452Z"
 }

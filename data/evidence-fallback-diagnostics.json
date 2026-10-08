@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-10-07T21:36:01.846Z",
+  "generatedAt": "2026-10-08T01:20:01.057Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
     "pending": 454,
-    "online": 2030,
-    "wiki": 8
+    "online": 2031,
+    "wiki": 7
   },
   "fastClassCounts": {
     "pending:pending": 454,
-    "online:pending": 2030,
-    "wiki:pending": 8
+    "online:pending": 2031,
+    "wiki:pending": 7
   },
   "strategicCounts": {
     "pending:0": 452,
     "online:3": 6,
-    "online:2": 559,
-    "wiki:0": 3,
+    "online:2": 560,
     "online:1": 1465,
+    "wiki:0": 3,
     "pending:1": 2,
-    "wiki:1": 5
+    "wiki:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1998
+      "count": 1999
     },
     {
       "id": "itch-newest-web",
-      "count": 1981
+      "count": 1982
     },
     {
       "id": "itch-new-feed",
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 544
+      "count": 545
     },
     {
       "id": "itch-popular",
-      "count": 544
+      "count": 545
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 263
+      "count": 264
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 148
+      "count": 149
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 9
+      "count": 8
     },
     {
       "id": "y8-new",
@@ -295,6 +295,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Can’t Lose Hero",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1069,25 +1088,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Where are my bones?!",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
