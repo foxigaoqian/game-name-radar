@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-10-08T01:19:32.916Z",
+  "scannedAt": "2026-10-08T07:58:45.563Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 133,
+  "totalAdded": 179,
   "sources": [
     {
       "ok": true,
@@ -17,21 +17,21 @@
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 3
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 35
+      "added": 36
     },
     {
       "ok": true,
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
@@ -45,49 +45,49 @@
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 1
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 3
+      "added": 16
     },
     {
       "ok": true,
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 0
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 8
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 0
+      "added": 6
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 161,
-      "added": 1
+      "total": 142,
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 24
+      "added": 42
     },
     {
       "ok": false,
@@ -106,15 +106,15 @@
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 14,
-      "added": 8
+      "total": 12,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 14,
-      "added": 7
+      "total": 15,
+      "added": 5
     },
     {
       "ok": true,
@@ -134,15 +134,15 @@
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 10,
-      "added": 4
+      "total": 8,
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 17,
-      "added": 4
+      "total": 19,
+      "added": 6
     }
   ],
   "seoVerified": 0,
@@ -155,8 +155,8 @@
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 86,
-  "trendErrors": 1,
+  "trendsVerified": 211,
+  "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
@@ -164,7 +164,7 @@
   "trendModelVersion": 4,
   "seoPassedCount": 384,
   "trendEligibleCount": 211,
-  "trendPendingCount": 205,
+  "trendPendingCount": 120,
   "trendValidatedCount": 317,
   "risingCount": 2,
   "globalRisingCount": 0,
@@ -172,8 +172,8 @@
     "independent": 0,
     "test-now": 0,
     "page": 3,
-    "watch": 404,
-    "reject": 1,
+    "watch": 405,
+    "reject": 0,
     "pending": 2592,
     "error": 0
   },
@@ -194,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-10-08T01:19:31.552Z",
+    "checkedAt": "2026-10-08T07:58:44.181Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -282,7 +282,7 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-10-08T01:20:00.705Z"
+    "ranAt": "2026-10-08T07:59:13.645Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
@@ -304,9 +304,9 @@
       "pending": 0
     },
     "verifiedNames": [
-      "duality"
+      "Yes, Comrade."
     ],
-    "ranAt": "2026-10-08T01:20:01.472Z"
+    "ranAt": "2026-10-08T07:59:14.430Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -330,16 +330,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-10-08T01:20:04.583Z"
+    "ranAt": "2026-10-08T07:59:17.209Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-10-08T01:20:05.091Z",
+    "checkedAt": "2026-10-08T07:59:17.569Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 589,
+    "totalIndependentSearchesLeft": 503,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -359,8 +359,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 166,
-        "totalSearchesLeft": 84,
+        "thisMonthUsage": 188,
+        "totalSearchesLeft": 62,
         "renewalDate": "2026-10-29"
       },
       {
@@ -370,8 +370,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 0,
-        "totalSearchesLeft": 250,
+        "thisMonthUsage": 31,
+        "totalSearchesLeft": 219,
         "renewalDate": "2026-10-29"
       },
       {
@@ -381,8 +381,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 0,
-        "totalSearchesLeft": 250,
+        "thisMonthUsage": 33,
+        "totalSearchesLeft": 217,
         "renewalDate": "2026-10-29"
       }
     ],
@@ -403,7 +403,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-08T01:20:04.804Z",
+        "checkedAt": "2026-10-08T07:59:17.416Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -419,11 +419,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-10-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 166,
-        "planSearchesLeft": 84,
-        "totalSearchesLeft": 84,
+        "thisMonthUsage": 188,
+        "planSearchesLeft": 62,
+        "totalSearchesLeft": 62,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-08T01:20:04.894Z",
+        "checkedAt": "2026-10-08T07:59:17.467Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -439,11 +439,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-10-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 0,
-        "planSearchesLeft": 250,
-        "totalSearchesLeft": 250,
+        "thisMonthUsage": 31,
+        "planSearchesLeft": 219,
+        "totalSearchesLeft": 219,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-08T01:20:04.991Z",
+        "checkedAt": "2026-10-08T07:59:17.516Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -459,11 +459,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-10-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 0,
-        "planSearchesLeft": 250,
-        "totalSearchesLeft": 250,
+        "thisMonthUsage": 33,
+        "planSearchesLeft": 217,
+        "totalSearchesLeft": 217,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-08T01:20:05.091Z",
+        "checkedAt": "2026-10-08T07:59:17.568Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -496,117 +496,242 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 569,
-    "queueSize": 86,
-    "verified": 86,
+    "remainingAtStart": 483,
+    "queueSize": 365,
+    "verified": 211,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 86,
-      "secondary": 0,
-      "strategic": 0
+      "strong": 57,
+      "secondary": 146,
+      "strategic": 8
     },
     "channelVerified": {
-      "online": 77,
-      "wiki": 9,
+      "online": 183,
+      "wiki": 28,
       "pending": 0
     },
     "pendingByTier": {
-      "strong": 28,
+      "strong": 0,
       "secondary": 0,
       "strategic": 0
     },
     "pendingByChannel": {
-      "online": 24,
-      "wiki": 4
+      "online": 0,
+      "wiki": 0
     },
     "verifiedNames": [
-      "My Army Base",
-      "Endacopia",
-      "Survive-ish",
-      "Obby Climb and Jump Tower",
-      "Noob vs Pro : Drift Tag",
-      "SWAT: Squad Tactics",
-      "Cubes Match 3 Quest",
-      "GORILGO FPS Online Shooter",
-      "Sprunki(?)",
-      "Shift At Midnight",
-      "dear passengers",
-      "Duskfade",
-      "Big Walk",
-      "duality",
-      "Color Clash",
-      "Plinko RNG",
-      "Scarlet Skips",
-      "dimraeth",
-      "Fruit Merge",
-      "JOJORUNE: VS Dio",
-      "Bike Obby Draw Pencil",
-      "Super Dev Quest",
-      "Woolloop: Color Puzzle",
-      "Word Solitaire",
-      "game banana",
-      "Trump Wall Building",
-      "Mystery Mansion Lost in the No Spotlight Rooms",
-      "Card Clash Battle Arena",
-      "Welcome to Elderfield",
-      "Merge Champions",
-      "Iron Bastion",
-      "Haaland Coloring Book",
-      "Color Mosaic",
-      "Street Fist",
-      "Pinpoint Globe",
-      "Brush Cat Challenge",
-      "Mystery Dumpling Squishy Slime",
-      "Yenemy",
-      "Tile Family: Match Puzzle",
-      "Airbiker",
-      "Girl Dream House DIY Fun",
-      "Echollow",
-      "Dicebound Survivors",
-      "Arrow Escape Turbo",
-      "CMYK Puzzle",
-      "Super Slime: Black Hole",
-      "Arrows Out",
-      "Island Siege",
-      "Riddle House",
-      "Ocean Rescue Sort",
-      "Candy Farm",
-      "Real Car Bmw M4 Drift",
-      "Dino World 3D",
-      "Obby Rainbow Parkour Two Player",
-      "+1 Speed Keyboard Lucky Escape",
-      "Red Pippy",
-      "Commando Force",
-      "Shadow Fit",
-      "Cute Farm Match Puzzle",
-      "Ram Rush",
-      "Ninja on the Run",
-      "Slime Works",
-      "Candy Flow Factory",
-      "Geometry Overlap",
-      "Toca Coloring Book",
-      "Shinobi Chronicles",
-      "Falafel Master",
-      "Merge Zodiac",
-      "Cozy Sort: Theme Collect",
-      "Obby Keyboard Escape",
-      "Fall Boys Coloring Book",
-      "Coloring: Mosaic by Symbols",
-      "Airplane Manager",
-      "Bolt Sort",
-      "Obby: Epic SkatePark",
-      "Toca: Hidden Stars",
-      "Royal Defense",
-      "Offroad Crash Climber 4X4",
-      "Farm vs Zombies",
-      "My Castle: Merge & Story",
-      "Cricket Smash 3D",
-      "2048 Decks",
-      "Mine Blade Online KitPvP",
-      "Sniper For Brainrot",
-      "Wild Horse Simulator Racing Games",
-      "Spin to Wind"
+      "Deep Drill Run",
+      "Yes, Comrade.",
+      "Food: Run and Battle",
+      "Fruit Pairs: Zombieland",
+      "Puzzle Fit the Pieces",
+      "PrismRoll 3D",
+      "Lucy Makeup and Dress Up",
+      "STAR WARS Zero Company™",
+      "My Army Getting Stronger",
+      "Endless Sky Adventure",
+      "Zombie Merge",
+      "sidequest",
+      "Twisted Tower",
+      "Rift Fighter",
+      "Prism Survivor",
+      "Thousand Suns",
+      "Salvage & Sons",
+      "Haaaland Arrow Shooter",
+      "Fields of Mistria",
+      "Dress Up 3D",
+      "Arrow Escape",
+      "Soccer Jump",
+      "Cornerlet",
+      "machine party",
+      "CHAOS ARENA",
+      "Devourer.io",
+      "Red Mahjong",
+      "Senescence Protocol",
+      "Ultimate Tic-Tac-Toe",
+      "warspace.io",
+      "Magnet Shift",
+      "metroidvania",
+      "Turbo Trail",
+      "Hidden Object: Detective Story",
+      "Galaxy Merge Starships Wars",
+      "how hungry...",
+      "Astraeus: Anomalies",
+      "〔Something〕",
+      "Dynamite Coast",
+      "COLISEUM CONQUEST",
+      "Vengeance of the Evermore Assassins",
+      "picobalt",
+      "BLOCK RUSH",
+      "Cleanup Crew",
+      "Ball Sort",
+      "Block Blaster",
+      "Smashing Bottles",
+      "Denshattack!",
+      "NEON DODGER",
+      "Escape from Vlogger: Runaway",
+      "Monkey Mart",
+      "Ludo King",
+      "Stickman Hook",
+      "Average Routine",
+      "Bed Wars",
+      "Adventure Capitalist",
+      "Hawaii Match",
+      "Singularity Inc.",
+      "Punchy Guy",
+      "Freaky Clown Town Mystery",
+      "Neon Challenge Legends",
+      "Random Stuff Inc.",
+      "Blackstart",
+      "Goods Master",
+      "Tennis Bits",
+      "Duck Merge",
+      "Sort The Samba",
+      "RingBound",
+      "Stair Race 3D",
+      "Grim Nights",
+      "Cars vs Zombies",
+      "IDLE_DIRECTIVE",
+      "Wreck The Robot",
+      "Going Up Rooftop",
+      "Kin and Conquest",
+      "Tank Stars",
+      "Monkey Tag IO",
+      "A Studied Seduction",
+      "FallenLand",
+      "Annoying Teacher Punch",
+      "Galaxy Clash",
+      "Unmatched Ego",
+      "Neon Pong",
+      "Idle Pizza Business",
+      "Veggie Merge",
+      "Mine Shooter",
+      "Dinosaur Shifting Run",
+      "4th and Goal 2026",
+      "Magic Battleground",
+      "GT Cars Mega Ramps",
+      "Lord Ragdoll",
+      "Supermarket Empire",
+      "Snacky Snake",
+      "Dino Fighter",
+      "Thief Puzzle",
+      "Talking Tom Gold Run",
+      "Racing in City",
+      "Dwarf Mine",
+      "Stickman Fury",
+      "Legend of Idle",
+      "Phone CASE DIY",
+      "Interstellar Legends",
+      "Maldives Hidden Objects",
+      "Tape Sort 3D",
+      "Breakout Clone",
+      "Ragdoll Playground",
+      "The Closing Shift",
+      "Ball vs Block",
+      "Bikini for Love",
+      "Monkey Bubble Defense",
+      "Draw Action Freestyle Fight",
+      "Ants io",
+      "Push Titans",
+      "Kitty Jewel Quest",
+      "Fishing Anomaly",
+      "Help Me: Tricky Puzzle Games",
+      "Rubinite",
+      "Going Balls",
+      "Sandwich Runner",
+      "Hospital Surgeon Doctor",
+      "Jelly Fruit Merge",
+      "Distant Leaps to Circinus | Demo",
+      "Wood Hexa Factory!",
+      "Hyper Cars Ramp Crash",
+      "Ice Cream Stack Run",
+      "Well Dweller",
+      "GRAIN ROT",
+      "Owa and Tea are fighting",
+      "putt.day",
+      "Demolition Inc.",
+      "Block Smash",
+      "Claw Tycoon",
+      "Tictoc Catwalk Fashion",
+      "IRON NEST Heavy Turret Simulator",
+      "Flat Baseball",
+      "Pizza Dash",
+      "Punch Master",
+      "Hide the Evidence",
+      "DIY Desk Designer",
+      "Mine and Dig",
+      "Oozy's Lab",
+      "Draft Wars",
+      "Home Builder Clicker",
+      "[WIP] Sonic OC Game",
+      "Stunt Protocol",
+      "Cute Pony Puzzle Quest",
+      "Tusg io",
+      "Quantum Rush",
+      "Wool Rush",
+      "Real Animal Transport Cargo",
+      "Tower Destiny Survive",
+      "Stickman Merge",
+      "Assassin's Creed Black Flag Resynced",
+      "Train Miner",
+      "Ten Million Clicks Together",
+      "Trucktopolis Cooking Chaos",
+      "Streetlight Syndicate",
+      "Critter Chaos",
+      "Circle Jump",
+      "Broken Depths RPG",
+      "Supercar Legends",
+      "Dessert Maker",
+      "Stickman Battle",
+      "Project Parcel — Dispatch Network Demo",
+      "Serenity Shift PC final build",
+      "3d Platformer",
+      "Tuning Car Racing",
+      "Solo Dungeon",
+      "Knights & Brides",
+      "Trash Master",
+      "Ironcurse Mobile Demo Test",
+      "Cyber-runner/private🤫",
+      "Scrap Mechanic",
+      "Overtime : Patrol",
+      "ASTRAL COURT DX",
+      "BURIED BELOW",
+      "Furniture Fu",
+      "Encroacher: Snakes",
+      "Ore & Odds",
+      "FUN VIDEO STORE",
+      "Vectoraid",
+      "Animal Puzzle Deluxe",
+      "Cat Simulator",
+      "Hide and Paint",
+      "Bedevil's Hidden Objects 1 - Farm",
+      "Benjie and Jelan \"ALCANTARA QUEST\"",
+      "Snake Rush 3D",
+      "Traffic Racer",
+      "World Wars: Tanks",
+      "Wolfoo Word Search",
+      "Cube Dash",
+      "sys:tan restore",
+      "Anx, I, and Me",
+      "Blast Buddies",
+      "Tiny Homes for Little Gnomes",
+      "Lawnmowing in puzzlescript",
+      "World of Yarn",
+      "Monster Merge Battle 3D",
+      "Gazzilion Boxes",
+      "Escape from Scary Teacher",
+      "Neon Orbit",
+      "Mega Jump",
+      "Regicide",
+      "That Time I Reincarnated as a Tyrant God",
+      "Bar After Bar",
+      "It's Fine",
+      "Kernel Hearts",
+      "Grail",
+      "Rivage",
+      "The Crust",
+      "Tyr"
     ],
     "caps": {
       "online": 999,
@@ -632,23 +757,23 @@
         "envName": "SERPAPI_API_KEY_2",
         "ok": true,
         "error": null,
-        "verified": 22,
+        "verified": 57,
         "channelVerified": {
-          "online": 15,
-          "wiki": 7,
+          "online": 51,
+          "wiki": 6,
           "pending": 0
         },
         "errors": 0,
-        "quotaStopped": false
+        "quotaStopped": true
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 31,
+        "verified": 154,
         "channelVerified": {
-          "online": 29,
-          "wiki": 2,
+          "online": 132,
+          "wiki": 22,
           "pending": 0
         },
         "errors": 0,
@@ -658,9 +783,9 @@
         "envName": "SERPAPI_API_KEY_4",
         "ok": true,
         "error": null,
-        "verified": 33,
+        "verified": 0,
         "channelVerified": {
-          "online": 33,
+          "online": 0,
           "wiki": 0,
           "pending": 0
         },
@@ -668,16 +793,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-10-08T01:25:59.972Z"
+    "ranAt": "2026-10-08T08:11:57.686Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-10",
-    "monthUsed": 497,
+    "monthUsed": 708,
     "day": "2026-10-08",
-    "dayUsed": 86,
+    "dayUsed": 297,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -691,19 +816,19 @@
       },
       "2": {
         "envName": "SERPAPI_API_KEY_2",
-        "monthUsed": 188,
-        "dayUsed": 22,
+        "monthUsed": 245,
+        "dayUsed": 79,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-10-08T01:21:45.117Z"
+        "updatedAt": "2026-10-08T08:02:26.777Z"
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 31,
-        "dayUsed": 31,
+        "monthUsed": 185,
+        "dayUsed": 185,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-10-08T01:23:41.452Z"
+        "updatedAt": "2026-10-08T08:11:54.623Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -714,7 +839,7 @@
         "updatedAt": "2026-10-08T01:25:55.507Z"
       }
     },
-    "updatedAt": "2026-10-08T01:26:00.025Z"
+    "updatedAt": "2026-10-08T08:11:57.739Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -730,11 +855,11 @@
     "verifyLimit": 95,
     "effectiveLimit": 6,
     "remainingAtStart": 6,
-    "queueSize": 6,
+    "queueSize": 0,
     "verified": 0,
-    "errors": 1,
+    "errors": 0,
     "requests": 0,
-    "quotaStopped": true,
+    "quotaStopped": false,
     "concurrency": 1,
     "channelVerified": {
       "online": 0,
@@ -747,21 +872,16 @@
       "strategic": 0
     },
     "pendingByChannel": {
-      "online": 24,
-      "wiki": 4
+      "online": 0,
+      "wiki": 0
     },
     "pendingByTier": {
-      "strong": 28,
+      "strong": 0,
       "secondary": 0,
       "strategic": 0
     },
     "verifiedNames": [],
-    "errorNames": [
-      {
-        "name": "Deep Drill Run",
-        "error": "You have used all of the searches for the month. Please upgrade your plan on SearchApi.io."
-      }
-    ],
-    "ranAt": "2026-10-08T01:26:00.759Z"
+    "errorNames": [],
+    "ranAt": "2026-10-08T08:11:58.279Z"
   }
 }

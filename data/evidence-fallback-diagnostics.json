@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T01:20:01.057Z",
+  "generatedAt": "2026-10-08T07:59:14.025Z",
   "totalCandidates": 3000,
   "pendingSeo": 2492,
   "channelCounts": {
@@ -15,20 +15,20 @@
   "strategicCounts": {
     "pending:0": 452,
     "online:3": 6,
-    "online:2": 560,
-    "online:1": 1465,
+    "online:2": 561,
     "wiki:0": 3,
+    "online:1": 1464,
     "pending:1": 2,
     "wiki:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1999
+      "count": 1998
     },
     {
       "id": "itch-newest-web",
-      "count": 1982
+      "count": 1981
     },
     {
       "id": "itch-new-feed",
@@ -36,19 +36,19 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 545
+      "count": 546
     },
     {
       "id": "itch-popular",
-      "count": 545
+      "count": 546
     },
     {
       "id": "trends-rising-7d",
-      "count": 382
+      "count": 381
     },
     {
       "id": "trends-rising-30d",
-      "count": 264
+      "count": 263
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 82
+      "count": 81
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 58
+      "count": 57
     },
     {
       "id": "newgrounds-latest",
@@ -84,11 +84,11 @@
     },
     {
       "id": "newgrounds-daily-top",
-      "count": 27
+      "count": 28
     },
     {
       "id": "newgrounds-top",
-      "count": 27
+      "count": 28
     },
     {
       "id": "steam-latest-indie",
@@ -254,6 +254,24 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Yes, Comrade.",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "newgrounds-daily-top",
+        "newgrounds-top"
       ]
     },
     {
@@ -1069,25 +1087,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Squeeze Maker",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
