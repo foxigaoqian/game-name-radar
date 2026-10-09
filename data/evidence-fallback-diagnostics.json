@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-10-09T07:23:34.322Z",
+  "generatedAt": "2026-10-09T14:40:42.292Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2489,
+  "pendingSeo": 2488,
   "channelCounts": {
     "pending": 457,
-    "online": 2018,
-    "wiki": 14
+    "online": 2012,
+    "wiki": 19
   },
   "fastClassCounts": {
     "pending:pending": 457,
-    "online:pending": 2018,
-    "wiki:pending": 14
+    "online:pending": 2012,
+    "wiki:pending": 19
   },
   "strategicCounts": {
     "pending:0": 455,
     "online:3": 6,
     "online:2": 561,
     "wiki:0": 3,
-    "online:1": 1451,
+    "online:1": 1445,
+    "wiki:2": 1,
     "pending:1": 2,
-    "wiki:1": 11
+    "wiki:1": 15
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1985
+      "count": 1979
     },
     {
       "id": "itch-newest-web",
-      "count": 1968
+      "count": 1962
     },
     {
       "id": "itch-new-feed",
-      "count": 1916
+      "count": 1910
     },
     {
       "id": "itch-new-popular-web",
-      "count": 545
+      "count": 546
     },
     {
       "id": "itch-popular",
-      "count": 545
+      "count": 546
     },
     {
       "id": "trends-rising-7d",
@@ -91,24 +92,24 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 20
+    },
+    {
       "id": "steam-latest-indie",
-      "count": 18
+      "count": 19
     },
     {
       "id": "steam-new",
-      "count": 18
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 15
+      "count": 19
     },
     {
       "id": "itch-featured-feed",
-      "count": 13
+      "count": 14
     },
     {
       "id": "itch-featured",
-      "count": 13
+      "count": 14
     },
     {
       "id": "y8-new",
@@ -119,16 +120,16 @@
       "count": 4
     },
     {
-      "id": "crazygames-new",
+      "id": "lagged-new",
       "count": 2
     },
     {
       "id": "poki-new",
-      "count": 2
+      "count": 1
     },
     {
-      "id": "lagged-new",
-      "count": 2
+      "id": "crazygames-new",
+      "count": 1
     }
   ],
   "samples": [
@@ -316,6 +317,24 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Battle Healer Hildegard",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1064,25 +1083,6 @@
     },
     {
       "name": "TrickcalTycoon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "CLERESTORY",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
