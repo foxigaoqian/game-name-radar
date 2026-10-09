@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-10-09T19:47:11.835Z",
+  "generatedAt": "2026-10-09T23:34:24.674Z",
   "totalCandidates": 3000,
   "pendingSeo": 2488,
   "channelCounts": {
     "pending": 458,
-    "online": 2010,
-    "wiki": 20
+    "online": 2007,
+    "wiki": 23
   },
   "fastClassCounts": {
     "pending:pending": 458,
-    "online:pending": 2010,
-    "wiki:pending": 20
+    "online:pending": 2007,
+    "wiki:pending": 23
   },
   "strategicCounts": {
     "pending:0": 456,
     "online:3": 6,
     "online:2": 561,
     "wiki:0": 3,
-    "online:1": 1443,
+    "online:1": 1440,
+    "wiki:2": 1,
     "pending:1": 2,
-    "wiki:1": 17
+    "wiki:1": 19
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1977
+      "count": 1973
     },
     {
       "id": "itch-newest-web",
-      "count": 1960
+      "count": 1957
     },
     {
       "id": "itch-new-feed",
-      "count": 1908
+      "count": 1904
     },
     {
       "id": "itch-new-popular-web",
@@ -92,7 +93,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 21
+      "count": 25
     },
     {
       "id": "steam-latest-indie",
@@ -375,44 +376,6 @@
       ]
     },
     {
-      "name": "Milchwerk – Dairy Factory Idle",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Incremental Table",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Long Dives",
       "channel": "online",
       "fastClass": "pending",
@@ -473,6 +436,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Milchwerk – Dairy Factory Idle",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Incremental Table",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
