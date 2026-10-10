@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-10-10T19:31:48.354Z",
+  "generatedAt": "2026-10-10T22:56:56.597Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2488,
+  "pendingSeo": 2486,
   "channelCounts": {
-    "pending": 457,
-    "online": 2009,
+    "pending": 459,
+    "online": 2005,
     "wiki": 22
   },
   "fastClassCounts": {
-    "pending:pending": 457,
-    "online:pending": 2009,
+    "pending:pending": 459,
+    "online:pending": 2005,
     "wiki:pending": 22
   },
   "strategicCounts": {
-    "pending:0": 456,
+    "pending:0": 458,
     "online:3": 6,
-    "online:2": 564,
-    "online:1": 1439,
+    "online:2": 563,
     "wiki:0": 3,
+    "online:1": 1436,
     "pending:1": 1,
     "wiki:1": 19
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1972
+      "count": 1970
     },
     {
       "id": "itch-newest-web",
-      "count": 1956
+      "count": 1954
     },
     {
       "id": "itch-new-feed",
-      "count": 1903
+      "count": 1901
     },
     {
       "id": "itch-new-popular-web",
-      "count": 547
+      "count": 548
     },
     {
       "id": "itch-popular",
-      "count": 547
+      "count": 548
     },
     {
       "id": "trends-rising-7d",
-      "count": 385
+      "count": 386
     },
     {
       "id": "trends-rising-30d",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 82
+      "count": 83
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -76,11 +76,11 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-new",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-daily-top",
@@ -96,11 +96,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 17
+      "count": 18
     },
     {
       "id": "steam-new",
-      "count": 17
+      "count": 18
     },
     {
       "id": "itch-featured-feed",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +120,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 4
+      "count": 2
     },
     {
       "id": "poki-new",
@@ -416,6 +416,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Abyssal Salvage",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1063,25 +1082,6 @@
     },
     {
       "name": "Trolley Problem Is Not Problem",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Vending Inc.",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
