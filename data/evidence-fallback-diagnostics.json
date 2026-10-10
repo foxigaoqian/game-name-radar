@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-10-10T09:05:06.815Z",
+  "generatedAt": "2026-10-10T15:22:32.320Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2487,
+  "pendingSeo": 2488,
   "channelCounts": {
     "pending": 458,
-    "online": 2008,
+    "online": 2009,
     "wiki": 21
   },
   "fastClassCounts": {
     "pending:pending": 458,
-    "online:pending": 2008,
+    "online:pending": 2009,
     "wiki:pending": 21
   },
   "strategicCounts": {
-    "pending:0": 456,
+    "pending:0": 457,
     "online:3": 6,
-    "online:2": 561,
+    "online:2": 562,
     "wiki:0": 3,
     "online:1": 1441,
-    "pending:1": 2,
+    "pending:1": 1,
     "wiki:1": 18
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1974
+      "count": 1975
     },
     {
       "id": "itch-newest-web",
-      "count": 1958
+      "count": 1959
     },
     {
       "id": "itch-new-feed",
-      "count": 1905
+      "count": 1906
     },
     {
       "id": "itch-new-popular-web",
-      "count": 546
+      "count": 547
     },
     {
       "id": "itch-popular",
-      "count": 546
+      "count": 547
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 268
+      "count": 270
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 153
+      "count": 154
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 58
+      "count": 59
     },
     {
       "id": "newgrounds-latest",
@@ -104,11 +104,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 14
+      "count": 13
     },
     {
       "id": "itch-featured",
-      "count": 14
+      "count": 13
     },
     {
       "id": "y8-new",
@@ -298,6 +298,25 @@
       ]
     },
     {
+      "name": "Inside The Cube",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Battle Healer Hildegard",
       "channel": "online",
       "fastClass": "pending",
@@ -313,25 +332,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Can’t Lose Hero",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -416,6 +416,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Can’t Lose Hero",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1070,25 +1089,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "TrickcalTycoon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [

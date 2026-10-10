@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-10-10T09:04:33.167Z",
+  "scannedAt": "2026-10-10T15:22:03.029Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 173,
+  "totalAdded": 169,
   "sources": [
     {
       "ok": true,
@@ -17,14 +17,14 @@
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 1
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 36
+      "added": 35
     },
     {
       "ok": true,
@@ -44,50 +44,50 @@
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
-      "total": 50,
-      "added": 6
+      "total": 49,
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 12
+      "added": 6
     },
     {
       "ok": true,
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 5
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 9
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 6
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 186,
-      "added": 0
+      "total": 140,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 43
+      "added": 42
     },
     {
       "ok": false,
@@ -100,86 +100,86 @@
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 82,
-      "added": 0
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 9,
-      "added": 5
+      "total": 10,
+      "added": 9
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 13,
-      "added": 3
+      "total": 15,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 1,
-      "added": 1
+      "total": 0,
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 2,
-      "added": 1
+      "total": 1,
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 10,
-      "added": 4
+      "total": 9,
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 19,
-      "added": 5
+      "total": 13,
+      "added": 6
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
   "fastPassedCount": 282,
-  "fastWatchCount": 221,
+  "fastWatchCount": 220,
   "fastRejectedCount": 10,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 1,
+  "trendsVerified": 7,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 389,
+  "seoPassedCount": 388,
   "trendEligibleCount": 213,
-  "trendPendingCount": 210,
-  "trendValidatedCount": 321,
+  "trendPendingCount": 211,
+  "trendValidatedCount": 320,
   "risingCount": 2,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 3,
-    "watch": 409,
+    "watch": 408,
     "reject": 0,
-    "pending": 2588,
+    "pending": 2589,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 321
+    "serpapi": 320
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -194,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-10-10T09:04:31.744Z",
+    "checkedAt": "2026-10-10T15:22:01.998Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -219,7 +219,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 164,
+    "evidence-fallback": 163,
     "duckduckgo+autocomplete": 103,
     "serper+autocomplete": 247
   },
@@ -250,8 +250,8 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2373,
-    "wiki": 69,
+    "online": 2374,
+    "wiki": 68,
     "pending": 558
   },
   "wikiPrelaunchModelVersion": 2,
@@ -259,7 +259,7 @@
     "priority": 0,
     "prepare": 0,
     "watch": 4,
-    "weak": 65
+    "weak": 64
   },
   "serperVerification": {
     "rushMode": true,
@@ -282,12 +282,12 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-10-10T09:05:06.431Z"
+    "ranAt": "2026-10-10T15:22:31.978Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2487,
+    "pendingCount": 2488,
     "eligibleCount": 0,
     "queueSize": 0,
     "verified": 0,
@@ -304,7 +304,7 @@
       "pending": 0
     },
     "verifiedNames": [],
-    "ranAt": "2026-10-10T09:05:07.233Z"
+    "ranAt": "2026-10-10T15:22:32.646Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -328,16 +328,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-10-10T09:05:10.015Z"
+    "ranAt": "2026-10-10T15:22:35.764Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-10-10T09:05:10.538Z",
+    "checkedAt": "2026-10-10T15:22:35.974Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 277,
+    "totalIndependentSearchesLeft": 276,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -368,8 +368,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 200,
-        "totalSearchesLeft": 50,
+        "thisMonthUsage": 201,
+        "totalSearchesLeft": 49,
         "renewalDate": "2026-10-29"
       },
       {
@@ -401,7 +401,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-10T09:05:10.284Z",
+        "checkedAt": "2026-10-10T15:22:35.912Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -421,7 +421,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-10T09:05:10.367Z",
+        "checkedAt": "2026-10-10T15:22:35.935Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -437,11 +437,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-10-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 200,
-        "planSearchesLeft": 50,
-        "totalSearchesLeft": 50,
+        "thisMonthUsage": 201,
+        "planSearchesLeft": 49,
+        "totalSearchesLeft": 49,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-10T09:05:10.456Z",
+        "checkedAt": "2026-10-10T15:22:35.955Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -461,7 +461,7 @@
         "planSearchesLeft": 217,
         "totalSearchesLeft": 217,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-10T09:05:10.538Z",
+        "checkedAt": "2026-10-10T15:22:35.973Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -481,7 +481,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 46,
+      "validated": 45,
       "rising": 1,
       "recommended": 0
     },
@@ -494,19 +494,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 257,
-    "queueSize": 1,
-    "verified": 1,
+    "remainingAtStart": 256,
+    "queueSize": 7,
+    "verified": 7,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 1,
-      "secondary": 0,
-      "strategic": 0
+      "strong": 4,
+      "secondary": 2,
+      "strategic": 1
     },
     "channelVerified": {
-      "online": 0,
-      "wiki": 1,
+      "online": 5,
+      "wiki": 2,
       "pending": 0
     },
     "pendingByTier": {
@@ -519,7 +519,13 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Dressmaker"
+      "Obby: +1 Laser to Break Walls",
+      "Wheee",
+      "Zeroed Realm",
+      "CONTROL Resonant",
+      "Level Devil",
+      "Spacebar Clicker",
+      "Valheim"
     ],
     "caps": {
       "online": 999,
@@ -558,10 +564,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 1,
+        "verified": 7,
         "channelVerified": {
-          "online": 0,
-          "wiki": 1,
+          "online": 5,
+          "wiki": 2,
           "pending": 0
         },
         "errors": 0,
@@ -581,16 +587,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-10-10T09:05:14.873Z"
+    "ranAt": "2026-10-10T15:22:59.031Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-10",
-    "monthUsed": 724,
+    "monthUsed": 731,
     "day": "2026-10-10",
-    "dayUsed": 1,
+    "dayUsed": 8,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -612,11 +618,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 201,
-        "dayUsed": 1,
+        "monthUsed": 208,
+        "dayUsed": 8,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-10-10T09:05:11.848Z"
+        "updatedAt": "2026-10-10T15:22:56.696Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -627,7 +633,7 @@
         "updatedAt": "2026-10-08T01:25:55.507Z"
       }
     },
-    "updatedAt": "2026-10-10T09:05:14.930Z"
+    "updatedAt": "2026-10-10T15:22:59.077Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -670,6 +676,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-10-10T09:05:15.444Z"
+    "ranAt": "2026-10-10T15:22:59.519Z"
   }
 }
