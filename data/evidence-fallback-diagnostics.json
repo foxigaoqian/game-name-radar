@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-10-09T23:34:24.674Z",
+  "generatedAt": "2026-10-10T02:45:59.107Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2488,
+  "pendingSeo": 2487,
   "channelCounts": {
     "pending": 458,
-    "online": 2007,
-    "wiki": 23
+    "online": 2009,
+    "wiki": 20
   },
   "fastClassCounts": {
     "pending:pending": 458,
-    "online:pending": 2007,
-    "wiki:pending": 23
+    "online:pending": 2009,
+    "wiki:pending": 20
   },
   "strategicCounts": {
     "pending:0": 456,
     "online:3": 6,
     "online:2": 561,
     "wiki:0": 3,
-    "online:1": 1440,
-    "wiki:2": 1,
+    "online:1": 1442,
     "pending:1": 2,
-    "wiki:1": 19
+    "wiki:1": 17
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1973
+      "count": 1975
     },
     {
       "id": "itch-newest-web",
-      "count": 1957
+      "count": 1959
     },
     {
       "id": "itch-new-feed",
-      "count": 1904
+      "count": 1906
     },
     {
       "id": "itch-new-popular-web",
@@ -49,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 267
+      "count": 268
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 152
+      "count": 153
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -93,15 +92,15 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 25
+      "count": 22
     },
     {
       "id": "steam-latest-indie",
-      "count": 18
+      "count": 17
     },
     {
       "id": "steam-new",
-      "count": 18
+      "count": 17
     },
     {
       "id": "itch-featured-feed",
@@ -278,27 +277,6 @@
       ]
     },
     {
-      "name": "One More Floor",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
       "name": "More Slots More Money",
       "channel": "online",
       "fastClass": "pending",
@@ -373,6 +351,27 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "One More Floor",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
