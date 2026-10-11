@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-10-11T15:39:41.369Z",
+  "generatedAt": "2026-10-11T19:43:41.553Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2487,
+  "pendingSeo": 2485,
   "channelCounts": {
-    "wiki": 13,
-    "pending": 461,
-    "online": 2013
+    "pending": 462,
+    "online": 2011,
+    "wiki": 12
   },
   "fastClassCounts": {
-    "wiki:pending": 13,
-    "pending:pending": 461,
-    "online:pending": 2013
+    "pending:pending": 462,
+    "online:pending": 2011,
+    "wiki:pending": 12
   },
   "strategicCounts": {
-    "wiki:1": 10,
-    "pending:0": 460,
+    "pending:0": 461,
     "online:3": 6,
     "online:2": 566,
     "wiki:0": 3,
-    "online:1": 1441,
-    "pending:1": 1
+    "online:1": 1439,
+    "pending:1": 1,
+    "wiki:1": 9
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1977
+      "count": 1976
     },
     {
       "id": "itch-newest-web",
-      "count": 1961
+      "count": 1960
     },
     {
       "id": "itch-new-feed",
-      "count": 1908
+      "count": 1907
     },
     {
       "id": "itch-new-popular-web",
-      "count": 550
+      "count": 551
     },
     {
       "id": "itch-popular",
-      "count": 550
+      "count": 551
     },
     {
       "id": "trends-rising-7d",
-      "count": 387
+      "count": 388
     },
     {
       "id": "trends-rising-30d",
@@ -52,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 209
+      "count": 210
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -100,7 +100,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 15
+      "count": 14
     },
     {
       "id": "itch-featured-feed",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +120,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "poki-new",
@@ -274,6 +274,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Lab accident",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1078,25 +1097,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "The Big Moo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
