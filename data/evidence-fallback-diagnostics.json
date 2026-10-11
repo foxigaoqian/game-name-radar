@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-10T22:56:56.597Z",
+  "generatedAt": "2026-10-11T01:52:14.372Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2486,
+  "pendingSeo": 2487,
   "channelCounts": {
     "pending": 459,
-    "online": 2005,
-    "wiki": 22
+    "online": 2017,
+    "wiki": 11
   },
   "fastClassCounts": {
     "pending:pending": 459,
-    "online:pending": 2005,
-    "wiki:pending": 22
+    "online:pending": 2017,
+    "wiki:pending": 11
   },
   "strategicCounts": {
     "pending:0": 458,
     "online:3": 6,
     "online:2": 563,
     "wiki:0": 3,
-    "online:1": 1436,
+    "online:1": 1448,
     "pending:1": 1,
-    "wiki:1": 19
+    "wiki:1": 8
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1970
+      "count": 1982
     },
     {
       "id": "itch-newest-web",
-      "count": 1954
+      "count": 1966
     },
     {
       "id": "itch-new-feed",
-      "count": 1901
+      "count": 1913
     },
     {
       "id": "itch-new-popular-web",
@@ -91,10 +91,6 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 24
-    },
-    {
       "id": "steam-latest-indie",
       "count": 18
     },
@@ -108,6 +104,10 @@
     },
     {
       "id": "itch-featured",
+      "count": 13
+    },
+    {
+      "id": "steam-popular-new",
       "count": 13
     },
     {
@@ -277,27 +277,6 @@
       ]
     },
     {
-      "name": "More Slots More Money",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
       "name": "Inside The Cube",
       "channel": "online",
       "fastClass": "pending",
@@ -385,6 +364,27 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "More Slots More Money",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 7,
       "sourceIds": [
