@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-10-13T08:27:32.684Z",
+  "generatedAt": "2026-10-13T16:27:24.663Z",
   "totalCandidates": 3000,
   "pendingSeo": 2481,
   "channelCounts": {
-    "pending": 466,
-    "online": 2007,
-    "wiki": 8
+    "pending": 465,
+    "online": 2005,
+    "wiki": 11
   },
   "fastClassCounts": {
-    "pending:pending": 466,
-    "online:pending": 2007,
-    "wiki:pending": 8
+    "pending:pending": 465,
+    "online:pending": 2005,
+    "wiki:pending": 11
   },
   "strategicCounts": {
-    "pending:0": 465,
+    "pending:0": 464,
     "online:3": 6,
     "online:2": 568,
     "wiki:0": 3,
-    "online:1": 1433,
+    "online:1": 1431,
+    "wiki:2": 1,
     "pending:1": 1,
-    "wiki:1": 5
+    "wiki:1": 7
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1972
+      "count": 1970
     },
     {
       "id": "itch-newest-web",
-      "count": 1955
+      "count": 1953
     },
     {
       "id": "itch-new-feed",
-      "count": 1904
+      "count": 1902
     },
     {
       "id": "itch-new-popular-web",
@@ -92,11 +93,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 18
+      "count": 19
     },
     {
       "id": "steam-new",
-      "count": 18
+      "count": 19
     },
     {
       "id": "itch-featured-feed",
@@ -108,7 +109,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 10
+      "count": 13
     },
     {
       "id": "y8-new",
@@ -333,25 +334,6 @@
       ]
     },
     {
-      "name": "PokéSurvivor",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "One More Floor",
       "channel": "online",
       "fastClass": "pending",
@@ -458,6 +440,25 @@
     },
     {
       "name": "II II II I I I I II",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "PokéSurvivor",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
