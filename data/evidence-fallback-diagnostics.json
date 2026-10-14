@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-10-14T10:37:09.633Z",
+  "generatedAt": "2026-10-14T15:30:06.037Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2480,
+  "pendingSeo": 2479,
   "channelCounts": {
-    "pending": 470,
-    "wiki": 19,
-    "online": 1991
+    "pending": 469,
+    "online": 1990,
+    "wiki": 20
   },
   "fastClassCounts": {
-    "pending:pending": 470,
-    "wiki:pending": 19,
-    "online:pending": 1991
+    "pending:pending": 469,
+    "online:pending": 1990,
+    "wiki:pending": 20
   },
   "strategicCounts": {
-    "pending:0": 469,
+    "pending:0": 468,
+    "online:1": 1412,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 571,
-    "online:1": 1414,
-    "pending:1": 1,
+    "online:2": 572,
     "wiki:2": 1,
-    "wiki:1": 14
+    "pending:1": 1,
+    "wiki:1": 15
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1956
+      "count": 1953
     },
     {
       "id": "itch-newest-web",
-      "count": 1939
+      "count": 1936
     },
     {
       "id": "itch-new-feed",
-      "count": 1888
+      "count": 1885
     },
     {
       "id": "itch-new-popular-web",
-      "count": 556
+      "count": 557
     },
     {
       "id": "itch-popular",
-      "count": 556
+      "count": 557
     },
     {
       "id": "trends-rising-7d",
@@ -49,7 +49,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 282
+      "count": 283
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 161
+      "count": 162
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -93,7 +93,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 20
+      "count": 21
     },
     {
       "id": "steam-latest-indie",
@@ -113,7 +113,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -121,7 +121,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "poki-new",
@@ -315,25 +315,6 @@
       ]
     },
     {
-      "name": "Lab accident",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "One More Floor",
       "channel": "online",
       "fastClass": "pending",
@@ -477,7 +458,7 @@
       ]
     },
     {
-      "name": "II II II I I I I II",
+      "name": "Lab accident",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1090,6 +1071,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Save Me a Slice!",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
