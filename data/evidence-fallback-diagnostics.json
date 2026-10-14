@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-10-14T15:30:06.037Z",
+  "generatedAt": "2026-10-14T19:42:24.084Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2479,
+  "pendingSeo": 2477,
   "channelCounts": {
     "pending": 469,
-    "online": 1990,
-    "wiki": 20
+    "wiki": 27,
+    "online": 1981
   },
   "fastClassCounts": {
     "pending:pending": 469,
-    "online:pending": 1990,
-    "wiki:pending": 20
+    "wiki:pending": 27,
+    "online:pending": 1981
   },
   "strategicCounts": {
     "pending:0": 468,
-    "online:1": 1412,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 572,
-    "wiki:2": 1,
+    "online:2": 574,
+    "online:1": 1401,
+    "wiki:2": 4,
     "pending:1": 1,
-    "wiki:1": 15
+    "wiki:1": 19
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1953
+      "count": 1945
     },
     {
       "id": "itch-newest-web",
-      "count": 1936
+      "count": 1928
     },
     {
       "id": "itch-new-feed",
-      "count": 1885
+      "count": 1877
     },
     {
       "id": "itch-new-popular-web",
-      "count": 557
+      "count": 558
     },
     {
       "id": "itch-popular",
-      "count": 557
+      "count": 558
     },
     {
       "id": "trends-rising-7d",
-      "count": 394
+      "count": 393
     },
     {
       "id": "trends-rising-30d",
@@ -53,7 +53,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 213
+      "count": 212
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -65,11 +65,11 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 86
+      "count": 85
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 65
+      "count": 64
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -84,6 +84,10 @@
       "count": 29
     },
     {
+      "id": "steam-popular-new",
+      "count": 28
+    },
+    {
       "id": "newgrounds-daily-top",
       "count": 27
     },
@@ -92,16 +96,12 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 21
-    },
-    {
       "id": "steam-latest-indie",
-      "count": 19
+      "count": 22
     },
     {
       "id": "steam-new",
-      "count": 19
+      "count": 22
     },
     {
       "id": "itch-featured-feed",
@@ -417,6 +417,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Bladescape",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Popcorn Idle - Prototype",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1052,44 +1090,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "doodle towers",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Save Me a Slice!",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
