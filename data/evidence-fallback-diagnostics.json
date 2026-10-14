@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-10-13T21:33:50.864Z",
+  "generatedAt": "2026-10-14T00:37:26.152Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2481,
+  "pendingSeo": 2480,
   "channelCounts": {
     "pending": 465,
     "wiki": 15,
-    "online": 2001
+    "online": 2000
   },
   "fastClassCounts": {
     "pending:pending": 465,
     "wiki:pending": 15,
-    "online:pending": 2001
+    "online:pending": 2000
   },
   "strategicCounts": {
     "pending:0": 464,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 568,
-    "online:1": 1427,
-    "wiki:2": 1,
+    "online:2": 570,
+    "online:1": 1424,
     "pending:1": 1,
-    "wiki:1": 10
+    "wiki:1": 11
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1966
+      "count": 1965
     },
     {
       "id": "itch-newest-web",
-      "count": 1949
+      "count": 1948
     },
     {
       "id": "itch-new-feed",
-      "count": 1898
+      "count": 1897
     },
     {
       "id": "itch-new-popular-web",
-      "count": 553
+      "count": 555
     },
     {
       "id": "itch-popular",
-      "count": 553
+      "count": 555
     },
     {
       "id": "trends-rising-7d",
@@ -93,11 +92,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 19
+      "count": 18
     },
     {
       "id": "steam-new",
-      "count": 19
+      "count": 18
     },
     {
       "id": "steam-popular-new",
@@ -436,6 +435,44 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Diglings Demo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Potato.exe - A Game About Spinning a Wheel to Download Potatoes - Demo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1045,44 +1082,6 @@
     },
     {
       "name": "Save Me a Slice!",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Shutter Chance, Push Battle",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "orbital",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
