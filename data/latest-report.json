@@ -1,23 +1,23 @@
 {
-  "scannedAt": "2026-10-14T05:24:32.568Z",
+  "scannedAt": "2026-10-14T10:36:35.237Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 147,
+  "totalAdded": 180,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 34
+      "added": 35
     },
     {
       "ok": true,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 2
+      "added": 7
     },
     {
       "ok": true,
@@ -38,14 +38,14 @@
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 4
+      "added": 5
     },
     {
       "ok": true,
@@ -59,35 +59,35 @@
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 5
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 8
+      "added": 9
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 0
+      "added": 6
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 171,
-      "added": 0
+      "total": 141,
+      "added": 3
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 40
+      "added": 39
     },
     {
       "ok": false,
@@ -106,15 +106,15 @@
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 7,
-      "added": 1
+      "total": 13,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 18,
-      "added": 2
+      "total": 16,
+      "added": 6
     },
     {
       "ok": true,
@@ -134,52 +134,52 @@
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 10,
-      "added": 1
+      "total": 14,
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 11,
-      "added": 3
+      "total": 14,
+      "added": 7
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
   "fastPassedCount": 288,
-  "fastWatchCount": 221,
+  "fastWatchCount": 223,
   "fastRejectedCount": 9,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 4,
+  "trendsVerified": 2,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 394,
+  "seoPassedCount": 396,
   "trendEligibleCount": 219,
   "trendPendingCount": 211,
-  "trendValidatedCount": 328,
+  "trendValidatedCount": 329,
   "risingCount": 2,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 3,
-    "watch": 416,
+    "watch": 417,
     "reject": 0,
-    "pending": 2581,
+    "pending": 2580,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 328
+    "serpapi": 329
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -194,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-10-14T05:24:31.669Z",
+    "checkedAt": "2026-10-14T10:36:33.832Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -219,7 +219,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 171,
+    "evidence-fallback": 172,
     "duckduckgo+autocomplete": 103,
     "serper+autocomplete": 247
   },
@@ -250,16 +250,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2368,
-    "wiki": 66,
-    "pending": 566
+    "online": 2361,
+    "wiki": 69,
+    "pending": 570
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 0,
     "watch": 5,
-    "weak": 61
+    "weak": 64
   },
   "serperVerification": {
     "rushMode": true,
@@ -282,32 +282,31 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-10-14T05:25:03.775Z"
+    "ranAt": "2026-10-14T10:37:09.278Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2482,
-    "eligibleCount": 2,
-    "queueSize": 2,
-    "verified": 2,
+    "pendingCount": 2480,
+    "eligibleCount": 1,
+    "queueSize": 1,
+    "verified": 1,
     "channelVerified": {
       "online": 0,
-      "wiki": 2,
+      "wiki": 1,
       "pending": 0
     },
     "fastRecalculated": {
       "pass": 0,
-      "watch": 2,
+      "watch": 1,
       "weak": 0,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "No Such Place",
-      "Legion Was Here"
+      "My Beautiful Faraway, Please Don't Be Cruel To Me"
     ],
-    "ranAt": "2026-10-14T05:25:04.259Z"
+    "ranAt": "2026-10-14T10:37:10.030Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -331,16 +330,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-10-14T05:25:07.221Z"
+    "ranAt": "2026-10-14T10:37:12.225Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-10-14T05:25:07.572Z",
+    "checkedAt": "2026-10-14T10:37:12.794Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 236,
+    "totalIndependentSearchesLeft": 232,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -371,8 +370,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 241,
-        "totalSearchesLeft": 9,
+        "thisMonthUsage": 245,
+        "totalSearchesLeft": 5,
         "renewalDate": "2026-10-29"
       },
       {
@@ -404,7 +403,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-14T05:25:07.389Z",
+        "checkedAt": "2026-10-14T10:37:12.464Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -424,7 +423,7 @@
         "planSearchesLeft": 5,
         "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-14T05:25:07.447Z",
+        "checkedAt": "2026-10-14T10:37:12.610Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -440,11 +439,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-10-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 241,
-        "planSearchesLeft": 9,
-        "totalSearchesLeft": 9,
+        "thisMonthUsage": 245,
+        "planSearchesLeft": 5,
+        "totalSearchesLeft": 5,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-14T05:25:07.508Z",
+        "checkedAt": "2026-10-14T10:37:12.704Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -464,7 +463,7 @@
         "planSearchesLeft": 217,
         "totalSearchesLeft": 217,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-10-14T05:25:07.571Z",
+        "checkedAt": "2026-10-14T10:37:12.794Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -484,7 +483,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 48,
+      "validated": 49,
       "rising": 1,
       "recommended": 0
     },
@@ -497,19 +496,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 216,
-    "queueSize": 4,
-    "verified": 4,
+    "remainingAtStart": 212,
+    "queueSize": 2,
+    "verified": 2,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 2,
-      "secondary": 2,
+      "strong": 1,
+      "secondary": 1,
       "strategic": 0
     },
     "channelVerified": {
-      "online": 0,
-      "wiki": 4,
+      "online": 1,
+      "wiki": 1,
       "pending": 0
     },
     "pendingByTier": {
@@ -522,10 +521,8 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Silver Pines",
-      "Dressmaker",
-      "No Such Place",
-      "Legion Was Here"
+      "sidequest",
+      "My Beautiful Faraway, Please Don't Be Cruel To Me"
     ],
     "caps": {
       "online": 999,
@@ -564,10 +561,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 4,
+        "verified": 0,
         "channelVerified": {
           "online": 0,
-          "wiki": 4,
+          "wiki": 0,
           "pending": 0
         },
         "errors": 0,
@@ -577,26 +574,26 @@
         "envName": "SERPAPI_API_KEY_4",
         "ok": true,
         "error": null,
-        "verified": 0,
+        "verified": 2,
         "channelVerified": {
-          "online": 0,
-          "wiki": 0,
+          "online": 1,
+          "wiki": 1,
           "pending": 0
         },
         "errors": 0,
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-10-14T05:25:23.411Z"
+    "ranAt": "2026-10-14T10:37:23.131Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-10",
-    "monthUsed": 768,
+    "monthUsed": 770,
     "day": "2026-10-14",
-    "dayUsed": 5,
+    "dayUsed": 7,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -626,14 +623,14 @@
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
-        "monthUsed": 33,
-        "dayUsed": 0,
+        "monthUsed": 35,
+        "dayUsed": 2,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-10-08T01:25:55.507Z"
+        "updatedAt": "2026-10-14T10:37:19.708Z"
       }
     },
-    "updatedAt": "2026-10-14T05:25:23.453Z"
+    "updatedAt": "2026-10-14T10:37:23.183Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -676,6 +673,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-10-14T05:25:23.746Z"
+    "ranAt": "2026-10-14T10:37:23.692Z"
   }
 }
