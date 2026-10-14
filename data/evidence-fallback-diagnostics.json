@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-10-14T00:37:26.152Z",
+  "generatedAt": "2026-10-14T05:25:04.019Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2480,
+  "pendingSeo": 2482,
   "channelCounts": {
-    "pending": 465,
-    "wiki": 15,
-    "online": 2000
+    "pending": 466,
+    "wiki": 18,
+    "online": 1998
   },
   "fastClassCounts": {
-    "pending:pending": 465,
-    "wiki:pending": 15,
-    "online:pending": 2000
+    "pending:pending": 466,
+    "wiki:pending": 18,
+    "online:pending": 1998
   },
   "strategicCounts": {
-    "pending:0": 464,
+    "pending:0": 465,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 570,
-    "online:1": 1424,
+    "online:2": 571,
+    "online:1": 1421,
+    "wiki:2": 2,
     "pending:1": 1,
-    "wiki:1": 11
+    "wiki:1": 12
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1965
+      "count": 1963
     },
     {
       "id": "itch-newest-web",
-      "count": 1948
+      "count": 1946
     },
     {
       "id": "itch-new-feed",
-      "count": 1897
+      "count": 1895
     },
     {
       "id": "itch-new-popular-web",
-      "count": 555
+      "count": 556
     },
     {
       "id": "itch-popular",
-      "count": 555
+      "count": 556
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +49,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 278
+      "count": 279
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 158
+      "count": 159
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,15 +93,15 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 18
+      "count": 20
     },
     {
       "id": "steam-new",
-      "count": 18
+      "count": 20
     },
     {
       "id": "steam-popular-new",
-      "count": 16
+      "count": 19
     },
     {
       "id": "itch-featured-feed",
@@ -277,6 +278,25 @@
       ]
     },
     {
+      "name": "Dig Deep, Get Rich",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "ROTETRA",
       "channel": "online",
       "fastClass": "pending",
@@ -296,25 +316,6 @@
     },
     {
       "name": "Lab accident",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "KAIJU DISPOSAL",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -477,6 +478,25 @@
     },
     {
       "name": "II II II I I I I II",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "KAIJU DISPOSAL",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1070,25 +1090,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Save Me a Slice!",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
