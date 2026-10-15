@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-10-15T00:53:12.883Z",
+  "generatedAt": "2026-10-15T05:54:26.207Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2474,
+  "pendingSeo": 2475,
   "channelCounts": {
-    "pending": 471,
-    "wiki": 20,
-    "online": 1983
+    "pending": 470,
+    "wiki": 21,
+    "online": 1984
   },
   "fastClassCounts": {
-    "pending:pending": 471,
-    "wiki:pending": 20,
-    "online:pending": 1983
+    "pending:pending": 470,
+    "wiki:pending": 21,
+    "online:pending": 1984
   },
   "strategicCounts": {
-    "pending:0": 470,
+    "pending:0": 469,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 573,
+    "online:2": 574,
     "online:1": 1404,
-    "wiki:2": 1,
     "pending:1": 1,
-    "wiki:1": 15
+    "wiki:1": 17
   },
   "topSources": [
     {
@@ -29,7 +28,7 @@
     },
     {
       "id": "itch-newest-web",
-      "count": 1931
+      "count": 1932
     },
     {
       "id": "itch-new-feed",
@@ -85,23 +84,23 @@
     },
     {
       "id": "newgrounds-daily-top",
-      "count": 27
+      "count": 28
     },
     {
       "id": "newgrounds-top",
-      "count": 27
+      "count": 28
     },
     {
       "id": "steam-popular-new",
-      "count": 21
+      "count": 22
     },
     {
       "id": "steam-latest-indie",
-      "count": 19
+      "count": 18
     },
     {
       "id": "steam-new",
-      "count": 19
+      "count": 18
     },
     {
       "id": "itch-featured-feed",
@@ -255,6 +254,25 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Interlocked: Puzzle Islands",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "newgrounds-daily-top",
+        "newgrounds-top"
       ]
     },
     {
@@ -1071,25 +1089,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Skate and Die",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
