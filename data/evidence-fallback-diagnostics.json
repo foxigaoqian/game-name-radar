@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-10-15T19:23:58.531Z",
+  "generatedAt": "2026-10-15T22:40:44.925Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
-    "pending": 473,
-    "wiki": 29,
-    "online": 1972
+    "pending": 474,
+    "wiki": 31,
+    "online": 1969
   },
   "fastClassCounts": {
-    "pending:pending": 473,
-    "wiki:pending": 29,
-    "online:pending": 1972
+    "pending:pending": 474,
+    "wiki:pending": 31,
+    "online:pending": 1969
   },
   "strategicCounts": {
-    "pending:0": 470,
+    "pending:0": 471,
     "wiki:0": 4,
     "online:3": 6,
     "online:2": 579,
-    "online:1": 1387,
+    "online:1": 1384,
     "pending:1": 3,
-    "wiki:1": 25
+    "wiki:1": 27
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1936
+      "count": 1933
     },
     {
       "id": "itch-newest-web",
-      "count": 1919
+      "count": 1916
     },
     {
       "id": "itch-new-feed",
-      "count": 1868
+      "count": 1865
     },
     {
       "id": "itch-new-popular-web",
-      "count": 563
+      "count": 564
     },
     {
       "id": "itch-popular",
-      "count": 563
+      "count": 564
     },
     {
       "id": "trends-rising-7d",
-      "count": 395
+      "count": 396
     },
     {
       "id": "trends-rising-30d",
-      "count": 284
+      "count": 286
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 213
+      "count": 214
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 163
+      "count": 165
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -76,7 +76,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 30
+      "count": 32
     },
     {
       "id": "newgrounds-latest",
@@ -120,7 +120,7 @@
     },
     {
       "id": "poki-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "lagged-new",
@@ -315,6 +315,25 @@
       ]
     },
     {
+      "name": "Idle Island",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 9,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Dig Deep, Get Rich",
       "channel": "online",
       "fastClass": "pending",
@@ -331,24 +350,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "ROTETRA",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     },
     {
@@ -587,6 +588,24 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "ROTETRA",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1078,25 +1097,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Aura Farmer",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
       ]
     }
   ]
