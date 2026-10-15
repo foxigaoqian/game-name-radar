@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-10-15T11:26:58.235Z",
+  "generatedAt": "2026-10-15T15:44:09.484Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2476,
+  "pendingSeo": 2475,
   "channelCounts": {
     "pending": 471,
-    "wiki": 23,
-    "online": 1982
+    "wiki": 26,
+    "online": 1978
   },
   "fastClassCounts": {
     "pending:pending": 471,
-    "wiki:pending": 23,
-    "online:pending": 1982
+    "wiki:pending": 26,
+    "online:pending": 1978
   },
   "strategicCounts": {
     "pending:0": 469,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 576,
-    "online:1": 1400,
+    "online:2": 577,
+    "online:1": 1395,
     "pending:1": 2,
-    "wiki:1": 19
+    "wiki:2": 1,
+    "wiki:1": 21
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1945
+      "count": 1942
     },
     {
       "id": "itch-newest-web",
-      "count": 1928
+      "count": 1925
     },
     {
       "id": "itch-new-feed",
-      "count": 1877
+      "count": 1874
     },
     {
       "id": "itch-new-popular-web",
-      "count": 559
+      "count": 562
     },
     {
       "id": "itch-popular",
-      "count": 559
+      "count": 562
     },
     {
       "id": "trends-rising-7d",
@@ -83,6 +84,10 @@
       "count": 29
     },
     {
+      "id": "steam-popular-new",
+      "count": 27
+    },
+    {
       "id": "newgrounds-daily-top",
       "count": 27
     },
@@ -91,16 +96,12 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 24
-    },
-    {
       "id": "steam-latest-indie",
-      "count": 18
+      "count": 21
     },
     {
       "id": "steam-new",
-      "count": 18
+      "count": 21
     },
     {
       "id": "itch-featured-feed",
@@ -112,19 +113,19 @@
     },
     {
       "id": "y8-new",
-      "count": 8
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
       "count": 5
     },
     {
-      "id": "lagged-new",
-      "count": 4
+      "id": "poki-new",
+      "count": 2
     },
     {
-      "id": "poki-new",
-      "count": 1
+      "id": "lagged-new",
+      "count": 2
     },
     {
       "id": "crazygames-new",
@@ -435,6 +436,63 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "The Chimera Gameboy",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Bombermaid",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Midas Crutch",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1025,63 +1083,6 @@
     },
     {
       "name": "Deep Time",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Packsmith",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Warehouseman Walter",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
-      ]
-    },
-    {
-      "name": "Robot Wants Kitty — HTML5 Remaster",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
