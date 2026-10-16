@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-16T00:45:55.964Z",
+  "generatedAt": "2026-10-16T05:07:10.321Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
-    "pending": 474,
-    "wiki": 23,
-    "online": 1977
+    "pending": 475,
+    "wiki": 25,
+    "online": 1974
   },
   "fastClassCounts": {
-    "pending:pending": 474,
-    "wiki:pending": 23,
-    "online:pending": 1977
+    "pending:pending": 475,
+    "wiki:pending": 25,
+    "online:pending": 1974
   },
   "strategicCounts": {
-    "pending:0": 471,
+    "pending:0": 472,
     "wiki:0": 4,
     "online:3": 6,
     "online:2": 579,
-    "online:1": 1392,
+    "online:1": 1389,
     "pending:1": 3,
-    "wiki:1": 19
+    "wiki:1": 21
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1941
+      "count": 1938
     },
     {
       "id": "itch-newest-web",
-      "count": 1924
+      "count": 1921
     },
     {
       "id": "itch-new-feed",
-      "count": 1873
+      "count": 1870
     },
     {
       "id": "itch-new-popular-web",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 286
+      "count": 287
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 165
+      "count": 166
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,7 +92,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 24
+      "count": 26
     },
     {
       "id": "steam-latest-indie",
@@ -296,25 +296,6 @@
       ]
     },
     {
-      "name": "Wizards Go Farming",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Idle Island",
       "channel": "online",
       "fastClass": "pending",
@@ -497,6 +478,25 @@
     },
     {
       "name": "Midas Crutch",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Wizards Go Farming",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
