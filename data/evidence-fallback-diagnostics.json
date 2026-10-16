@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-10-16T14:20:44.811Z",
+  "generatedAt": "2026-10-16T18:22:11.109Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2474,
+  "pendingSeo": 2473,
   "channelCounts": {
     "pending": 476,
-    "wiki": 27,
-    "online": 1971
+    "wiki": 29,
+    "online": 1968
   },
   "fastClassCounts": {
     "pending:pending": 476,
-    "wiki:pending": 27,
-    "online:pending": 1971
+    "wiki:pending": 29,
+    "online:pending": 1968
   },
   "strategicCounts": {
     "pending:0": 473,
     "wiki:0": 4,
-    "online:3": 7,
-    "online:2": 578,
-    "online:1": 1386,
+    "online:3": 6,
+    "online:2": 579,
+    "online:1": 1383,
     "pending:1": 3,
-    "wiki:1": 23
+    "wiki:1": 25
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1934
+      "count": 1931
     },
     {
       "id": "itch-newest-web",
-      "count": 1918
+      "count": 1915
     },
     {
       "id": "itch-new-feed",
-      "count": 1866
+      "count": 1863
     },
     {
       "id": "itch-new-popular-web",
-      "count": 564
+      "count": 563
     },
     {
       "id": "itch-popular",
-      "count": 564
+      "count": 563
     },
     {
       "id": "trends-rising-7d",
@@ -75,16 +75,16 @@
       "count": 63
     },
     {
+      "id": "steam-popular-new",
+      "count": 30
+    },
+    {
       "id": "newgrounds-latest",
       "count": 29
     },
     {
       "id": "newgrounds-new",
       "count": 29
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 28
     },
     {
       "id": "newgrounds-daily-top",
@@ -132,26 +132,6 @@
     }
   ],
   "samples": [
-    {
-      "name": "Pieces of Escape",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 3,
-      "sourceCount": 6,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "y8-new"
-      ]
-    },
     {
       "name": "Rock Declutterer",
       "channel": "online",
@@ -298,25 +278,6 @@
     },
     {
       "name": "Grave Filler",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Dig Deep, Get Rich",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -562,6 +523,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 9,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Dig Deep, Get Rich",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1098,6 +1078,25 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Aura Farmer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
       ]
     }
   ]
