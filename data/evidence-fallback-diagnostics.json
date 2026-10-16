@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-16T09:47:44.271Z",
+  "generatedAt": "2026-10-16T14:20:44.811Z",
   "totalCandidates": 3000,
   "pendingSeo": 2474,
   "channelCounts": {
-    "pending": 474,
-    "wiki": 26,
-    "online": 1974
+    "pending": 476,
+    "wiki": 27,
+    "online": 1971
   },
   "fastClassCounts": {
-    "pending:pending": 474,
-    "wiki:pending": 26,
-    "online:pending": 1974
+    "pending:pending": 476,
+    "wiki:pending": 27,
+    "online:pending": 1971
   },
   "strategicCounts": {
-    "pending:0": 471,
+    "pending:0": 473,
     "wiki:0": 4,
-    "online:3": 6,
-    "online:2": 579,
-    "online:1": 1389,
+    "online:3": 7,
+    "online:2": 578,
+    "online:1": 1386,
     "pending:1": 3,
-    "wiki:1": 22
+    "wiki:1": 23
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1937
+      "count": 1934
     },
     {
       "id": "itch-newest-web",
-      "count": 1921
+      "count": 1918
     },
     {
       "id": "itch-new-feed",
-      "count": 1869
+      "count": 1866
     },
     {
       "id": "itch-new-popular-web",
@@ -44,19 +44,19 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 396
+      "count": 397
     },
     {
       "id": "trends-rising-30d",
-      "count": 287
+      "count": 289
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 214
+      "count": 215
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 166
+      "count": 168
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -84,7 +84,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 27
+      "count": 28
     },
     {
       "id": "newgrounds-daily-top",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -132,6 +132,26 @@
     }
   ],
   "samples": [
+    {
+      "name": "Pieces of Escape",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 3,
+      "sourceCount": 6,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "y8-new"
+      ]
+    },
     {
       "name": "Rock Declutterer",
       "channel": "online",
@@ -1078,25 +1098,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Aura Farmer",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
       ]
     }
   ]
