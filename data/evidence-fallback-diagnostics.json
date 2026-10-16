@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-10-16T21:43:52.384Z",
+  "generatedAt": "2026-10-16T23:53:28.550Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2472,
+  "pendingSeo": 2471,
   "channelCounts": {
     "pending": 476,
-    "wiki": 30,
-    "online": 1966
+    "wiki": 32,
+    "online": 1963
   },
   "fastClassCounts": {
     "pending:pending": 476,
-    "wiki:pending": 30,
-    "online:pending": 1966
+    "wiki:pending": 32,
+    "online:pending": 1963
   },
   "strategicCounts": {
     "pending:0": 473,
     "wiki:0": 4,
     "online:3": 6,
     "online:2": 579,
-    "online:1": 1381,
+    "online:1": 1378,
     "pending:1": 3,
-    "wiki:1": 26
+    "wiki:2": 1,
+    "wiki:1": 27
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1929
+      "count": 1925
     },
     {
       "id": "itch-newest-web",
-      "count": 1913
+      "count": 1909
     },
     {
       "id": "itch-new-feed",
-      "count": 1861
+      "count": 1857
     },
     {
       "id": "itch-new-popular-web",
@@ -76,7 +77,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 31
+      "count": 33
     },
     {
       "id": "newgrounds-latest",
@@ -96,11 +97,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 20
+      "count": 21
     },
     {
       "id": "steam-new",
-      "count": 20
+      "count": 21
     },
     {
       "id": "itch-featured-feed",
@@ -119,16 +120,16 @@
       "count": 5
     },
     {
+      "id": "crazygames-new",
+      "count": 2
+    },
+    {
       "id": "poki-new",
       "count": 2
     },
     {
       "id": "lagged-new",
       "count": 2
-    },
-    {
-      "id": "crazygames-new",
-      "count": 1
     }
   ],
   "samples": [
@@ -254,24 +255,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Neon Run",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 16,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "y8-new"
       ]
     },
     {
@@ -1096,6 +1079,25 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Aura Farmer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
       ]
     }
   ]
