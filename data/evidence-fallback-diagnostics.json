@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-18T06:36:15.019Z",
+  "generatedAt": "2026-10-18T11:43:39.512Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2466,
+  "pendingSeo": 2465,
   "channelCounts": {
-    "pending": 485,
+    "pending": 486,
     "wiki": 9,
-    "online": 1972
+    "online": 1970
   },
   "fastClassCounts": {
-    "pending:pending": 485,
+    "pending:pending": 486,
     "wiki:pending": 9,
-    "online:pending": 1972
+    "online:pending": 1970
   },
   "strategicCounts": {
-    "pending:0": 482,
+    "pending:0": 483,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 579,
-    "online:1": 1387,
+    "online:2": 578,
+    "online:1": 1386,
     "pending:1": 3,
     "wiki:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1934
+      "count": 1933
     },
     {
       "id": "itch-newest-web",
-      "count": 1918
+      "count": 1917
     },
     {
       "id": "itch-new-feed",
-      "count": 1866
+      "count": 1865
     },
     {
       "id": "itch-new-popular-web",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 293
+      "count": 296
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 172
+      "count": 175
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,11 +92,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 20
+      "count": 21
     },
     {
       "id": "steam-new",
-      "count": 20
+      "count": 21
     },
     {
       "id": "itch-featured-feed",
@@ -112,15 +112,11 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
       "count": 5
-    },
-    {
-      "id": "crazygames-new",
-      "count": 2
     },
     {
       "id": "lagged-new",
@@ -129,6 +125,10 @@
     {
       "id": "poki-new",
       "count": 2
+    },
+    {
+      "id": "crazygames-new",
+      "count": 1
     }
   ],
   "samples": [
@@ -277,22 +277,24 @@
       ]
     },
     {
-      "name": "Grave Filler",
+      "name": "GRIDMINE",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
-      "discoveryScore": 17,
+      "discoveryScore": 18,
       "platforms": 1,
       "browserPlayable": true,
-      "nameRisk": 0,
+      "nameRisk": 5,
       "strategicCount": 2,
-      "sourceCount": 5,
+      "sourceCount": 7,
       "sourceIds": [
         "itch-newest-web",
         "itch-new",
         "itch-new-feed",
         "itch-new-popular-web",
-        "itch-popular"
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -398,6 +400,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Grave Filler",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1078,25 +1099,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Aura Farmer",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
       ]
     }
   ]
