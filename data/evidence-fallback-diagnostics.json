@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-19T05:20:34.923Z",
+  "generatedAt": "2026-10-19T11:16:36.021Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2464,
+  "pendingSeo": 2463,
   "channelCounts": {
-    "pending": 489,
+    "pending": 491,
     "wiki": 4,
-    "online": 1971
+    "online": 1968
   },
   "fastClassCounts": {
-    "pending:pending": 489,
+    "pending:pending": 491,
     "wiki:pending": 4,
-    "online:pending": 1971
+    "online:pending": 1968
   },
   "strategicCounts": {
-    "pending:0": 487,
+    "pending:0": 489,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 580,
-    "online:1": 1385,
+    "online:2": 579,
+    "online:1": 1383,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1934
+      "count": 1931
     },
     {
       "id": "itch-newest-web",
-      "count": 1918
+      "count": 1915
     },
     {
       "id": "itch-new-feed",
-      "count": 1866
+      "count": 1863
     },
     {
       "id": "itch-new-popular-web",
@@ -43,15 +43,15 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 406
+      "count": 407
     },
     {
       "id": "trends-rising-30d",
-      "count": 298
+      "count": 300
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 220
+      "count": 221
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -67,7 +67,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 66
+      "count": 68
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -75,11 +75,11 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-new",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-daily-top",
@@ -91,11 +91,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 21
+      "count": 22
     },
     {
       "id": "steam-new",
-      "count": 21
+      "count": 22
     },
     {
       "id": "itch-featured-feed",
@@ -273,6 +273,27 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Trolley Problem Is Not Problem",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -1071,25 +1092,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Nara Mari",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
