@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-19T21:45:00.262Z",
+  "generatedAt": "2026-10-20T00:41:14.891Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2462,
+  "pendingSeo": 2461,
   "channelCounts": {
     "pending": 492,
     "wiki": 4,
-    "online": 1966
+    "online": 1965
   },
   "fastClassCounts": {
     "pending:pending": 492,
     "wiki:pending": 4,
-    "online:pending": 1966
+    "online:pending": 1965
   },
   "strategicCounts": {
     "pending:0": 490,
     "wiki:0": 4,
     "online:3": 6,
-    "online:2": 581,
+    "online:2": 580,
     "online:1": 1379,
     "pending:1": 2
   },
@@ -107,7 +107,7 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -119,7 +119,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "poki-new",
