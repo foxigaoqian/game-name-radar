@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-10-20T15:22:42.847Z",
+  "generatedAt": "2026-10-20T19:35:27.757Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2460,
+  "pendingSeo": 2459,
   "channelCounts": {
-    "pending": 498,
-    "wiki": 7,
-    "online": 1955
+    "wiki": 9,
+    "pending": 499,
+    "online": 1951
   },
   "fastClassCounts": {
-    "pending:pending": 498,
-    "wiki:pending": 7,
-    "online:pending": 1955
+    "wiki:pending": 9,
+    "pending:pending": 499,
+    "online:pending": 1951
   },
   "strategicCounts": {
-    "pending:0": 494,
+    "wiki:1": 4,
+    "pending:0": 495,
+    "online:3": 7,
     "wiki:0": 4,
-    "online:3": 6,
-    "online:2": 581,
-    "online:1": 1368,
+    "online:2": 584,
+    "online:1": 1360,
     "wiki:2": 1,
-    "pending:1": 4,
-    "wiki:1": 2
+    "pending:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1918
+      "count": 1911
     },
     {
       "id": "itch-newest-web",
-      "count": 1902
+      "count": 1895
     },
     {
       "id": "itch-new-feed",
-      "count": 1850
+      "count": 1843
     },
     {
       "id": "itch-new-popular-web",
-      "count": 566
+      "count": 567
     },
     {
       "id": "itch-popular",
-      "count": 566
+      "count": 567
     },
     {
       "id": "trends-rising-7d",
-      "count": 413
+      "count": 415
     },
     {
       "id": "trends-rising-30d",
-      "count": 303
+      "count": 307
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,11 +57,11 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 178
+      "count": 180
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 111
+      "count": 113
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -69,11 +69,11 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 69
+      "count": 70
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 63
+      "count": 64
     },
     {
       "id": "newgrounds-latest",
@@ -93,27 +93,27 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 23
+      "count": 24
     },
     {
       "id": "steam-new",
-      "count": 23
+      "count": 24
     },
     {
       "id": "itch-featured-feed",
-      "count": 17
+      "count": 18
     },
     {
       "id": "itch-featured",
-      "count": 17
+      "count": 18
     },
     {
       "id": "steam-popular-new",
-      "count": 8
+      "count": 10
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 8
     },
     {
       "id": "steam-top-wishlist",
@@ -121,11 +121,11 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 5
     },
     {
       "id": "poki-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",
@@ -133,6 +133,27 @@
     }
   ],
   "samples": [
+    {
+      "name": "Sploob",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 3,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
+      ]
+    },
     {
       "name": "Rock Declutterer",
       "channel": "online",
@@ -460,6 +481,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Hermitap Web Demo",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1056,44 +1096,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Sploob",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "THEODOLITE",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
