@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T11:46:53.813Z",
+  "generatedAt": "2026-10-21T16:08:03.049Z",
   "totalCandidates": 3000,
   "pendingSeo": 2451,
   "channelCounts": {
@@ -16,8 +16,8 @@
     "pending:0": 498,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 586,
-    "online:1": 1346,
+    "online:2": 588,
+    "online:1": 1344,
     "pending:1": 4,
     "wiki:1": 6
   },
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +120,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "poki-new",
@@ -278,6 +278,24 @@
       ]
     },
     {
+      "name": "Spirit Slayer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "y8-new"
+      ]
+    },
+    {
       "name": "Swamp and Luig",
       "channel": "online",
       "fastClass": "pending",
@@ -346,25 +364,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Pack Ripper",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -586,6 +585,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Pack Ripper",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1076,25 +1094,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Idle Factory: Conveyor Tycoon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
