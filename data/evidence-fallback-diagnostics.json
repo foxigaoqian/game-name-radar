@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-10-21T16:08:03.049Z",
+  "generatedAt": "2026-10-21T20:09:28.394Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2451,
+  "pendingSeo": 2449,
   "channelCounts": {
-    "pending": 502,
-    "online": 1939,
-    "wiki": 10
+    "pending": 503,
+    "online": 1933,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "pending:pending": 502,
-    "online:pending": 1939,
-    "wiki:pending": 10
+    "pending:pending": 503,
+    "online:pending": 1933,
+    "wiki:pending": 13
   },
   "strategicCounts": {
     "pending:0": 498,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 588,
-    "online:1": 1344,
-    "pending:1": 4,
-    "wiki:1": 6
+    "online:2": 586,
+    "online:1": 1340,
+    "wiki:2": 1,
+    "pending:1": 5,
+    "wiki:1": 8
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1902
+      "count": 1896
     },
     {
       "id": "itch-newest-web",
-      "count": 1886
+      "count": 1880
     },
     {
       "id": "itch-new-feed",
-      "count": 1834
+      "count": 1828
     },
     {
       "id": "itch-new-popular-web",
@@ -48,7 +49,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 310
+      "count": 311
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 182
+      "count": 184
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -92,27 +93,27 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 23
+      "count": 24
     },
     {
       "id": "steam-new",
-      "count": 23
+      "count": 24
     },
     {
       "id": "itch-featured-feed",
-      "count": 18
+      "count": 19
     },
     {
       "id": "itch-featured",
-      "count": 18
+      "count": 19
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 14
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +121,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "poki-new",
@@ -275,24 +276,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Spirit Slayer",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 16,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "y8-new"
       ]
     },
     {
@@ -1094,6 +1077,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Idle Factory: Conveyor Tycoon",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
