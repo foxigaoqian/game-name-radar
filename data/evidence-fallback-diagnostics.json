@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-22T17:58:48.375Z",
+  "generatedAt": "2026-10-22T21:34:33.023Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2447,
+  "pendingSeo": 2443,
   "channelCounts": {
     "pending": 507,
-    "online": 1926,
-    "wiki": 14
+    "online": 1923,
+    "wiki": 13
   },
   "fastClassCounts": {
     "pending:pending": 507,
-    "online:pending": 1926,
-    "wiki:pending": 14
+    "online:pending": 1923,
+    "wiki:pending": 13
   },
   "strategicCounts": {
     "pending:0": 502,
-    "online:2": 587,
     "online:3": 7,
     "wiki:0": 4,
-    "online:1": 1332,
-    "wiki:1": 10,
+    "online:2": 592,
+    "online:1": 1324,
+    "wiki:1": 9,
     "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1889
+      "count": 1883
     },
     {
       "id": "itch-newest-web",
-      "count": 1873
+      "count": 1867
     },
     {
       "id": "itch-new-feed",
-      "count": 1821
+      "count": 1815
     },
     {
       "id": "itch-new-popular-web",
-      "count": 573
+      "count": 576
     },
     {
       "id": "itch-popular",
-      "count": 573
+      "count": 576
     },
     {
       "id": "trends-rising-7d",
-      "count": 419
+      "count": 418
     },
     {
       "id": "trends-rising-30d",
-      "count": 314
+      "count": 315
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -64,11 +64,11 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 90
+      "count": 89
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 71
+      "count": 72
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -76,11 +76,11 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 29
+      "count": 30
     },
     {
       "id": "newgrounds-new",
-      "count": 29
+      "count": 30
     },
     {
       "id": "newgrounds-daily-top",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 15
+      "count": 14
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 8
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +120,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 4
     },
     {
       "id": "poki-new",
@@ -275,27 +275,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Trauma lab",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 20,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "trends-rising-7d-itch-io",
-        "trends-rising-7d"
       ]
     },
     {
@@ -485,6 +464,44 @@
       ]
     },
     {
+      "name": "Abattlacus",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Living Scraps",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "PostalHaste",
       "channel": "online",
       "fastClass": "pending",
@@ -607,6 +624,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Carbineball",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1060,43 +1096,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Rulehouse",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-featured-feed",
-        "itch-featured",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Secret of Sizon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
