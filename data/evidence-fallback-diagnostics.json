@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-22T13:12:22.339Z",
+  "generatedAt": "2026-10-22T17:58:48.375Z",
   "totalCandidates": 3000,
   "pendingSeo": 2447,
   "channelCounts": {
     "pending": 507,
-    "online": 1928,
-    "wiki": 12
+    "online": 1926,
+    "wiki": 14
   },
   "fastClassCounts": {
     "pending:pending": 507,
-    "online:pending": 1928,
-    "wiki:pending": 12
+    "online:pending": 1926,
+    "wiki:pending": 14
   },
   "strategicCounts": {
     "pending:0": 502,
+    "online:2": 587,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 587,
-    "online:1": 1334,
-    "pending:1": 5,
-    "wiki:1": 8
+    "online:1": 1332,
+    "wiki:1": 10,
+    "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1891
+      "count": 1889
     },
     {
       "id": "itch-newest-web",
-      "count": 1875
+      "count": 1873
     },
     {
       "id": "itch-new-feed",
-      "count": 1823
+      "count": 1821
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +44,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 418
+      "count": 419
     },
     {
       "id": "trends-rising-30d",
-      "count": 313
+      "count": 314
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 186
+      "count": 187
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 89
+      "count": 90
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 13
+      "count": 15
     },
     {
       "id": "y8-new",
@@ -278,6 +278,27 @@
       ]
     },
     {
+      "name": "Trauma lab",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "trends-rising-7d-itch-io",
+        "trends-rising-7d"
+      ]
+    },
+    {
       "name": "Swamp and Luig",
       "channel": "online",
       "fastClass": "pending",
@@ -295,25 +316,6 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Trauma lab",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
