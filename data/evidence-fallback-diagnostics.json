@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-10-21T23:18:54.733Z",
+  "generatedAt": "2026-10-22T01:52:03.789Z",
   "totalCandidates": 3000,
   "pendingSeo": 2448,
   "channelCounts": {
     "pending": 506,
-    "online": 1929,
-    "wiki": 13
+    "online": 1931,
+    "wiki": 11
   },
   "fastClassCounts": {
     "pending:pending": 506,
-    "online:pending": 1929,
-    "wiki:pending": 13
+    "online:pending": 1931,
+    "wiki:pending": 11
   },
   "strategicCounts": {
     "pending:0": 501,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 586,
+    "online:2": 588,
     "online:1": 1336,
     "pending:1": 5,
-    "wiki:1": 9
+    "wiki:1": 7
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1892
+      "count": 1894
     },
     {
       "id": "itch-newest-web",
-      "count": 1876
+      "count": 1878
     },
     {
       "id": "itch-new-feed",
-      "count": 1824
+      "count": 1826
     },
     {
       "id": "itch-new-popular-web",
-      "count": 572
+      "count": 573
     },
     {
       "id": "itch-popular",
-      "count": 572
+      "count": 573
     },
     {
       "id": "trends-rising-7d",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 14
+      "count": 12
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -298,27 +298,6 @@
       ]
     },
     {
-      "name": "Trolley Problem Is Not Problem",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
       "name": "Trauma lab",
       "channel": "online",
       "fastClass": "pending",
@@ -354,6 +333,27 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Trolley Problem Is Not Problem",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -480,6 +480,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "PostalHaste",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed"
       ]
     },
     {
@@ -1076,25 +1095,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Idle Factory: Conveyor Tycoon",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
