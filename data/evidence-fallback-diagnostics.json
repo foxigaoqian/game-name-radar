@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-10-23T09:37:55.272Z",
+  "generatedAt": "2026-10-23T14:27:33.305Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2435,
+  "pendingSeo": 2433,
   "channelCounts": {
     "pending": 510,
-    "online": 1917,
-    "wiki": 8
+    "online": 1916,
+    "wiki": 7
   },
   "fastClassCounts": {
     "pending:pending": 510,
-    "online:pending": 1917,
-    "wiki:pending": 8
+    "online:pending": 1916,
+    "wiki:pending": 7
   },
   "strategicCounts": {
     "pending:0": 507,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 589,
-    "online:1": 1321,
-    "wiki:2": 1,
+    "online:2": 590,
+    "online:1": 1319,
     "wiki:1": 3,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1880
+      "count": 1879
     },
     {
       "id": "itch-newest-web",
-      "count": 1864
+      "count": 1863
     },
     {
       "id": "itch-new-feed",
-      "count": 1812
+      "count": 1811
     },
     {
       "id": "itch-new-popular-web",
-      "count": 575
+      "count": 576
     },
     {
       "id": "itch-popular",
-      "count": 575
+      "count": 576
     },
     {
       "id": "trends-rising-7d",
@@ -93,11 +92,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 25
+      "count": 24
     },
     {
       "id": "steam-new",
-      "count": 25
+      "count": 24
     },
     {
       "id": "itch-featured-feed",
@@ -109,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 9
+      "count": 8
     },
     {
       "id": "y8-new",
@@ -317,6 +316,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "MMC5Racing",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1089,24 +1107,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Alpine",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     }
   ]
