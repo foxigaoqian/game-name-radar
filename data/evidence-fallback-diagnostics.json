@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-10-22T21:34:33.023Z",
+  "generatedAt": "2026-10-23T00:10:36.923Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2443,
+  "pendingSeo": 2439,
   "channelCounts": {
     "pending": 507,
     "online": 1923,
-    "wiki": 13
+    "wiki": 9
   },
   "fastClassCounts": {
     "pending:pending": 507,
     "online:pending": 1923,
-    "wiki:pending": 13
+    "wiki:pending": 9
   },
   "strategicCounts": {
     "pending:0": 502,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 592,
-    "online:1": 1324,
-    "wiki:1": 9,
+    "online:2": 589,
+    "online:1": 1327,
+    "wiki:1": 5,
     "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1883
+      "count": 1886
     },
     {
       "id": "itch-newest-web",
-      "count": 1867
+      "count": 1870
     },
     {
       "id": "itch-new-feed",
-      "count": 1815
+      "count": 1818
     },
     {
       "id": "itch-new-popular-web",
-      "count": 576
+      "count": 575
     },
     {
       "id": "itch-popular",
-      "count": 576
+      "count": 575
     },
     {
       "id": "trends-rising-7d",
@@ -76,11 +76,11 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-new",
-      "count": 30
+      "count": 29
     },
     {
       "id": "newgrounds-daily-top",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 14
+      "count": 10
     },
     {
       "id": "y8-new",
-      "count": 8
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +120,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 4
+      "count": 2
     },
     {
       "id": "poki-new",
@@ -295,25 +295,6 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Manymancer",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -586,6 +567,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Manymancer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
