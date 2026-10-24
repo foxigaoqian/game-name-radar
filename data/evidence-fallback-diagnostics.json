@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-24T13:19:39.142Z",
+  "generatedAt": "2026-10-24T16:58:51.618Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2425,
+  "pendingSeo": 2424,
   "channelCounts": {
     "pending": 520,
-    "online": 1900,
+    "online": 1899,
     "wiki": 5
   },
   "fastClassCounts": {
     "pending:pending": 520,
-    "online:pending": 1900,
+    "online:pending": 1899,
     "wiki:pending": 5
   },
   "strategicCounts": {
     "pending:0": 517,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 591,
+    "online:2": 590,
     "online:1": 1302,
     "pending:1": 3,
     "wiki:1": 1
@@ -44,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 428
+      "count": 429
     },
     {
       "id": "trends-rising-30d",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 90
+      "count": 91
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -107,11 +107,11 @@
       "count": 17
     },
     {
-      "id": "y8-new",
-      "count": 7
+      "id": "steam-popular-new",
+      "count": 6
     },
     {
-      "id": "steam-popular-new",
+      "id": "y8-new",
       "count": 6
     },
     {
@@ -120,7 +120,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "poki-new",
