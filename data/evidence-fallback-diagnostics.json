@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:49:17.080Z",
+  "generatedAt": "2026-10-25T23:16:05.299Z",
   "totalCandidates": 3000,
   "pendingSeo": 2423,
   "channelCounts": {
@@ -16,23 +16,23 @@
     "pending:0": 525,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 591,
-    "online:1": 1293,
+    "online:2": 592,
+    "online:1": 1292,
     "pending:1": 2,
     "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1854
+      "count": 1853
     },
     {
       "id": "itch-newest-web",
-      "count": 1838
+      "count": 1837
     },
     {
       "id": "itch-new-feed",
-      "count": 1785
+      "count": 1784
     },
     {
       "id": "itch-new-popular-web",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 327
+      "count": 328
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 198
+      "count": 199
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -107,16 +107,20 @@
       "count": 16
     },
     {
-      "id": "steam-popular-new",
-      "count": 6
+      "id": "y8-new",
+      "count": 7
     },
     {
-      "id": "y8-new",
+      "id": "steam-popular-new",
       "count": 6
     },
     {
       "id": "steam-top-wishlist",
       "count": 5
+    },
+    {
+      "id": "crazygames-new",
+      "count": 2
     },
     {
       "id": "lagged-new",
@@ -125,10 +129,6 @@
     {
       "id": "poki-new",
       "count": 2
-    },
-    {
-      "id": "crazygames-new",
-      "count": 1
     }
   ],
   "samples": [
@@ -319,25 +319,6 @@
       ]
     },
     {
-      "name": "MMC5Racing",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Trolley Problem Is Not Problem",
       "channel": "online",
       "fastClass": "pending",
@@ -482,6 +463,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "MMC5Racing",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
