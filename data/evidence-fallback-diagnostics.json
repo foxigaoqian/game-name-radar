@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-26T06:14:38.725Z",
+  "generatedAt": "2026-10-26T13:05:37.385Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2422,
+  "pendingSeo": 2421,
   "channelCounts": {
+    "online": 1884,
     "pending": 531,
-    "online": 1887,
-    "wiki": 4
+    "wiki": 6
   },
   "fastClassCounts": {
+    "online:pending": 1884,
     "pending:pending": 531,
-    "online:pending": 1887,
-    "wiki:pending": 4
+    "wiki:pending": 6
   },
   "strategicCounts": {
+    "online:1": 1284,
     "pending:0": 529,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 592,
-    "online:1": 1288,
-    "pending:1": 2
+    "online:2": 593,
+    "pending:1": 2,
+    "wiki:2": 1,
+    "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1849
+      "count": 1844
     },
     {
       "id": "itch-newest-web",
-      "count": 1833
+      "count": 1828
     },
     {
       "id": "itch-new-feed",
-      "count": 1779
+      "count": 1774
     },
     {
       "id": "itch-new-popular-web",
@@ -43,11 +45,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 442
+      "count": 444
     },
     {
       "id": "trends-rising-30d",
-      "count": 331
+      "count": 332
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -59,15 +61,15 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 121
+      "count": 122
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 96
+      "count": 97
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 74
+      "count": 75
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -75,27 +77,27 @@
     },
     {
       "id": "newgrounds-latest",
-      "count": 29
+      "count": 30
     },
     {
       "id": "newgrounds-new",
-      "count": 29
-    },
-    {
-      "id": "newgrounds-daily-top",
-      "count": 28
-    },
-    {
-      "id": "newgrounds-top",
-      "count": 28
+      "count": 30
     },
     {
       "id": "steam-latest-indie",
-      "count": 26
+      "count": 28
     },
     {
       "id": "steam-new",
-      "count": 26
+      "count": 28
+    },
+    {
+      "id": "newgrounds-daily-top",
+      "count": 27
+    },
+    {
+      "id": "newgrounds-top",
+      "count": 27
     },
     {
       "id": "itch-featured-feed",
@@ -106,24 +108,24 @@
       "count": 16
     },
     {
+      "id": "steam-popular-new",
+      "count": 7
+    },
+    {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
       "count": 5
     },
     {
-      "id": "steam-popular-new",
-      "count": 5
+      "id": "poki-new",
+      "count": 3
     },
     {
       "id": "lagged-new",
-      "count": 2
-    },
-    {
-      "id": "poki-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",
@@ -274,24 +276,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Troll the King",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "newgrounds-daily-top",
-        "newgrounds-top"
       ]
     },
     {
@@ -1097,6 +1081,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Incremental Table",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
