@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-10-28T16:00:36.095Z",
+  "generatedAt": "2026-10-28T21:03:03.493Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2395,
+  "pendingSeo": 2391,
   "channelCounts": {
-    "pending": 537,
-    "online": 1843,
-    "wiki": 15
+    "online": 1837,
+    "pending": 540,
+    "wiki": 14
   },
   "fastClassCounts": {
-    "pending:pending": 537,
-    "online:pending": 1843,
-    "wiki:pending": 15
+    "online:pending": 1837,
+    "pending:pending": 540,
+    "wiki:pending": 14
   },
   "strategicCounts": {
-    "pending:0": 534,
+    "online:1": 1236,
+    "pending:0": 537,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 593,
-    "online:1": 1243,
-    "wiki:1": 11,
+    "online:2": 594,
+    "wiki:1": 10,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1802
+      "count": 1796
     },
     {
       "id": "itch-newest-web",
-      "count": 1786
+      "count": 1780
     },
     {
       "id": "itch-new-feed",
-      "count": 1731
+      "count": 1725
     },
     {
       "id": "itch-new-popular-web",
-      "count": 579
+      "count": 580
     },
     {
       "id": "itch-popular",
-      "count": 579
+      "count": 580
     },
     {
       "id": "trends-rising-7d",
-      "count": 447
+      "count": 451
     },
     {
       "id": "trends-rising-30d",
-      "count": 335
+      "count": 336
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 237
+      "count": 239
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -60,15 +60,15 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 126
+      "count": 127
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 96
+      "count": 97
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 75
+      "count": 76
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 17
+      "count": 16
     },
     {
       "id": "y8-new",
@@ -295,6 +295,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "WASH 'EM ALL",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1078,25 +1097,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Stargate Legacy",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
