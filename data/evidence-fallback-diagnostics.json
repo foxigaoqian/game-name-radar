@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-10-29T14:16:51.254Z",
+  "generatedAt": "2026-10-29T19:41:19.083Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2377,
+  "pendingSeo": 2376,
   "channelCounts": {
-    "pending": 547,
-    "online": 1821,
-    "wiki": 9
+    "pending": 550,
+    "online": 1809,
+    "wiki": 17
   },
   "fastClassCounts": {
-    "pending:pending": 547,
-    "online:pending": 1821,
-    "wiki:pending": 9
+    "pending:pending": 550,
+    "online:pending": 1809,
+    "wiki:pending": 17
   },
   "strategicCounts": {
-    "pending:0": 544,
+    "pending:0": 548,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 596,
-    "online:1": 1218,
-    "wiki:1": 5,
-    "pending:1": 3
+    "online:2": 597,
+    "online:1": 1205,
+    "wiki:2": 1,
+    "wiki:1": 12,
+    "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1780
+      "count": 1768
     },
     {
       "id": "itch-newest-web",
-      "count": 1764
+      "count": 1752
     },
     {
       "id": "itch-new-feed",
-      "count": 1709
+      "count": 1697
     },
     {
       "id": "itch-new-popular-web",
@@ -44,23 +45,23 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 457
+      "count": 460
     },
     {
       "id": "trends-rising-30d",
-      "count": 336
+      "count": 337
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 240
+      "count": 241
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 203
+      "count": 204
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 131
+      "count": 133
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -84,11 +85,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 27
+      "count": 28
     },
     {
       "id": "steam-new",
-      "count": 27
+      "count": 28
     },
     {
       "id": "newgrounds-daily-top",
@@ -99,16 +100,16 @@
       "count": 27
     },
     {
-      "id": "itch-featured-feed",
+      "id": "steam-popular-new",
       "count": 19
+    },
+    {
+      "id": "itch-featured-feed",
+      "count": 18
     },
     {
       "id": "itch-featured",
-      "count": 19
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 11
+      "count": 18
     },
     {
       "id": "y8-new",
@@ -120,7 +121,7 @@
     },
     {
       "id": "poki-new",
-      "count": 4
+      "count": 5
     },
     {
       "id": "lagged-new",
