@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-10-28T21:03:03.493Z",
+  "generatedAt": "2026-10-29T00:54:27.257Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2391,
+  "pendingSeo": 2386,
   "channelCounts": {
-    "online": 1837,
-    "pending": 540,
-    "wiki": 14
+    "pending": 545,
+    "online": 1830,
+    "wiki": 11
   },
   "fastClassCounts": {
-    "online:pending": 1837,
-    "pending:pending": 540,
-    "wiki:pending": 14
+    "pending:pending": 545,
+    "online:pending": 1830,
+    "wiki:pending": 11
   },
   "strategicCounts": {
-    "online:1": 1236,
-    "pending:0": 537,
+    "pending:0": 542,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 594,
-    "wiki:1": 10,
+    "online:2": 597,
+    "online:1": 1226,
+    "wiki:1": 7,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1796
+      "count": 1788
     },
     {
       "id": "itch-newest-web",
-      "count": 1780
+      "count": 1772
     },
     {
       "id": "itch-new-feed",
-      "count": 1725
+      "count": 1717
     },
     {
       "id": "itch-new-popular-web",
-      "count": 580
+      "count": 582
     },
     {
       "id": "itch-popular",
-      "count": 580
+      "count": 582
     },
     {
       "id": "trends-rising-7d",
-      "count": 451
+      "count": 455
     },
     {
       "id": "trends-rising-30d",
@@ -60,11 +60,11 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 127
+      "count": 130
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 97
+      "count": 98
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 16
+      "count": 13
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -124,7 +124,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",
@@ -295,6 +295,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Debug the Monolith",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -518,6 +537,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "smoke and mirrors tester",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1060,43 +1098,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Battle Healer Hildegard",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
-      ]
-    },
-    {
-      "name": "Can’t Lose Hero",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
