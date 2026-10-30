@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-30T02:58:14.673Z",
+  "generatedAt": "2026-10-30T09:59:10.336Z",
   "totalCandidates": 3000,
   "pendingSeo": 2364,
   "channelCounts": {
-    "pending": 553,
-    "online": 1802,
-    "wiki": 9
+    "pending": 555,
+    "online": 1798,
+    "wiki": 11
   },
   "fastClassCounts": {
-    "pending:pending": 553,
-    "online:pending": 1802,
-    "wiki:pending": 9
+    "pending:pending": 555,
+    "online:pending": 1798,
+    "wiki:pending": 11
   },
   "strategicCounts": {
-    "pending:0": 551,
+    "pending:0": 553,
     "online:3": 7,
     "wiki:0": 4,
     "online:2": 596,
-    "online:1": 1199,
-    "pending:1": 2,
-    "wiki:1": 5
+    "online:1": 1195,
+    "wiki:1": 7,
+    "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1761
+      "count": 1757
     },
     {
       "id": "itch-newest-web",
-      "count": 1745
+      "count": 1741
     },
     {
       "id": "itch-new-feed",
-      "count": 1690
+      "count": 1686
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +44,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 464
+      "count": 466
     },
     {
       "id": "trends-rising-30d",
-      "count": 338
+      "count": 339
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -60,15 +60,15 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 134
+      "count": 135
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 99
+      "count": 100
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 77
+      "count": 78
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 13
     },
     {
       "id": "y8-new",
@@ -317,25 +317,6 @@
       ]
     },
     {
-      "name": "WASH 'EM ALL",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Dungeonbound (In Development)",
       "channel": "online",
       "fastClass": "pending",
@@ -351,24 +332,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "NOSFER-A-TOOTH",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-featured-feed",
-        "itch-featured",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -554,6 +517,43 @@
         "itch-newest-web",
         "itch-new",
         "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "WASH 'EM ALL",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "NOSFER-A-TOOTH",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-featured-feed",
+        "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
       ]
