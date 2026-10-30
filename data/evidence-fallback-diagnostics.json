@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-30T09:59:10.336Z",
+  "generatedAt": "2026-10-30T16:42:09.680Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2364,
+  "pendingSeo": 2361,
   "channelCounts": {
     "pending": 555,
-    "online": 1798,
+    "online": 1795,
     "wiki": 11
   },
   "fastClassCounts": {
     "pending:pending": 555,
-    "online:pending": 1798,
+    "online:pending": 1795,
     "wiki:pending": 11
   },
   "strategicCounts": {
@@ -17,22 +17,22 @@
     "online:3": 7,
     "wiki:0": 4,
     "online:2": 596,
-    "online:1": 1195,
+    "online:1": 1192,
     "wiki:1": 7,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1757
+      "count": 1754
     },
     {
       "id": "itch-newest-web",
-      "count": 1741
+      "count": 1738
     },
     {
       "id": "itch-new-feed",
-      "count": 1686
+      "count": 1682
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +44,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 466
+      "count": 467
     },
     {
       "id": "trends-rising-30d",
-      "count": 339
+      "count": 340
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -64,11 +64,11 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 100
+      "count": 101
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 78
+      "count": 79
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -317,24 +317,6 @@
       ]
     },
     {
-      "name": "Dungeonbound (In Development)",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
-      ]
-    },
-    {
       "name": "Trolley Problem Is Not Problem",
       "channel": "online",
       "fastClass": "pending",
@@ -538,6 +520,24 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Dungeonbound (In Development)",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
