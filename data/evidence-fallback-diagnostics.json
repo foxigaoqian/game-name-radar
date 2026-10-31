@@ -1,39 +1,38 @@
 {
-  "generatedAt": "2026-10-31T00:46:45.755Z",
+  "generatedAt": "2026-10-31T06:21:10.487Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2356,
+  "pendingSeo": 2353,
   "channelCounts": {
-    "pending": 557,
-    "online": 1789,
-    "wiki": 10
+    "pending": 560,
+    "online": 1785,
+    "wiki": 8
   },
   "fastClassCounts": {
-    "pending:pending": 557,
-    "online:pending": 1789,
-    "wiki:pending": 10
+    "pending:pending": 560,
+    "online:pending": 1785,
+    "wiki:pending": 8
   },
   "strategicCounts": {
-    "pending:0": 555,
+    "pending:0": 557,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 596,
-    "online:1": 1186,
-    "wiki:2": 1,
-    "wiki:1": 5,
-    "pending:1": 2
+    "online:2": 597,
+    "online:1": 1181,
+    "wiki:1": 4,
+    "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1748
+      "count": 1744
     },
     {
       "id": "itch-newest-web",
-      "count": 1732
+      "count": 1728
     },
     {
       "id": "itch-new-feed",
-      "count": 1677
+      "count": 1673
     },
     {
       "id": "itch-new-popular-web",
@@ -45,11 +44,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 468
+      "count": 469
     },
     {
       "id": "trends-rising-30d",
-      "count": 345
+      "count": 346
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,11 +56,11 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 205
+      "count": 206
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 135
+      "count": 136
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -85,11 +84,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 28
+      "count": 27
     },
     {
       "id": "steam-new",
-      "count": 28
+      "count": 27
     },
     {
       "id": "newgrounds-daily-top",
@@ -101,15 +100,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 18
+      "count": 19
     },
     {
       "id": "itch-featured",
-      "count": 18
+      "count": 19
     },
     {
       "id": "steam-popular-new",
-      "count": 12
+      "count": 10
     },
     {
       "id": "y8-new",
@@ -124,12 +123,12 @@
       "count": 4
     },
     {
-      "id": "lagged-new",
+      "id": "crazygames-new",
       "count": 2
     },
     {
-      "id": "crazygames-new",
-      "count": 1
+      "id": "lagged-new",
+      "count": 2
     }
   ],
   "samples": [
@@ -276,6 +275,24 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "guess the number",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "crazygames-new"
       ]
     },
     {
@@ -1080,25 +1097,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Inside The Cube",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
