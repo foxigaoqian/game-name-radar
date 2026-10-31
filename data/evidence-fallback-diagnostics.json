@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-31T06:21:10.487Z",
+  "generatedAt": "2026-10-31T13:05:19.999Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2353,
+  "pendingSeo": 2350,
   "channelCounts": {
     "pending": 560,
-    "online": 1785,
-    "wiki": 8
+    "online": 1784,
+    "wiki": 6
   },
   "fastClassCounts": {
     "pending:pending": 560,
-    "online:pending": 1785,
-    "wiki:pending": 8
+    "online:pending": 1784,
+    "wiki:pending": 6
   },
   "strategicCounts": {
     "pending:0": 557,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 597,
+    "online:2": 596,
     "online:1": 1181,
-    "wiki:1": 4,
+    "wiki:1": 2,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1744
+      "count": 1743
     },
     {
       "id": "itch-newest-web",
-      "count": 1728
+      "count": 1727
     },
     {
       "id": "itch-new-feed",
-      "count": 1673
+      "count": 1672
     },
     {
       "id": "itch-new-popular-web",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 10
+      "count": 8
     },
     {
       "id": "y8-new",
@@ -123,12 +123,12 @@
       "count": 4
     },
     {
-      "id": "crazygames-new",
+      "id": "lagged-new",
       "count": 2
     },
     {
-      "id": "lagged-new",
-      "count": 2
+      "id": "crazygames-new",
+      "count": 1
     }
   ],
   "samples": [
@@ -275,24 +275,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "guess the number",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 16,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "crazygames-new"
       ]
     },
     {
@@ -1097,6 +1079,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Inside The Cube",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
