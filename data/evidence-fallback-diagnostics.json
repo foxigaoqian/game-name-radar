@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-31T13:05:19.999Z",
+  "generatedAt": "2026-10-31T17:43:01.864Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2350,
+  "pendingSeo": 2349,
   "channelCounts": {
     "pending": 560,
     "online": 1784,
-    "wiki": 6
+    "wiki": 5
   },
   "fastClassCounts": {
     "pending:pending": 560,
     "online:pending": 1784,
-    "wiki:pending": 6
+    "wiki:pending": 5
   },
   "strategicCounts": {
     "pending:0": 557,
@@ -18,8 +18,8 @@
     "wiki:0": 4,
     "online:2": 596,
     "online:1": 1181,
-    "wiki:1": 2,
-    "pending:1": 3
+    "pending:1": 3,
+    "wiki:1": 1
   },
   "topSources": [
     {
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 8
+      "count": 7
     },
     {
       "id": "y8-new",
@@ -298,14 +298,14 @@
       ]
     },
     {
-      "name": "Debug the Monolith",
+      "name": "Sigilsmith",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
       "discoveryScore": 17,
       "platforms": 1,
       "browserPlayable": true,
-      "nameRisk": 6,
+      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -493,6 +493,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Debug the Monolith",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1079,25 +1098,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Inside The Cube",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
