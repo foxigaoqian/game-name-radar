@@ -1,16 +1,16 @@
 {
-  "scannedAt": "2026-11-01T16:24:35.777Z",
+  "scannedAt": "2026-11-01T20:49:55.317Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 246,
+  "totalAdded": 251,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 35
+      "added": 34
     },
     {
       "ok": true,
@@ -38,14 +38,14 @@
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 4
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 35
+      "added": 40
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 7
+      "added": 8
     },
     {
       "ok": true,
@@ -87,7 +87,7 @@
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 38
+      "added": 44
     },
     {
       "ok": false,
@@ -100,72 +100,72 @@
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 81,
-      "added": 5
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 12,
-      "added": 3
+      "total": 11,
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 14,
-      "added": 7
+      "total": 12,
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 18,
-      "added": 7
+      "total": 19,
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 11,
+      "total": 15,
       "added": 9
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 12,
-      "added": 2
+      "total": 17,
+      "added": 9
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 8,
-      "added": 6
+      "total": 12,
+      "added": 7
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
-  "fastPassedCount": 338,
+  "fastPassedCount": 339,
   "fastWatchCount": 218,
-  "fastRejectedCount": 55,
+  "fastRejectedCount": 57,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 10,
-  "trendErrors": 1,
+  "trendsVerified": 0,
+  "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 487,
-  "trendEligibleCount": 268,
+  "seoPassedCount": 490,
+  "trendEligibleCount": 269,
   "trendPendingCount": 61,
-  "trendValidatedCount": 382,
+  "trendValidatedCount": 379,
   "risingCount": 5,
   "globalRisingCount": 0,
   "recommendationCounts": {
@@ -173,13 +173,13 @@
     "test-now": 0,
     "page": 2,
     "watch": 469,
-    "reject": 3,
-    "pending": 2526,
+    "reject": 0,
+    "pending": 2529,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 382
+    "serpapi": 379
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -194,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-01T16:24:34.439Z",
+    "checkedAt": "2026-11-01T20:49:54.104Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -219,7 +219,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 269,
+    "evidence-fallback": 266,
     "duckduckgo+autocomplete": 102,
     "serper+autocomplete": 247
   },
@@ -250,16 +250,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2222,
-    "wiki": 114,
-    "pending": 664
+    "online": 2221,
+    "wiki": 110,
+    "pending": 669
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 5,
-    "weak": 108
+    "weak": 104
   },
   "serperVerification": {
     "rushMode": true,
@@ -272,7 +272,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 90,
+    "queueSize": 84,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -282,36 +282,29 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-01T16:25:06.192Z"
+    "ranAt": "2026-11-01T20:50:25.290Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2389,
-    "eligibleCount": 6,
-    "queueSize": 6,
-    "verified": 6,
+    "pendingCount": 2386,
+    "eligibleCount": 0,
+    "queueSize": 0,
+    "verified": 0,
     "channelVerified": {
       "online": 0,
-      "wiki": 6,
+      "wiki": 0,
       "pending": 0
     },
     "fastRecalculated": {
       "pass": 0,
       "watch": 0,
-      "weak": 6,
+      "weak": 0,
       "reject": 0,
       "pending": 0
     },
-    "verifiedNames": [
-      "Chained Beasts",
-      "The Jackbox Party Pack 12",
-      "Castlevania: Belmont's Curse",
-      "Arknights: Endfield",
-      "Warhammer 40,000: Boltgun 2",
-      "Trash Day"
-    ],
-    "ranAt": "2026-11-01T16:25:07.111Z"
+    "verifiedNames": [],
+    "ranAt": "2026-11-01T20:50:26.188Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -335,16 +328,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-01T16:25:09.934Z"
+    "ranAt": "2026-11-01T20:50:28.984Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-01T16:25:10.138Z",
+    "checkedAt": "2026-11-01T20:50:29.332Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 585,
+    "totalIndependentSearchesLeft": 575,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -364,8 +357,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 171,
-        "totalSearchesLeft": 79,
+        "thisMonthUsage": 181,
+        "totalSearchesLeft": 69,
         "renewalDate": "2026-11-29"
       },
       {
@@ -408,7 +401,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-01T16:25:10.091Z",
+        "checkedAt": "2026-11-01T20:50:29.194Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -424,11 +417,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 171,
-        "planSearchesLeft": 79,
-        "totalSearchesLeft": 79,
+        "thisMonthUsage": 181,
+        "planSearchesLeft": 69,
+        "totalSearchesLeft": 69,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-01T16:25:10.107Z",
+        "checkedAt": "2026-11-01T20:50:29.239Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -448,7 +441,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-01T16:25:10.124Z",
+        "checkedAt": "2026-11-01T20:50:29.287Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -468,7 +461,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-01T16:25:10.137Z",
+        "checkedAt": "2026-11-01T20:50:29.332Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -488,7 +481,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 59,
+      "validated": 56,
       "rising": 3,
       "recommended": 0
     },
@@ -501,19 +494,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 564,
-    "queueSize": 11,
-    "verified": 10,
-    "errors": 1,
+    "remainingAtStart": 553,
+    "queueSize": 0,
+    "verified": 0,
+    "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 4,
+      "strong": 0,
       "secondary": 0,
-      "strategic": 6
+      "strategic": 0
     },
     "channelVerified": {
-      "online": 1,
-      "wiki": 9,
+      "online": 0,
+      "wiki": 0,
       "pending": 0
     },
     "pendingByTier": {
@@ -525,18 +518,7 @@
       "online": 0,
       "wiki": 0
     },
-    "verifiedNames": [
-      "Phantom Blade Zero",
-      "Moon Sweepers",
-      "Trick or Treat",
-      "Terrible Lizards",
-      "Chained Beasts",
-      "Castlevania: Belmont's Curse",
-      "Arknights: Endfield",
-      "Trash Day",
-      "The Jackbox Party Pack 12",
-      "Warhammer 40,000: Boltgun 2"
-    ],
+    "verifiedNames": [],
     "caps": {
       "online": 999,
       "wiki": 999,
@@ -561,13 +543,13 @@
         "envName": "SERPAPI_API_KEY_2",
         "ok": true,
         "error": null,
-        "verified": 10,
+        "verified": 0,
         "channelVerified": {
-          "online": 1,
-          "wiki": 9,
+          "online": 0,
+          "wiki": 0,
           "pending": 0
         },
-        "errors": 1,
+        "errors": 0,
         "quotaStopped": false
       },
       "3": {
@@ -597,7 +579,7 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-01T16:25:55.948Z"
+    "ranAt": "2026-11-01T20:50:31.846Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
@@ -643,7 +625,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-01T16:25:55.994Z"
+    "updatedAt": "2026-11-01T20:50:31.896Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -686,6 +668,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-01T16:25:56.641Z"
+    "ranAt": "2026-11-01T20:50:32.500Z"
   }
 }

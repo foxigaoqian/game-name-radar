@@ -1,70 +1,70 @@
 {
-  "generatedAt": "2026-11-01T16:25:06.560Z",
+  "generatedAt": "2026-11-01T20:50:25.668Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2389,
+  "pendingSeo": 2386,
   "channelCounts": {
-    "pending": 564,
-    "online": 1808,
-    "wiki": 17
+    "pending": 569,
+    "online": 1807,
+    "wiki": 10
   },
   "fastClassCounts": {
-    "pending:pending": 564,
-    "online:pending": 1808,
-    "wiki:pending": 17
+    "pending:pending": 569,
+    "online:pending": 1807,
+    "wiki:pending": 10
   },
   "strategicCounts": {
-    "pending:0": 561,
+    "pending:0": 566,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 596,
-    "online:1": 1205,
+    "online:2": 597,
+    "online:1": 1203,
     "pending:1": 3,
-    "wiki:1": 13
+    "wiki:1": 6
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1767
+      "count": 1766
     },
     {
       "id": "itch-newest-web",
-      "count": 1751
+      "count": 1750
     },
     {
       "id": "itch-new-feed",
-      "count": 1696
+      "count": 1695
     },
     {
       "id": "itch-new-popular-web",
-      "count": 582
+      "count": 583
     },
     {
       "id": "itch-popular",
-      "count": 582
+      "count": 583
     },
     {
       "id": "trends-rising-7d",
-      "count": 472
+      "count": 478
     },
     {
       "id": "trends-rising-30d",
-      "count": 353
+      "count": 357
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 247
+      "count": 250
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 210
+      "count": 212
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 137
+      "count": 139
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 101
+      "count": 102
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 72
+      "count": 74
     },
     {
       "id": "newgrounds-latest",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 19
+      "count": 12
     },
     {
       "id": "y8-new",
@@ -295,6 +295,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "First Night",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1072,25 +1091,6 @@
     },
     {
       "name": "PokéSurvivor",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Abyssal Salvage",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
