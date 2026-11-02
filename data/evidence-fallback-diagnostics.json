@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-11-02T00:43:56.443Z",
+  "generatedAt": "2026-11-02T06:52:20.749Z",
   "totalCandidates": 3000,
   "pendingSeo": 2386,
   "channelCounts": {
-    "pending": 569,
-    "online": 1812,
+    "pending": 572,
+    "online": 1809,
     "wiki": 5
   },
   "fastClassCounts": {
-    "pending:pending": 569,
-    "online:pending": 1812,
+    "pending:pending": 572,
+    "online:pending": 1809,
     "wiki:pending": 5
   },
   "strategicCounts": {
-    "pending:0": 566,
+    "pending:0": 569,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 597,
-    "online:1": 1208,
+    "online:2": 598,
+    "online:1": 1204,
     "pending:1": 3,
     "wiki:1": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1771
+      "count": 1768
     },
     {
       "id": "itch-newest-web",
-      "count": 1755
+      "count": 1752
     },
     {
       "id": "itch-new-feed",
-      "count": 1700
+      "count": 1697
     },
     {
       "id": "itch-new-popular-web",
-      "count": 583
+      "count": 584
     },
     {
       "id": "itch-popular",
-      "count": 583
+      "count": 584
     },
     {
       "id": "trends-rising-7d",
-      "count": 478
+      "count": 479
     },
     {
       "id": "trends-rising-30d",
-      "count": 358
+      "count": 362
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 250
+      "count": 251
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 212
+      "count": 213
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -68,11 +68,11 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 81
+      "count": 82
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 74
+      "count": 77
     },
     {
       "id": "newgrounds-latest",
@@ -295,6 +295,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Idle Watt Machine",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1072,25 +1091,6 @@
     },
     {
       "name": "KAIJU DISPOSAL",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "PokéSurvivor",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
