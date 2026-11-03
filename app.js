@@ -1,6 +1,26 @@
 const RAW_BASE='https://raw.githubusercontent.com/foxigaoqian/game-name-radar/main';
-const DATA_URL=`${RAW_BASE}/data/candidates.json`;
-const REPORT_URL=`${RAW_BASE}/data/latest-report.json`;
+function resolveDataUrls(){
+  // ?data= override: full URL to candidates.json (or its directory), http(s) only
+  try{
+    const custom=new URLSearchParams(location.search).get('data');
+    if(custom){
+      const u=new URL(custom,location.href);
+      if(u.protocol==='http:'||u.protocol==='https:'){
+        const base=u.href.slice(0,Math.max(u.href.lastIndexOf('/'),u.href.indexOf('://')+2));
+        return{data:`${base}/candidates.json`,report:`${base}/latest-report.json`};
+      }
+    }
+  }catch(e){}
+  // same-origin deployment (GitHub Pages / Vercel / fork): ./data/... just works
+  if(location.protocol==='http:'||location.protocol==='https:'){
+    return{data:'./data/candidates.json',report:'./data/latest-report.json'};
+  }
+  // fallback (e.g. file://): original hardcoded raw URL
+  return{data:`${RAW_BASE}/data/candidates.json`,report:`${RAW_BASE}/data/latest-report.json`};
+}
+const __urls=resolveDataUrls();
+const DATA_URL=__urls.data;
+const REPORT_URL=__urls.report;
 const STATUS_KEY='gameRadar.resultStatus.v9';
 const LEGACY_STATUS_KEYS=['gameRadar.resultStatus.v8'];
 const els={lastUpdated:document.querySelector('#lastUpdated'),verifyStatus:document.querySelector('#verifyStatus'),sourceCount:document.querySelector('#sourceCount'),newCount:document.querySelector('#newCount'),onlineCount:document.querySelector('#onlineCount'),wikiCount:document.querySelector('#wikiCount'),sourceChips:document.querySelector('#sourceChips'),body:document.querySelector('#resultBody'),empty:document.querySelector('#emptyState'),emptyDetail:document.querySelector('#emptyDetail'),search:document.querySelector('#searchInput'),siteType:document.querySelector('#siteTypeFilter'),recommendation:document.querySelector('#recommendationFilter'),time:document.querySelector('#timeFilter'),refresh:document.querySelector('#refreshBtn'),export:document.querySelector('#exportBtn'),toast:document.querySelector('#toast')};
@@ -16,6 +36,7 @@ function readStatusStore(key){try{return JSON.parse(localStorage.getItem(key)||'
 function loadStatuses(){const merged={};for(const key of [...LEGACY_STATUS_KEYS,STATUS_KEY])Object.assign(merged,readStatusStore(key));return merged}
 function saveStatuses(){localStorage.setItem(STATUS_KEY,JSON.stringify(statuses))}
 function toast(text){els.toast.textContent=text;els.toast.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>els.toast.classList.remove('show'),2400)}
+function debounce(fn,wait){let t;return(...args)=>{clearTimeout(t);t=setTimeout(()=>fn(...args),wait)}}
 function fmtDate(value){if(!value)return'—';const d=new Date(value);if(Number.isNaN(d.getTime()))return value;return new Intl.DateTimeFormat('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(d)}
 function ageDays(value){const t=Date.parse(value||'');return Number.isFinite(t)?(Date.now()-t)/86400000:Infinity}
 function normalize(value=''){return value.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,' ').trim()}
@@ -47,6 +68,6 @@ function renderTrend(c){const trend=c.trend||{},box=document.createElement('div'
 function renderAdvice(c){const cls=classification(c),type=siteType(c),box=document.createElement('div');box.className='judgement';const typeBadge=document.createElement('span');typeBadge.className=`recommendation ${cls}`;typeBadge.textContent=TYPE_LABELS[type]||TYPE_LABELS.pending;box.append(typeBadge);box.append(small(LABELS[cls]||cls));if(c.siteType?.reasons?.[0])box.append(small(c.siteType.reasons[0]));if(type==='online')box.append(small(c.siteType?.embedStatus==='needs-check'?'浏览器可玩，iframe权限待确认':'浏览器可玩状态待确认'));if(type==='wiki')box.append(small('适合攻略、Wiki、地图、角色与联机教程'));return box}
 function render(){renderStats();renderSources();const list=filtered();els.body.textContent='';els.empty.hidden=list.length>0;for(const c of list.slice(0,500)){const cls=classification(c),tr=document.createElement('tr');const scoreTd=document.createElement('td'),score=document.createElement('span');score.className=`score ${cls}`;score.textContent=['pending','error','reject'].includes(cls)?'—':finalScore(c);scoreTd.append(score);const gameTd=document.createElement('td'),title=document.createElement('strong'),url=document.createElement('a'),meta=document.createElement('span');title.className='game-title';title.textContent=c.gameName;url.className='game-url';url.href=c.sources?.[0]?.url||'#';url.target='_blank';url.rel='noopener noreferrer';url.textContent=c.sources?.[0]?.url||'';meta.className='game-meta';meta.textContent=`发现分 ${c.discoveryScore??'—'} · ${c.sources?.length||0}个来源 · ${fmtDate(c.firstSeen)}`;gameTd.append(title,url,meta);const adviceTd=document.createElement('td');adviceTd.append(renderAdvice(c));const seoTd=document.createElement('td');seoTd.append(renderSeo(c));const fastTd=document.createElement('td');fastTd.append(renderFast(c));const trendTd=document.createElement('td');trendTd.append(renderTrend(c));const sourceTd=document.createElement('td'),chips=document.createElement('div');chips.className='chips';for(const s of c.sources||[]){const chip=document.createElement('span');chip.className='chip';chip.textContent=s.name;chips.append(chip)}sourceTd.append(chips);const actions=document.createElement('td'),wrap=document.createElement('div');wrap.className='actions';wrap.append(action('Trends 7天',trends(c.gameName,7)),action('30天',trends(c.gameName,30)),action(siteType(c)==='wiki'?'Wiki SERP':'Play SERP',serp(c)));if(['independent','test-now'].includes(cls))wrap.append(action('域名',domain(c.gameName)));const copy=document.createElement('button');copy.className='action';copy.textContent='复制';copy.onclick=async()=>{await navigator.clipboard.writeText(c.gameName);toast('已复制游戏名')};const ignore=document.createElement('button');ignore.className='action';ignore.textContent='忽略';ignore.onclick=()=>{ignoreCandidate(c);render();toast(`已永久隐藏：${c.gameName}`)};wrap.append(copy,ignore);actions.append(wrap);tr.append(scoreTd,gameTd,adviceTd,seoTd,fastTd,trendTd,sourceTd,actions);els.body.append(tr)}}
 async function load(){els.refresh.disabled=true;try{const stamp=Date.now();const[cRes,rRes]=await Promise.all([fetch(`${DATA_URL}?v=${stamp}`,{cache:'no-store'}),fetch(`${REPORT_URL}?v=${stamp}`,{cache:'no-store'})]);if(!cRes.ok)throw new Error('候选数据读取失败');const cJson=await cRes.json();candidates=Array.isArray(cJson)?cJson:cJson.candidates||[];report=rRes.ok?await rRes.json():{};migrateIgnoredStatuses();render()}catch(e){toast(e.message);render()}finally{els.refresh.disabled=false}}
-els.search.addEventListener('input',render);els.siteType.addEventListener('change',render);els.recommendation.addEventListener('change',render);els.time.addEventListener('change',render);els.refresh.addEventListener('click',()=>load().then(()=>toast('结果已刷新')));
+els.search.addEventListener('input',debounce(render,250));els.siteType.addEventListener('change',render);els.recommendation.addEventListener('change',render);els.time.addEventListener('change',render);els.refresh.addEventListener('click',()=>load().then(()=>toast('结果已刷新')));
 els.export.addEventListener('click',()=>{const rows=[['Game Name','Site Type','Embed Status','Final Score','Recommendation','SEO Score','Fast Profile','Fast Score','Trend Profile','Trend Class','US 7d vs Anchor','US 30d vs Anchor','Discovery Score','Sources','URL'],...filtered().map(c=>[c.gameName,TYPE_LABELS[siteType(c)],c.siteType?.embedStatus??'',finalScore(c),LABELS[classification(c)]||classification(c),seoScore(c),c.fast?.profile??'',fastScore(c),c.trend?.queryProfile??'',c.trend?.classification??'',c.trend?.ratio7??'',c.trend?.ratio30??'',c.discoveryScore||0,(c.sources||[]).map(s=>s.name).join(' | '),c.sources?.[0]?.url||''])];const csv='\ufeff'+rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download=`game-opportunities-${new Date().toISOString().slice(0,10)}.csv`;a.click();URL.revokeObjectURL(a.href)});
 load();setInterval(load,5*60*1000);
