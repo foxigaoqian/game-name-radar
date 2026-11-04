@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-03T20:38:38.301Z",
+  "generatedAt": "2026-11-04T00:54:25.564Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2375,
+  "pendingSeo": 2383,
   "channelCounts": {
-    "pending": 580,
-    "online": 1785,
-    "wiki": 10
+    "wiki": 18,
+    "pending": 585,
+    "online": 1780
   },
   "fastClassCounts": {
-    "pending:pending": 580,
-    "online:pending": 1785,
-    "wiki:pending": 10
+    "wiki:pending": 18,
+    "pending:pending": 585,
+    "online:pending": 1780
   },
   "strategicCounts": {
-    "pending:0": 577,
+    "wiki:1": 14,
+    "pending:0": 582,
     "online:3": 7,
     "wiki:0": 4,
     "online:2": 600,
-    "online:1": 1178,
-    "pending:1": 3,
-    "wiki:1": 6
+    "online:1": 1173,
+    "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1743
+      "count": 1738
     },
     {
       "id": "itch-newest-web",
-      "count": 1727
+      "count": 1722
     },
     {
       "id": "itch-new-feed",
-      "count": 1672
+      "count": 1667
     },
     {
       "id": "itch-new-popular-web",
@@ -44,27 +44,27 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 487
+      "count": 492
     },
     {
       "id": "trends-rising-30d",
-      "count": 368
+      "count": 369
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 252
+      "count": 254
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 215
+      "count": 216
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 144
+      "count": 146
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 105
+      "count": 106
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 80
+      "count": 82
     },
     {
       "id": "newgrounds-latest",
@@ -99,16 +99,16 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 20
+    },
+    {
       "id": "itch-featured-feed",
       "count": 20
     },
     {
       "id": "itch-featured",
       "count": 20
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 12
     },
     {
       "id": "y8-new",
@@ -357,25 +357,6 @@
       ]
     },
     {
-      "name": "First Night",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Trolley Problem Is Not Problem",
       "channel": "online",
       "fastClass": "pending",
@@ -520,6 +501,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "First Night",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
