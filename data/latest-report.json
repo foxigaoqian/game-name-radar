@@ -1,16 +1,15 @@
 {
-  "scannedAt": "2026-11-04T21:31:52.616Z",
+  "scannedAt": "2026-11-05T01:48:04.799Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 265,
+  "totalAdded": 203,
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
-      "total": 36,
-      "added": 35
+      "error": "远程站点返回 429"
     },
     {
       "ok": false,
@@ -23,20 +22,21 @@
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 35
+      "added": 36
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
-      "error": "远程站点返回 429"
+      "total": 10,
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 2
+      "added": 0
     },
     {
       "ok": true,
@@ -64,7 +64,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 9
+      "added": 2
     },
     {
       "ok": true,
@@ -78,14 +78,14 @@
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
       "total": 189,
-      "added": 4
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 48
+      "added": 38
     },
     {
       "ok": false,
@@ -98,28 +98,28 @@
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 81,
-      "added": 1
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
       "total": 11,
-      "added": 4
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 17,
+      "total": 19,
       "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 19,
-      "added": 10
+      "total": 12,
+      "added": 7
     },
     {
       "ok": true,
@@ -133,58 +133,58 @@
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
       "total": 15,
-      "added": 6
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 16,
-      "added": 7
+      "total": 14,
+      "added": 5
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
-  "fastPassedCount": 341,
-  "fastWatchCount": 226,
-  "fastRejectedCount": 57,
+  "fastPassedCount": 342,
+  "fastWatchCount": 223,
+  "fastRejectedCount": 59,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 10,
-  "trendErrors": 1,
+  "trendsVerified": 9,
+  "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
   "seoPassedCount": 500,
-  "trendEligibleCount": 271,
+  "trendEligibleCount": 272,
   "trendPendingCount": 261,
-  "trendValidatedCount": 396,
+  "trendValidatedCount": 400,
   "risingCount": 5,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 2,
-    "watch": 484,
-    "reject": 2,
-    "pending": 2512,
+    "watch": 486,
+    "reject": 4,
+    "pending": 2508,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 396
+    "serpapi": 400
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
     "enabled": true,
     "month": "2026-11",
     "monthUsed": 245,
-    "day": "2026-11-04",
+    "day": "2026-11-05",
     "dayUsed": 0,
     "monthlyLimit": 245,
     "dailyLimit": 245,
@@ -192,7 +192,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-04T21:31:51.521Z",
+    "checkedAt": "2026-11-05T01:48:03.571Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -217,7 +217,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 281,
+    "evidence-fallback": 285,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 102
   },
@@ -236,7 +236,7 @@
   "googleCseUsage": {
     "enabled": false,
     "configuredSlots": 0,
-    "day": "2026-11-04",
+    "day": "2026-11-05",
     "totalDayUsed": 0,
     "totalDailyLimit": 0,
     "slots": {},
@@ -248,16 +248,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2186,
-    "wiki": 127,
-    "pending": 687
+    "online": 2185,
+    "wiki": 125,
+    "pending": 690
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 5,
-    "weak": 121
+    "weak": 119
   },
   "serperVerification": {
     "rushMode": true,
@@ -280,35 +280,39 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-04T21:32:26.133Z"
+    "ranAt": "2026-11-05T01:48:35.899Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
     "pendingCount": 2376,
-    "eligibleCount": 5,
-    "queueSize": 5,
-    "verified": 5,
+    "eligibleCount": 9,
+    "queueSize": 9,
+    "verified": 9,
     "channelVerified": {
       "online": 0,
-      "wiki": 5,
+      "wiki": 9,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 0,
-      "watch": 3,
+      "pass": 1,
+      "watch": 6,
       "weak": 2,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "Sushiamo",
-      "Horses of Hoofprint Bay",
-      "Traffic Architect",
-      "Beat For Speed",
-      "Replay Value: Second Hand Games"
+      "SULFUR",
+      "Playrooms",
+      "VOID/BREAKER",
+      "Lightyear Frontier",
+      "Worship",
+      "Eternal Palace Sakura",
+      "Hull Rupture",
+      "Death at Fleming Manor",
+      "Legend of Defenders"
     ],
-    "ranAt": "2026-11-04T21:32:26.937Z"
+    "ranAt": "2026-11-05T01:48:36.526Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -332,16 +336,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-04T21:32:29.613Z"
+    "ranAt": "2026-11-05T01:48:38.776Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-04T21:32:30.062Z",
+    "checkedAt": "2026-11-05T01:48:38.940Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 518,
+    "totalIndependentSearchesLeft": 508,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -361,8 +365,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 238,
-        "totalSearchesLeft": 12,
+        "thisMonthUsage": 239,
+        "totalSearchesLeft": 11,
         "renewalDate": "2026-11-29"
       },
       {
@@ -372,8 +376,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 0,
-        "totalSearchesLeft": 250,
+        "thisMonthUsage": 9,
+        "totalSearchesLeft": 241,
         "renewalDate": "2026-11-29"
       },
       {
@@ -405,7 +409,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-04T21:32:29.804Z",
+        "checkedAt": "2026-11-05T01:48:38.887Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -421,11 +425,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 238,
-        "planSearchesLeft": 12,
-        "totalSearchesLeft": 12,
+        "thisMonthUsage": 239,
+        "planSearchesLeft": 11,
+        "totalSearchesLeft": 11,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-04T21:32:29.903Z",
+        "checkedAt": "2026-11-05T01:48:38.906Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -441,11 +445,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 0,
-        "planSearchesLeft": 250,
-        "totalSearchesLeft": 250,
+        "thisMonthUsage": 9,
+        "planSearchesLeft": 241,
+        "totalSearchesLeft": 241,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-04T21:32:29.970Z",
+        "checkedAt": "2026-11-05T01:48:38.924Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -465,7 +469,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-04T21:32:30.061Z",
+        "checkedAt": "2026-11-05T01:48:38.940Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -485,7 +489,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 70,
+      "validated": 74,
       "rising": 3,
       "recommended": 0
     },
@@ -498,19 +502,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 492,
-    "queueSize": 20,
-    "verified": 10,
-    "errors": 1,
+    "remainingAtStart": 481,
+    "queueSize": 9,
+    "verified": 9,
+    "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 4,
-      "secondary": 4,
+      "strong": 1,
+      "secondary": 6,
       "strategic": 2
     },
     "channelVerified": {
-      "online": 2,
-      "wiki": 8,
+      "online": 0,
+      "wiki": 9,
       "pending": 0
     },
     "pendingByTier": {
@@ -523,16 +527,15 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Phantom Blade Zero",
-      "Terrible Lizards",
-      "Moon Sweepers",
-      "Trick or Treat",
-      "Escape from Playtime",
-      "Sushiamo",
-      "Traffic Architect",
-      "Horses of Hoofprint Bay",
-      "Replay Value: Second Hand Games",
-      "Beat For Speed"
+      "SULFUR",
+      "VOID/BREAKER",
+      "Lightyear Frontier",
+      "Eternal Palace Sakura",
+      "Hull Rupture",
+      "Playrooms",
+      "Worship",
+      "Death at Fleming Manor",
+      "Legend of Defenders"
     ],
     "caps": {
       "online": 999,
@@ -558,14 +561,14 @@
         "envName": "SERPAPI_API_KEY_2",
         "ok": true,
         "error": null,
-        "verified": 1,
+        "verified": 0,
         "channelVerified": {
           "online": 0,
-          "wiki": 1,
+          "wiki": 0,
           "pending": 0
         },
-        "errors": 1,
-        "quotaStopped": true
+        "errors": 0,
+        "quotaStopped": false
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
@@ -573,8 +576,8 @@
         "error": null,
         "verified": 9,
         "channelVerified": {
-          "online": 2,
-          "wiki": 7,
+          "online": 0,
+          "wiki": 9,
           "pending": 0
         },
         "errors": 0,
@@ -594,16 +597,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-04T21:33:05.568Z"
+    "ranAt": "2026-11-05T01:49:06.251Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-11",
-    "monthUsed": 499,
-    "day": "2026-11-04",
-    "dayUsed": 42,
+    "monthUsed": 508,
+    "day": "2026-11-05",
+    "dayUsed": 9,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -618,18 +621,18 @@
       "2": {
         "envName": "SERPAPI_API_KEY_2",
         "monthUsed": 245,
-        "dayUsed": 33,
+        "dayUsed": 0,
         "monthlyLimit": 245,
         "dailyLimit": 245,
         "updatedAt": "2026-11-04T21:32:31.759Z"
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 9,
+        "monthUsed": 18,
         "dayUsed": 9,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-11-04T21:33:02.618Z"
+        "updatedAt": "2026-11-05T01:49:00.736Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -640,7 +643,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-04T21:33:05.662Z"
+    "updatedAt": "2026-11-05T01:49:06.288Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -683,6 +686,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-04T21:33:06.216Z"
+    "ranAt": "2026-11-05T01:49:06.730Z"
   }
 }
