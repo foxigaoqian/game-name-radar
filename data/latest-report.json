@@ -1,91 +1,92 @@
 {
-  "scannedAt": "2026-11-05T01:48:04.799Z",
+  "scannedAt": "2026-11-05T09:28:07.659Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 203,
+  "totalAdded": 242,
   "sources": [
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
-      "error": "远程站点返回 429"
-    },
-    {
-      "ok": false,
-      "sourceId": "itch-new-popular-web",
-      "sourceName": "itch.io New & Popular",
-      "error": "远程站点返回 429"
+      "total": 36,
+      "added": 36
     },
     {
       "ok": true,
+      "sourceId": "itch-new-popular-web",
+      "sourceName": "itch.io New & Popular",
+      "total": 36,
+      "added": 17
+    },
+    {
+      "ok": false,
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
-      "total": 36,
-      "added": 36
+      "error": "远程站点返回 429"
     },
     {
       "ok": true,
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 1
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 0
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 50
+      "added": 39
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 50
+      "added": 49
     },
     {
       "ok": true,
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 0
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 2
+      "added": 12
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 0
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 189,
-      "added": 1
+      "total": 145,
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 38
+      "added": 45
     },
     {
       "ok": false,
@@ -104,22 +105,22 @@
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 11,
-      "added": 5
+      "total": 14,
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 19,
-      "added": 4
+      "total": 18,
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 12,
-      "added": 7
+      "total": 8,
+      "added": 3
     },
     {
       "ok": true,
@@ -132,52 +133,52 @@
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 15,
+      "total": 14,
       "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 14,
-      "added": 5
+      "total": 12,
+      "added": 2
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
   "fastPassedCount": 342,
-  "fastWatchCount": 223,
+  "fastWatchCount": 226,
   "fastRejectedCount": 59,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 9,
+  "trendsVerified": 1,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 500,
+  "seoPassedCount": 503,
   "trendEligibleCount": 272,
-  "trendPendingCount": 261,
-  "trendValidatedCount": 400,
+  "trendPendingCount": 267,
+  "trendValidatedCount": 395,
   "risingCount": 5,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 2,
-    "watch": 486,
-    "reject": 4,
-    "pending": 2508,
+    "watch": 485,
+    "reject": 0,
+    "pending": 2513,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 400
+    "serpapi": 395
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -192,7 +193,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-05T01:48:03.571Z",
+    "checkedAt": "2026-11-05T09:28:06.067Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -217,7 +218,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 285,
+    "evidence-fallback": 280,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 102
   },
@@ -249,15 +250,15 @@
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
     "online": 2185,
-    "wiki": 125,
-    "pending": 690
+    "wiki": 123,
+    "pending": 692
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 5,
-    "weak": 119
+    "weak": 117
   },
   "serperVerification": {
     "rushMode": true,
@@ -270,7 +271,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 90,
+    "queueSize": 87,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -280,39 +281,31 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-05T01:48:35.899Z"
+    "ranAt": "2026-11-05T09:28:35.813Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2376,
-    "eligibleCount": 9,
-    "queueSize": 9,
-    "verified": 9,
+    "pendingCount": 2373,
+    "eligibleCount": 1,
+    "queueSize": 1,
+    "verified": 1,
     "channelVerified": {
       "online": 0,
-      "wiki": 9,
+      "wiki": 1,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 1,
-      "watch": 6,
-      "weak": 2,
+      "pass": 0,
+      "watch": 1,
+      "weak": 0,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "SULFUR",
-      "Playrooms",
-      "VOID/BREAKER",
-      "Lightyear Frontier",
-      "Worship",
-      "Eternal Palace Sakura",
-      "Hull Rupture",
-      "Death at Fleming Manor",
-      "Legend of Defenders"
+      "Cozy Game Restoration"
     ],
-    "ranAt": "2026-11-05T01:48:36.526Z"
+    "ranAt": "2026-11-05T09:28:36.496Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -336,16 +329,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-05T01:48:38.776Z"
+    "ranAt": "2026-11-05T09:28:38.323Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-05T01:48:38.940Z",
+    "checkedAt": "2026-11-05T09:28:38.929Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 508,
+    "totalIndependentSearchesLeft": 499,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -376,8 +369,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 9,
-        "totalSearchesLeft": 241,
+        "thisMonthUsage": 18,
+        "totalSearchesLeft": 232,
         "renewalDate": "2026-11-29"
       },
       {
@@ -409,7 +402,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-05T01:48:38.887Z",
+        "checkedAt": "2026-11-05T09:28:38.511Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -429,7 +422,7 @@
         "planSearchesLeft": 11,
         "totalSearchesLeft": 11,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-05T01:48:38.906Z",
+        "checkedAt": "2026-11-05T09:28:38.598Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -445,11 +438,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 9,
-        "planSearchesLeft": 241,
-        "totalSearchesLeft": 241,
+        "thisMonthUsage": 18,
+        "planSearchesLeft": 232,
+        "totalSearchesLeft": 232,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-05T01:48:38.924Z",
+        "checkedAt": "2026-11-05T09:28:38.687Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -469,7 +462,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-05T01:48:38.940Z",
+        "checkedAt": "2026-11-05T09:28:38.929Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -489,7 +482,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 74,
+      "validated": 69,
       "rising": 3,
       "recommended": 0
     },
@@ -502,19 +495,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 481,
-    "queueSize": 9,
-    "verified": 9,
+    "remainingAtStart": 472,
+    "queueSize": 1,
+    "verified": 1,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 1,
-      "secondary": 6,
-      "strategic": 2
+      "strong": 0,
+      "secondary": 1,
+      "strategic": 0
     },
     "channelVerified": {
       "online": 0,
-      "wiki": 9,
+      "wiki": 1,
       "pending": 0
     },
     "pendingByTier": {
@@ -527,15 +520,7 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "SULFUR",
-      "VOID/BREAKER",
-      "Lightyear Frontier",
-      "Eternal Palace Sakura",
-      "Hull Rupture",
-      "Playrooms",
-      "Worship",
-      "Death at Fleming Manor",
-      "Legend of Defenders"
+      "Cozy Game Restoration"
     ],
     "caps": {
       "online": 999,
@@ -574,10 +559,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 9,
+        "verified": 1,
         "channelVerified": {
           "online": 0,
-          "wiki": 9,
+          "wiki": 1,
           "pending": 0
         },
         "errors": 0,
@@ -597,16 +582,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-05T01:49:06.251Z"
+    "ranAt": "2026-11-05T09:28:43.313Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-11",
-    "monthUsed": 508,
+    "monthUsed": 509,
     "day": "2026-11-05",
-    "dayUsed": 9,
+    "dayUsed": 10,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -628,11 +613,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 18,
-        "dayUsed": 9,
+        "monthUsed": 19,
+        "dayUsed": 10,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-11-05T01:49:00.736Z"
+        "updatedAt": "2026-11-05T09:28:40.031Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -643,7 +628,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-05T01:49:06.288Z"
+    "updatedAt": "2026-11-05T09:28:43.349Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -686,6 +671,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-05T01:49:06.730Z"
+    "ranAt": "2026-11-05T09:28:43.794Z"
   }
 }

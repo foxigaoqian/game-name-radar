@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-11-05T01:48:36.152Z",
+  "generatedAt": "2026-11-05T09:28:36.104Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2376,
+  "pendingSeo": 2373,
   "channelCounts": {
-    "wiki": 18,
-    "pending": 590,
-    "online": 1768
+    "pending": 592,
+    "online": 1768,
+    "wiki": 13
   },
   "fastClassCounts": {
-    "wiki:pending": 18,
-    "pending:pending": 590,
-    "online:pending": 1768
+    "pending:pending": 592,
+    "online:pending": 1768,
+    "wiki:pending": 13
   },
   "strategicCounts": {
-    "wiki:1": 14,
-    "pending:0": 586,
+    "pending:0": 587,
     "online:3": 7,
     "wiki:0": 4,
-    "online:2": 600,
-    "online:1": 1161,
-    "pending:1": 4
+    "online:2": 603,
+    "online:1": 1158,
+    "wiki:1": 9,
+    "pending:1": 5
   },
   "topSources": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 585
+      "count": 588
     },
     {
       "id": "itch-popular",
-      "count": 585
+      "count": 588
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 373
+      "count": 374
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 85
+      "count": 86
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -100,15 +100,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 21
+      "count": 22
     },
     {
       "id": "itch-featured",
-      "count": 21
+      "count": 22
     },
     {
       "id": "steam-popular-new",
-      "count": 20
+      "count": 15
     },
     {
       "id": "y8-new",
@@ -319,6 +319,25 @@
       ]
     },
     {
+      "name": "Kitty Timber Gunner",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "Dig to the Core",
       "channel": "online",
       "fastClass": "pending",
@@ -482,6 +501,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "brainfrog",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1068,44 +1106,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Lab accident",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "KAIJU DISPOSAL",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
