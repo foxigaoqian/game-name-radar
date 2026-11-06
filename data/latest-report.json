@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-11-06T18:28:29.439Z",
+  "scannedAt": "2026-11-06T23:30:45.737Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 295,
+  "totalAdded": 252,
   "sources": [
     {
       "ok": true,
@@ -17,28 +17,28 @@
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 8
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 35
+      "added": 34
     },
     {
       "ok": true,
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 2
+      "added": 0
     },
     {
       "ok": true,
@@ -52,7 +52,7 @@
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 50
+      "added": 49
     },
     {
       "ok": true,
@@ -66,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 12
+      "added": 4
     },
     {
       "ok": true,
@@ -80,7 +80,7 @@
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
       "total": 154,
-      "added": 13
+      "added": 0
     },
     {
       "ok": true,
@@ -100,86 +100,86 @@
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 81,
-      "added": 3
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 6,
-      "added": 2
+      "total": 11,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 15,
-      "added": 7
+      "total": 17,
+      "added": 11
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 4,
-      "added": 3
+      "total": 8,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 20,
-      "added": 20
+      "total": 4,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 15,
-      "added": 6
+      "total": 12,
+      "added": 3
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 15,
-      "added": 9
+      "total": 11,
+      "added": 6
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
   "fastPassedCount": 344,
-  "fastWatchCount": 224,
-  "fastRejectedCount": 62,
+  "fastWatchCount": 221,
+  "fastRejectedCount": 63,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 6,
-  "trendErrors": 0,
+  "trendsVerified": 8,
+  "trendErrors": 1,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 506,
-  "trendEligibleCount": 273,
-  "trendPendingCount": 269,
-  "trendValidatedCount": 403,
+  "seoPassedCount": 504,
+  "trendEligibleCount": 274,
+  "trendPendingCount": 268,
+  "trendValidatedCount": 399,
   "risingCount": 6,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 2,
-    "watch": 491,
-    "reject": 2,
-    "pending": 2505,
+    "watch": 488,
+    "reject": 1,
+    "pending": 2509,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 403
+    "serpapi": 399
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -194,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-06T18:28:28.133Z",
+    "checkedAt": "2026-11-06T23:30:44.155Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -219,7 +219,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 288,
+    "evidence-fallback": 284,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 102
   },
@@ -250,16 +250,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2178,
-    "wiki": 127,
-    "pending": 695
+    "online": 2173,
+    "wiki": 129,
+    "pending": 698
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 5,
-    "weak": 121
+    "weak": 123
   },
   "serperVerification": {
     "rushMode": true,
@@ -272,7 +272,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 88,
+    "queueSize": 90,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -282,36 +282,34 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-06T18:29:03.010Z"
+    "ranAt": "2026-11-06T23:31:21.024Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2370,
-    "eligibleCount": 6,
-    "queueSize": 6,
-    "verified": 6,
+    "pendingCount": 2372,
+    "eligibleCount": 4,
+    "queueSize": 4,
+    "verified": 4,
     "channelVerified": {
-      "online": 2,
+      "online": 0,
       "wiki": 4,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 2,
-      "watch": 1,
-      "weak": 3,
+      "pass": 0,
+      "watch": 3,
+      "weak": 1,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "Slime Merge",
-      "The Shadow Marksman: Master of Kunai",
-      "Find The Needle",
-      "Cozy Game Restoration",
-      "ROB RUN",
-      "Worship"
+      "Piano Glow",
+      "Elven Huntress: Sunveil",
+      "ZED ZONE",
+      "Wielders of the Essence"
     ],
-    "ranAt": "2026-11-06T18:29:03.931Z"
+    "ranAt": "2026-11-06T23:31:21.938Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -335,16 +333,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-06T18:29:08.394Z"
+    "ranAt": "2026-11-06T23:31:25.438Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-06T18:29:08.617Z",
+    "checkedAt": "2026-11-06T23:31:25.919Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 463,
+    "totalIndependentSearchesLeft": 457,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -375,8 +373,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 54,
-        "totalSearchesLeft": 196,
+        "thisMonthUsage": 60,
+        "totalSearchesLeft": 190,
         "renewalDate": "2026-11-29"
       },
       {
@@ -408,7 +406,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T18:29:08.551Z",
+        "checkedAt": "2026-11-06T23:31:25.659Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -428,7 +426,7 @@
         "planSearchesLeft": 11,
         "totalSearchesLeft": 11,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T18:29:08.570Z",
+        "checkedAt": "2026-11-06T23:31:25.747Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -444,11 +442,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 54,
-        "planSearchesLeft": 196,
-        "totalSearchesLeft": 196,
+        "thisMonthUsage": 60,
+        "planSearchesLeft": 190,
+        "totalSearchesLeft": 190,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T18:29:08.591Z",
+        "checkedAt": "2026-11-06T23:31:25.831Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -468,7 +466,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T18:29:08.617Z",
+        "checkedAt": "2026-11-06T23:31:25.919Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -488,7 +486,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 75,
+      "validated": 71,
       "rising": 4,
       "recommended": 0
     },
@@ -501,19 +499,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 434,
-    "queueSize": 6,
-    "verified": 6,
-    "errors": 0,
+    "remainingAtStart": 428,
+    "queueSize": 9,
+    "verified": 8,
+    "errors": 1,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 2,
-      "secondary": 1,
-      "strategic": 3
+      "strong": 4,
+      "secondary": 3,
+      "strategic": 1
     },
     "channelVerified": {
-      "online": 2,
-      "wiki": 4,
+      "online": 1,
+      "wiki": 7,
       "pending": 0
     },
     "pendingByTier": {
@@ -526,12 +524,14 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "The Shadow Marksman: Master of Kunai",
-      "Slime Merge",
-      "Find The Needle",
-      "ROB RUN",
-      "Cozy Game Restoration",
-      "Worship"
+      "Phantom Blade Zero",
+      "Terrible Lizards",
+      "Moon Sweepers",
+      "Trick or Treat",
+      "Piano Glow",
+      "Elven Huntress: Sunveil",
+      "ZED ZONE",
+      "Wielders of the Essence"
     ],
     "caps": {
       "online": 999,
@@ -570,13 +570,13 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 6,
+        "verified": 8,
         "channelVerified": {
-          "online": 2,
-          "wiki": 4,
+          "online": 1,
+          "wiki": 7,
           "pending": 0
         },
-        "errors": 0,
+        "errors": 1,
         "quotaStopped": false
       },
       "4": {
@@ -593,16 +593,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-06T18:29:29.780Z"
+    "ranAt": "2026-11-06T23:32:00.357Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-11",
-    "monthUsed": 552,
+    "monthUsed": 561,
     "day": "2026-11-06",
-    "dayUsed": 26,
+    "dayUsed": 35,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -624,11 +624,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 62,
-        "dayUsed": 26,
+        "monthUsed": 71,
+        "dayUsed": 35,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-11-06T18:29:26.440Z"
+        "updatedAt": "2026-11-06T23:31:57.157Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -639,7 +639,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-06T18:29:29.825Z"
+    "updatedAt": "2026-11-06T23:32:00.401Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -682,6 +682,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-06T18:29:30.476Z"
+    "ranAt": "2026-11-06T23:32:01.010Z"
   }
 }
