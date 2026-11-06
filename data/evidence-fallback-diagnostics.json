@@ -1,25 +1,26 @@
 {
-  "generatedAt": "2026-11-06T11:30:48.737Z",
+  "generatedAt": "2026-11-06T18:29:03.379Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2372,
+  "pendingSeo": 2370,
   "channelCounts": {
     "pending": 595,
-    "wiki": 18,
-    "online": 1759
+    "wiki": 14,
+    "online": 1761
   },
   "fastClassCounts": {
     "pending:pending": 595,
-    "wiki:pending": 18,
-    "online:pending": 1759
+    "wiki:pending": 14,
+    "online:pending": 1761
   },
   "strategicCounts": {
-    "pending:0": 589,
+    "pending:0": 590,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 604,
+    "online:2": 606,
     "online:1": 1148,
-    "wiki:1": 14,
-    "pending:1": 6
+    "wiki:2": 1,
+    "wiki:1": 9,
+    "pending:1": 5
   },
   "topSources": [
     {
@@ -36,11 +37,11 @@
     },
     {
       "id": "itch-new-popular-web",
-      "count": 588
+      "count": 589
     },
     {
       "id": "itch-popular",
-      "count": 588
+      "count": 589
     },
     {
       "id": "trends-rising-7d",
@@ -48,7 +49,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 378
+      "count": 382
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +57,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 220
+      "count": 222
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -72,7 +73,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 84
+      "count": 86
     },
     {
       "id": "newgrounds-latest",
@@ -84,11 +85,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 28
+      "count": 29
     },
     {
       "id": "steam-new",
-      "count": 28
+      "count": 29
     },
     {
       "id": "newgrounds-daily-top",
@@ -108,11 +109,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 20
+      "count": 16
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 8
     },
     {
       "id": "steam-top-wishlist",
@@ -123,12 +124,12 @@
       "count": 4
     },
     {
-      "id": "crazygames-new",
-      "count": 2
+      "id": "lagged-new",
+      "count": 3
     },
     {
-      "id": "lagged-new",
-      "count": 2
+      "id": "crazygames-new",
+      "count": 1
     }
   ],
   "samples": [
@@ -295,6 +296,24 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Sleigh the Spire 🎄🎁",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-featured-feed",
+        "itch-featured",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1088,24 +1107,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "ROTETRA",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     }
   ]
