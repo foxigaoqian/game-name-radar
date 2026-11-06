@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-11-06T03:25:16.986Z",
+  "scannedAt": "2026-11-06T11:30:18.634Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 285,
+  "totalAdded": 254,
   "sources": [
     {
       "ok": true,
@@ -13,11 +13,10 @@
       "added": 35
     },
     {
-      "ok": true,
+      "ok": false,
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
-      "total": 36,
-      "added": 3
+      "error": "远程站点返回 429"
     },
     {
       "ok": true,
@@ -31,7 +30,7 @@
       "sourceId": "itch-featured-feed",
       "sourceName": "itch.io Featured Feed",
       "total": 10,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
@@ -45,41 +44,41 @@
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 42
+      "added": 50
     },
     {
       "ok": true,
       "sourceId": "steam-latest-indie",
       "sourceName": "Steam 最新独立游戏",
       "total": 50,
-      "added": 49
+      "added": 47
     },
     {
       "ok": true,
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 0
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 7
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 0
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "poki-new",
       "sourceName": "Poki 新游戏",
-      "total": 186,
+      "total": 141,
       "added": 1
     },
     {
@@ -87,7 +86,7 @@
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 44
+      "added": 39
     },
     {
       "ok": false,
@@ -106,80 +105,80 @@
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 15,
-      "added": 10
+      "total": 8,
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 16,
-      "added": 10
+      "total": 17,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 12,
-      "added": 9
+      "total": 10,
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 18,
-      "added": 15
+      "total": 3,
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 20,
-      "added": 13
+      "total": 12,
+      "added": 3
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 16,
-      "added": 12
+      "total": 13,
+      "added": 7
     }
   ],
   "seoVerified": 0,
   "seoErrors": 0,
   "fastModelVersion": 3,
   "fastPassedCount": 344,
-  "fastWatchCount": 222,
-  "fastRejectedCount": 60,
+  "fastWatchCount": 223,
+  "fastRejectedCount": 61,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 4,
-  "trendErrors": 0,
+  "trendsVerified": 15,
+  "trendErrors": 1,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 502,
+  "seoPassedCount": 504,
   "trendEligibleCount": 273,
   "trendPendingCount": 268,
-  "trendValidatedCount": 397,
+  "trendValidatedCount": 406,
   "risingCount": 5,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 2,
-    "watch": 486,
-    "reject": 1,
-    "pending": 2511,
+    "watch": 489,
+    "reject": 7,
+    "pending": 2502,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 397
+    "serpapi": 406
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -194,7 +193,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-06T03:25:15.667Z",
+    "checkedAt": "2026-11-06T11:30:17.432Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -219,7 +218,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 282,
+    "evidence-fallback": 291,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 102
   },
@@ -250,16 +249,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2178,
-    "wiki": 128,
-    "pending": 694
+    "online": 2176,
+    "wiki": 129,
+    "pending": 695
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 5,
-    "weak": 122
+    "weak": 123
   },
   "serperVerification": {
     "rushMode": true,
@@ -282,34 +281,41 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-06T03:25:49.375Z"
+    "ranAt": "2026-11-06T11:30:48.366Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2374,
-    "eligibleCount": 4,
-    "queueSize": 4,
-    "verified": 4,
+    "pendingCount": 2372,
+    "eligibleCount": 11,
+    "queueSize": 11,
+    "verified": 11,
     "channelVerified": {
-      "online": 0,
-      "wiki": 4,
+      "online": 1,
+      "wiki": 10,
       "pending": 0
     },
     "fastRecalculated": {
-      "pass": 0,
-      "watch": 3,
-      "weak": 1,
+      "pass": 1,
+      "watch": 4,
+      "weak": 6,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "Gildoria - Organize a Dragon's Hoard",
-      "County of Fortune",
-      "Wielders of the Essence",
-      "Dungeon Munchies 2"
+      "BREACH",
+      "Cash is King! Business Simulator",
+      "SpellChain",
+      "Playrooms",
+      "VOID/BREAKER",
+      "Sushiamo",
+      "Hull Rupture",
+      "Road Rash™: 30th Anniversary Edition",
+      "Escape Academy 2: Back 2 School",
+      "Underkeep",
+      "Horses of Hoofprint Bay"
     ],
-    "ranAt": "2026-11-06T03:25:50.271Z"
+    "ranAt": "2026-11-06T11:30:49.219Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -333,16 +339,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-06T03:25:53.006Z"
+    "ranAt": "2026-11-06T11:30:52.132Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-06T03:25:53.233Z",
+    "checkedAt": "2026-11-06T11:30:52.528Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 482,
+    "totalIndependentSearchesLeft": 478,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -373,8 +379,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 35,
-        "totalSearchesLeft": 215,
+        "thisMonthUsage": 39,
+        "totalSearchesLeft": 211,
         "renewalDate": "2026-11-29"
       },
       {
@@ -406,7 +412,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T03:25:53.165Z",
+        "checkedAt": "2026-11-06T11:30:52.366Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -426,7 +432,7 @@
         "planSearchesLeft": 11,
         "totalSearchesLeft": 11,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T03:25:53.184Z",
+        "checkedAt": "2026-11-06T11:30:52.426Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -442,11 +448,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 35,
-        "planSearchesLeft": 215,
-        "totalSearchesLeft": 215,
+        "thisMonthUsage": 39,
+        "planSearchesLeft": 211,
+        "totalSearchesLeft": 211,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T03:25:53.202Z",
+        "checkedAt": "2026-11-06T11:30:52.475Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -466,7 +472,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-06T03:25:53.233Z",
+        "checkedAt": "2026-11-06T11:30:52.528Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -481,12 +487,12 @@
   },
   "channelOpportunityCounts": {
     "online": {
-      "validated": 325,
+      "validated": 326,
       "rising": 1,
       "recommended": 0
     },
     "wiki": {
-      "validated": 71,
+      "validated": 79,
       "rising": 3,
       "recommended": 0
     },
@@ -499,19 +505,19 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 454,
-    "queueSize": 4,
-    "verified": 4,
-    "errors": 0,
+    "remainingAtStart": 450,
+    "queueSize": 16,
+    "verified": 15,
+    "errors": 1,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 0,
-      "secondary": 3,
-      "strategic": 1
+      "strong": 5,
+      "secondary": 4,
+      "strategic": 6
     },
     "channelVerified": {
-      "online": 0,
-      "wiki": 4,
+      "online": 2,
+      "wiki": 13,
       "pending": 0
     },
     "pendingByTier": {
@@ -524,10 +530,21 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Gildoria - Organize a Dragon's Hoard",
-      "County of Fortune",
-      "Dungeon Munchies 2",
-      "Wielders of the Essence"
+      "Phantom Blade Zero",
+      "Terrible Lizards",
+      "Moon Sweepers",
+      "BREACH",
+      "Trick or Treat",
+      "Road Rash™: 30th Anniversary Edition",
+      "Cash is King! Business Simulator",
+      "Escape Academy 2: Back 2 School",
+      "Underkeep",
+      "VOID/BREAKER",
+      "Hull Rupture",
+      "SpellChain",
+      "Playrooms",
+      "Sushiamo",
+      "Horses of Hoofprint Bay"
     ],
     "caps": {
       "online": 999,
@@ -566,13 +583,13 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 4,
+        "verified": 15,
         "channelVerified": {
-          "online": 0,
-          "wiki": 4,
+          "online": 2,
+          "wiki": 13,
           "pending": 0
         },
-        "errors": 0,
+        "errors": 1,
         "quotaStopped": false
       },
       "4": {
@@ -589,16 +606,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-06T03:26:11.578Z"
+    "ranAt": "2026-11-06T11:31:49.935Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-11",
-    "monthUsed": 530,
+    "monthUsed": 546,
     "day": "2026-11-06",
-    "dayUsed": 4,
+    "dayUsed": 20,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -620,11 +637,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 40,
-        "dayUsed": 4,
+        "monthUsed": 56,
+        "dayUsed": 20,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-11-06T03:26:08.775Z"
+        "updatedAt": "2026-11-06T11:31:45.893Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -635,7 +652,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-06T03:26:11.630Z"
+    "updatedAt": "2026-11-06T11:31:49.976Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -678,6 +695,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-06T03:26:12.265Z"
+    "ranAt": "2026-11-06T11:31:50.532Z"
   }
 }
