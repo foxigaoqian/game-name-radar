@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-05T22:52:29.758Z",
+  "generatedAt": "2026-11-06T03:25:49.753Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2376,
+  "pendingSeo": 2374,
   "channelCounts": {
     "pending": 594,
-    "online": 1761,
-    "wiki": 21
+    "wiki": 19,
+    "online": 1761
   },
   "fastClassCounts": {
     "pending:pending": 594,
-    "online:pending": 1761,
-    "wiki:pending": 21
+    "wiki:pending": 19,
+    "online:pending": 1761
   },
   "strategicCounts": {
     "pending:0": 589,
-    "online:3": 7,
     "wiki:0": 4,
+    "online:3": 7,
     "online:2": 603,
     "online:1": 1151,
-    "wiki:1": 17,
+    "wiki:1": 15,
     "pending:1": 5
   },
   "topSources": [
@@ -44,23 +44,23 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 500
+      "count": 502
     },
     {
       "id": "trends-rising-30d",
-      "count": 375
+      "count": 378
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 256
+      "count": 257
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 219
+      "count": 220
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 151
+      "count": 153
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -68,11 +68,11 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 86
+      "count": 87
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 82
+      "count": 84
     },
     {
       "id": "newgrounds-latest",
@@ -99,16 +99,16 @@
       "count": 27
     },
     {
-      "id": "steam-popular-new",
-      "count": 23
-    },
-    {
       "id": "itch-featured-feed",
       "count": 22
     },
     {
       "id": "itch-featured",
       "count": 22
+    },
+    {
+      "id": "steam-popular-new",
+      "count": 21
     },
     {
       "id": "y8-new",
@@ -298,27 +298,6 @@
       ]
     },
     {
-      "name": "One More Floor",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
       "name": "Kitty Timber Gunner",
       "channel": "online",
       "fastClass": "pending",
@@ -339,6 +318,27 @@
     },
     {
       "name": "Trolley Problem Is Not Problem",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "One More Floor",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
