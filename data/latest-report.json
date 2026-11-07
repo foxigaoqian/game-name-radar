@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-11-07T20:30:15.815Z",
+  "scannedAt": "2026-11-07T23:57:57.957Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 203,
+  "totalAdded": 230,
   "sources": [
     {
       "ok": true,
@@ -17,13 +17,14 @@
       "sourceId": "itch-new-popular-web",
       "sourceName": "itch.io New & Popular",
       "total": 36,
-      "added": 2
+      "added": 4
     },
     {
-      "ok": false,
+      "ok": true,
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
-      "error": "远程站点返回 429"
+      "total": 36,
+      "added": 36
     },
     {
       "ok": true,
@@ -37,14 +38,14 @@
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 2
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 26
+      "added": 49
     },
     {
       "ok": true,
@@ -65,7 +66,7 @@
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 10
+      "added": 3
     },
     {
       "ok": true,
@@ -86,7 +87,7 @@
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 41
+      "added": 25
     },
     {
       "ok": false,
@@ -105,43 +106,43 @@
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 7,
-      "added": 4
+      "total": 12,
+      "added": 6
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 20,
-      "added": 7
+      "total": 19,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
-      "total": 11,
-      "added": 6
+      "total": 4,
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 20,
-      "added": 9
+      "total": 18,
+      "added": 7
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
-      "total": 11,
-      "added": 3
+      "total": 15,
+      "added": 4
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 13,
-      "added": 7
+      "total": 14,
+      "added": 5
     }
   ],
   "seoVerified": 0,
@@ -154,7 +155,7 @@
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 0,
+  "trendsVerified": 4,
   "trendErrors": 0,
   "trendBatchRan": true,
   "trendQueueSize": 0,
@@ -164,7 +165,7 @@
   "seoPassedCount": 506,
   "trendEligibleCount": 274,
   "trendPendingCount": 265,
-  "trendValidatedCount": 397,
+  "trendValidatedCount": 400,
   "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
@@ -172,13 +173,13 @@
     "test-now": 0,
     "page": 2,
     "watch": 487,
-    "reject": 0,
-    "pending": 2511,
+    "reject": 3,
+    "pending": 2508,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 397
+    "serpapi": 400
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -193,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-07T20:30:14.072Z",
+    "checkedAt": "2026-11-07T23:57:56.934Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -218,7 +219,7 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 282,
+    "evidence-fallback": 285,
     "serper+autocomplete": 247,
     "duckduckgo+autocomplete": 102
   },
@@ -249,16 +250,16 @@
   },
   "siteTypeModelVersion": 2,
   "siteTypeCounts": {
-    "online": 2176,
-    "wiki": 122,
-    "pending": 702
+    "online": 2175,
+    "wiki": 126,
+    "pending": 699
   },
   "wikiPrelaunchModelVersion": 2,
   "wikiPrelaunchCounts": {
     "priority": 0,
     "prepare": 1,
     "watch": 5,
-    "weak": 116
+    "weak": 120
   },
   "serperVerification": {
     "rushMode": true,
@@ -271,7 +272,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 85,
+    "queueSize": 89,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -281,29 +282,33 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-07T20:30:58.124Z"
+    "ranAt": "2026-11-07T23:58:28.151Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
     "pendingCount": 2370,
-    "eligibleCount": 0,
-    "queueSize": 0,
-    "verified": 0,
+    "eligibleCount": 3,
+    "queueSize": 3,
+    "verified": 3,
     "channelVerified": {
       "online": 0,
-      "wiki": 0,
+      "wiki": 3,
       "pending": 0
     },
     "fastRecalculated": {
       "pass": 0,
       "watch": 0,
-      "weak": 0,
+      "weak": 3,
       "reject": 0,
       "pending": 0
     },
-    "verifiedNames": [],
-    "ranAt": "2026-11-07T20:30:59.004Z"
+    "verifiedNames": [
+      "County of Fortune",
+      "WORKS: Motorsport Factory",
+      "SpellChain"
+    ],
+    "ranAt": "2026-11-07T23:58:28.890Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -327,10 +332,10 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-07T20:31:00.552Z"
+    "ranAt": "2026-11-07T23:58:31.296Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-07T20:31:01.341Z",
+    "checkedAt": "2026-11-07T23:58:31.477Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
@@ -400,7 +405,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T20:31:00.910Z",
+        "checkedAt": "2026-11-07T23:58:31.430Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -420,7 +425,7 @@
         "planSearchesLeft": 11,
         "totalSearchesLeft": 11,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T20:31:01.050Z",
+        "checkedAt": "2026-11-07T23:58:31.449Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -440,7 +445,7 @@
         "planSearchesLeft": 155,
         "totalSearchesLeft": 155,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T20:31:01.190Z",
+        "checkedAt": "2026-11-07T23:58:31.463Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -460,7 +465,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T20:31:01.341Z",
+        "checkedAt": "2026-11-07T23:58:31.477Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -480,7 +485,7 @@
       "recommended": 0
     },
     "wiki": {
-      "validated": 69,
+      "validated": 72,
       "rising": 3,
       "recommended": 0
     },
@@ -494,18 +499,18 @@
     "enabled": true,
     "configuredSlots": 4,
     "remainingAtStart": 391,
-    "queueSize": 0,
-    "verified": 0,
+    "queueSize": 4,
+    "verified": 4,
     "errors": 0,
     "quotaStopped": false,
     "tierCounts": {
       "strong": 0,
       "secondary": 0,
-      "strategic": 0
+      "strategic": 4
     },
     "channelVerified": {
       "online": 0,
-      "wiki": 0,
+      "wiki": 4,
       "pending": 0
     },
     "pendingByTier": {
@@ -517,7 +522,12 @@
       "online": 0,
       "wiki": 0
     },
-    "verifiedNames": [],
+    "verifiedNames": [
+      "WORKS: Motorsport Factory",
+      "ROB RUN",
+      "County of Fortune",
+      "SpellChain"
+    ],
     "caps": {
       "online": 999,
       "wiki": 999,
@@ -555,10 +565,10 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 0,
+        "verified": 4,
         "channelVerified": {
           "online": 0,
-          "wiki": 0,
+          "wiki": 4,
           "pending": 0
         },
         "errors": 0,
@@ -578,16 +588,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-07T20:31:03.912Z"
+    "ranAt": "2026-11-07T23:58:44.353Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-11",
-    "monthUsed": 589,
+    "monthUsed": 593,
     "day": "2026-11-07",
-    "dayUsed": 28,
+    "dayUsed": 32,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -609,11 +619,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 99,
-        "dayUsed": 28,
+        "monthUsed": 103,
+        "dayUsed": 32,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-11-07T16:25:53.538Z"
+        "updatedAt": "2026-11-07T23:58:39.397Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -624,7 +634,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-07T20:31:03.955Z"
+    "updatedAt": "2026-11-07T23:58:44.441Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -667,6 +677,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-07T20:31:04.570Z"
+    "ranAt": "2026-11-07T23:58:45.045Z"
   }
 }
