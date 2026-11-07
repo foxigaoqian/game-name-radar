@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-11-06T23:31:21.423Z",
+  "generatedAt": "2026-11-07T03:13:27.365Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2372,
+  "pendingSeo": 2369,
   "channelCounts": {
-    "pending": 598,
+    "pending": 599,
     "wiki": 20,
-    "online": 1754
+    "online": 1750
   },
   "fastClassCounts": {
-    "pending:pending": 598,
+    "pending:pending": 599,
     "wiki:pending": 20,
-    "online:pending": 1754
+    "online:pending": 1750
   },
   "strategicCounts": {
-    "pending:0": 592,
+    "pending:0": 593,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 604,
-    "online:1": 1143,
+    "online:2": 606,
+    "online:1": 1137,
     "wiki:1": 16,
     "pending:1": 6
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1711
+      "count": 1707
     },
     {
       "id": "itch-newest-web",
-      "count": 1695
+      "count": 1691
     },
     {
       "id": "itch-new-feed",
-      "count": 1640
+      "count": 1636
     },
     {
       "id": "itch-new-popular-web",
-      "count": 589
+      "count": 591
     },
     {
       "id": "itch-popular",
-      "count": 589
+      "count": 591
     },
     {
       "id": "trends-rising-7d",
-      "count": 504
+      "count": 505
     },
     {
       "id": "trends-rising-30d",
-      "count": 383
+      "count": 384
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 257
+      "count": 258
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 222
+      "count": 223
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -295,6 +295,25 @@
         "itch-new",
         "itch-featured-feed",
         "itch-featured"
+      ]
+    },
+    {
+      "name": "Symptoms of Devotion",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1072,25 +1091,6 @@
     },
     {
       "name": "Dig Deep, Get Rich",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Diglings Demo",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
