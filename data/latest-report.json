@@ -1,16 +1,16 @@
 {
-  "scannedAt": "2026-11-07T10:06:51.975Z",
+  "scannedAt": "2026-11-07T16:24:55.263Z",
   "targetMarket": "US_GLOBAL",
   "primaryMarket": "US",
   "referenceMarket": "WORLDWIDE",
-  "totalAdded": 244,
+  "totalAdded": 263,
   "sources": [
     {
       "ok": true,
       "sourceId": "itch-newest-web",
       "sourceName": "itch.io 最新网页游戏",
       "total": 36,
-      "added": 33
+      "added": 35
     },
     {
       "ok": true,
@@ -24,7 +24,7 @@
       "sourceId": "itch-new-feed",
       "sourceName": "itch.io New Feed",
       "total": 36,
-      "added": 34
+      "added": 36
     },
     {
       "ok": true,
@@ -38,14 +38,14 @@
       "sourceId": "steam-top-wishlist",
       "sourceName": "Steam Top Wishlists",
       "total": 50,
-      "added": 0
+      "added": 1
     },
     {
       "ok": true,
       "sourceId": "steam-popular-new",
       "sourceName": "Steam 热门新发行",
       "total": 50,
-      "added": 42
+      "added": 49
     },
     {
       "ok": true,
@@ -59,21 +59,21 @@
       "sourceId": "newgrounds-daily-top",
       "sourceName": "Newgrounds Daily Top Five",
       "total": 5,
-      "added": 4
+      "added": 0
     },
     {
       "ok": true,
       "sourceId": "newgrounds-latest",
       "sourceName": "Newgrounds 最新通过作品",
       "total": 12,
-      "added": 6
+      "added": 8
     },
     {
       "ok": true,
       "sourceId": "crazygames-new",
       "sourceName": "CrazyGames 新游戏",
       "total": 70,
-      "added": 10
+      "added": 0
     },
     {
       "ok": true,
@@ -87,7 +87,7 @@
       "sourceId": "y8-new",
       "sourceName": "Y8 新游戏",
       "total": 73,
-      "added": 34
+      "added": 33
     },
     {
       "ok": false,
@@ -100,49 +100,49 @@
       "sourceId": "lagged-new",
       "sourceName": "Lagged 新游戏",
       "total": 81,
-      "added": 0
+      "added": 6
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-itch-io",
       "sourceName": "Trends上涨 7天 · itch io",
-      "total": 6,
-      "added": 1
+      "total": 14,
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-itch-io",
       "sourceName": "Trends上涨 30天 · itch io",
-      "total": 15,
-      "added": 3
+      "total": 20,
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-indie-game",
       "sourceName": "Trends上涨 7天 · indie game",
       "total": 6,
-      "added": 3
+      "added": 2
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-indie-game",
       "sourceName": "Trends上涨 30天 · indie game",
-      "total": 18,
-      "added": 14
+      "total": 20,
+      "added": 10
     },
     {
       "ok": true,
       "sourceId": "trends-rising-7d-horror-game",
       "sourceName": "Trends上涨 7天 · horror game",
       "total": 13,
-      "added": 1
+      "added": 5
     },
     {
       "ok": true,
       "sourceId": "trends-rising-30d-horror-game",
       "sourceName": "Trends上涨 30天 · horror game",
-      "total": 14,
-      "added": 7
+      "total": 12,
+      "added": 6
     }
   ],
   "seoVerified": 0,
@@ -150,36 +150,36 @@
   "fastModelVersion": 3,
   "fastPassedCount": 344,
   "fastWatchCount": 224,
-  "fastRejectedCount": 63,
+  "fastRejectedCount": 64,
   "youtubeEnabled": true,
   "youtubeConfigured": true,
   "youtubeVerified": 0,
   "youtubeErrors": 10,
-  "trendsVerified": 11,
-  "trendErrors": 0,
+  "trendsVerified": 7,
+  "trendErrors": 1,
   "trendBatchRan": true,
   "trendQueueSize": 0,
   "risingDiscoveryRan": true,
   "seoModelVersion": 5,
   "trendModelVersion": 4,
-  "seoPassedCount": 507,
+  "seoPassedCount": 508,
   "trendEligibleCount": 274,
-  "trendPendingCount": 268,
-  "trendValidatedCount": 401,
-  "risingCount": 6,
+  "trendPendingCount": 263,
+  "trendValidatedCount": 402,
+  "risingCount": 4,
   "globalRisingCount": 0,
   "recommendationCounts": {
     "independent": 0,
     "test-now": 0,
     "page": 2,
-    "watch": 489,
-    "reject": 2,
-    "pending": 2507,
+    "watch": 491,
+    "reject": 1,
+    "pending": 2506,
     "error": 0
   },
   "trendProvider": "serpapi",
   "trendProviderCounts": {
-    "serpapi": 401
+    "serpapi": 402
   },
   "serpApiConfigured": true,
   "serpApiUsage": {
@@ -194,7 +194,7 @@
   },
   "apifyConfigured": true,
   "apifyAccountStatus": {
-    "checkedAt": "2026-11-07T10:06:51.103Z",
+    "checkedAt": "2026-11-07T16:24:53.839Z",
     "configured": true,
     "ok": true,
     "provider": "apify",
@@ -219,9 +219,9 @@
   },
   "seoProvider": "serper-google-search",
   "seoProviderCounts": {
-    "evidence-fallback": 286,
-    "duckduckgo+autocomplete": 102,
-    "serper+autocomplete": 247
+    "evidence-fallback": 287,
+    "serper+autocomplete": 247,
+    "duckduckgo+autocomplete": 102
   },
   "serperConfigured": true,
   "serperUsage": {
@@ -272,7 +272,7 @@
     "limit": 90,
     "onlineLimit": 63,
     "wikiLimit": 27,
-    "queueSize": 86,
+    "queueSize": 85,
     "verified": 0,
     "verifiedByChannel": {
       "online": 0,
@@ -282,12 +282,12 @@
     "errors": 0,
     "quotaStopped": true,
     "verifiedNames": [],
-    "ranAt": "2026-11-07T10:07:25.314Z"
+    "ranAt": "2026-11-07T16:25:30.073Z"
   },
   "evidenceSeoFallback": {
     "enabled": true,
     "limit": 180,
-    "pendingCount": 2369,
+    "pendingCount": 2368,
     "eligibleCount": 3,
     "queueSize": 3,
     "verified": 3,
@@ -298,17 +298,17 @@
     },
     "fastRecalculated": {
       "pass": 0,
-      "watch": 0,
-      "weak": 3,
+      "watch": 2,
+      "weak": 1,
       "reject": 0,
       "pending": 0
     },
     "verifiedNames": [
-      "Underkeep",
-      "Gildoria - Organize a Dragon's Hoard",
-      "County of Fortune"
+      "Wielders of the Essence",
+      "Road Rash™: 30th Anniversary Edition",
+      "Escape Academy 2: Back 2 School"
     ],
-    "ranAt": "2026-11-07T10:07:25.972Z"
+    "ranAt": "2026-11-07T16:25:30.977Z"
   },
   "socialBuzzVerification": {
     "modelVersion": 3,
@@ -332,16 +332,16 @@
       "x": 0,
       "tiktok": 0
     },
-    "ranAt": "2026-11-07T10:07:28.229Z"
+    "ranAt": "2026-11-07T16:25:34.276Z"
   },
   "serpApiAccountStatus": {
-    "checkedAt": "2026-11-07T10:07:28.567Z",
+    "checkedAt": "2026-11-07T16:25:34.796Z",
     "accountApiConsumesSearchCredits": false,
     "configuredKeys": 4,
     "workingKeys": 4,
     "uniqueAccountCount": 4,
     "duplicateKeyGroups": [],
-    "totalIndependentSearchesLeft": 440,
+    "totalIndependentSearchesLeft": 429,
     "accounts": [
       {
         "accountFingerprint": "5dfaa092f348",
@@ -372,8 +372,8 @@
         ],
         "planName": "Free Plan",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 77,
-        "totalSearchesLeft": 173,
+        "thisMonthUsage": 88,
+        "totalSearchesLeft": 162,
         "renewalDate": "2026-11-29"
       },
       {
@@ -405,7 +405,7 @@
         "planSearchesLeft": 6,
         "totalSearchesLeft": 6,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T10:07:28.402Z",
+        "checkedAt": "2026-11-07T16:25:34.525Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -425,7 +425,7 @@
         "planSearchesLeft": 11,
         "totalSearchesLeft": 11,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T10:07:28.457Z",
+        "checkedAt": "2026-11-07T16:25:34.611Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -441,11 +441,11 @@
         "planMonthlyPrice": 0,
         "renewalDate": "2026-11-29",
         "searchesPerMonth": 250,
-        "thisMonthUsage": 77,
-        "planSearchesLeft": 173,
-        "totalSearchesLeft": 173,
+        "thisMonthUsage": 88,
+        "planSearchesLeft": 162,
+        "totalSearchesLeft": 162,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T10:07:28.514Z",
+        "checkedAt": "2026-11-07T16:25:34.705Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -465,7 +465,7 @@
         "planSearchesLeft": 250,
         "totalSearchesLeft": 250,
         "rateLimitPerHour": 250,
-        "checkedAt": "2026-11-07T10:07:28.567Z",
+        "checkedAt": "2026-11-07T16:25:34.795Z",
         "sharedAccount": false,
         "sharedWithSlots": []
       },
@@ -481,12 +481,12 @@
   "channelOpportunityCounts": {
     "online": {
       "validated": 327,
-      "rising": 1,
+      "rising": 0,
       "recommended": 0
     },
     "wiki": {
-      "validated": 73,
-      "rising": 4,
+      "validated": 74,
+      "rising": 3,
       "recommended": 0
     },
     "pending": {
@@ -498,18 +498,18 @@
   "serpApiQuotaFill": {
     "enabled": true,
     "configuredSlots": 4,
-    "remainingAtStart": 410,
-    "queueSize": 11,
-    "verified": 11,
-    "errors": 0,
+    "remainingAtStart": 399,
+    "queueSize": 8,
+    "verified": 7,
+    "errors": 1,
     "quotaStopped": false,
     "tierCounts": {
-      "strong": 5,
-      "secondary": 1,
-      "strategic": 5
+      "strong": 4,
+      "secondary": 2,
+      "strategic": 1
     },
     "channelVerified": {
-      "online": 5,
+      "online": 1,
       "wiki": 6,
       "pending": 0
     },
@@ -523,17 +523,13 @@
       "wiki": 0
     },
     "verifiedNames": [
-      "Obby: +1 Laser to Break Walls",
-      "Obby: +1 Digging Power per Click",
-      "CONTROL Resonant",
-      "Wheee",
-      "Brick by Brick",
-      "Level Devil",
-      "ROB RUN",
-      "Enshrouded",
-      "Gildoria - Organize a Dragon's Hoard",
-      "Underkeep",
-      "County of Fortune"
+      "Phantom Blade Zero",
+      "Terrible Lizards",
+      "Moon Sweepers",
+      "Trick or Treat",
+      "Road Rash™: 30th Anniversary Edition",
+      "Escape Academy 2: Back 2 School",
+      "Wielders of the Essence"
     ],
     "caps": {
       "online": 999,
@@ -572,13 +568,13 @@
         "envName": "SERPAPI_API_KEY_3",
         "ok": true,
         "error": null,
-        "verified": 11,
+        "verified": 7,
         "channelVerified": {
-          "online": 5,
+          "online": 1,
           "wiki": 6,
           "pending": 0
         },
-        "errors": 0,
+        "errors": 1,
         "quotaStopped": false
       },
       "4": {
@@ -595,16 +591,16 @@
         "quotaStopped": false
       }
     },
-    "ranAt": "2026-11-07T10:08:06.979Z"
+    "ranAt": "2026-11-07T16:25:56.135Z"
   },
   "serpApiConfiguredSlots": 4,
   "serpApiPoolUsage": {
     "enabled": true,
     "configuredSlots": 4,
     "month": "2026-11",
-    "monthUsed": 581,
+    "monthUsed": 589,
     "day": "2026-11-07",
-    "dayUsed": 20,
+    "dayUsed": 28,
     "monthlyLimit": 980,
     "dailyLimit": 980,
     "accounts": {
@@ -626,11 +622,11 @@
       },
       "3": {
         "envName": "SERPAPI_API_KEY_3",
-        "monthUsed": 91,
-        "dayUsed": 20,
+        "monthUsed": 99,
+        "dayUsed": 28,
         "monthlyLimit": 245,
         "dailyLimit": 245,
-        "updatedAt": "2026-11-07T10:08:03.457Z"
+        "updatedAt": "2026-11-07T16:25:53.538Z"
       },
       "4": {
         "envName": "SERPAPI_API_KEY_4",
@@ -641,7 +637,7 @@
         "updatedAt": "2026-10-15T11:37:15.445Z"
       }
     },
-    "updatedAt": "2026-11-07T10:08:07.038Z"
+    "updatedAt": "2026-11-07T16:25:56.181Z"
   },
   "searchApiConfigured": true,
   "searchApiTrendsUsage": {
@@ -684,6 +680,6 @@
     },
     "verifiedNames": [],
     "errorNames": [],
-    "ranAt": "2026-11-07T10:08:07.434Z"
+    "ranAt": "2026-11-07T16:25:56.803Z"
   }
 }
