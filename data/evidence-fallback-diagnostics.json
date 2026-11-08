@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-11-08T18:30:26.468Z",
+  "generatedAt": "2026-11-08T22:29:42.762Z",
   "totalCandidates": 3000,
   "pendingSeo": 2368,
   "channelCounts": {
-    "pending": 598,
+    "pending": 599,
     "wiki": 6,
-    "online": 1764
+    "online": 1763
   },
   "fastClassCounts": {
-    "pending:pending": 598,
+    "pending:pending": 599,
     "wiki:pending": 6,
-    "online:pending": 1764
+    "online:pending": 1763
   },
   "strategicCounts": {
     "pending:0": 595,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 607,
-    "online:1": 1150,
-    "pending:1": 3,
+    "online:2": 608,
+    "online:1": 1148,
+    "pending:1": 4,
     "wiki:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1721
+      "count": 1720
     },
     {
       "id": "itch-newest-web",
-      "count": 1705
+      "count": 1704
     },
     {
       "id": "itch-new-feed",
-      "count": 1650
+      "count": 1649
     },
     {
       "id": "itch-new-popular-web",
-      "count": 592
+      "count": 593
     },
     {
       "id": "itch-popular",
-      "count": 592
+      "count": 593
     },
     {
       "id": "trends-rising-7d",
@@ -100,11 +100,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 21
+      "count": 22
     },
     {
       "id": "itch-featured",
-      "count": 21
+      "count": 22
     },
     {
       "id": "steam-popular-new",
@@ -500,6 +500,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Cyberpork",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1079,25 +1098,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Idle Island",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 9,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
