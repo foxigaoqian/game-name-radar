@@ -1,37 +1,38 @@
 {
-  "generatedAt": "2026-11-09T01:58:58.359Z",
+  "generatedAt": "2026-11-09T09:46:38.528Z",
   "totalCandidates": 3000,
   "pendingSeo": 2370,
   "channelCounts": {
-    "pending": 600,
-    "wiki": 4,
-    "online": 1766
+    "pending": 601,
+    "wiki": 5,
+    "online": 1764
   },
   "fastClassCounts": {
-    "pending:pending": 600,
-    "wiki:pending": 4,
-    "online:pending": 1766
+    "pending:pending": 601,
+    "wiki:pending": 5,
+    "online:pending": 1764
   },
   "strategicCounts": {
-    "pending:0": 596,
+    "pending:0": 597,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 608,
-    "online:1": 1151,
+    "online:2": 609,
+    "online:1": 1148,
+    "wiki:2": 1,
     "pending:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1723
+      "count": 1720
     },
     {
       "id": "itch-newest-web",
-      "count": 1707
+      "count": 1704
     },
     {
       "id": "itch-new-feed",
-      "count": 1652
+      "count": 1649
     },
     {
       "id": "itch-new-popular-web",
@@ -43,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 508
+      "count": 509
     },
     {
       "id": "trends-rising-30d",
@@ -59,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 157
+      "count": 158
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -74,20 +75,20 @@
       "count": 88
     },
     {
+      "id": "steam-latest-indie",
+      "count": 30
+    },
+    {
+      "id": "steam-new",
+      "count": 30
+    },
+    {
       "id": "newgrounds-latest",
       "count": 30
     },
     {
       "id": "newgrounds-new",
       "count": 30
-    },
-    {
-      "id": "steam-latest-indie",
-      "count": 28
-    },
-    {
-      "id": "steam-new",
-      "count": 28
     },
     {
       "id": "newgrounds-daily-top",
@@ -99,18 +100,18 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 22
+      "count": 23
     },
     {
       "id": "itch-featured",
-      "count": 22
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 6
+      "count": 23
     },
     {
       "id": "y8-new",
+      "count": 7
+    },
+    {
+      "id": "steam-popular-new",
       "count": 6
     },
     {
@@ -123,7 +124,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",
@@ -297,6 +298,27 @@
       ]
     },
     {
+      "name": "Progress98",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
       "name": "Symptoms of Devotion",
       "channel": "online",
       "fastClass": "pending",
@@ -311,24 +333,6 @@
         "itch-newest-web",
         "itch-new",
         "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Sleigh the Spire 🎄🎁",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-featured-feed",
-        "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -535,6 +539,24 @@
         "itch-newest-web",
         "itch-new",
         "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Sleigh the Spire 🎄🎁",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-featured-feed",
+        "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
       ]
@@ -1078,25 +1100,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Popcorn Idle - Prototype",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
