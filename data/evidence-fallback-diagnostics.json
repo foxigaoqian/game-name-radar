@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-09T20:10:21.697Z",
+  "generatedAt": "2026-11-10T02:43:59.757Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2369,
+  "pendingSeo": 2368,
   "channelCounts": {
-    "pending": 602,
-    "wiki": 9,
-    "online": 1758
+    "pending": 603,
+    "wiki": 11,
+    "online": 1754
   },
   "fastClassCounts": {
-    "pending:pending": 602,
-    "wiki:pending": 9,
-    "online:pending": 1758
+    "pending:pending": 603,
+    "wiki:pending": 11,
+    "online:pending": 1754
   },
   "strategicCounts": {
-    "pending:0": 599,
+    "pending:0": 600,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 609,
-    "online:1": 1142,
-    "wiki:2": 2,
-    "pending:1": 3,
-    "wiki:1": 3
+    "online:2": 610,
+    "online:1": 1137,
+    "wiki:2": 1,
+    "wiki:1": 6,
+    "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1715
+      "count": 1710
     },
     {
       "id": "itch-newest-web",
-      "count": 1699
+      "count": 1694
     },
     {
       "id": "itch-new-feed",
-      "count": 1644
+      "count": 1639
     },
     {
       "id": "itch-new-popular-web",
@@ -45,7 +45,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 511
+      "count": 512
     },
     {
       "id": "trends-rising-30d",
@@ -53,7 +53,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 258
+      "count": 259
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -77,11 +77,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 31
+      "count": 30
     },
     {
       "id": "steam-new",
-      "count": 31
+      "count": 30
     },
     {
       "id": "newgrounds-latest",
@@ -109,11 +109,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 13
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -125,7 +125,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",
@@ -339,25 +339,6 @@
       ]
     },
     {
-      "name": "Symptoms of Devotion",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Trolley Problem Is Not Problem",
       "channel": "online",
       "fastClass": "pending",
@@ -553,6 +534,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 12,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Symptoms of Devotion",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
