@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-11-10T02:43:59.757Z",
+  "generatedAt": "2026-11-10T10:27:44.668Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2368,
+  "pendingSeo": 2363,
   "channelCounts": {
     "pending": 603,
     "wiki": 11,
-    "online": 1754
+    "online": 1749
   },
   "fastClassCounts": {
     "pending:pending": 603,
     "wiki:pending": 11,
-    "online:pending": 1754
+    "online:pending": 1749
   },
   "strategicCounts": {
     "pending:0": 600,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 610,
-    "online:1": 1137,
-    "wiki:2": 1,
-    "wiki:1": 6,
+    "online:1": 1132,
+    "wiki:1": 7,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1710
+      "count": 1705
     },
     {
       "id": "itch-newest-web",
-      "count": 1694
+      "count": 1689
     },
     {
       "id": "itch-new-feed",
-      "count": 1639
+      "count": 1634
     },
     {
       "id": "itch-new-popular-web",
-      "count": 594
+      "count": 595
     },
     {
       "id": "itch-popular",
-      "count": 594
+      "count": 595
     },
     {
       "id": "trends-rising-7d",
@@ -76,14 +75,6 @@
       "count": 89
     },
     {
-      "id": "steam-latest-indie",
-      "count": 30
-    },
-    {
-      "id": "steam-new",
-      "count": 30
-    },
-    {
       "id": "newgrounds-latest",
       "count": 30
     },
@@ -92,12 +83,20 @@
       "count": 30
     },
     {
+      "id": "steam-latest-indie",
+      "count": 29
+    },
+    {
+      "id": "steam-new",
+      "count": 29
+    },
+    {
       "id": "newgrounds-daily-top",
-      "count": 27
+      "count": 28
     },
     {
       "id": "newgrounds-top",
-      "count": 27
+      "count": 28
     },
     {
       "id": "itch-featured-feed",
@@ -113,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -125,7 +124,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 3
+      "count": 2
     },
     {
       "id": "crazygames-new",
@@ -276,6 +275,24 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Season Shift",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "newgrounds-daily-top",
+        "newgrounds-top"
       ]
     },
     {
@@ -1075,25 +1092,6 @@
     },
     {
       "name": "Midas Crutch",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Wizards Go Farming",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
