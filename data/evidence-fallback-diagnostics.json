@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-11-10T18:16:34.178Z",
+  "generatedAt": "2026-11-10T23:26:51.202Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2359,
+  "pendingSeo": 2356,
   "channelCounts": {
-    "pending": 605,
-    "wiki": 18,
-    "online": 1736
+    "pending": 606,
+    "wiki": 21,
+    "online": 1729
   },
   "fastClassCounts": {
-    "pending:pending": 605,
-    "wiki:pending": 18,
-    "online:pending": 1736
+    "pending:pending": 606,
+    "wiki:pending": 21,
+    "online:pending": 1729
   },
   "strategicCounts": {
-    "pending:0": 602,
+    "pending:0": 603,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 611,
-    "online:1": 1118,
-    "wiki:1": 14,
+    "online:1": 1111,
+    "wiki:1": 17,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1692
+      "count": 1684
     },
     {
       "id": "itch-newest-web",
-      "count": 1676
+      "count": 1668
     },
     {
       "id": "itch-new-feed",
-      "count": 1620
+      "count": 1612
     },
     {
       "id": "itch-new-popular-web",
-      "count": 595
+      "count": 597
     },
     {
       "id": "itch-popular",
-      "count": 595
+      "count": 597
     },
     {
       "id": "trends-rising-7d",
-      "count": 514
+      "count": 515
     },
     {
       "id": "trends-rising-30d",
-      "count": 392
+      "count": 396
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -56,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 226
+      "count": 227
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -64,15 +64,23 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 108
+      "count": 109
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 90
+      "count": 92
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 90
+      "count": 91
+    },
+    {
+      "id": "steam-latest-indie",
+      "count": 30
+    },
+    {
+      "id": "steam-new",
+      "count": 30
     },
     {
       "id": "newgrounds-latest",
@@ -83,14 +91,6 @@
       "count": 30
     },
     {
-      "id": "steam-latest-indie",
-      "count": 29
-    },
-    {
-      "id": "steam-new",
-      "count": 29
-    },
-    {
       "id": "newgrounds-daily-top",
       "count": 27
     },
@@ -99,20 +99,20 @@
       "count": 27
     },
     {
+      "id": "steam-popular-new",
+      "count": 23
+    },
+    {
       "id": "itch-featured-feed",
-      "count": 21
+      "count": 22
     },
     {
       "id": "itch-featured",
-      "count": 21
-    },
-    {
-      "id": "steam-popular-new",
-      "count": 20
+      "count": 22
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -123,12 +123,12 @@
       "count": 4
     },
     {
-      "id": "crazygames-new",
+      "id": "lagged-new",
       "count": 2
     },
     {
-      "id": "lagged-new",
-      "count": 2
+      "id": "crazygames-new",
+      "count": 1
     }
   ],
   "samples": [
@@ -316,6 +316,24 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Idlecraft",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1074,25 +1092,6 @@
     },
     {
       "name": "Midas Crutch",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Wizards Go Farming",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
