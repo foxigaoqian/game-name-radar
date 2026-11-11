@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-11T10:55:05.302Z",
+  "generatedAt": "2026-11-11T18:41:35.408Z",
   "totalCandidates": 3000,
   "pendingSeo": 2342,
   "channelCounts": {
     "pending": 607,
-    "wiki": 10,
-    "online": 1725
+    "wiki": 14,
+    "online": 1721
   },
   "fastClassCounts": {
     "pending:pending": 607,
-    "wiki:pending": 10,
-    "online:pending": 1725
+    "wiki:pending": 14,
+    "online:pending": 1721
   },
   "strategicCounts": {
     "pending:0": 604,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 612,
-    "online:1": 1106,
-    "wiki:1": 6,
+    "online:1": 1102,
+    "wiki:1": 10,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1680
+      "count": 1676
     },
     {
       "id": "itch-newest-web",
-      "count": 1664
+      "count": 1660
     },
     {
       "id": "itch-new-feed",
-      "count": 1608
+      "count": 1605
     },
     {
       "id": "itch-new-popular-web",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 12
+      "count": 16
     },
     {
       "id": "y8-new",
