@@ -1,47 +1,46 @@
 {
-  "generatedAt": "2026-11-11T03:01:54.345Z",
+  "generatedAt": "2026-11-11T10:55:05.302Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2348,
+  "pendingSeo": 2342,
   "channelCounts": {
     "pending": 607,
-    "wiki": 15,
-    "online": 1726
+    "wiki": 10,
+    "online": 1725
   },
   "fastClassCounts": {
     "pending:pending": 607,
-    "wiki:pending": 15,
-    "online:pending": 1726
+    "wiki:pending": 10,
+    "online:pending": 1725
   },
   "strategicCounts": {
     "pending:0": 604,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 611,
-    "online:1": 1108,
-    "wiki:1": 10,
-    "wiki:2": 1,
+    "online:2": 612,
+    "online:1": 1106,
+    "wiki:1": 6,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1681
+      "count": 1680
     },
     {
       "id": "itch-newest-web",
-      "count": 1665
+      "count": 1664
     },
     {
       "id": "itch-new-feed",
-      "count": 1609
+      "count": 1608
     },
     {
       "id": "itch-new-popular-web",
-      "count": 597
+      "count": 598
     },
     {
       "id": "itch-popular",
-      "count": 597
+      "count": 598
     },
     {
       "id": "trends-rising-7d",
@@ -49,7 +48,7 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 399
+      "count": 400
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -57,7 +56,7 @@
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 228
+      "count": 229
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -77,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 31
+      "count": 30
     },
     {
       "id": "steam-new",
-      "count": 31
+      "count": 30
     },
     {
       "id": "newgrounds-latest",
@@ -109,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 17
+      "count": 12
     },
     {
       "id": "y8-new",
@@ -522,6 +521,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "One Like = One Prayer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1081,25 +1099,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Midas Crutch",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
