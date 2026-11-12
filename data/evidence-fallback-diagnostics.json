@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-11-12T08:18:43.231Z",
+  "generatedAt": "2026-11-12T17:05:37.647Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2334,
+  "pendingSeo": 2331,
   "channelCounts": {
-    "pending": 609,
-    "wiki": 14,
-    "online": 1711
+    "pending": 611,
+    "wiki": 18,
+    "online": 1702
   },
   "fastClassCounts": {
-    "pending:pending": 609,
-    "wiki:pending": 14,
-    "online:pending": 1711
+    "pending:pending": 611,
+    "wiki:pending": 18,
+    "online:pending": 1702
   },
   "strategicCounts": {
-    "pending:0": 606,
+    "pending:0": 608,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 613,
-    "online:1": 1091,
-    "wiki:1": 10,
+    "online:2": 614,
+    "online:1": 1081,
+    "wiki:1": 13,
+    "wiki:2": 1,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1666
+      "count": 1656
     },
     {
       "id": "itch-newest-web",
-      "count": 1650
+      "count": 1640
     },
     {
       "id": "itch-new-feed",
-      "count": 1595
+      "count": 1585
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +45,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 517
+      "count": 519
     },
     {
       "id": "trends-rising-30d",
@@ -60,7 +61,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 164
+      "count": 166
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -76,11 +77,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 30
+      "count": 31
     },
     {
       "id": "steam-new",
-      "count": 30
+      "count": 31
     },
     {
       "id": "newgrounds-latest",
@@ -108,11 +109,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 16
+      "count": 20
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -124,7 +125,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",

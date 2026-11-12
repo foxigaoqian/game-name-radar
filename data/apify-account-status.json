@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-11-12T08:18:07.626Z",
+  "checkedAt": "2026-11-12T17:04:57.017Z",
   "configured": true,
-  "ok": true,
+  "ok": false,
   "provider": "apify",
   "accountApiConsumesActorCredits": false,
-  "accountFingerprint": "bcfb84530d51",
-  "username": "FOXIREN",
-  "plan": {
-    "id": "FREE",
-    "name": null,
-    "monthlyUsageCreditsUsd": 5,
-    "monthlyUsageCredits": null
-  }
+  "error": "User was not found or authentication token is not valid"
 }
