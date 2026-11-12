@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-11-12T01:00:01.844Z",
+  "generatedAt": "2026-11-12T08:18:43.231Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2339,
+  "pendingSeo": 2334,
   "channelCounts": {
-    "pending": 608,
-    "wiki": 17,
-    "online": 1714
+    "pending": 609,
+    "wiki": 14,
+    "online": 1711
   },
   "fastClassCounts": {
-    "pending:pending": 608,
-    "wiki:pending": 17,
-    "online:pending": 1714
+    "pending:pending": 609,
+    "wiki:pending": 14,
+    "online:pending": 1711
   },
   "strategicCounts": {
     "pending:0": 606,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 613,
-    "online:1": 1094,
-    "wiki:1": 13,
-    "pending:1": 2
+    "online:1": 1091,
+    "wiki:1": 10,
+    "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1669
+      "count": 1666
     },
     {
       "id": "itch-newest-web",
-      "count": 1653
+      "count": 1650
     },
     {
       "id": "itch-new-feed",
-      "count": 1597
+      "count": 1595
     },
     {
       "id": "itch-new-popular-web",
-      "count": 598
+      "count": 599
     },
     {
       "id": "itch-popular",
-      "count": 598
+      "count": 599
     },
     {
       "id": "trends-rising-7d",
@@ -75,19 +75,19 @@
       "count": 91
     },
     {
-      "id": "newgrounds-latest",
-      "count": 31
-    },
-    {
-      "id": "newgrounds-new",
-      "count": 31
-    },
-    {
       "id": "steam-latest-indie",
       "count": 30
     },
     {
       "id": "steam-new",
+      "count": 30
+    },
+    {
+      "id": "newgrounds-latest",
+      "count": 30
+    },
+    {
+      "id": "newgrounds-new",
       "count": 30
     },
     {
@@ -100,15 +100,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 21
+      "count": 22
     },
     {
       "id": "itch-featured",
-      "count": 21
+      "count": 22
     },
     {
       "id": "steam-popular-new",
-      "count": 19
+      "count": 16
     },
     {
       "id": "y8-new",
@@ -298,25 +298,7 @@
       ]
     },
     {
-      "name": "Idlecraft",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
-      ]
-    },
-    {
-      "name": "Guilty Pleasure",
+      "name": "Incremental Fortress",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -332,6 +314,24 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Idlecraft",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 5,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -525,6 +525,25 @@
     },
     {
       "name": "One Like = One Prayer",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Guilty Pleasure",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1080,25 +1099,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Bombermaid",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
