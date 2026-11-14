@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T19:09:47.245Z",
+  "generatedAt": "2026-11-14T22:58:19.901Z",
   "totalCandidates": 3000,
   "pendingSeo": 2288,
   "channelCounts": {
@@ -16,8 +16,8 @@
     "pending:0": 617,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 614,
-    "online:1": 1036,
+    "online:2": 615,
+    "online:1": 1035,
     "wiki:1": 5,
     "pending:1": 5
   },
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 173
+      "count": 174
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
