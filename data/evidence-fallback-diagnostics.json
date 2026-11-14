@@ -1,67 +1,66 @@
 {
-  "generatedAt": "2026-11-13T23:53:04.446Z",
+  "generatedAt": "2026-11-14T06:19:53.176Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2301,
+  "pendingSeo": 2292,
   "channelCounts": {
-    "pending": 617,
-    "wiki": 19,
-    "online": 1665
+    "pending": 620,
+    "wiki": 12,
+    "online": 1660
   },
   "fastClassCounts": {
-    "pending:pending": 617,
-    "wiki:pending": 19,
-    "online:pending": 1665
+    "pending:pending": 620,
+    "wiki:pending": 12,
+    "online:pending": 1660
   },
   "strategicCounts": {
-    "pending:0": 613,
+    "pending:0": 615,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 613,
-    "online:1": 1045,
-    "wiki:2": 2,
-    "wiki:1": 13,
-    "pending:1": 4
+    "online:2": 614,
+    "online:1": 1039,
+    "wiki:1": 8,
+    "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1620
+      "count": 1614
     },
     {
       "id": "itch-newest-web",
-      "count": 1604
+      "count": 1598
     },
     {
       "id": "itch-new-feed",
-      "count": 1549
+      "count": 1543
     },
     {
       "id": "itch-new-popular-web",
-      "count": 599
+      "count": 600
     },
     {
       "id": "itch-popular",
-      "count": 599
+      "count": 600
     },
     {
       "id": "trends-rising-7d",
-      "count": 524
+      "count": 526
     },
     {
       "id": "trends-rising-30d",
-      "count": 404
+      "count": 406
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 261
+      "count": 262
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 228
+      "count": 230
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 169
+      "count": 170
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -77,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 33
+      "count": 31
     },
     {
       "id": "steam-new",
-      "count": 33
+      "count": 31
     },
     {
       "id": "newgrounds-latest",
@@ -101,15 +100,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 23
+      "count": 25
     },
     {
       "id": "itch-featured",
-      "count": 23
+      "count": 25
     },
     {
       "id": "steam-popular-new",
-      "count": 21
+      "count": 14
     },
     {
       "id": "y8-new",
@@ -294,6 +293,24 @@
         "itch-popular",
         "itch-new-feed",
         "itch-new",
+        "itch-featured-feed",
+        "itch-featured"
+      ]
+    },
+    {
+      "name": "[FULL] DECOGEAR DIMENSIONS",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
         "itch-featured-feed",
         "itch-featured"
       ]
@@ -1081,25 +1098,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "The Chimera Gameboy",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
