@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-14T13:48:06.919Z",
+  "generatedAt": "2026-11-14T19:09:47.245Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2289,
+  "pendingSeo": 2288,
   "channelCounts": {
-    "pending": 621,
+    "pending": 622,
     "wiki": 9,
-    "online": 1659
+    "online": 1657
   },
   "fastClassCounts": {
-    "pending:pending": 621,
+    "pending:pending": 622,
     "wiki:pending": 9,
-    "online:pending": 1659
+    "online:pending": 1657
   },
   "strategicCounts": {
-    "pending:0": 616,
+    "pending:0": 617,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 615,
-    "online:1": 1037,
+    "online:2": 614,
+    "online:1": 1036,
     "wiki:1": 5,
     "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1613
+      "count": 1611
     },
     {
       "id": "itch-newest-web",
-      "count": 1597
+      "count": 1595
     },
     {
       "id": "itch-new-feed",
-      "count": 1542
+      "count": 1540
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 528
+      "count": 529
     },
     {
       "id": "trends-rising-30d",
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 172
+      "count": 173
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -76,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 31
+      "count": 30
     },
     {
       "id": "steam-new",
-      "count": 31
+      "count": 30
     },
     {
       "id": "newgrounds-latest",
@@ -112,7 +112,7 @@
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -316,25 +316,6 @@
       ]
     },
     {
-      "name": "Incremental Fortress",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
       "name": "Trolley Problem Is Not Problem",
       "channel": "online",
       "fastClass": "pending",
@@ -521,6 +502,25 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Incremental Fortress",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
