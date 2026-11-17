@@ -1,51 +1,50 @@
 {
-  "generatedAt": "2026-11-16T18:55:54.232Z",
+  "generatedAt": "2026-11-17T02:28:06.785Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2283,
+  "pendingSeo": 2282,
   "channelCounts": {
     "pending": 635,
-    "wiki": 9,
-    "online": 1639
+    "wiki": 14,
+    "online": 1633
   },
   "fastClassCounts": {
     "pending:pending": 635,
-    "wiki:pending": 9,
-    "online:pending": 1639
+    "wiki:pending": 14,
+    "online:pending": 1633
   },
   "strategicCounts": {
-    "pending:0": 629,
+    "pending:0": 630,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 614,
-    "online:1": 1018,
-    "wiki:2": 1,
-    "wiki:1": 4,
-    "pending:1": 6
+    "online:2": 616,
+    "online:1": 1010,
+    "wiki:1": 10,
+    "pending:1": 5
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1594
+      "count": 1587
     },
     {
       "id": "itch-newest-web",
-      "count": 1577
+      "count": 1570
     },
     {
       "id": "itch-new-feed",
-      "count": 1524
+      "count": 1517
     },
     {
       "id": "itch-new-popular-web",
-      "count": 600
+      "count": 601
     },
     {
       "id": "itch-popular",
-      "count": 600
+      "count": 601
     },
     {
       "id": "trends-rising-7d",
-      "count": 540
+      "count": 541
     },
     {
       "id": "trends-rising-30d",
@@ -53,7 +52,7 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 266
+      "count": 267
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -77,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 32
+      "count": 31
     },
     {
       "id": "steam-new",
-      "count": 32
+      "count": 31
     },
     {
       "id": "newgrounds-latest",
@@ -101,19 +100,19 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 26
+      "count": 25
     },
     {
       "id": "itch-featured",
-      "count": 26
+      "count": 25
     },
     {
       "id": "steam-popular-new",
-      "count": 12
+      "count": 17
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -125,7 +124,7 @@
     },
     {
       "id": "lagged-new",
-      "count": 2
+      "count": 3
     },
     {
       "id": "crazygames-new",
@@ -319,28 +318,7 @@
       ]
     },
     {
-      "name": "Cycle of the First Dawn",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 7,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
-      "name": "[FULL] DECOGEAR DIMENSIONS",
+      "name": "Crush It!",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -349,12 +327,13 @@
       "browserPlayable": true,
       "nameRisk": 0,
       "strategicCount": 2,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
+        "itch-popular"
       ]
     },
     {
@@ -545,6 +524,27 @@
       ]
     },
     {
+      "name": "Cycle of the First Dawn",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 7,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
       "name": "Idle Frontier",
       "channel": "online",
       "fastClass": "pending",
@@ -563,6 +563,24 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "[FULL] DECOGEAR DIMENSIONS",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1083,25 +1101,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Pack Ripper",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
