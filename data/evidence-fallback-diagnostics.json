@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-11-18T10:45:08.399Z",
+  "generatedAt": "2026-11-18T19:06:18.588Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2262,
+  "pendingSeo": 2261,
   "channelCounts": {
-    "pending": 649,
-    "wiki": 8,
-    "online": 1605
+    "pending": 653,
+    "wiki": 10,
+    "online": 1598
   },
   "fastClassCounts": {
-    "pending:pending": 649,
-    "wiki:pending": 8,
-    "online:pending": 1605
+    "pending:pending": 653,
+    "wiki:pending": 10,
+    "online:pending": 1598
   },
   "strategicCounts": {
-    "pending:0": 644,
+    "pending:0": 649,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 616,
-    "online:1": 982,
-    "wiki:1": 4,
-    "pending:1": 5
+    "online:1": 975,
+    "wiki:2": 1,
+    "wiki:1": 5,
+    "pending:1": 4
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1560
+      "count": 1553
     },
     {
       "id": "itch-newest-web",
-      "count": 1543
+      "count": 1536
     },
     {
       "id": "itch-new-feed",
-      "count": 1489
+      "count": 1481
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +45,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 552
+      "count": 557
     },
     {
       "id": "trends-rising-30d",
-      "count": 429
+      "count": 433
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -60,27 +61,27 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 186
+      "count": 191
+    },
+    {
+      "id": "trends-rising-30d-indie-game",
+      "count": 114
     },
     {
       "id": "trends-rising-7d-itch-io",
       "count": 114
     },
     {
-      "id": "trends-rising-30d-indie-game",
-      "count": 111
-    },
-    {
       "id": "trends-rising-30d-itch-io",
-      "count": 94
+      "count": 95
     },
     {
       "id": "steam-latest-indie",
-      "count": 32
+      "count": 34
     },
     {
       "id": "steam-new",
-      "count": 32
+      "count": 34
     },
     {
       "id": "newgrounds-latest",
@@ -100,15 +101,15 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 25
+      "count": 24
     },
     {
       "id": "itch-featured",
-      "count": 25
+      "count": 24
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 13
     },
     {
       "id": "y8-new",
@@ -315,6 +316,27 @@
         "itch-new-popular-web",
         "itch-popular",
         "steam-popular-new"
+      ]
+    },
+    {
+      "name": "Let Me Die",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -1077,25 +1099,6 @@
     },
     {
       "name": "Tamaweb: Virtual Pet",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Demon Kitty Trials!",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
