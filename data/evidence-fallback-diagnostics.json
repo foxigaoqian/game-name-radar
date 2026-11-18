@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-11-17T19:50:39.902Z",
+  "generatedAt": "2026-11-18T02:25:48.679Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2272,
+  "pendingSeo": 2268,
   "channelCounts": {
-    "pending": 639,
-    "wiki": 15,
-    "online": 1618
+    "pending": 644,
+    "wiki": 14,
+    "online": 1610
   },
   "fastClassCounts": {
-    "pending:pending": 639,
-    "wiki:pending": 15,
-    "online:pending": 1618
+    "pending:pending": 644,
+    "wiki:pending": 14,
+    "online:pending": 1610
   },
   "strategicCounts": {
-    "pending:0": 634,
+    "pending:0": 639,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 615,
-    "online:1": 996,
-    "wiki:1": 11,
-    "pending:1": 5
+    "online:1": 988,
+    "wiki:1": 9,
+    "pending:1": 5,
+    "wiki:2": 1
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1573
+      "count": 1565
     },
     {
       "id": "itch-newest-web",
-      "count": 1556
+      "count": 1548
     },
     {
       "id": "itch-new-feed",
-      "count": 1503
+      "count": 1494
     },
     {
       "id": "itch-new-popular-web",
@@ -44,11 +45,11 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 543
+      "count": 548
     },
     {
       "id": "trends-rising-30d",
-      "count": 422
+      "count": 426
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -60,7 +61,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 180
+      "count": 185
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -68,7 +69,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 105
+      "count": 109
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -76,11 +77,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 31
+      "count": 33
     },
     {
       "id": "steam-new",
-      "count": 31
+      "count": 33
     },
     {
       "id": "newgrounds-latest",
@@ -108,7 +109,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 18
+      "count": 17
     },
     {
       "id": "y8-new",
@@ -315,6 +316,27 @@
         "itch-new-popular-web",
         "itch-popular",
         "steam-popular-new"
+      ]
+    },
+    {
+      "name": "Zone Idle",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 9,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -1082,25 +1104,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Hermitap Web Demo",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
