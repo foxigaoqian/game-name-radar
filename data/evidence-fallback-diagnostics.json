@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-19T01:12:44.574Z",
+  "generatedAt": "2026-11-19T08:46:46.597Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2259,
+  "pendingSeo": 2256,
   "channelCounts": {
     "pending": 654,
     "wiki": 8,
-    "online": 1597
+    "online": 1594
   },
   "fastClassCounts": {
     "pending:pending": 654,
     "wiki:pending": 8,
-    "online:pending": 1597
+    "online:pending": 1594
   },
   "strategicCounts": {
     "pending:0": 651,
     "wiki:0": 4,
-    "online:1": 974,
     "online:3": 7,
     "online:2": 616,
+    "online:1": 971,
     "wiki:1": 4,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1552
+      "count": 1549
     },
     {
       "id": "itch-newest-web",
-      "count": 1535
+      "count": 1532
     },
     {
       "id": "itch-new-feed",
-      "count": 1479
+      "count": 1477
     },
     {
       "id": "itch-new-popular-web",
@@ -44,19 +44,19 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 560
+      "count": 559
     },
     {
       "id": "trends-rising-30d",
-      "count": 436
+      "count": 435
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 272
+      "count": 271
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 238
+      "count": 237
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 12
     },
     {
       "id": "y8-new",
@@ -318,6 +318,26 @@
       ]
     },
     {
+      "name": "Graveyard Orbit",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 6,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-popular-new"
+      ]
+    },
+    {
       "name": "Let Me Die",
       "channel": "online",
       "fastClass": "pending",
@@ -408,25 +428,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Lighthouse",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
