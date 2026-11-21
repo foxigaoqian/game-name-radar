@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-21T11:48:12.311Z",
+  "generatedAt": "2026-11-21T19:13:45.224Z",
   "totalCandidates": 3000,
   "pendingSeo": 2246,
   "channelCounts": {
-    "pending": 666,
+    "pending": 669,
     "wiki": 6,
-    "online": 1574
+    "online": 1571
   },
   "fastClassCounts": {
-    "pending:pending": 666,
+    "pending:pending": 669,
     "wiki:pending": 6,
-    "online:pending": 1574
+    "online:pending": 1571
   },
   "strategicCounts": {
-    "pending:0": 663,
+    "pending:0": 666,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 616,
-    "online:1": 951,
+    "online:2": 617,
+    "online:1": 947,
     "wiki:1": 2,
     "pending:1": 3
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1529
+      "count": 1526
     },
     {
       "id": "itch-newest-web",
-      "count": 1511
+      "count": 1508
     },
     {
       "id": "itch-new-feed",
-      "count": 1457
+      "count": 1454
     },
     {
       "id": "itch-new-popular-web",
-      "count": 603
+      "count": 604
     },
     {
       "id": "itch-popular",
-      "count": 603
+      "count": 604
     },
     {
       "id": "trends-rising-7d",
-      "count": 569
+      "count": 571
     },
     {
       "id": "trends-rising-30d",
-      "count": 445
+      "count": 446
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 274
+      "count": 275
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 244
+      "count": 245
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 200
+      "count": 201
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -335,6 +335,25 @@
         "itch-new-popular-web",
         "itch-popular",
         "steam-popular-new"
+      ]
+    },
+    {
+      "name": "Idle Drop Merge",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
       ]
     },
     {
@@ -1097,25 +1116,6 @@
         "itch-new-popular-web",
         "itch-popular",
         "itch-new-feed"
-      ]
-    },
-    {
-      "name": "Project Hail Meowy",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
