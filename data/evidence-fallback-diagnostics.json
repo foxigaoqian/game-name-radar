@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T14:55:21.028Z",
+  "generatedAt": "2026-11-22T21:03:21.492Z",
   "totalCandidates": 3000,
   "pendingSeo": 2246,
   "channelCounts": {
@@ -16,31 +16,31 @@
     "pending:0": 671,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 617,
-    "online:1": 943,
+    "online:2": 618,
+    "online:1": 942,
     "wiki:1": 2,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1522
+      "count": 1521
     },
     {
       "id": "itch-newest-web",
-      "count": 1504
+      "count": 1503
     },
     {
       "id": "itch-new-feed",
-      "count": 1450
+      "count": 1449
     },
     {
       "id": "itch-new-popular-web",
-      "count": 604
+      "count": 605
     },
     {
       "id": "itch-popular",
-      "count": 604
+      "count": 605
     },
     {
       "id": "trends-rising-7d",
@@ -100,11 +100,11 @@
     },
     {
       "id": "itch-featured-feed",
-      "count": 22
+      "count": 23
     },
     {
       "id": "itch-featured",
-      "count": 22
+      "count": 23
     },
     {
       "id": "steam-popular-new",
@@ -335,6 +335,24 @@
         "itch-new-popular-web",
         "itch-popular",
         "steam-popular-new"
+      ]
+    },
+    {
+      "name": "Of The World",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 17,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 12,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1089,25 +1107,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
-      ]
-    },
-    {
-      "name": "Kirby ~ Soft & Wet",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
