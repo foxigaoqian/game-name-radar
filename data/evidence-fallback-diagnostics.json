@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-11-23T01:40:47.753Z",
+  "generatedAt": "2026-11-23T09:48:05.538Z",
   "totalCandidates": 3000,
   "pendingSeo": 2246,
   "channelCounts": {
-    "pending": 674,
-    "wiki": 6,
-    "online": 1566
+    "pending": 681,
+    "online": 1560,
+    "wiki": 5
   },
   "fastClassCounts": {
-    "pending:pending": 674,
-    "wiki:pending": 6,
-    "online:pending": 1566
+    "pending:pending": 681,
+    "online:pending": 1560,
+    "wiki:pending": 5
   },
   "strategicCounts": {
-    "pending:0": 672,
+    "pending:0": 679,
+    "online:2": 619,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 618,
-    "online:1": 941,
-    "wiki:1": 2,
+    "online:1": 934,
+    "wiki:1": 1,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1520
+      "count": 1514
     },
     {
       "id": "itch-newest-web",
-      "count": 1502
+      "count": 1496
     },
     {
       "id": "itch-new-feed",
-      "count": 1448
+      "count": 1442
     },
     {
       "id": "itch-new-popular-web",
-      "count": 605
+      "count": 606
     },
     {
       "id": "itch-popular",
-      "count": 605
+      "count": 606
     },
     {
       "id": "trends-rising-7d",
-      "count": 577
+      "count": 585
     },
     {
       "id": "trends-rising-30d",
-      "count": 449
+      "count": 451
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 277
+      "count": 283
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -68,11 +68,11 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 117
+      "count": 120
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 97
+      "count": 99
     },
     {
       "id": "steam-latest-indie",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 10
+      "count": 9
     },
     {
       "id": "y8-new",
@@ -275,6 +275,29 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Symptoms of Devotion",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 9,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "trends-rising-7d-itch-io",
+        "trends-rising-7d",
+        "trends-rising-30d-itch-io",
+        "trends-rising-30d"
       ]
     },
     {
@@ -648,6 +671,25 @@
       ]
     },
     {
+      "name": "Granny's Problematic Hobby",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
       "name": "BH_Oilfield Callout UPDATE!",
       "channel": "online",
       "fastClass": "pending",
@@ -806,25 +848,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 12,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Symptoms of Devotion",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1096,25 +1119,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "PostalHaste",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-new-feed"
       ]
     }
   ]
