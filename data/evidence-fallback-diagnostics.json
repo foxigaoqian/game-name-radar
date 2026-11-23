@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-11-23T09:48:05.538Z",
+  "generatedAt": "2026-11-23T22:02:10.529Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2246,
+  "pendingSeo": 2245,
   "channelCounts": {
-    "pending": 681,
-    "online": 1560,
-    "wiki": 5
+    "pending": 683,
+    "wiki": 5,
+    "online": 1557
   },
   "fastClassCounts": {
-    "pending:pending": 681,
-    "online:pending": 1560,
-    "wiki:pending": 5
+    "pending:pending": 683,
+    "wiki:pending": 5,
+    "online:pending": 1557
   },
   "strategicCounts": {
-    "pending:0": 679,
-    "online:2": 619,
+    "pending:0": 681,
     "wiki:0": 4,
     "online:3": 7,
-    "online:1": 934,
+    "online:2": 618,
+    "online:1": 932,
     "wiki:1": 1,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1514
+      "count": 1511
     },
     {
       "id": "itch-newest-web",
-      "count": 1496
+      "count": 1493
     },
     {
       "id": "itch-new-feed",
-      "count": 1442
+      "count": 1439
     },
     {
       "id": "itch-new-popular-web",
-      "count": 606
+      "count": 605
     },
     {
       "id": "itch-popular",
-      "count": 606
+      "count": 605
     },
     {
       "id": "trends-rising-7d",
-      "count": 585
+      "count": 586
     },
     {
       "id": "trends-rising-30d",
-      "count": 451
+      "count": 450
     },
     {
       "id": "trends-rising-7d-horror-game",
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 203
+      "count": 205
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -68,19 +68,19 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 120
+      "count": 119
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 99
+      "count": 98
     },
     {
       "id": "steam-latest-indie",
-      "count": 35
+      "count": 36
     },
     {
       "id": "steam-new",
-      "count": 35
+      "count": 36
     },
     {
       "id": "newgrounds-latest",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 9
+      "count": 10
     },
     {
       "id": "y8-new",
@@ -278,29 +278,6 @@
       ]
     },
     {
-      "name": "Symptoms of Devotion",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 20,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 9,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "trends-rising-7d-itch-io",
-        "trends-rising-7d",
-        "trends-rising-30d-itch-io",
-        "trends-rising-30d"
-      ]
-    },
-    {
       "name": "Swamp and Luig",
       "channel": "online",
       "fastClass": "pending",
@@ -358,6 +335,47 @@
         "itch-new-popular-web",
         "itch-popular",
         "steam-popular-new"
+      ]
+    },
+    {
+      "name": "Internet Cafe 98",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 20,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 6,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-new-feed",
+        "itch-new",
+        "itch-newest-web",
+        "steam-popular-new"
+      ]
+    },
+    {
+      "name": "A Thousand Cloys",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -1092,25 +1110,6 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Living Scraps",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
