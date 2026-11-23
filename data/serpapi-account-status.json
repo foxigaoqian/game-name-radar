@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-22T21:03:24.409Z",
+  "checkedAt": "2026-11-23T01:40:52.039Z",
   "accountApiConsumesSearchCredits": false,
   "configuredKeys": 4,
   "workingKeys": 4,
@@ -69,7 +69,7 @@
       "planSearchesLeft": 6,
       "totalSearchesLeft": 6,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-11-22T21:03:24.093Z",
+      "checkedAt": "2026-11-23T01:40:51.978Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -89,7 +89,7 @@
       "planSearchesLeft": 11,
       "totalSearchesLeft": 11,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-11-22T21:03:24.191Z",
+      "checkedAt": "2026-11-23T01:40:52.001Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -109,7 +109,7 @@
       "planSearchesLeft": 10,
       "totalSearchesLeft": 10,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-11-22T21:03:24.286Z",
+      "checkedAt": "2026-11-23T01:40:52.015Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
@@ -129,7 +129,7 @@
       "planSearchesLeft": 8,
       "totalSearchesLeft": 8,
       "rateLimitPerHour": 250,
-      "checkedAt": "2026-11-22T21:03:24.409Z",
+      "checkedAt": "2026-11-23T01:40:52.039Z",
       "sharedAccount": false,
       "sharedWithSlots": []
     },
