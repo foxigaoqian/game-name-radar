@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-24T06:00:22.701Z",
+  "generatedAt": "2026-11-24T17:41:13.748Z",
   "totalCandidates": 3000,
   "pendingSeo": 2245,
   "channelCounts": {
-    "pending": 685,
-    "wiki": 5,
-    "online": 1555
+    "pending": 687,
+    "wiki": 7,
+    "online": 1551
   },
   "fastClassCounts": {
-    "pending:pending": 685,
-    "wiki:pending": 5,
-    "online:pending": 1555
+    "pending:pending": 687,
+    "wiki:pending": 7,
+    "online:pending": 1551
   },
   "strategicCounts": {
-    "pending:0": 683,
+    "pending:0": 685,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 618,
-    "online:1": 930,
-    "wiki:1": 1,
+    "online:1": 926,
+    "wiki:1": 3,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1509
+      "count": 1505
     },
     {
       "id": "itch-newest-web",
-      "count": 1491
+      "count": 1487
     },
     {
       "id": "itch-new-feed",
-      "count": 1437
+      "count": 1433
     },
     {
       "id": "itch-new-popular-web",
@@ -44,7 +44,7 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 588
+      "count": 590
     },
     {
       "id": "trends-rising-30d",
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 205
+      "count": 207
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -76,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 36
+      "count": 38
     },
     {
       "id": "steam-new",
-      "count": 36
+      "count": 38
     },
     {
       "id": "newgrounds-latest",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 11
+      "count": 13
     },
     {
       "id": "y8-new",
@@ -380,6 +380,48 @@
       ]
     },
     {
+      "name": "Amber Eyes",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "Click Cafe",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 18,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
       "name": "Of The World",
       "channel": "online",
       "fastClass": "pending",
@@ -395,25 +437,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "Idle Drop Merge",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 17,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     },
     {
@@ -698,6 +721,25 @@
       "platforms": 1,
       "browserPlayable": true,
       "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 5,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular"
+      ]
+    },
+    {
+      "name": "Idle Drop Merge",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
       "strategicCount": 2,
       "sourceCount": 5,
       "sourceIds": [
@@ -1079,44 +1121,6 @@
       "sourceIds": [
         "itch-featured-feed",
         "itch-featured",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "MMC5Racing",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular"
-      ]
-    },
-    {
-      "name": "Abattlacus",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 5,
-      "strategicCount": 2,
-      "sourceCount": 5,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
       ]
