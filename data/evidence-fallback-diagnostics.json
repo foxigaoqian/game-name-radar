@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-25T10:29:57.236Z",
+  "generatedAt": "2026-11-25T20:12:06.944Z",
   "totalCandidates": 3000,
   "pendingSeo": 2239,
   "channelCounts": {
-    "pending": 699,
-    "wiki": 11,
-    "online": 1529
+    "pending": 700,
+    "wiki": 12,
+    "online": 1527
   },
   "fastClassCounts": {
-    "pending:pending": 699,
-    "wiki:pending": 11,
-    "online:pending": 1529
+    "pending:pending": 700,
+    "wiki:pending": 12,
+    "online:pending": 1527
   },
   "strategicCounts": {
-    "pending:0": 697,
+    "pending:0": 698,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 618,
-    "online:1": 904,
-    "wiki:1": 7,
+    "online:1": 902,
+    "wiki:1": 8,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1483
+      "count": 1481
     },
     {
       "id": "itch-newest-web",
-      "count": 1465
+      "count": 1463
     },
     {
       "id": "itch-new-feed",
-      "count": 1411
+      "count": 1409
     },
     {
       "id": "itch-new-popular-web",
@@ -44,15 +44,15 @@
     },
     {
       "id": "trends-rising-7d",
-      "count": 602
+      "count": 603
     },
     {
       "id": "trends-rising-30d",
-      "count": 456
+      "count": 457
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 285
+      "count": 287
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 130
+      "count": 131
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -76,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 38
+      "count": 40
     },
     {
       "id": "steam-new",
-      "count": 38
+      "count": 40
     },
     {
       "id": "newgrounds-latest",
@@ -108,7 +108,7 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 17
+      "count": 18
     },
     {
       "id": "y8-new",
@@ -422,21 +422,24 @@
       ]
     },
     {
-      "name": "Of The World",
+      "name": "Incremental Pain Profit",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
-      "discoveryScore": 17,
+      "discoveryScore": 18,
       "platforms": 1,
       "browserPlayable": true,
-      "nameRisk": 12,
+      "nameRisk": 0,
       "strategicCount": 2,
-      "sourceCount": 4,
+      "sourceCount": 7,
       "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
+        "steam-latest-indie",
+        "steam-new"
       ]
     },
     {
@@ -710,6 +713,24 @@
         "itch-popular",
         "steam-latest-indie",
         "steam-new"
+      ]
+    },
+    {
+      "name": "Of The World",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 12,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     },
     {
@@ -1105,24 +1126,6 @@
         "itch-popular",
         "itch-featured-feed",
         "itch-featured"
-      ]
-    },
-    {
-      "name": "NOSFER-A-TOOTH",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-featured-feed",
-        "itch-featured",
-        "itch-new-popular-web",
-        "itch-popular"
       ]
     }
   ]
