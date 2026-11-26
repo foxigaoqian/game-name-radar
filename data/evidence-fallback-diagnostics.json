@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-11-26T12:28:49.037Z",
+  "generatedAt": "2026-11-26T21:56:20.144Z",
   "totalCandidates": 3000,
   "pendingSeo": 2233,
   "channelCounts": {
     "pending": 703,
-    "wiki": 9,
-    "online": 1521
+    "wiki": 13,
+    "online": 1517
   },
   "fastClassCounts": {
     "pending:pending": 703,
-    "wiki:pending": 9,
-    "online:pending": 1521
+    "wiki:pending": 13,
+    "online:pending": 1517
   },
   "strategicCounts": {
     "pending:0": 701,
     "wiki:0": 4,
     "online:3": 7,
-    "online:2": 618,
-    "online:1": 896,
-    "wiki:1": 5,
+    "online:2": 619,
+    "online:1": 891,
+    "wiki:1": 9,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1475
+      "count": 1470
     },
     {
       "id": "itch-newest-web",
-      "count": 1457
+      "count": 1452
     },
     {
       "id": "itch-new-feed",
-      "count": 1403
+      "count": 1398
     },
     {
       "id": "trends-rising-7d",
-      "count": 606
+      "count": 607
     },
     {
       "id": "itch-new-popular-web",
@@ -52,11 +52,11 @@
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 289
+      "count": 290
     },
     {
       "id": "trends-rising-30d-horror-game",
-      "count": 244
+      "count": 245
     },
     {
       "id": "trends-rising-7d-indie-game",
@@ -76,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 40
+      "count": 41
     },
     {
       "id": "steam-new",
-      "count": 40
+      "count": 41
     },
     {
       "id": "newgrounds-latest",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 15
+      "count": 18
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -123,12 +123,12 @@
       "count": 4
     },
     {
-      "id": "lagged-new",
+      "id": "crazygames-new",
       "count": 2
     },
     {
-      "id": "crazygames-new",
-      "count": 1
+      "id": "lagged-new",
+      "count": 2
     }
   ],
   "samples": [
