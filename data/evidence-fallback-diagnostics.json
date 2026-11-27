@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-11-26T21:56:20.144Z",
+  "generatedAt": "2026-11-27T04:14:02.374Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2233,
+  "pendingSeo": 2229,
   "channelCounts": {
-    "pending": 703,
-    "wiki": 13,
-    "online": 1517
+    "pending": 704,
+    "wiki": 10,
+    "online": 1515
   },
   "fastClassCounts": {
-    "pending:pending": 703,
-    "wiki:pending": 13,
-    "online:pending": 1517
+    "pending:pending": 704,
+    "wiki:pending": 10,
+    "online:pending": 1515
   },
   "strategicCounts": {
-    "pending:0": 701,
+    "pending:0": 702,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 619,
-    "online:1": 891,
-    "wiki:1": 9,
+    "online:1": 889,
+    "wiki:1": 6,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1470
+      "count": 1468
     },
     {
       "id": "itch-newest-web",
-      "count": 1452
+      "count": 1451
     },
     {
       "id": "itch-new-feed",
-      "count": 1398
+      "count": 1396
     },
     {
       "id": "trends-rising-7d",
-      "count": 607
+      "count": 610
     },
     {
       "id": "itch-new-popular-web",
@@ -60,7 +60,7 @@
     },
     {
       "id": "trends-rising-7d-indie-game",
-      "count": 217
+      "count": 219
     },
     {
       "id": "trends-rising-30d-indie-game",
@@ -68,7 +68,7 @@
     },
     {
       "id": "trends-rising-7d-itch-io",
-      "count": 122
+      "count": 123
     },
     {
       "id": "trends-rising-30d-itch-io",
@@ -76,11 +76,11 @@
     },
     {
       "id": "steam-latest-indie",
-      "count": 41
+      "count": 40
     },
     {
       "id": "steam-new",
-      "count": 41
+      "count": 40
     },
     {
       "id": "newgrounds-latest",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 18
+      "count": 16
     },
     {
       "id": "y8-new",
-      "count": 7
+      "count": 6
     },
     {
       "id": "steam-top-wishlist",
@@ -120,15 +120,15 @@
     },
     {
       "id": "poki-new",
-      "count": 4
-    },
-    {
-      "id": "crazygames-new",
-      "count": 2
+      "count": 5
     },
     {
       "id": "lagged-new",
       "count": 2
+    },
+    {
+      "id": "crazygames-new",
+      "count": 1
     }
   ],
   "samples": [
@@ -278,6 +278,24 @@
       ]
     },
     {
+      "name": "Crowd Rush",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 2,
+      "browserPlayable": true,
+      "nameRisk": 9,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "poki-new"
+      ]
+    },
+    {
       "name": "A Thousand Cloys",
       "channel": "online",
       "fastClass": "pending",
@@ -380,48 +398,6 @@
       ]
     },
     {
-      "name": "Amber Eyes",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
-      "name": "Click Cafe",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 18,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 0,
-      "strategicCount": 2,
-      "sourceCount": 7,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "itch-new-popular-web",
-        "itch-popular",
-        "steam-latest-indie",
-        "steam-new"
-      ]
-    },
-    {
       "name": "Incremental Pain Profit",
       "channel": "online",
       "fastClass": "pending",
@@ -465,6 +441,48 @@
     },
     {
       "name": "Let Me Die",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "Amber Eyes",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 16,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 0,
+      "strategicCount": 2,
+      "sourceCount": 7,
+      "sourceIds": [
+        "itch-newest-web",
+        "itch-new",
+        "itch-new-feed",
+        "itch-new-popular-web",
+        "itch-popular",
+        "steam-latest-indie",
+        "steam-new"
+      ]
+    },
+    {
+      "name": "Click Cafe",
       "channel": "online",
       "fastClass": "pending",
       "fastScore": 0,
@@ -1108,24 +1126,6 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Dungeonbound (In Development)",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 15,
-      "platforms": 1,
-      "browserPlayable": true,
-      "nameRisk": 6,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-new-popular-web",
-        "itch-popular",
-        "itch-featured-feed",
-        "itch-featured"
       ]
     }
   ]
