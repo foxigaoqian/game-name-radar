@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-11-27T04:14:02.374Z",
+  "generatedAt": "2026-11-27T13:52:41.832Z",
   "totalCandidates": 3000,
-  "pendingSeo": 2229,
+  "pendingSeo": 2225,
   "channelCounts": {
-    "pending": 704,
-    "wiki": 10,
-    "online": 1515
+    "pending": 706,
+    "wiki": 7,
+    "online": 1512
   },
   "fastClassCounts": {
-    "pending:pending": 704,
-    "wiki:pending": 10,
-    "online:pending": 1515
+    "pending:pending": 706,
+    "wiki:pending": 7,
+    "online:pending": 1512
   },
   "strategicCounts": {
-    "pending:0": 702,
+    "pending:0": 704,
     "wiki:0": 4,
     "online:3": 7,
     "online:2": 619,
-    "online:1": 889,
-    "wiki:1": 6,
+    "online:1": 886,
+    "wiki:1": 3,
     "pending:1": 2
   },
   "topSources": [
     {
       "id": "itch-new",
-      "count": 1468
+      "count": 1465
     },
     {
       "id": "itch-newest-web",
-      "count": 1451
+      "count": 1448
     },
     {
       "id": "itch-new-feed",
-      "count": 1396
+      "count": 1393
     },
     {
       "id": "trends-rising-7d",
-      "count": 610
+      "count": 611
     },
     {
       "id": "itch-new-popular-web",
@@ -48,11 +48,11 @@
     },
     {
       "id": "trends-rising-30d",
-      "count": 458
+      "count": 460
     },
     {
       "id": "trends-rising-7d-horror-game",
-      "count": 290
+      "count": 291
     },
     {
       "id": "trends-rising-30d-horror-game",
@@ -64,7 +64,7 @@
     },
     {
       "id": "trends-rising-30d-indie-game",
-      "count": 131
+      "count": 132
     },
     {
       "id": "trends-rising-7d-itch-io",
@@ -72,7 +72,7 @@
     },
     {
       "id": "trends-rising-30d-itch-io",
-      "count": 99
+      "count": 100
     },
     {
       "id": "steam-latest-indie",
@@ -108,11 +108,11 @@
     },
     {
       "id": "steam-popular-new",
-      "count": 16
+      "count": 13
     },
     {
       "id": "y8-new",
-      "count": 6
+      "count": 7
     },
     {
       "id": "steam-top-wishlist",
@@ -120,7 +120,7 @@
     },
     {
       "id": "poki-new",
-      "count": 5
+      "count": 4
     },
     {
       "id": "lagged-new",
@@ -275,24 +275,6 @@
         "itch-featured",
         "itch-new-popular-web",
         "itch-popular"
-      ]
-    },
-    {
-      "name": "Crowd Rush",
-      "channel": "online",
-      "fastClass": "pending",
-      "fastScore": 0,
-      "discoveryScore": 16,
-      "platforms": 2,
-      "browserPlayable": true,
-      "nameRisk": 9,
-      "strategicCount": 2,
-      "sourceCount": 4,
-      "sourceIds": [
-        "itch-newest-web",
-        "itch-new",
-        "itch-new-feed",
-        "poki-new"
       ]
     },
     {
@@ -1126,6 +1108,24 @@
         "itch-new-feed",
         "itch-new-popular-web",
         "itch-popular"
+      ]
+    },
+    {
+      "name": "Dungeonbound (In Development)",
+      "channel": "online",
+      "fastClass": "pending",
+      "fastScore": 0,
+      "discoveryScore": 15,
+      "platforms": 1,
+      "browserPlayable": true,
+      "nameRisk": 6,
+      "strategicCount": 2,
+      "sourceCount": 4,
+      "sourceIds": [
+        "itch-new-popular-web",
+        "itch-popular",
+        "itch-featured-feed",
+        "itch-featured"
       ]
     }
   ]
